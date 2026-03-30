@@ -6,6 +6,12 @@ A Python pipeline for processing and analyzing gene signatures using the Gene On
 
 ## Installation
 
+### 0. Install LSF Git for large data
+
+```bash
+git lfs install
+```
+
 ### 1. Clone the repository
 
 ```bash
