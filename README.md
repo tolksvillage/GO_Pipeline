@@ -37,5 +37,5 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python main.py --signatures <PATH> --output_path <PATH> --with_dilution --dilution_mode
+python -m go_pipeline.scripts.main.py --signatures <PATH> --output_path <PATH> --with_dilution --dilution_mode
 ```
