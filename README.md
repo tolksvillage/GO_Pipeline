@@ -32,21 +32,18 @@ conda activate geneontology
 pip install -r requirements.txt
 ```
 
-### 4. Ollama installieren
+### 4. Install Ollama
 # separat von https://ollama.com
 
-### 5. Modell laden
+### 5. Load model
 ollama pull llama3.1:8b
 
 model can be changed in query_ollama function (llm_request.py) 
-
-### 6. Optional: Ollama starten
-ollama serve
 
 ---
 
 ## Usage
 
 ```bash
-python main.py --signatures <PATH> --output_path <PATH> --with_dilution --dilution_mode
+python main.py --signatures <PATH> --output_path <PATH> --with_dilution --dilution_mode --with_llm_request true --with_paths true
 ```
