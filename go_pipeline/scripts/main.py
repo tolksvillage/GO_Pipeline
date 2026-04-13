@@ -41,6 +41,16 @@ def ask_yes_no(question: str) -> bool:
             return False
         print("Please enter 'y' or 'n'.")
 
+def str_to_bool(value: str) -> bool:
+    if isinstance(value, bool):
+        return value
+    value = value.lower()
+    if value in {"true", "1", "yes", "y"}:
+        return True
+    if value in {"false", "0", "no", "n"}:
+        return False
+    raise argparse.ArgumentTypeError("Please use true or false.")
+
 
 def ask_choice(question: str, options: list[str]) -> str:
     print(question)
@@ -73,6 +83,20 @@ def main() -> None:
         "--dilution_mode",
         choices=["cumulative", "fixed", "both"],
         help="Dilution mode"
+    )
+
+    parser.add_argument(
+        "--with_llm_request",
+        type=str_to_bool,
+        default=None,
+        help="Set to true or false to enable or disable GO term definition, NCBI summaries, and LLM analysis"
+    )
+
+    parser.add_argument(
+        "--with_paths",
+        type=str_to_bool,
+        default=False,
+        help="Run path collector and path rankings (true/false)"
     )
 
     args = parser.parse_args()
@@ -128,6 +152,24 @@ def main() -> None:
                 "Dilution mode:",
                 ["cumulative", "fixed", "both"]
             )
+
+    if args.with_llm_request is not None:
+        with_llm_request = args.with_llm_request
+    else:
+        print("\nNo LLM request setting was provided via command-line arguments.")
+        print(
+            "Please specify whether GO term definition, NCBI summary annotation, and LLM analysis should be performed.")
+        print("Tip: You can skip this prompt next time by running:")
+        print(
+            f"  python {os.path.basename(__file__)} "
+            "--with_llm_request=true\n"
+        )
+
+        with_llm_request = ask_yes_no(
+            "Should GO term definition, NCBI summary annotation, and LLM analysis be performed? (y/n) "
+        )
+
+    with_paths = args.with_paths
 
     steps = []
 
@@ -240,6 +282,64 @@ def main() -> None:
                     ],
                 )
             )
+
+    if with_paths:
+        steps.extend([
+            (
+                "Collect GO paths...",
+                [
+                    python_executable,
+                    "-m",
+                    "go_pipeline.scripts.paths.path_collector",
+                    f"--base_dir={output_path}",
+                ],
+            ),
+            (
+                "Rank GO paths...",
+                [
+                    python_executable,
+                    "-m",
+                    "go_pipeline.scripts.paths.path_rankings",
+                    f"--input_dir={output_path}",
+                ],
+            ),
+        ])
+
+
+    if with_llm_request:
+        steps.extend([
+            (
+                "Add GO term definitions and gene symbols...",
+                [
+                    python_executable,
+                    "-m",
+                    "go_pipeline.scripts.llm_request.get_term_definition",
+                    f"--input_data={output_path}",
+                    "--obo_file=data/go-basic.obo",
+                ],
+            ),
+            (
+                "Add NCBI gene summaries...",
+                [
+                    python_executable,
+                    "-m",
+                    "go_pipeline.scripts.llm_request.get_NCBI_infos",
+                    f"--input_data={output_path}",
+                    "--gene_summary=data/NCBI/gene_summary.gz",
+                    "--gene_info=data/Homo_sapiens.gene_info.gz",
+                ],
+            ),
+            (
+                "Run LLM signature analysis...",
+                [
+                    python_executable,
+                    "-m",
+                    "go_pipeline.scripts.llm_request.llm_request",
+                    f"--input_dir={output_path}",
+                ],
+            ),
+        ])
+
 
     for step_name, command in steps:
         run_step(step_name, command)
