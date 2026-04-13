@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 ### 4. Install Ollama
-# separat von https://ollama.com
+https://ollama.com
 
 ### 5. Load model
 ollama pull llama3.1:8b
