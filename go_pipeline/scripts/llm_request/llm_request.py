@@ -16,9 +16,61 @@ def load_manifold_analysis(json_path: str) -> Dict:
         return json.load(f)
 
 
+def load_filtered_analysis(json_path: str) -> Tuple[List[Dict], List[Dict]]:
+    """
+    Load a robustness_analysis_filtered JSON file.
+
+    Returns:
+        llm_terms   : list of dicts sent to the LLM (no gene definitions)
+        full_terms  : list of dicts including gene definitions for internal storage
+    """
+    with open(json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    llm_terms = []
+    full_terms = []
+
+    for go_id, entry in data.items():
+        base = {
+            "go_id": go_id,
+            "name": entry.get("go_name", ""),
+            "definition": entry.get("definition", "No definition available"),
+            "initial_robustness": entry.get("initial_robustness", 0.0),
+        }
+
+        llm_terms.append(base)
+
+        full_entry = dict(base)
+        full_entry["genes"] = {
+            gene: info.get("definition", "")
+            for gene, info in entry.get("genes", {}).items()
+        }
+        full_terms.append(full_entry)
+
+    # Sort by initial_robustness descending
+    llm_terms.sort(key=lambda x: x["initial_robustness"], reverse=True)
+    full_terms.sort(key=lambda x: x["initial_robustness"], reverse=True)
+
+    return llm_terms, full_terms
+
+
+def find_filtered_file(signature_path: Path):
+    """
+    Look for <sig_name>_robustness_analysis_filtered.json inside
+    <signature_path>/Dilutions/.
+    Returns the Path if found, otherwise None.
+    """
+    candidate = (
+        signature_path
+        / "Dilutions" / "BP" / "fixed"
+        / f"{signature_path.name}_bp_robustness_analysis_filtered.json"
+    )
+    return candidate if candidate.exists() else None
+
+
 def extract_terms_with_robustness(data: Dict) -> List[Dict]:
     """
-    Extract all GO terms with their robustness score (frequency_percentage).
+    Extract all GO terms with their robustness score.
     """
     terms = []
 
@@ -28,7 +80,7 @@ def extract_terms_with_robustness(data: Dict) -> List[Dict]:
                 "go_id": term.get("go_id"),
                 "name": term.get("name"),
                 "definition": term.get("definition", "No definition available"),
-                "robustness_score": term.get("frequency_percentage", 0.0),
+                "robustness_score": term.get("robustness_score", 0.0),
                 "group_id": group.get("group_id"),
                 "group_size": group.get("size"),
             }
@@ -39,7 +91,7 @@ def extract_terms_with_robustness(data: Dict) -> List[Dict]:
 
 
 def format_terms_for_llm(terms: List[Dict]) -> str:
-    """Format terms for LLM input."""
+    """Format manifold terms for LLM input."""
     formatted = "# Ontological Terms with Robustness Scores\n\n"
 
     for i, term in enumerate(terms, 1):
@@ -51,11 +103,65 @@ def format_terms_for_llm(terms: List[Dict]) -> str:
     return formatted
 
 
+def format_filtered_terms_for_llm(terms: List[Dict]) -> str:
+    """Format filtered robustness terms for LLM input (no grouping, initial_robustness only)."""
+    formatted = "# Biological Process Terms with Robustness Scores\n\n"
+
+    for i, term in enumerate(terms, 1):
+        formatted += f"{i}. {term['name']} ({term['go_id']})\n"
+        formatted += f"   - Initial Robustness: {term['initial_robustness']:.1f}%\n"
+        formatted += f"   - Definition: {term['definition']}\n\n"
+
+    return formatted
+
+
 def create_llm_prompt(terms_text: str, signature_name: str, ontology: str) -> str:
-    """Create the full prompt for the LLM."""
+    """Create the full prompt for the LLM (manifold mode)."""
     prompt = f"""You are an expert in the interpretation of gene signatures and ontological enrichment results.
 
 I will provide you with a list of ontological terms, each accompanied by a robustness score (0–100%), indicating its relative importance within the signature.
+
+{terms_text}
+
+Your tasks are:
+1. Analyze the terms and describe how they relate to each other. Determine the key underlying biological theme or mechanism suggested by these terms.
+
+2. Write a concise and accurate summary that captures the core biological insight from this set of terms.
+
+3. Propose two titles for the signature:
+   * A detailed, specific title that reflects the identified biological mechanisms or processes.
+   * A broader, high-level title that places these mechanisms within a wider biological or physiological context.
+
+Ensure clarity, precision, and scientific depth in your response.
+
+CRITICAL FORMATTING RULES:
+- For titles: Provide only the title text itself, without quotation marks, asterisks, bold formatting, or explanatory text
+- Do not include phrases like "This title captures..." or "This reflects..." after the titles
+- Each title should be a single standalone phrase or sentence
+- The summary should be a clear paragraph of text
+
+Please structure your response exactly as follows:
+## Relationship Analysis
+[Your analysis of how terms relate]
+
+## Summary
+[Your concise summary paragraph]
+
+## Proposed Titles
+### Detailed Title
+[Only the specific title text, no formatting or explanation]
+
+### Broader Title
+[Only the broader title text, no formatting or explanation]
+"""
+    return prompt
+
+
+def create_filtered_llm_prompt(terms_text: str) -> str:
+    """Create the LLM prompt for filtered robustness analysis (BP only, no grouping)."""
+    prompt = f"""You are an expert in the interpretation of gene signatures and ontological enrichment results.
+
+I will provide you with a list of Biological Process (BP) ontology terms derived from a analysis. Each term is accompanied by an initial robustness score (0–100%), indicating its stability and importance within the signature.
 
 {terms_text}
 
@@ -142,7 +248,6 @@ def save_analysis(
     results_dict[signature_name][ontology] = parsed
 
 
-
 def save_synthesis(
     signature_name: str,
     synthesis_text: str,
@@ -157,7 +262,6 @@ def save_synthesis(
         results_dict[signature_name] = {}
 
     results_dict[signature_name]["final"] = parsed
-
 
 
 def save_signature_json(
@@ -177,6 +281,25 @@ def save_signature_json(
     with open(json_filepath, "w", encoding="utf-8") as f:
         json.dump(signature_data, f, indent=2, ensure_ascii=False)
 
+
+def save_filtered_signature_json(
+    signature_name: str,
+    llm_result: Dict,
+    full_terms: List[Dict],
+    signature_path: Path,
+    output_subdir: str,
+):
+    output_path = signature_path / output_subdir
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    json_filepath = output_path / "llm_analysis_filtered.json"
+
+    output = {
+        "BP": llm_result,
+    }
+
+    with open(json_filepath, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
 
 
 def create_synthesis_prompt(ontology_summaries: Dict[str, str]) -> str:
@@ -413,7 +536,7 @@ def process_signature(
     results_dict: Dict,
 ) -> Tuple[bool, str]:
     """
-    Process a single signature-ontology combination.
+    Process a single signature-ontology combination (manifold mode).
     """
     manifold_file = (
         signature_path / "parameter_analysis" / ontology / f"manifold_analysis_{ontology}.json"
@@ -447,6 +570,52 @@ def process_signature(
         return False, f"Processing error: {str(e)}"
 
 
+def process_filtered_signature(
+    signature_path: Path,
+    model: str,
+    ollama_url: str,
+    output_subdir: str,
+) -> Tuple[bool, str]:
+    """
+    Process a single signature using the filtered robustness JSON (BP only).
+    Runs a single LLM call and saves summary + titles + full terms with genes.
+    """
+    filtered_file = find_filtered_file(signature_path)
+
+    if filtered_file is None:
+        return False, f"Filtered file not found under {signature_path / 'Dilutions'}"
+
+    try:
+        llm_terms, full_terms = load_filtered_analysis(str(filtered_file))
+
+        if not llm_terms:
+            return False, f"No terms found in {filtered_file}"
+
+        signature_name = signature_path.name
+        terms_text = format_filtered_terms_for_llm(llm_terms)
+        prompt = create_filtered_llm_prompt(terms_text)
+
+        llm_response = query_ollama(prompt, model=model, ollama_url=ollama_url)
+
+        if not llm_response:
+            return False, "No response received from Ollama"
+
+        llm_result = parse_llm_response(llm_response, is_synthesis=False)
+
+        save_filtered_signature_json(
+            signature_name,
+            llm_result,
+            full_terms,
+            signature_path,
+            output_subdir,
+        )
+
+        return True, ""
+
+    except Exception as e:
+        return False, f"Processing error: {str(e)}"
+
+
 def find_signatures(input_dir: str) -> List[Path]:
     """Find all signature directories in the input directory."""
     input_path = Path(input_dir)
@@ -461,6 +630,27 @@ def find_signatures(input_dir: str) -> List[Path]:
 
         param_analysis_dir = item / "parameter_analysis"
         if param_analysis_dir.exists() and param_analysis_dir.is_dir():
+            signatures.append(item)
+
+    return signatures
+
+
+def find_signatures_filtered(input_dir: str) -> List[Path]:
+    """
+    Find all signature directories that have a Dilutions filtered JSON file.
+    """
+    input_path = Path(input_dir)
+
+    signatures = []
+    for item in input_path.iterdir():
+        if not item.is_dir():
+            continue
+
+        if item.name.startswith("diluted_"):
+            continue
+
+        candidate = item / "Dilutions" / "BP" / "fixed" / f"{item.name}_bp_robustness_analysis_filtered.json"
+        if candidate.exists():
             signatures.append(item)
 
     return signatures
@@ -520,7 +710,6 @@ def ensure_ollama_running(ollama_url: str, wait_seconds: int = 10) -> bool:
     """Ensure that the Ollama server is running, start it if necessary."""
     if is_ollama_running(ollama_url):
         return True
-
 
     if not start_ollama_server():
         return False
@@ -583,6 +772,15 @@ def main():
         action="store_true",
         help="Skip synthesis and run ontology analyses only",
     )
+    parser.add_argument(
+        "--filtered",
+        action="store_true",
+        help=(
+            "Use filtered robustness JSON "
+            "(<sig>/Dilutions/BP/fixed/<sig>_bp_robustness_analysis_filtered.json) "
+            "instead of manifold analysis. Runs a single BP-only LLM analysis per signature."
+        ),
+    )
 
     args = parser.parse_args()
 
@@ -591,6 +789,37 @@ def main():
         print("Please make sure Ollama is installed and available in your PATH.")
         return
 
+    # ------------------------------------------------------------------ #
+    #  FILTERED MODE                                                       #
+    # ------------------------------------------------------------------ #
+    if args.filtered:
+        signatures = find_signatures_filtered(args.input_dir)
+
+        if not signatures:
+            print(f"No signatures with filtered robustness files found in {args.input_dir}")
+            return
+
+        if args.signature:
+            signatures = [s for s in signatures if args.signature in s.name]
+            if not signatures:
+                print(f"Signature '{args.signature}' not found")
+                return
+
+        for signature_path in tqdm(signatures, desc="Signatures (filtered)", unit="sig"):
+            success, error = process_filtered_signature(
+                signature_path,
+                args.model,
+                args.ollama_url,
+                args.output_dir,
+            )
+            if not success:
+                print(f"  Skipped {signature_path.name}: {error}")
+
+        return
+
+    # ------------------------------------------------------------------ #
+    #  STANDARD (MANIFOLD) MODE                                           #
+    # ------------------------------------------------------------------ #
     signatures = find_signatures(args.input_dir)
 
     if not signatures:
@@ -604,9 +833,7 @@ def main():
             return
 
     all_results = {}
-
     total_processed = 0
-
 
     for signature_path in tqdm(signatures, desc="Signatures", unit="sig"):
 
@@ -617,7 +844,6 @@ def main():
                 args.model,
                 args.ollama_url,
             )
-
             continue
 
         ontologies = find_ontologies(signature_path)
@@ -630,7 +856,6 @@ def main():
             continue
 
         for ontology in ontologies:
-
             process_signature(
                 signature_path,
                 ontology,
@@ -638,9 +863,7 @@ def main():
                 args.ollama_url,
                 all_results,
             )
-
             total_processed += 1
-
 
         if not args.skip_synthesis and len(ontologies) >= 2:
             synthesize_signature_analysis(
@@ -650,7 +873,6 @@ def main():
                 args.ollama_url,
             )
 
-
         if signature_path.name in all_results:
             save_signature_json(
                 signature_path.name,
@@ -658,7 +880,6 @@ def main():
                 signature_path,
                 args.output_dir,
             )
-
 
 
 if __name__ == "__main__":

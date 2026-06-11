@@ -1,7 +1,9 @@
 """
-GO Terms Extractor
-Extracts GO terms from multiple signatures with explicit selection between
-Cumulative and Fixed Mode. Outputs are written to separate directories.
+GO Robustness Dilution Analyzer
+
+Extracts GO terms from manifold analyses across original and diluted
+signatures, computes robustness trajectories and dilution resistance scores,
+and writes ranking JSONs plus robustness heatmaps.
 """
 
 import json
@@ -37,7 +39,7 @@ def extract_base_name(signature_name):
 
     return name
 
-def resolve_signatures_argument(signatures_arg):
+def resolve_signatures_argument(signatures_arg, ontology='BP'):
     """
     Resolve --signatures argument.
     """
@@ -58,12 +60,12 @@ def resolve_signatures_argument(signatures_arg):
                 if folder_name.startswith("diluted_"):
                     base_name = extract_base_name(folder_name)
 
-                    original_json = candidate_path / base_name / "parameter_analysis" / "BP" / "manifold_analysis_BP.json"
+                    original_json = candidate_path / base_name / "parameter_analysis" / ontology / f"manifold_analysis_{ontology}.json"
                     if original_json.exists():
                         base_signatures.add(base_name)
 
                 else:
-                    manifold_json = item / "parameter_analysis" / "BP" / "manifold_analysis_BP.json"
+                    manifold_json = item / "parameter_analysis" / ontology / f"manifold_analysis_{ontology}.json"
                     if manifold_json.exists():
                         base_signatures.add(folder_name)
 
@@ -87,7 +89,7 @@ def get_mode_from_signature(signature_name):
     return None
 
 
-def load_manifold_jsons(base_path, mode):
+def load_manifold_jsons(base_path, mode, ontology='BP'):
     """
     Load all manifold_analysis.json files and group by base name.
     Only include files matching the specified mode (cumulative or fixed).
@@ -97,7 +99,7 @@ def load_manifold_jsons(base_path, mode):
     base_names_found = set()
 
 
-    for json_file in Path(base_path).rglob("parameter_analysis/BP/manifold_analysis_BP.json"):
+    for json_file in Path(base_path).rglob(f"parameter_analysis/{ontology}/manifold_analysis_{ontology}.json"):
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -123,7 +125,7 @@ def load_manifold_jsons(base_path, mode):
 
 
     for base_name in base_names_found:
-        original_path = Path(base_path) / base_name / "parameter_analysis" / "BP" / "manifold_analysis_BP.json"
+        original_path = Path(base_path) / base_name / "parameter_analysis" / ontology / f"manifold_analysis_{ontology}.json"
 
         if original_path.exists():
             try:
@@ -167,7 +169,7 @@ def extract_unique_go_terms_from_variant(variant_data, representatives_only=Fals
                     if term['go_id'] == rep_go_id:
                         unique_terms[rep_go_id] = {
                             'name': term['name'],
-                            'frequency_percentage': term['frequency_percentage'],
+                            'robustness_score': term['robustness_score'],
                             'ic': term['ic'],
                             'genes_direct': term['genes_direct'],
                             'genes_inherited': term['genes_inherited'],
@@ -182,7 +184,7 @@ def extract_unique_go_terms_from_variant(variant_data, representatives_only=Fals
                 if term['go_id'] in target_go_ids:
                     unique_terms[term['go_id']] = {
                         'name': term['name'],
-                        'frequency_percentage': term['frequency_percentage'],
+                        'robustness_score': term['robustness_score'],
                         'ic': term['ic'],
                         'genes_direct': term['genes_direct'],
                         'genes_inherited': term['genes_inherited'],
@@ -196,7 +198,7 @@ def extract_unique_go_terms_from_variant(variant_data, representatives_only=Fals
                 if go_id not in unique_terms:
                     unique_terms[go_id] = {
                         'name': term['name'],
-                        'frequency_percentage': term['frequency_percentage'],
+                        'robustness_score': term['robustness_score'],
                         'ic': term['ic'],
                         'genes_direct': term['genes_direct'],
                         'genes_inherited': term['genes_inherited'],
@@ -279,10 +281,10 @@ def process_signature_variants(grouped_data, signature_name, representatives_onl
 
 
 
-def create_absolute_frequency_heatmap(frequency_data, original_terms, sorted_variants, signature_name, output_dir,
-                                      threshold=0.0, representatives_only=False, cutoff_rank=None):
-    """Create a heatmap of absolute frequencies with optional cutoff line."""
-    go_ids = list(frequency_data.keys())
+def create_absolute_robustness_heatmap(robustness_data, original_terms, sorted_variants, signature_name, output_dir,
+                                       threshold=0.0, representatives_only=False, cutoff_rank=None):
+    """Create a heatmap of robustness scores with optional cutoff line."""
+    go_ids = list(robustness_data.keys())
     step_labels = []
 
     for variant_name, _ in sorted_variants:
@@ -294,52 +296,63 @@ def create_absolute_frequency_heatmap(frequency_data, original_terms, sorted_var
     go_labels = []
 
     for go_id in go_ids:
-        frequencies = frequency_data[go_id]
-        matrix_data.append(frequencies)
+        robustness_values = robustness_data[go_id]
+        matrix_data.append(robustness_values)
 
         term_name = original_terms[go_id]['name']
         short_name = term_name[:40] + "..." if len(term_name) > 40 else term_name
         go_labels.append(short_name)
 
-    df = pd.DataFrame(matrix_data,
-                      index=go_labels,
-                      columns=step_labels)
+    df = pd.DataFrame(
+        matrix_data,
+        index=go_labels,
+        columns=step_labels
+    )
 
     fig_width = max(12, len(step_labels) * 0.8)
     fig_height = max(8, len(go_ids) * 0.35)
 
     fig, ax = plt.subplots(figsize=(fig_width, fig_height))
 
-    if len(go_ids) <= 10:
-        cbar_shrink = 0.6
-    elif len(go_ids) <= 20:
-        cbar_shrink = 0.5
-    elif len(go_ids) <= 30:
-        cbar_shrink = 0.4
-    else:
-        cbar_shrink = 0.3
-
-    plt.rcParams['pdf.fonttype'] = 42  # TrueType fonts
+    plt.rcParams['pdf.fonttype'] = 42
     plt.rcParams['ps.fonttype'] = 42
-    plt.rcParams['axes.linewidth'] = 0.5  # Thinner axes
+    plt.rcParams['axes.linewidth'] = 0.5
     plt.rcParams['xtick.major.width'] = 0.5
     plt.rcParams['ytick.major.width'] = 0.5
 
-    heatmap = sns.heatmap(df, annot=True, fmt='.1f', cmap='RdYlGn', vmin=0, vmax=100, cbar_kws={
-                              'label': 'Robustness Score (%)',
-                              'shrink': 1.0,
-                              'aspect': 30
-                          },
-                          linewidths=0.5, linecolor='#E0E0E0', square=False, annot_kws={'size': 9, 'weight': 'normal'}, ax=ax)
+    heatmap = sns.heatmap(
+        df,
+        annot=True,
+        fmt='.1f',
+        cmap='RdYlGn',
+        vmin=0,
+        vmax=100,
+        cbar_kws={
+            'label': 'Robustness Score (%)',
+            'shrink': 1.0,
+            'aspect': 30
+        },
+        linewidths=0.5,
+        linecolor='#E0E0E0',
+        square=False,
+        annot_kws={'size': 9, 'weight': 'normal'},
+        ax=ax
+    )
 
     cbar = heatmap.collections[0].colorbar
     cbar.ax.tick_params(labelsize=9, width=0.5, length=3)
     cbar.outline.set_linewidth(0.5)
     cbar.set_label('Robustness Score (%)', fontsize=10, weight='normal', labelpad=8)
 
-    if cutoff_rank is not None and cutoff_rank > 0 and cutoff_rank < len(go_ids):
-        ax.axhline(y=cutoff_rank, color='#B22222', linewidth=3.5, linestyle='--',
-                   zorder=10, alpha=0.7)
+    if cutoff_rank is not None and 0 < cutoff_rank < len(go_ids):
+        ax.axhline(
+            y=cutoff_rank,
+            color='#B22222',
+            linewidth=3.5,
+            linestyle='--',
+            zorder=10,
+            alpha=0.7
+        )
 
     ax.set_xlabel('Dilution Repetition', fontsize=11, weight='normal', labelpad=8)
     ax.set_ylabel('GO Terms', fontsize=11, weight='normal', labelpad=8)
@@ -353,7 +366,6 @@ def create_absolute_frequency_heatmap(frequency_data, original_terms, sorted_var
         spine.set_color('#666666')
 
     ax.set_axisbelow(True)
-
     plt.tight_layout()
 
     Path(output_dir).mkdir(parents=True, exist_ok=True)
@@ -368,14 +380,21 @@ def create_absolute_frequency_heatmap(frequency_data, original_terms, sorted_var
     cbar_pos = cbar_ax.get_position()
 
     stats_text = f'Mean: {global_mean:.1f}%\nMedian: {global_median:.1f}%'
-    fig.text(cbar_pos.x0 + (cbar_pos.x1 - cbar_pos.x0) / 2,
-             cbar_pos.y0 - 0.08,
-             stats_text,
-             fontsize=10,
-             verticalalignment='top',
-             horizontalalignment='center',
-             bbox=dict(boxstyle='round', facecolor='white', alpha=0.9,
-                      edgecolor='#666666', linewidth=0.5))
+    fig.text(
+        cbar_pos.x0 + (cbar_pos.x1 - cbar_pos.x0) / 2,
+        cbar_pos.y0 - 0.08,
+        stats_text,
+        fontsize=10,
+        verticalalignment='top',
+        horizontalalignment='center',
+        bbox=dict(
+            boxstyle='round',
+            facecolor='white',
+            alpha=0.9,
+            edgecolor='#666666',
+            linewidth=0.5
+        )
+    )
 
     if representatives_only:
         filename_parts.append("representatives")
@@ -390,29 +409,33 @@ def create_absolute_frequency_heatmap(frequency_data, original_terms, sorted_var
     plt.close()
 
 
-def calculate_robustness_score(frequencies):
+def calculate_dilution_resistance_score(robustness_values):
     """
-    Calculate robustness score based on initial frequency, retention, and stability.
+    Calculate dilution resistance score based on initial robustness,
+    retention, and stability.
     """
-    if not frequencies or len(frequencies) < 2:
+    if not robustness_values or len(robustness_values) < 2:
         return 0.0
 
-    initial_freq = frequencies[0]
+    initial_robustness = robustness_values[0]
 
-    if initial_freq == 0:
+    if initial_robustness == 0:
         return 0.0
 
-    mean_freq = sum(frequencies) / len(frequencies)
-    mean_retention = mean_freq / initial_freq
+    mean_robustness = sum(robustness_values) / len(robustness_values)
+    mean_retention = mean_robustness / initial_robustness
 
-    deviations = [abs(f - initial_freq) for f in frequencies[1:]]
+    deviations = [
+        abs(robustness - initial_robustness)
+        for robustness in robustness_values[1:]
+    ]
+
     avg_deviation = sum(deviations) / len(deviations) if deviations else 0
-
-    relative_deviation = avg_deviation / initial_freq if initial_freq > 0 else 0
+    relative_deviation = avg_deviation / initial_robustness if initial_robustness > 0 else 0
 
     stability = max(0, 1 - relative_deviation)
 
-    score = initial_freq * mean_retention * stability
+    score = initial_robustness * mean_retention * stability
 
     return score
 
@@ -476,10 +499,12 @@ def find_natural_cutoff(scores, go_ids, go_names):
 
 
 def analyze_all_original_terms(variants_dict, signature_name, base_path, threshold=0.0,
-                               representatives_only=False, auto_cutoff=False, mode='cumulative'):
+                               representatives_only=False, auto_cutoff=False, mode='cumulative', ontology='BP'):
     """Analyze all GO terms from original signature and create heatmap, including IC and gene info."""
-    sorted_variants = sorted(variants_dict.items(),
-                             key=lambda x: extract_step_info(x[0]))
+    sorted_variants = sorted(
+        variants_dict.items(),
+        key=lambda x: extract_step_info(x[0])
+    )
 
     original_variant = None
     for variant_name, terms in sorted_variants:
@@ -495,8 +520,9 @@ def analyze_all_original_terms(variants_dict, signature_name, base_path, thresho
 
     if threshold > 0.0:
         filtered_go_ids = []
+
         for go_id, term_info in original_terms.items():
-            robustness_score = term_info.get('frequency_percentage', 0.0)
+            robustness_score = term_info.get('robustness_score', 0.0)
             if robustness_score >= threshold:
                 filtered_go_ids.append(go_id)
 
@@ -514,63 +540,84 @@ def analyze_all_original_terms(variants_dict, signature_name, base_path, thresho
 
     mode_text = "REPRESENTATIVES" if representatives_only else "GO TERMS"
     print(f"\nANALYZING {len(original_go_ids)} {mode_text}")
+
     if threshold > 0.0:
         print(f"    (Threshold: ≥{threshold}% Robustness Score)")
 
-    frequency_data = {}
+    robustness_data = {}
 
     for go_id in original_go_ids:
-        frequencies = []
+        robustness_values = []
 
         for variant_name, terms in sorted_variants:
             if go_id in terms:
-                freq = terms[go_id]['frequency_percentage']
+                robustness = terms[go_id]['robustness_score']
             else:
-                freq = 0.0
-            frequencies.append(freq)
+                robustness = 0.0
 
-        frequency_data[go_id] = frequencies
+            robustness_values.append(robustness)
 
-    robustness_scores = {}
+        robustness_data[go_id] = robustness_values
+
+    dilution_resistance_scores = {}
     robustness_details = {}
 
-    for go_id, frequencies in frequency_data.items():
-        score = calculate_robustness_score(frequencies)
-        robustness_scores[go_id] = score
+    for go_id, robustness_values in robustness_data.items():
+        dilution_resistance_score = calculate_dilution_resistance_score(robustness_values)
+        dilution_resistance_scores[go_id] = dilution_resistance_score
 
-        initial_freq = frequencies[0] if frequencies else 0
-        final_freq = frequencies[-1] if frequencies else 0
-        mean_freq = sum(frequencies) / len(frequencies) if frequencies else 0
-        mean_retention = mean_freq / initial_freq if initial_freq > 0 else 0
+        initial_robustness = robustness_values[0] if robustness_values else 0
+        final_robustness = robustness_values[-1] if robustness_values else 0
+        mean_robustness = sum(robustness_values) / len(robustness_values) if robustness_values else 0
 
-        if len(frequencies) > 1 and initial_freq > 0:
-            deviations = [abs(f - initial_freq) for f in frequencies[1:]]
+        mean_retention = (
+            mean_robustness / initial_robustness
+            if initial_robustness > 0
+            else 0
+        )
+
+        if len(robustness_values) > 1 and initial_robustness > 0:
+            deviations = [
+                abs(robustness - initial_robustness)
+                for robustness in robustness_values[1:]
+            ]
             avg_deviation = sum(deviations) / len(deviations)
-            stability = max(0, 1 - (avg_deviation / initial_freq))
+            stability = max(0, 1 - (avg_deviation / initial_robustness))
         else:
             avg_deviation = 0
             stability = 1.0
 
         robustness_details[go_id] = {
-            'initial_frequency': initial_freq,
-            'final_frequency': final_freq,
-            'mean_frequency': mean_freq,
+            'initial_robustness': initial_robustness,
+            'final_robustness': final_robustness,
+            'mean_robustness': mean_robustness,
             'mean_retention': mean_retention,
             'avg_deviation': avg_deviation,
             'stability': stability,
-            'robustness_score': score
+            'dilution_resistance_score': dilution_resistance_score
         }
 
-    sorted_go_ids = sorted(robustness_scores.keys(),
-                           key=lambda x: robustness_scores[x],
-                           reverse=True)
+    sorted_go_ids = sorted(
+        dilution_resistance_scores.keys(),
+        key=lambda go_id: dilution_resistance_scores[go_id],
+        reverse=True
+    )
 
-    sorted_frequency_data = {go_id: frequency_data[go_id] for go_id in sorted_go_ids}
+    sorted_robustness_data = {
+        go_id: robustness_data[go_id]
+        for go_id in sorted_go_ids
+    }
 
     cutoff_rank = None
     if auto_cutoff:
-        scores_list = [robustness_scores[go_id] for go_id in sorted_go_ids]
-        go_names_list = [original_terms[go_id]['name'] for go_id in sorted_go_ids]
+        scores_list = [
+            dilution_resistance_scores[go_id]
+            for go_id in sorted_go_ids
+        ]
+        go_names_list = [
+            original_terms[go_id]['name']
+            for go_id in sorted_go_ids
+        ]
         cutoff_rank = find_natural_cutoff(scores_list, sorted_go_ids, go_names_list)
 
     json_data = {
@@ -580,16 +627,16 @@ def analyze_all_original_terms(variants_dict, signature_name, base_path, thresho
             'analysis_type': 'representatives' if representatives_only else 'all_terms',
             'threshold': threshold,
             'n_terms': len(sorted_go_ids),
-            'n_steps': len(frequency_data[sorted_go_ids[0]]) if sorted_go_ids else 0,
+            'n_steps': len(robustness_data[sorted_go_ids[0]]) if sorted_go_ids else 0,
             'auto_cutoff_enabled': auto_cutoff,
             'auto_cutoff_rank': cutoff_rank if auto_cutoff else None
         },
         'score_calculation_formula': {
-            'formula': 'score = initial_freq * mean_retention * stability',
+            'formula': 'dilution_resistance_score = initial_robustness * mean_retention * stability',
             'components': {
-                'mean_retention': 'mean(all_frequencies) / initial_freq',
-                'stability': 'max(0, 1 - (avg_deviation / initial_freq))',
-                'avg_deviation': 'mean(|freq_i - initial_freq|) for i > 0'
+                'mean_retention': 'mean(all_robustness) / initial_robustness',
+                'stability': 'max(0, 1 - (avg_deviation / initial_robustness))',
+                'avg_deviation': 'mean(|robustness_i - initial_robustness|) for i > 0'
             }
         },
         'ranking': []
@@ -603,6 +650,7 @@ def analyze_all_original_terms(variants_dict, signature_name, base_path, thresho
 
     for rank, go_id in enumerate(sorted_go_ids, 1):
         term_info = original_terms[go_id]
+
         term_entry = {
             'rank': rank,
             'go_id': go_id,
@@ -611,19 +659,21 @@ def analyze_all_original_terms(variants_dict, signature_name, base_path, thresho
             'genes_direct': term_info['genes_direct'],
             'genes_inherited': term_info['genes_inherited'],
             'genes_total': term_info['genes_total'],
-            'is_robust': (cutoff_rank is not None and rank <= cutoff_rank) if auto_cutoff else None,
-            'frequencies_per_step': {
-                step_labels[i]: frequency_data[go_id][i]
+            'is_robust': rank <= cutoff_rank if cutoff_rank is not None else True,
+            'robustness_score': {
+                step_labels[i]: robustness_data[go_id][i]
                 for i in range(len(step_labels))
             },
             'score_components': robustness_details[go_id]
         }
+
         json_data['ranking'].append(term_entry)
 
-    output_dir = Path(base_path) / signature_name / "Dilutions" / mode
+    output_dir = Path(base_path) / signature_name / "Dilutions" / ontology / mode
     output_dir.mkdir(parents=True, exist_ok=True)
 
     json_filename_parts = [signature_name, "ranking"]
+
     if representatives_only:
         json_filename_parts.append("representatives")
     if threshold > 0.0:
@@ -639,14 +689,19 @@ def analyze_all_original_terms(variants_dict, signature_name, base_path, thresho
     if not auto_cutoff:
         print(f"\nRobustness ranking (all {len(sorted_go_ids)} GO terms):")
         for i, go_id in enumerate(sorted_go_ids, 1):
-            score = robustness_scores[go_id]
+            score = dilution_resistance_scores[go_id]
             name = original_terms[go_id]['name'][:50]
-            initial = frequency_data[go_id][0]
-            final = frequency_data[go_id][-1]
-            print(f"   {i:2d}. Score: {score:6.2f} | {go_id} | {name:50s} | {initial:5.1f}% → {final:5.1f}%")
+            initial = robustness_data[go_id][0]
+            final = robustness_data[go_id][-1]
 
-    create_absolute_frequency_heatmap(
-        sorted_frequency_data,
+            print(
+                f"   {i:2d}. Score: {score:6.2f} | "
+                f"{go_id} | {name:50s} | "
+                f"{initial:5.1f}% → {final:5.1f}%"
+            )
+
+    create_absolute_robustness_heatmap(
+        sorted_robustness_data,
         original_terms,
         sorted_variants,
         signature_name,
@@ -661,7 +716,7 @@ def analyze_all_original_terms(variants_dict, signature_name, base_path, thresho
 
 
 def process_multiple_signatures(grouped_data, signature_names, base_path, analyze_all=False,
-                                threshold=0.0, auto_cutoff=False, mode='cumulative'):
+                                threshold=0.0, auto_cutoff=False, mode='cumulative', ontology='BP'):
     """Process multiple signatures sequentially and create both versions (all terms + representatives)."""
     results = {}
 
@@ -683,7 +738,8 @@ def process_multiple_signatures(grouped_data, signature_names, base_path, analyz
                     threshold,
                     representatives_only,
                     auto_cutoff,
-                    mode
+                    mode,
+                    ontology
                 )
     return results
 
@@ -699,6 +755,8 @@ def main():
                         help="Names of the signatures to analyze (multiple possible)")
     parser.add_argument("--mode", required=True, choices=['cumulative', 'fixed'],
                         help="Dilution mode: 'cumulative' (totalrandom) or 'fixed'")
+    parser.add_argument("--ontology", default='all', choices=['BP', 'MF', 'CC', 'all'],
+                        help="GO ontology to analyze: 'BP', 'MF', 'CC', or 'all' (default: BP)")
     parser.add_argument("--analyze_all", action="store_true",
                         help="Analyze all GO terms and create heatmaps")
     parser.add_argument("--threshold", type=float, default=0.0,
@@ -708,49 +766,58 @@ def main():
 
     args = parser.parse_args()
 
-    resolved_signatures = resolve_signatures_argument(args.signatures)
+    ontologies = ['BP', 'MF', 'CC'] if args.ontology == 'all' else [args.ontology]
 
     print("GO Terms Dilution Analyzer")
     print("=" * 80)
     print(f"Selected mode: {args.mode.upper()}")
+    print(f"Selected ontology: {', '.join(ontologies)}")
 
     if args.auto_cutoff:
         print("Auto cut-off detection: ENABLED")
         print("   Method: Maximum absolute gap")
 
-    print(f"Loading manifold analyses (only {args.mode} mode)...")
-    grouped_data = load_manifold_jsons(args.input_path, args.mode)
+    for ontology in ontologies:
+        print(f"\n{'=' * 80}")
+        print(f"ONTOLOGY: {ontology}")
+        print(f"{'=' * 80}")
 
-    if not grouped_data:
-        print(f"No {args.mode.upper()} manifold analyses found!")
-        return
+        resolved_signatures = resolve_signatures_argument(args.signatures, ontology)
 
-    print(f"{len(grouped_data)} base signatures found ({args.mode} mode)")
+        print(f"Loading manifold analyses (only {args.mode} mode)...")
+        grouped_data = load_manifold_jsons(args.input_path, args.mode, ontology)
 
-    print(f"\nAvailable signatures ({args.mode} mode):")
-    for base_name in sorted(grouped_data.keys()):
-        variant_count = len(grouped_data[base_name])
-        print(f"   {base_name} ({variant_count} variants)")
+        if not grouped_data:
+            print(f"No {args.mode.upper()} manifold analyses found for {ontology} — skipping.")
+            continue
 
-    results = process_multiple_signatures(
-        grouped_data,
-        resolved_signatures,
-        args.input_path,
-        analyze_all=args.analyze_all,
-        threshold=args.threshold,
-        auto_cutoff=args.auto_cutoff,
-        mode=args.mode
-    )
+        print(f"{len(grouped_data)} base signatures found ({args.mode} mode)")
 
-    if not results:
-        print("\nNo signatures were successfully processed!")
-        return
+        print(f"\nAvailable signatures ({args.mode} mode):")
+        for base_name in sorted(grouped_data.keys()):
+            variant_count = len(grouped_data[base_name])
+            print(f"   {base_name} ({variant_count} variants)")
 
-    print(f"\nSuccessfully processed:")
-    for sig_name in results.keys():
-        print(f"   {sig_name}")
+        results = process_multiple_signatures(
+            grouped_data,
+            resolved_signatures,
+            args.input_path,
+            analyze_all=args.analyze_all,
+            threshold=args.threshold,
+            auto_cutoff=args.auto_cutoff,
+            mode=args.mode,
+            ontology=ontology
+        )
 
-    print(f"\nOutputs saved in: {{signature}}/Dilutions/{args.mode}/")
+        if not results:
+            print(f"\nNo signatures were successfully processed for {ontology}!")
+            continue
+
+        print(f"\nSuccessfully processed ({ontology}):")
+        for sig_name in results.keys():
+            print(f"   {sig_name}")
+
+        print(f"\nOutputs saved in: {{signature}}/Dilutions/{ontology}/{args.mode}/")
 
 
 if __name__ == "__main__":

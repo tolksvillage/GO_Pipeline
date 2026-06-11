@@ -84,7 +84,7 @@ class HierarchicalManifoldVisualizer:
                         'name': term.get('name', 'Unknown'),
                         'go_id': term.get('go_id', ''),
                         'difference_normalized': term.get('alpha_beta_preference', {}).get('difference_normalized', 0.0),
-                        'frequency_percentage': term.get('frequency_percentage', 0.0),
+                        'robustness_score': term.get('robustness_score', 0.0),
                         'group_id': group['group_id'],
                         'group_size': group['size']
                     }
@@ -95,7 +95,7 @@ class HierarchicalManifoldVisualizer:
                     'name': rep.get('name', 'Unknown'),
                     'go_id': rep.get('go_id', ''),
                     'difference_normalized': rep.get('alpha_beta_preference', {}).get('difference_normalized', 0.0),
-                    'frequency_percentage': rep.get('frequency_percentage', 0.0),
+                    'robustness_score': rep.get('robustness_score', 0.0),
                     'group_id': group['group_id'],
                     'group_size': group['size']
                 }
@@ -143,7 +143,7 @@ class HierarchicalManifoldVisualizer:
 
     def _sort_terms_by_robustness(self, terms: List[Dict]) -> List[Dict]:
         """Sort terms by robustness (descending - highest first)"""
-        return sorted(terms, key=lambda t: t.get('frequency_percentage', 0), reverse=True)
+        return sorted(terms, key=lambda t: t.get('robustness_score', 0), reverse=True)
 
     def create_simple_visualization(self, data: Dict, output_path: str, title: str = "Hierarchical Manifold Organization", subtitle: str = "GO Biological Process Terms", dpi: int = 300, figsize: Tuple[int, int] = (20, 10), robustness_threshold: float = 0.0):
         fig, ax = plt.subplots(figsize=figsize)
@@ -268,9 +268,9 @@ class HierarchicalManifoldVisualizer:
         alpha_terms = self._extract_individual_terms_with_diff(data['alpha_greater']['groups'])
 
         if robustness_threshold > 0:
-            beta_terms = [t for t in beta_terms if t.get('frequency_percentage', 0) >= robustness_threshold]
-            equal_terms = [t for t in equal_terms if t.get('frequency_percentage', 0) >= robustness_threshold]
-            alpha_terms = [t for t in alpha_terms if t.get('frequency_percentage', 0) >= robustness_threshold]
+            beta_terms = [t for t in beta_terms if t.get('robustness_score', 0) >= robustness_threshold]
+            equal_terms = [t for t in equal_terms if t.get('robustness_score', 0) >= robustness_threshold]
+            alpha_terms = [t for t in alpha_terms if t.get('robustness_score', 0) >= robustness_threshold]
 
         group_color_beta = self.edge_color_general
         if beta_terms:
@@ -283,7 +283,7 @@ class HierarchicalManifoldVisualizer:
 
             for i, term in enumerate(beta_terms_sorted):
                 diff_norm = term['difference_normalized']
-                robustness = term.get('frequency_percentage', 0)
+                robustness = term.get('robustness_score', 0)
 
                 x_pos = x_positions[i]
 
@@ -316,7 +316,7 @@ class HierarchicalManifoldVisualizer:
 
             for i, term in enumerate(equal_terms_sorted):
                 diff_norm = term['difference_normalized']
-                robustness = term.get('frequency_percentage', 0)
+                robustness = term.get('robustness_score', 0)
 
                 x_pos = x_positions[i]
 
@@ -349,7 +349,7 @@ class HierarchicalManifoldVisualizer:
 
             for i, term in enumerate(alpha_terms_sorted):
                 diff_norm = term['difference_normalized']
-                robustness = term.get('frequency_percentage', 0)
+                robustness = term.get('robustness_score', 0)
 
                 x_pos = x_positions[i]
 
@@ -503,7 +503,7 @@ if __name__ == "__main__":
         "--robustness",
         type=float,
         default=20.0,
-        help="Minimum robustness threshold (frequency_percentage)."
+        help="Minimum robustness threshold (robustness_score)."
     )
 
     args = parser.parse_args()

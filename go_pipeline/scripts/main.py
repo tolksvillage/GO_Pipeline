@@ -249,6 +249,27 @@ def main() -> None:
                 f"--input_dir={output_path}",
             ],
         ),
+        (
+            "Add GO term definitions and gene symbols...",
+            [
+                python_executable,
+                "-m",
+                "go_pipeline.scripts.llm_request.get_term_definition",
+                f"--input_data={output_path}",
+                "--obo_file=data/go-basic.obo",
+            ],
+        ),
+        (
+            "Add NCBI gene summaries...",
+            [
+                python_executable,
+                "-m",
+                "go_pipeline.scripts.llm_request.get_NCBI_infos",
+                f"--input_data={output_path}",
+                "--gene_summary=data/NCBI/gene_summary.gz",
+                "--gene_info=data/Homo_sapiens.gene_info.gz",
+            ],
+        ),
     ])
 
     if with_dilution_analysis:
@@ -264,6 +285,20 @@ def main() -> None:
                         f"--signatures={output_path}",
                         "--mode=fixed",
                         "--analyze_all",
+                        "--auto_cutoff",
+                    ],
+                )
+            )
+            steps.append(
+                (
+                    "Saving results in Excel...",
+                    [
+                        python_executable,
+                        "-m",
+                        "go_pipeline.scripts.create_summary_data",
+                        f"--input_path={output_path}",
+                        "--mode", "fixed",
+                        "--ontology", "all"
                     ],
                 )
             )
@@ -279,6 +314,7 @@ def main() -> None:
                         f"--signatures={output_path}",
                         "--mode=cumulative",
                         "--analyze_all",
+                        "--auto_cutoff",
                     ],
                 )
             )
@@ -305,40 +341,23 @@ def main() -> None:
             ),
         ])
 
-
     if with_llm_request:
-        steps.extend([
-            (
-                "Add GO term definitions and gene symbols...",
-                [
-                    python_executable,
-                    "-m",
-                    "go_pipeline.scripts.llm_request.get_term_definition",
-                    f"--input_data={output_path}",
-                    "--obo_file=data/go-basic.obo",
-                ],
-            ),
-            (
-                "Add NCBI gene summaries...",
-                [
-                    python_executable,
-                    "-m",
-                    "go_pipeline.scripts.llm_request.get_NCBI_infos",
-                    f"--input_data={output_path}",
-                    "--gene_summary=data/NCBI/gene_summary.gz",
-                    "--gene_info=data/Homo_sapiens.gene_info.gz",
-                ],
-            ),
+        llm_command = [
+            python_executable,
+            "-m",
+            "go_pipeline.scripts.llm_request.llm_request",
+            f"--input_dir={output_path}",
+        ]
+
+        if with_dilution_analysis and dilution_mode in ("fixed", "both"):
+            llm_command.append("--filtered")
+
+        steps.append(
             (
                 "Run LLM signature analysis...",
-                [
-                    python_executable,
-                    "-m",
-                    "go_pipeline.scripts.llm_request.llm_request",
-                    f"--input_dir={output_path}",
-                ],
-            ),
-        ])
+                llm_command,
+            )
+        )
 
 
     for step_name, command in steps:

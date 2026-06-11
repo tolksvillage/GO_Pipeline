@@ -87,10 +87,10 @@ def ensure_output_directory(param_file_path, ontology):
     return output_dir
 
 
-def calculate_term_frequencies(param_data):
+def calculate_term_robustness(param_data):
     """Calculate how often each term appears across all parameter configurations (Top-10 only)
     and track alpha vs beta preferences"""
-    term_frequencies = defaultdict(int)
+    term_robustness_counts = defaultdict(int)
     term_alpha_beta_counts = defaultdict(lambda: {'alpha_dominant': 0, 'beta_dominant': 0, 'equal': 0})
     total_configs = len(param_data)
 
@@ -102,7 +102,7 @@ def calculate_term_frequencies(param_data):
         beta = config_data['parameters']['beta']
 
         for term_id in config_terms:
-            term_frequencies[term_id] += 1
+            term_robustness_counts[term_id] += 1
 
             if alpha > beta:
                 term_alpha_beta_counts[term_id]['alpha_dominant'] += 1
@@ -111,8 +111,10 @@ def calculate_term_frequencies(param_data):
             else:
                 term_alpha_beta_counts[term_id]['equal'] += 1
 
-    term_percentages = {term_id: (count / total_configs) * 100
-                        for term_id, count in term_frequencies.items()}
+    term_robustness_scores = {
+        term_id: (count / total_configs) * 100
+        for term_id, count in term_robustness_counts.items()
+    }
 
     MAX_POSSIBLE_DIFFERENCE = 55
 
@@ -131,16 +133,18 @@ def calculate_term_frequencies(param_data):
             'normalized': normalized_difference
         }
 
-    return term_percentages, term_alpha_beta_counts, term_alpha_beta_differences
+    return term_robustness_scores, term_alpha_beta_counts, term_alpha_beta_differences
 
 
-def filter_terms_by_frequency(all_terms, term_percentages, min_percentage=10):
-    """Filter terms that appear in less than min_percentage of configurations"""
-    filtered_terms = {term_id for term_id in all_terms
-                      if term_percentages.get(term_id, 0) > min_percentage}
+def filter_terms_by_robustness(all_terms, term_robustness_scores, min_robustness=10):
+    """Filter terms below the minimum robustness score."""
+    filtered_terms = {
+        term_id for term_id in all_terms
+        if term_robustness_scores.get(term_id, 0) > min_robustness
+    }
 
     print(f"Original terms: {len(all_terms)}")
-    print(f"Filtered terms (>{min_percentage}%): {len(filtered_terms)}")
+    print(f"Filtered terms (>{min_robustness}%): {len(filtered_terms)}")
     print(f"Removed terms: {len(all_terms) - len(filtered_terms)}")
 
     return filtered_terms
@@ -258,16 +262,16 @@ def find_group_regulations(term_groups, go_terms, all_terms):
     return group_relationships
 
 
-def find_group_representative(group, go_terms, all_terms, param_data, term_percentages):
-    """Find the term with the highest frequency percentage in a group"""
+def find_group_representative_by_robustness(group, go_terms, all_terms, param_data, term_robustness_scores):
+    """Find the term with the highest robustness score in a group."""
 
     best_representative = None
-    max_percentage = -1
+    max_robustness = -1
 
     for term_id in group:
-        frequency = term_percentages.get(term_id, 0)
-        if frequency > max_percentage:
-            max_percentage = frequency
+        robustness = term_robustness_scores.get(term_id, 0)
+        if robustness > max_robustness:
+            max_robustness = robustness
             best_representative = term_id
 
     if best_representative is None:
@@ -456,7 +460,7 @@ def analyze_solution_manifold(param_data):
         all_terms.update(terms_in_config)
         config_terms[config_name] = terms_in_config
 
-    term_percentages, term_alpha_beta_counts, term_alpha_beta_differences = calculate_term_frequencies(param_data)
+    term_robustness_scores, term_alpha_beta_counts, term_alpha_beta_differences = calculate_term_robustness(param_data)
 
     go_terms = parse_relevant_go_terms(all_terms)
     term_groups = find_related_groups(all_terms, go_terms)
@@ -480,7 +484,7 @@ def analyze_solution_manifold(param_data):
         'num_groups': len(named_groups),
         'group_regulations': group_regulations,
         'go_terms': go_terms,
-        'term_percentages': term_percentages,
+        'term_robustness_scores': term_robustness_scores,
         'term_alpha_beta_counts': term_alpha_beta_counts,
         'term_alpha_beta_differences': term_alpha_beta_differences
     }
@@ -535,18 +539,27 @@ def save_manifold_analysis_json(manifold, param_data, robust_data, output_dir, s
         "groups": []
     }
 
-    groups_with_frequencies = []
+    groups_with_robustness = []
     for i, group in enumerate(manifold['term_groups']):
         group_ids = set(term['id'] for term in group)
-        representative_id = find_group_representative(group_ids, manifold['go_terms'],
-                                                      group_ids, param_data, manifold['term_percentages'])
-        rep_percentage = manifold['term_percentages'].get(representative_id, 0)
+        representative_id = find_group_representative_by_robustness(
+            group_ids,
+            manifold['go_terms'],
+            group_ids,
+            param_data,
+            manifold['term_robustness_scores']
+        )
+
+        rep_robustness = manifold['term_robustness_scores'].get(representative_id, 0)
         representative_name = manifold['go_terms'].get(representative_id, {}).get('name', 'Unknown')
-        groups_with_frequencies.append((i, group, rep_percentage, representative_id, representative_name))
 
-    sorted_groups = sorted(groups_with_frequencies, key=lambda x: x[2], reverse=True)
+        groups_with_robustness.append(
+            (i, group, rep_robustness, representative_id, representative_name)
+        )
 
-    for display_num, (original_idx, group, rep_percentage, representative_id, representative_name) in enumerate(
+    sorted_groups = sorted(groups_with_robustness, key=lambda x: x[2], reverse=True)
+
+    for display_num, (original_idx, group, rep_robustness, representative_id, representative_name) in enumerate(
             sorted_groups, 1):
 
         group_data = {
@@ -556,18 +569,22 @@ def save_manifold_analysis_json(manifold, param_data, robust_data, output_dir, s
             "representative": {
                 "go_id": representative_id,
                 "name": representative_name,
-                "frequency_percentage": rep_percentage
+                "robustness_score": rep_robustness
             },
             "terms": [],
             "connections_to_other_groups": []
         }
 
-        sorted_terms = sorted(group, key=lambda term: manifold['term_percentages'].get(term['id'], 0), reverse=True)
+        sorted_terms = sorted(
+            group,
+            key=lambda term: manifold['term_robustness_scores'].get(term['id'], 0),
+            reverse=True
+        )
 
         for term in sorted_terms:
             term_id = term['id']
             term_name = term['name']
-            term_percentage = manifold['term_percentages'].get(term_id, 0)
+            term_robustness = manifold['term_robustness_scores'].get(term_id, 0)
 
             alpha_beta_info = manifold['term_alpha_beta_counts'].get(
                 term_id,
@@ -582,7 +599,7 @@ def save_manifold_analysis_json(manifold, param_data, robust_data, output_dir, s
             term_data = {
                 "go_id": term_id,
                 "name": term_name,
-                "frequency_percentage": term_percentage,
+                "robustness_score": term_robustness,
                 "alpha_beta_preference": {
                     "alpha_dominant": alpha_beta_info['alpha_dominant'],
                     "beta_dominant": alpha_beta_info['beta_dominant'],
@@ -690,32 +707,39 @@ def process_single_ontology(signature_info, ontology):
                 for term in group:
                     term_to_group[term['id']] = group_idx
 
-            groups_with_frequencies = []
+            groups_with_robustness = []
             for i, group in enumerate(manifold['term_groups']):
                 group_ids = set(term['id'] for term in group)
-                representative_id = find_group_representative(
+                representative_id = find_group_representative_by_robustness(
                     group_ids,
                     manifold['go_terms'],
                     group_ids,
                     param_data,
-                    manifold['term_percentages']
+                    manifold['term_robustness_scores']
                 )
-                rep_percentage = manifold['term_percentages'].get(representative_id, 0)
+
+                rep_robustness = manifold['term_robustness_scores'].get(representative_id, 0)
                 representative_name = manifold['go_terms'].get(representative_id, {}).get('name', 'Unknown')
-                groups_with_frequencies.append((i, group, rep_percentage, representative_id, representative_name))
 
-            sorted_groups = sorted(groups_with_frequencies, key=lambda x: x[2], reverse=True)
+                groups_with_robustness.append(
+                    (i, group, rep_robustness, representative_id, representative_name)
+                )
 
-            for display_num, (original_idx, group, rep_percentage, representative_id, representative_name) in enumerate(
+            sorted_groups = sorted(groups_with_robustness, key=lambda x: x[2], reverse=True)
+
+            for display_num, (original_idx, group, rep_robustness, representative_id, representative_name) in enumerate(
                     sorted_groups, 1):
 
-                sorted_terms = sorted(group, key=lambda term: manifold['term_percentages'].get(term['id'], 0),
-                                      reverse=True)
+                sorted_terms = sorted(
+                    group,
+                    key=lambda term: manifold['term_robustness_scores'].get(term['id'], 0),
+                    reverse=True
+                )
 
                 for term in sorted_terms:
                     term_id = term['id']
                     term_name = term['name']
-                    term_percentage = manifold['term_percentages'].get(term_id, 0)
+                    term_robustness = manifold['term_robustness_scores'].get(term_id, 0)
 
                     alpha_beta_info = manifold['term_alpha_beta_counts'].get(
                         term_id,

@@ -435,6 +435,8 @@ def create_reduced_terms_json(reduced_my_terms, hierarchy_map, term_stats,
 def process_ontology(ontology, base_path, output_dir, go_dag):
     """Process a single ontology (BP, MF, or CC)."""
 
+    os.makedirs(output_dir, exist_ok=True)
+
     ontology_lower = ontology.lower()
 
     my_terms_path = os.path.join(base_path, ontology.upper(), f"my_terms_{ontology_lower}.txt")
@@ -489,6 +491,25 @@ def process_ontology(ontology, base_path, output_dir, go_dag):
         ic_normalized, frequency_data, term_stats, n_signature
     )
 
+    # Save Gene Assignments and Hierarchy Map
+    gene_assignments_file = os.path.join(
+        output_dir, f"gene_assignments_{ontology_lower}.json"
+    )
+    with open(gene_assignments_file, 'w') as f:
+        json.dump(gene_assignments, f, indent=2)
+
+    rep_to_genes_file = os.path.join(
+        output_dir, f"rep_to_genes_{ontology_lower}.json"
+    )
+    with open(rep_to_genes_file, 'w') as f:
+        json.dump(rep_to_genes, f, indent=2)
+
+    hierarchy_map_file = os.path.join(
+        output_dir, f"hierarchy_map_{ontology_lower}.json"
+    )
+    with open(hierarchy_map_file, 'w') as f:
+        json.dump(hierarchy_map, f, indent=2)
+
     reduction_result = analyze_hierarchy(
         hierarchy_map, my_terms, go_dag, gene_to_terms,
         representatives_result['representatives']
@@ -504,7 +525,6 @@ def process_ontology(ontology, base_path, output_dir, go_dag):
     )
 
     output_file = os.path.join(output_dir, f"reduced_terms_{ontology_lower}.json")
-    os.makedirs(output_dir, exist_ok=True)
 
     with open(output_file, 'w') as f:
         json.dump(reduced_terms_json, f, indent=2)
