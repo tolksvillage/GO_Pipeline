@@ -1,0 +1,2373 @@
+ABI3BP:
+- extracellular matrix structural constituent (GO:0005201)
+
+ACTA2:
+- ATP binding (GO:0005524)
+- hydrolase activity (GO:0016787)
+- protein kinase binding (GO:0019901)
+
+ADAM12:
+- SH3 domain binding (GO:0017124)
+- metal ion binding (GO:0046872)
+- metalloendopeptidase activity (GO:0004222)
+
+ANPEP:
+- metalloaminopeptidase activity (GO:0070006)
+- peptide binding (GO:0042277)
+- signaling receptor activity (GO:0038023)
+- virus receptor activity (GO:0001618)
+- zinc ion binding (GO:0008270)
+
+APLP1:
+- alpha-2A adrenergic receptor binding (GO:0031694)
+- alpha-2B adrenergic receptor binding (GO:0031695)
+- alpha-2C adrenergic receptor binding (GO:0031696)
+- heparin binding (GO:0008201)
+- identical protein binding (GO:0042802)
+- transition metal ion binding (GO:0046914)
+
+AREG:
+- cytokine activity (GO:0005125)
+- epidermal growth factor receptor binding (GO:0005154)
+- growth factor activity (GO:0008083)
+- transmembrane receptor protein tyrosine kinase activator activity (GO:0030297)
+
+BASP1:
+- calmodulin binding (GO:0005516)
+- protein domain specific binding (GO:0019904)
+- transcription cis-regulatory region binding (GO:0000976)
+- transcription corepressor activity (GO:0003714)
+
+BDNF:
+- growth factor activity (GO:0008083)
+- nerve growth factor receptor binding (GO:0005163)
+
+BGN:
+- cytokine binding (GO:0019955)
+- extracellular matrix binding (GO:0050840)
+- extracellular matrix structural constituent conferring compression resistance (GO:0030021)
+- glycosaminoglycan binding (GO:0005539)
+
+BMP1:
+- calcium ion binding (GO:0005509)
+- cytokine activity (GO:0005125)
+- growth factor activity (GO:0008083)
+- identical protein binding (GO:0042802)
+- metalloendopeptidase activity (GO:0004222)
+- serine-type endopeptidase activity (GO:0004252)
+- zinc ion binding (GO:0008270)
+
+CADM1:
+- PDZ domain binding (GO:0030165)
+- cell adhesion molecule binding (GO:0050839)
+- protein homodimerization activity (GO:0042803)
+- signaling receptor binding (GO:0005102)
+
+CALD1:
+- actin binding (GO:0003779)
+- cadherin binding (GO:0045296)
+- calmodulin binding (GO:0005516)
+- myosin binding (GO:0017022)
+- tropomyosin binding (GO:0005523)
+
+CALU:
+- calcium ion binding (GO:0005509)
+- protein binding (GO:0005515)
+
+CAP2:
+- actin binding (GO:0003779)
+- adenylate cyclase binding (GO:0008179)
+- identical protein binding (GO:0042802)
+
+CAPG:
+- actin filament binding (GO:0051015)
+- cadherin binding (GO:0045296)
+- phosphatidylinositol-4,5-bisphosphate binding (GO:0005546)
+- protein domain specific binding (GO:0019904)
+
+CCN1:
+- extracellular matrix binding (GO:0050840)
+- extracellular matrix structural constituent (GO:0005201)
+- growth factor binding (GO:0019838)
+- heparin binding (GO:0008201)
+- integrin binding (GO:0005178)
+
+CCN2:
+- heparin binding (GO:0008201)
+- insulin-like growth factor binding (GO:0005520)
+- integrin binding (GO:0005178)
+
+CD44:
+- collagen binding (GO:0005518)
+- cytokine receptor activity (GO:0004896)
+- hyaluronic acid binding (GO:0005540)
+- protein binding (GO:0005515)
+
+CD59:
+- complement binding (GO:0001848)
+
+CDH11:
+- beta-catenin binding (GO:0008013)
+- cadherin binding (GO:0045296)
+- calcium ion binding (GO:0005509)
+
+CDH2:
+- RNA binding (GO:0003723)
+- alpha-catenin binding (GO:0045294)
+- beta-catenin binding (GO:0008013)
+- cadherin binding (GO:0045296)
+- calcium ion binding (GO:0005509)
+- gamma-catenin binding (GO:0045295)
+- identical protein binding (GO:0042802)
+- protein kinase binding (GO:0019901)
+- protein phosphatase binding (GO:0019903)
+
+CDH6:
+- beta-catenin binding (GO:0008013)
+- cadherin binding (GO:0045296)
+- calcium ion binding (GO:0005509)
+
+COL11A1:
+- extracellular matrix binding (GO:0050840)
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- heparan sulfate binding (GO:1904399)
+- heparin binding (GO:0008201)
+- metal ion binding (GO:0046872)
+- protein-macromolecule adaptor activity (GO:0030674)
+
+COL12A1:
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+
+COL16A1:
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- integrin binding (GO:0005178)
+
+COL1A1:
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- identical protein binding (GO:0042802)
+- metal ion binding (GO:0046872)
+- platelet-derived growth factor binding (GO:0048407)
+- protease binding (GO:0002020)
+
+COL1A2:
+- SMAD binding (GO:0046332)
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- identical protein binding (GO:0042802)
+- metal ion binding (GO:0046872)
+- platelet-derived growth factor binding (GO:0048407)
+- protease binding (GO:0002020)
+- protein-macromolecule adaptor activity (GO:0030674)
+
+COL3A1:
+- SMAD binding (GO:0046332)
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- integrin binding (GO:0005178)
+- metal ion binding (GO:0046872)
+- platelet-derived growth factor binding (GO:0048407)
+- protease binding (GO:0002020)
+
+COL4A1:
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- platelet-derived growth factor binding (GO:0048407)
+
+COL4A2:
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- molecular adaptor activity (GO:0060090)
+- protein binding (GO:0005515)
+
+COL5A1:
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- heparin binding (GO:0008201)
+- integrin binding (GO:0005178)
+- metal ion binding (GO:0046872)
+- platelet-derived growth factor binding (GO:0048407)
+- proteoglycan binding (GO:0043394)
+
+COL5A2:
+- SMAD binding (GO:0046332)
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- metal ion binding (GO:0046872)
+
+COL5A3:
+- collagen binding (GO:0005518)
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- heparin binding (GO:0008201)
+- proteoglycan binding (GO:0043394)
+
+COL6A2:
+- collagen binding (GO:0005518)
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- protein binding (GO:0005515)
+
+COL6A3:
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- serine-type endopeptidase inhibitor activity (GO:0004867)
+
+COL7A1:
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- protein binding (GO:0005515)
+- serine-type endopeptidase inhibitor activity (GO:0004867)
+
+COL8A2:
+- extracellular matrix structural constituent conferring tensile strength (GO:0030020)
+- protein-macromolecule adaptor activity (GO:0030674)
+
+COLGALT1:
+- procollagen galactosyltransferase activity (GO:0050211)
+
+COMP:
+- BMP binding (GO:0036122)
+- calcium ion binding (GO:0005509)
+- collagen binding (GO:0005518)
+- extracellular matrix structural constituent (GO:0005201)
+- heparan sulfate proteoglycan binding (GO:0043395)
+- heparin binding (GO:0008201)
+- integrin binding (GO:0005178)
+- protease binding (GO:0002020)
+
+COPA:
+- hormone activity (GO:0005179)
+- structural molecule activity (GO:0005198)
+
+CRLF1:
+- ciliary neurotrophic factor receptor binding (GO:0005127)
+- cytokine activity (GO:0005125)
+- cytokine binding (GO:0019955)
+- cytokine receptor activity (GO:0004896)
+
+CTHRC1:
+- Wnt-protein binding (GO:0017147)
+- extracellular matrix structural constituent (GO:0005201)
+- frizzled binding (GO:0005109)
+- prostaglandin-endoperoxide synthase activity (GO:0004666)
+
+CXCL1:
+- enzyme activator activity (GO:0008047)
+- growth factor activity (GO:0008083)
+
+CXCL12:
+- CXCR chemokine receptor binding (GO:0045236)
+- chemokine activity (GO:0008009)
+- growth factor activity (GO:0008083)
+- integrin binding (GO:0005178)
+
+CXCL6:
+- CXCR chemokine receptor binding (GO:0045236)
+- chemokine activity (GO:0008009)
+- heparin binding (GO:0008201)
+
+CXCL8:
+- chemokine activity (GO:0008009)
+- heparin binding (GO:0008201)
+- interleukin-8 receptor binding (GO:0005153)
+
+DAB2:
+- SMAD binding (GO:0046332)
+- cargo receptor activity (GO:0038024)
+- clathrin adaptor activity (GO:0035615)
+- low-density lipoprotein particle receptor binding (GO:0050750)
+
+DCN:
+- RNA binding (GO:0003723)
+- extracellular matrix binding (GO:0050840)
+- extracellular matrix structural constituent conferring compression resistance (GO:0030021)
+- glycosaminoglycan binding (GO:0005539)
+- protein binding (GO:0005515)
+
+DKK1:
+- co-receptor binding (GO:0039706)
+- growth factor activity (GO:0008083)
+- low-density lipoprotein particle receptor binding (GO:0050750)
+- receptor antagonist activity (GO:0048019)
+
+DPYSL3:
+- SH3 domain binding (GO:0017124)
+- chondroitin sulfate binding (GO:0035374)
+- dihydropyrimidinase activity (GO:0004157)
+- filamin binding (GO:0031005)
+- identical protein binding (GO:0042802)
+
+DST:
+- actin binding (GO:0003779)
+- calcium ion binding (GO:0005509)
+- integrin binding (GO:0005178)
+- microtubule plus-end binding (GO:0051010)
+- protein homodimerization activity (GO:0042803)
+- structural molecule activity (GO:0005198)
+
+ECM1:
+- extracellular matrix structural constituent (GO:0005201)
+- interleukin-2 receptor binding (GO:0005134)
+- protease binding (GO:0002020)
+
+ECM2:
+- collagen V binding (GO:0070052)
+- heparin binding (GO:0008201)
+- integrin binding (GO:0005178)
+
+EDIL3:
+- calcium ion binding (GO:0005509)
+- extracellular matrix structural constituent (GO:0005201)
+- integrin binding (GO:0005178)
+
+EFEMP2:
+- calcium ion binding (GO:0005509)
+- extracellular matrix structural constituent (GO:0005201)
+- heparin binding (GO:0008201)
+- protein homodimerization activity (GO:0042803)
+
+ELN:
+- extracellular matrix binding (GO:0050840)
+- extracellular matrix constituent conferring elasticity (GO:0030023)
+- protein binding (GO:0005515)
+
+EMP3:
+- protein binding (GO:0005515)
+
+ENO2:
+- magnesium ion binding (GO:0000287)
+- phosphopyruvate hydratase activity (GO:0004634)
+- protein binding (GO:0005515)
+
+FAP:
+- dipeptidyl-peptidase activity (GO:0008239)
+- integrin binding (GO:0005178)
+- protease binding (GO:0002020)
+- protein homodimerization activity (GO:0042803)
+- serine-type endopeptidase activity (GO:0004252)
+
+FAS:
+- calmodulin binding (GO:0005516)
+- identical protein binding (GO:0042802)
+- kinase binding (GO:0019900)
+- tumor necrosis factor receptor activity (GO:0005031)
+
+FBLN1:
+- calcium ion binding (GO:0005509)
+- extracellular matrix structural constituent (GO:0005201)
+- fibrinogen binding (GO:0070051)
+- fibronectin binding (GO:0001968)
+- identical protein binding (GO:0042802)
+- integrin binding (GO:0005178)
+- peptidase activator activity (GO:0016504)
+
+FBLN2:
+- calcium ion binding (GO:0005509)
+- extracellular matrix binding (GO:0050840)
+- extracellular matrix constituent conferring elasticity (GO:0030023)
+- protein binding (GO:0005515)
+
+FBLN5:
+- calcium ion binding (GO:0005509)
+- extracellular matrix constituent conferring elasticity (GO:0030023)
+- integrin binding (GO:0005178)
+- protein homodimerization activity (GO:0042803)
+
+FBN1:
+- calcium ion binding (GO:0005509)
+- extracellular matrix constituent conferring elasticity (GO:0030023)
+- heparin binding (GO:0008201)
+- hormone activity (GO:0005179)
+- identical protein binding (GO:0042802)
+- integrin binding (GO:0005178)
+
+FBN2:
+- calcium ion binding (GO:0005509)
+- extracellular matrix constituent conferring elasticity (GO:0030023)
+- hormone activity (GO:0005179)
+
+FERMT2:
+- SMAD binding (GO:0046332)
+- actin filament binding (GO:0051015)
+- integrin binding (GO:0005178)
+- phosphatidylinositol-3,4,5-trisphosphate binding (GO:0005547)
+- protein serine/threonine kinase activator activity (GO:0043539)
+- protein serine/threonine kinase binding (GO:0120283)
+- type I transforming growth factor beta receptor binding (GO:0034713)
+
+FGF2:
+- chemoattractant activity (GO:0042056)
+- chemokine binding (GO:0019956)
+- cytokine activity (GO:0005125)
+- fibroblast growth factor receptor binding (GO:0005104)
+- growth factor activity (GO:0008083)
+- heparin binding (GO:0008201)
+- histone H3K9me2/3 reader activity (GO:0062072)
+- identical protein binding (GO:0042802)
+- integrin binding (GO:0005178)
+- receptor-receptor interaction (GO:0090722)
+
+FLNA:
+- DNA-binding transcription factor binding (GO:0140297)
+- Fc-gamma receptor I complex binding (GO:0034988)
+- G protein-coupled receptor binding (GO:0001664)
+- RNA binding (GO:0003723)
+- SMAD binding (GO:0046332)
+- actin filament binding (GO:0051015)
+- cadherin binding (GO:0045296)
+- potassium channel regulator activity (GO:0015459)
+- protein homodimerization activity (GO:0042803)
+- protein kinase C binding (GO:0005080)
+- small GTPase binding (GO:0031267)
+- transmembrane transporter binding (GO:0044325)
+
+FMOD:
+- extracellular matrix structural constituent conferring compression resistance (GO:0030021)
+
+FN1:
+- collagen binding (GO:0005518)
+- extracellular matrix structural constituent (GO:0005201)
+- heparin binding (GO:0008201)
+- identical protein binding (GO:0042802)
+- integrin binding (GO:0005178)
+- peptidase activator activity (GO:0016504)
+- protease binding (GO:0002020)
+- proteoglycan binding (GO:0043394)
+- receptor ligand activity (GO:0048018)
+
+FOXC2:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- chromatin DNA binding (GO:0031490)
+- identical protein binding (GO:0042802)
+- promoter-specific chromatin binding (GO:1990841)
+
+FSTL1:
+- calcium ion binding (GO:0005509)
+- heparin binding (GO:0008201)
+- protein binding (GO:0005515)
+
+FSTL3:
+- activin binding (GO:0048185)
+- fibronectin binding (GO:0001968)
+
+FUCA1:
+- alpha-L-fucosidase activity (GO:0004560)
+- protein binding (GO:0005515)
+
+FZD8:
+- G protein-coupled receptor activity (GO:0004930)
+- PDZ domain binding (GO:0030165)
+- Wnt receptor activity (GO:0042813)
+- Wnt-protein binding (GO:0017147)
+- signaling receptor binding (GO:0005102)
+- ubiquitin protein ligase binding (GO:0031625)
+
+GADD45A:
+- kinase binding (GO:0019900)
+- promoter-specific chromatin binding (GO:1990841)
+- protein heterodimerization activity (GO:0046982)
+- protein homodimerization activity (GO:0042803)
+
+GADD45B:
+- protein binding (GO:0005515)
+
+GAS1:
+- oxysterol binding (GO:0008142)
+- protein binding (GO:0005515)
+
+GEM:
+- GDP binding (GO:0019003)
+- GTP binding (GO:0005525)
+- GTPase activity (GO:0003924)
+- calcium channel regulator activity (GO:0005246)
+- calmodulin binding (GO:0005516)
+- magnesium ion binding (GO:0000287)
+
+GJA1:
+- alpha-tubulin binding (GO:0043014)
+- beta-catenin binding (GO:0008013)
+- beta-tubulin binding (GO:0048487)
+- efflux transmembrane transporter activity (GO:0015562)
+- gap junction channel activity involved in cardiac conduction electrical coupling (GO:0086075)
+- gap junction hemi-channel activity (GO:0055077)
+- glutathione transmembrane transporter activity (GO:0034634)
+- monoatomic ion transmembrane transporter activity (GO:0015075)
+- protein tyrosine kinase binding (GO:1990782)
+- scaffold protein binding (GO:0097110)
+- signaling receptor binding (GO:0005102)
+
+GLIPR1:
+- protein binding (GO:0005515)
+
+GPC1:
+- copper ion binding (GO:0005507)
+- fibroblast growth factor binding (GO:0017134)
+- laminin binding (GO:0043236)
+
+GPX7:
+- catalase activity (GO:0004096)
+- glutathione peroxidase activity (GO:0004602)
+- protein binding (GO:0005515)
+
+GREM1:
+- BMP binding (GO:0036122)
+- cytokine activity (GO:0005125)
+- morphogen activity (GO:0016015)
+- protein homodimerization activity (GO:0042803)
+- transmembrane receptor protein tyrosine kinase activator activity (GO:0030297)
+- vascular endothelial growth factor receptor 2 binding (GO:0043184)
+
+HTRA1:
+- growth factor binding (GO:0019838)
+- identical protein binding (GO:0042802)
+- molecular function activator activity (GO:0140677)
+- serine-type endopeptidase activity (GO:0004252)
+
+ID2:
+- RNA polymerase II-specific DNA-binding transcription factor binding (GO:0061629)
+- protein dimerization activity (GO:0046983)
+- transcription corepressor activity (GO:0003714)
+- transcription regulator inhibitor activity (GO:0140416)
+- transmembrane transporter binding (GO:0044325)
+
+IGFBP2:
+- insulin-like growth factor I binding (GO:0031994)
+- insulin-like growth factor II binding (GO:0031995)
+- protein phosphatase inhibitor activity (GO:0004864)
+- receptor ligand inhibitor activity (GO:0141069)
+- signaling receptor binding (GO:0005102)
+- signaling receptor inhibitor activity (GO:0030547)
+
+IGFBP3:
+- fibronectin binding (GO:0001968)
+- insulin-like growth factor I binding (GO:0031994)
+- insulin-like growth factor II binding (GO:0031995)
+- metal ion binding (GO:0046872)
+- protein tyrosine phosphatase activator activity (GO:0008160)
+
+IGFBP4:
+- insulin-like growth factor I binding (GO:0031994)
+- insulin-like growth factor II binding (GO:0031995)
+- signaling receptor binding (GO:0005102)
+
+IL15:
+- cytokine activity (GO:0005125)
+- cytokine receptor binding (GO:0005126)
+
+IL32:
+- cytokine activity (GO:0005125)
+
+IL6:
+- cytokine activity (GO:0005125)
+- growth factor activity (GO:0008083)
+- identical protein binding (GO:0042802)
+- interleukin-6 receptor binding (GO:0005138)
+
+INHBA:
+- cytokine activity (GO:0005125)
+- growth factor activity (GO:0008083)
+- hormone activity (GO:0005179)
+- identical protein binding (GO:0042802)
+- peptide hormone binding (GO:0017046)
+- protein-containing complex binding (GO:0044877)
+- type II activin receptor binding (GO:0070699)
+
+ITGA2:
+- amyloid-beta binding (GO:0001540)
+- collagen binding involved in cell-matrix adhesion (GO:0098639)
+- collagen receptor activity (GO:0038064)
+- heparan sulfate proteoglycan binding (GO:0043395)
+- integrin binding (GO:0005178)
+- laminin binding (GO:0043236)
+- metal ion binding (GO:0046872)
+- virus receptor activity (GO:0001618)
+
+ITGA5:
+- calcium ion binding (GO:0005509)
+- epidermal growth factor receptor binding (GO:0005154)
+- integrin binding (GO:0005178)
+- platelet-derived growth factor receptor binding (GO:0005161)
+- signaling receptor activity (GO:0038023)
+- vascular endothelial growth factor receptor 2 binding (GO:0043184)
+- virus receptor activity (GO:0001618)
+
+ITGAV:
+- C-X3-C chemokine binding (GO:0019960)
+- coreceptor activity (GO:0015026)
+- extracellular matrix binding (GO:0050840)
+- extracellular matrix protein binding (GO:1990430)
+- fibroblast growth factor binding (GO:0017134)
+- fibronectin binding (GO:0001968)
+- insulin-like growth factor I binding (GO:0031994)
+- integrin binding (GO:0005178)
+- metal ion binding (GO:0046872)
+- neuregulin binding (GO:0038132)
+- opsonin binding (GO:0001846)
+- protease binding (GO:0002020)
+- protein kinase C binding (GO:0005080)
+- transforming growth factor beta binding (GO:0050431)
+- virus receptor activity (GO:0001618)
+- voltage-gated calcium channel activity (GO:0005245)
+
+ITGB1:
+- C-X3-C chemokine binding (GO:0019960)
+- actin binding (GO:0003779)
+- cadherin binding (GO:0045296)
+- calcium ion binding (GO:0005509)
+- collagen binding involved in cell-matrix adhesion (GO:0098639)
+- coreceptor activity (GO:0015026)
+- fibronectin binding (GO:0001968)
+- integrin binding involved in cell-matrix adhesion (GO:0098640)
+- laminin binding (GO:0043236)
+- magnesium ion binding (GO:0000287)
+- protease binding (GO:0002020)
+- protein heterodimerization activity (GO:0046982)
+- protein tyrosine kinase binding (GO:1990782)
+- virus receptor activity (GO:0001618)
+
+ITGB3:
+- C-X3-C chemokine binding (GO:0019960)
+- coreceptor activity (GO:0015026)
+- extracellular matrix binding (GO:0050840)
+- fibrinogen binding (GO:0070051)
+- fibroblast growth factor binding (GO:0017134)
+- fibronectin binding (GO:0001968)
+- identical protein binding (GO:0042802)
+- insulin-like growth factor I binding (GO:0031994)
+- integrin binding (GO:0005178)
+- metal ion binding (GO:0046872)
+- neuregulin binding (GO:0038132)
+- platelet-derived growth factor receptor binding (GO:0005161)
+- protease binding (GO:0002020)
+- protein disulfide isomerase activity (GO:0003756)
+- protein kinase C binding (GO:0005080)
+- vascular endothelial growth factor receptor 2 binding (GO:0043184)
+- virus receptor activity (GO:0001618)
+
+ITGB5:
+- integrin binding (GO:0005178)
+- metal ion binding (GO:0046872)
+- virus receptor activity (GO:0001618)
+
+JUN:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- DNA-binding transcription repressor activity, RNA polymerase II-specific (GO:0001227)
+- GTPase activator activity (GO:0005096)
+- R-SMAD binding (GO:0070412)
+- RNA binding (GO:0003723)
+- RNA polymerase II-specific DNA-binding transcription factor binding (GO:0061629)
+- cAMP response element binding (GO:0035497)
+- general transcription initiation factor binding (GO:0140296)
+- identical protein binding (GO:0042802)
+- ubiquitin protein ligase binding (GO:0031625)
+
+LAMA1:
+- extracellular matrix structural constituent (GO:0005201)
+- glycosphingolipid binding (GO:0043208)
+- signaling receptor binding (GO:0005102)
+
+LAMA2:
+- extracellular matrix structural constituent (GO:0005201)
+- signaling receptor binding (GO:0005102)
+
+LAMA3:
+- extracellular matrix structural constituent (GO:0005201)
+- signaling receptor binding (GO:0005102)
+
+LAMC1:
+- extracellular matrix constituent conferring elasticity (GO:0030023)
+
+LAMC2:
+- extracellular matrix structural constituent (GO:0005201)
+- heparin binding (GO:0008201)
+
+LGALS1:
+- RNA binding (GO:0003723)
+- lactose binding (GO:0030395)
+- laminin binding (GO:0043236)
+- receptor ligand activity (GO:0048018)
+
+LOX:
+- collagen binding (GO:0005518)
+- copper ion binding (GO:0005507)
+- molecular adaptor activity (GO:0060090)
+- protein binding (GO:0005515)
+- protein-lysine 6-oxidase activity (GO:0004720)
+
+LOXL1:
+- copper ion binding (GO:0005507)
+- protein binding (GO:0005515)
+- protein-lysine 6-oxidase activity (GO:0004720)
+
+LOXL2:
+- calcium ion binding (GO:0005509)
+- copper ion binding (GO:0005507)
+- oligosaccharide binding (GO:0070492)
+- protein binding (GO:0005515)
+- protein-lysine 6-oxidase activity (GO:0004720)
+
+LRP1:
+- RNA binding (GO:0003723)
+- alpha-2 macroglobulin receptor activity (GO:0016964)
+- amyloid-beta binding (GO:0001540)
+- apolipoprotein binding (GO:0034185)
+- apolipoprotein receptor activity (GO:0030226)
+- calcium ion binding (GO:0005509)
+- clathrin heavy chain binding (GO:0032050)
+- heparan sulfate proteoglycan binding (GO:0043395)
+- lipoprotein particle receptor binding (GO:0070325)
+- low-density lipoprotein particle receptor activity (GO:0005041)
+- protein-containing complex binding (GO:0044877)
+- scavenger receptor activity (GO:0005044)
+- signaling receptor activity (GO:0038023)
+
+LRRC15:
+- collagen binding (GO:0005518)
+- fibronectin binding (GO:0001968)
+- laminin binding (GO:0043236)
+- protein sequestering activity (GO:0140311)
+
+LUM:
+- collagen binding (GO:0005518)
+- extracellular matrix structural constituent conferring compression resistance (GO:0030021)
+- protein binding (GO:0005515)
+
+MAGEE1:
+- protein binding (GO:0005515)
+
+MATN2:
+- calcium ion binding (GO:0005509)
+- extracellular matrix structural constituent (GO:0005201)
+- protein binding (GO:0005515)
+
+MATN3:
+- calcium ion binding (GO:0005509)
+- extracellular matrix structural constituent (GO:0005201)
+- protein binding (GO:0005515)
+
+MCM7:
+- ATP binding (GO:0005524)
+- ATP hydrolysis activity (GO:0016887)
+- ATP-dependent H2AZ histone chaperone activity (GO:0140849)
+- ATP-dependent H3-H4 histone complex chaperone activity (GO:0140665)
+- DNA clamp loader activity (GO:0003689)
+- chromatin extrusion motor activity (GO:0140584)
+- cohesin loader activity (GO:0061775)
+- double-stranded DNA helicase activity (GO:0036121)
+- forked DNA-dependent helicase activity (GO:0061749)
+- four-way junction helicase activity (GO:0009378)
+- protein binding (GO:0005515)
+- single-stranded 3'-5' DNA helicase activity (GO:1990518)
+- single-stranded DNA binding (GO:0003697)
+
+MEST:
+- hydrolase activity (GO:0016787)
+- protein binding (GO:0005515)
+
+MFAP5:
+- extracellular matrix structural constituent (GO:0005201)
+
+MGP:
+- calcium ion binding (GO:0005509)
+- extracellular matrix structural constituent (GO:0005201)
+- protein binding (GO:0005515)
+- structural constituent of bone (GO:0008147)
+
+MMP1:
+- metalloendopeptidase activity (GO:0004222)
+- serine-type endopeptidase activity (GO:0004252)
+- zinc ion binding (GO:0008270)
+
+MMP14:
+- integrin binding (GO:0005178)
+- metalloaminopeptidase activity (GO:0070006)
+- metalloendopeptidase activity (GO:0004222)
+- serine-type endopeptidase activity (GO:0004252)
+- zinc ion binding (GO:0008270)
+
+MMP2:
+- fibronectin binding (GO:0001968)
+- metalloendopeptidase activity (GO:0004222)
+- serine-type endopeptidase activity (GO:0004252)
+- zinc ion binding (GO:0008270)
+
+MMP3:
+- metalloendopeptidase activity (GO:0004222)
+- protein binding (GO:0005515)
+- serine-type endopeptidase activity (GO:0004252)
+- zinc ion binding (GO:0008270)
+
+MSX1:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- DNA-binding transcription repressor activity, RNA polymerase II-specific (GO:0001227)
+- RNA polymerase II transcription regulatory region sequence-specific DNA binding (GO:0000977)
+- cis-regulatory region sequence-specific DNA binding (GO:0000987)
+- p53 binding (GO:0002039)
+
+MXRA5:
+- extracellular matrix structural constituent (GO:0005201)
+
+MYL9:
+- myosin heavy chain binding (GO:0032036)
+- structural constituent of cytoskeleton (GO:0005200)
+- structural constituent of muscle (GO:0008307)
+
+MYLK:
+- ATP binding (GO:0005524)
+- actin binding (GO:0003779)
+- calmodulin binding (GO:0005516)
+- metal ion binding (GO:0046872)
+- myosin light chain kinase activity (GO:0004687)
+- scaffold protein binding (GO:0097110)
+
+NID2:
+- calcium ion binding (GO:0005509)
+- collagen binding (GO:0005518)
+- extracellular matrix structural constituent (GO:0005201)
+- protein binding (GO:0005515)
+
+NNMT:
+- nicotinamide N-methyltransferase activity (GO:0008112)
+- pyridine N-methyltransferase activity (GO:0030760)
+
+NOTCH2:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- NF-kappaB binding (GO:0051059)
+- calcium ion binding (GO:0005509)
+- cis-regulatory region sequence-specific DNA binding (GO:0000987)
+- enzyme binding (GO:0019899)
+- signaling receptor activity (GO:0038023)
+
+NT5E:
+- 5'-deoxynucleotidase activity (GO:0002953)
+- 5'-nucleotidase activity (GO:0008253)
+- identical protein binding (GO:0042802)
+- nucleotide binding (GO:0000166)
+- zinc ion binding (GO:0008270)
+
+NTM:
+- protein binding (GO:0005515)
+
+OXTR:
+- ionotropic glutamate receptor binding (GO:0035255)
+- oxytocin receptor activity (GO:0004990)
+- peptide hormone binding (GO:0017046)
+- vasopressin receptor activity (GO:0005000)
+
+P3H1:
+- L-ascorbic acid binding (GO:0031418)
+- collagen binding (GO:0005518)
+- iron ion binding (GO:0005506)
+- procollagen-proline 3-dioxygenase activity (GO:0019797)
+- protein binding (GO:0005515)
+
+PCOLCE:
+- collagen binding (GO:0005518)
+- extracellular matrix structural constituent (GO:0005201)
+- heparin binding (GO:0008201)
+- peptidase activator activity (GO:0016504)
+- protein binding (GO:0005515)
+
+PCOLCE2:
+- collagen binding (GO:0005518)
+- heparin binding (GO:0008201)
+- peptidase activator activity (GO:0016504)
+- protein binding (GO:0005515)
+
+PDGFRB:
+- ATP binding (GO:0005524)
+- GPI-linked ephrin receptor activity (GO:0005004)
+- GTPase activator activity (GO:0005096)
+- boss receptor activity (GO:0008288)
+- brain-derived neurotrophic factor receptor activity (GO:0060175)
+- epidermal growth factor receptor activity (GO:0005006)
+- fibroblast growth factor receptor activity (GO:0005007)
+- hepatocyte growth factor receptor activity (GO:0005008)
+- histone H2AXY142 kinase activity (GO:0140801)
+- histone H3Y41 kinase activity (GO:0035401)
+- insulin receptor activity (GO:0005009)
+- insulin-like growth factor receptor activity (GO:0005010)
+- macrophage colony-stimulating factor receptor activity (GO:0005011)
+- phospholipase C activator activity (GO:0160185)
+- placental growth factor receptor activity (GO:0036332)
+- platelet activating factor receptor activity (GO:0004992)
+- platelet-derived growth factor alpha-receptor activity (GO:0005018)
+- platelet-derived growth factor beta-receptor activity (GO:0005019)
+- platelet-derived growth factor binding (GO:0048407)
+- platelet-derived growth factor receptor binding (GO:0005161)
+- protein kinase binding (GO:0019901)
+- protein tyrosine kinase collagen receptor activity (GO:0038062)
+- stem cell factor receptor activity (GO:0005020)
+- transmembrane-ephrin receptor activity (GO:0005005)
+- vascular endothelial growth factor binding (GO:0038085)
+- vascular endothelial growth factor receptor activity (GO:0005021)
+
+PDLIM4:
+- actin binding (GO:0003779)
+- metal ion binding (GO:0046872)
+- muscle alpha-actinin binding (GO:0051371)
+- protein homodimerization activity (GO:0042803)
+- protein phosphatase binding (GO:0019903)
+
+PFN2:
+- ATP hydrolysis activity (GO:0016887)
+- actin monomer binding (GO:0003785)
+- phosphatidylinositol-4,5-bisphosphate binding (GO:0005546)
+
+PLAUR:
+- enzyme binding (GO:0019899)
+- protein domain specific binding (GO:0019904)
+- signaling receptor binding (GO:0005102)
+- urokinase plasminogen activator receptor activity (GO:0030377)
+
+PLOD1:
+- L-ascorbic acid binding (GO:0031418)
+- iron ion binding (GO:0005506)
+- procollagen glucosyltransferase activity (GO:0033823)
+- procollagen-lysine 5-dioxygenase activity (GO:0008475)
+- protein binding (GO:0005515)
+
+PLOD2:
+- L-ascorbic acid binding (GO:0031418)
+- iron ion binding (GO:0005506)
+- procollagen glucosyltransferase activity (GO:0033823)
+- procollagen-lysine 5-dioxygenase activity (GO:0008475)
+
+PLOD3:
+- L-ascorbic acid binding (GO:0031418)
+- iron ion binding (GO:0005506)
+- procollagen galactosyltransferase activity (GO:0050211)
+- procollagen glucosyltransferase activity (GO:0033823)
+- procollagen-lysine 5-dioxygenase activity (GO:0008475)
+- protein binding (GO:0005515)
+
+PMEPA1:
+- R-SMAD binding (GO:0070412)
+- WW domain binding (GO:0050699)
+- protein sequestering activity (GO:0140311)
+
+PMP22:
+- protein binding (GO:0005515)
+
+POSTN:
+- cell adhesion molecule binding (GO:0050839)
+- extracellular matrix structural constituent (GO:0005201)
+- heparin binding (GO:0008201)
+- metal ion binding (GO:0046872)
+
+PPIB:
+- RNA binding (GO:0003723)
+- RNA polymerase II CTD heptapeptide repeat P3 isomerase activity (GO:0140839)
+- RNA polymerase II CTD heptapeptide repeat P6 isomerase activity (GO:0140840)
+- RNA polymerase binding (GO:0070063)
+- collagen binding (GO:0005518)
+- cyclosporin A binding (GO:0016018)
+- unfolded protein binding (GO:0051082)
+
+PRRX1:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- DNA-binding transcription repressor activity, RNA polymerase II-specific (GO:0001227)
+- HMG box domain binding (GO:0071837)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- RNA polymerase II general transcription initiation factor activity (GO:0016251)
+- RNA polymerase II-specific DNA-binding transcription factor binding (GO:0061629)
+
+PRSS2:
+- calcium ion binding (GO:0005509)
+- metalloendopeptidase activity (GO:0004222)
+- protein binding (GO:0005515)
+- serine-type endopeptidase activity (GO:0004252)
+
+PTHLH:
+- hormone activity (GO:0005179)
+- peptide hormone receptor binding (GO:0051428)
+
+PTX3:
+- (1->3)-beta-D-glucan binding (GO:0001872)
+- complement component C1q complex binding (GO:0001849)
+- identical protein binding (GO:0042802)
+- virion binding (GO:0046790)
+
+PVR:
+- cell adhesion molecule binding (GO:0050839)
+- receptor ligand activity (GO:0048018)
+- signaling receptor activity (GO:0038023)
+- virus receptor activity (GO:0001618)
+
+QSOX1:
+- FAD binding (GO:0071949)
+- flavin-dependent sulfhydryl oxidase activity (GO:0016971)
+- protein disulfide isomerase activity (GO:0003756)
+
+RGS4:
+- G-protein alpha-subunit binding (GO:0001965)
+- GTPase activator activity (GO:0005096)
+- GTPase activity (GO:0003924)
+- calmodulin binding (GO:0005516)
+- protein kinase binding (GO:0019901)
+
+RHOB:
+- GDP binding (GO:0019003)
+- GTP binding (GO:0005525)
+- GTPase activity (GO:0003924)
+- protein binding (GO:0005515)
+
+SAT1:
+- diamine N-acetyltransferase activity (GO:0004145)
+- identical protein binding (GO:0042802)
+- spermidine binding (GO:0019809)
+
+SCG2:
+- chemoattractant activity (GO:0042056)
+- cytokine activity (GO:0005125)
+
+SDC1:
+- cargo receptor activity (GO:0038024)
+- identical protein binding (GO:0042802)
+
+SDC4:
+- fibronectin binding (GO:0001968)
+- identical protein binding (GO:0042802)
+- protein kinase C binding (GO:0005080)
+- thrombospondin receptor activity (GO:0070053)
+
+SERPINE1:
+- protease binding (GO:0002020)
+- serine-type endopeptidase inhibitor activity (GO:0004867)
+- signaling receptor binding (GO:0005102)
+
+SERPINE2:
+- heparin binding (GO:0008201)
+- serine-type endopeptidase inhibitor activity (GO:0004867)
+- signaling receptor binding (GO:0005102)
+
+SERPINH1:
+- RNA binding (GO:0003723)
+- collagen binding (GO:0005518)
+- serine-type endopeptidase inhibitor activity (GO:0004867)
+- unfolded protein binding (GO:0051082)
+
+SFRP1:
+- Wnt-protein binding (GO:0017147)
+- cysteine-type endopeptidase activity (GO:0004197)
+- frizzled binding (GO:0005109)
+- heparin binding (GO:0008201)
+- identical protein binding (GO:0042802)
+
+SFRP4:
+- Wnt-protein binding (GO:0017147)
+
+SGCB:
+- protein binding (GO:0005515)
+
+SGCD:
+- No MF annotations found
+
+SGCG:
+- protein binding (GO:0005515)
+
+SLC6A8:
+- creatine:sodium symporter activity (GO:0005309)
+- gamma-aminobutyric acid:sodium:chloride symporter activity (GO:0005332)
+
+SLIT2:
+- GTPase inhibitor activity (GO:0005095)
+- Roundabout binding (GO:0048495)
+- calcium ion binding (GO:0005509)
+- heparin binding (GO:0008201)
+- laminin-1 binding (GO:0043237)
+- protein homodimerization activity (GO:0042803)
+- proteoglycan binding (GO:0043394)
+
+SLIT3:
+- Roundabout binding (GO:0048495)
+- calcium ion binding (GO:0005509)
+- heparin binding (GO:0008201)
+
+SNAI2:
+- DNA-binding transcription repressor activity, RNA polymerase II-specific (GO:0001227)
+- E-box binding (GO:0070888)
+- chromatin binding (GO:0003682)
+- metal ion binding (GO:0046872)
+- protein binding (GO:0005515)
+
+SNTB1:
+- PDZ domain binding (GO:0030165)
+- actin binding (GO:0003779)
+- calmodulin binding (GO:0005516)
+- structural molecule activity (GO:0005198)
+
+SPARC:
+- calcium ion binding (GO:0005509)
+- collagen binding (GO:0005518)
+- extracellular matrix binding (GO:0050840)
+- extracellular matrix structural constituent (GO:0005201)
+- protein binding (GO:0005515)
+
+SPOCK1:
+- calcium ion binding (GO:0005509)
+- collagen binding (GO:0005518)
+- cysteine-type endopeptidase inhibitor activity (GO:0004869)
+- extracellular matrix binding (GO:0050840)
+- extracellular matrix structural constituent (GO:0005201)
+- metalloendopeptidase inhibitor activity (GO:0008191)
+- protein binding (GO:0005515)
+- serine-type endopeptidase inhibitor activity (GO:0004867)
+
+SPP1:
+- cytokine activity (GO:0005125)
+- extracellular matrix binding (GO:0050840)
+- integrin binding (GO:0005178)
+- small molecule binding (GO:0036094)
+
+TAGLN:
+- actin binding (GO:0003779)
+
+TFPI2:
+- extracellular matrix structural constituent (GO:0005201)
+- serine-type endopeptidase inhibitor activity (GO:0004867)
+
+TGFB1:
+- cytokine activity (GO:0005125)
+- deubiquitinase activator activity (GO:0035800)
+- enzyme binding (GO:0019899)
+- growth factor activity (GO:0008083)
+- identical protein binding (GO:0042802)
+- protein serine/threonine kinase activator activity (GO:0043539)
+- protein-containing complex binding (GO:0044877)
+- type I transforming growth factor beta receptor binding (GO:0034713)
+- type II transforming growth factor beta receptor binding (GO:0005114)
+- type III transforming growth factor beta receptor binding (GO:0034714)
+
+TGFBI:
+- collagen binding (GO:0005518)
+- extracellular matrix binding (GO:0050840)
+- extracellular matrix structural constituent (GO:0005201)
+- identical protein binding (GO:0042802)
+- integrin binding (GO:0005178)
+
+TGFBR3:
+- BMP binding (GO:0036122)
+- PDZ domain binding (GO:0030165)
+- SMAD binding (GO:0046332)
+- activin binding (GO:0048185)
+- coreceptor activity (GO:0015026)
+- fibroblast growth factor binding (GO:0017134)
+- heparin binding (GO:0008201)
+- transforming growth factor beta binding (GO:0050431)
+- transforming growth factor beta receptor activity, type III (GO:0070123)
+- type II transforming growth factor beta receptor binding (GO:0005114)
+
+TGM2:
+- GTP binding (GO:0005525)
+- calcium ion binding (GO:0005509)
+- histone dopaminyltransferase activity (GO:0120297)
+- histone serotonyltransferase activity (GO:0120295)
+- peptidase activity (GO:0008233)
+- peptide histaminyltransferase activity (GO:0120299)
+- peptide noradrenalinyltransferase activity (GO:0120298)
+- protein binding (GO:0005515)
+- protein-glutamine gamma-glutamyltransferase activity (GO:0003810)
+- protein-glutamine glutaminase activity (GO:0050568)
+
+THBS1:
+- calcium ion binding (GO:0005509)
+- collagen V binding (GO:0070052)
+- endopeptidase inhibitor activity (GO:0004866)
+- extracellular matrix structural constituent (GO:0005201)
+- fibrinogen binding (GO:0070051)
+- fibroblast growth factor binding (GO:0017134)
+- fibronectin binding (GO:0001968)
+- heparin binding (GO:0008201)
+- integrin binding (GO:0005178)
+- laminin binding (GO:0043236)
+- low-density lipoprotein particle binding (GO:0030169)
+- phosphatidylserine binding (GO:0001786)
+- protease binding (GO:0002020)
+- protein homodimerization activity (GO:0042803)
+- proteoglycan binding (GO:0043394)
+- transforming growth factor beta binding (GO:0050431)
+
+THBS2:
+- calcium ion binding (GO:0005509)
+- extracellular matrix structural constituent (GO:0005201)
+- heparin binding (GO:0008201)
+- protein binding (GO:0005515)
+
+THY1:
+- GPI anchor binding (GO:0034235)
+- GTPase activator activity (GO:0005096)
+- integrin binding (GO:0005178)
+
+TIMP1:
+- cytokine activity (GO:0005125)
+- growth factor activity (GO:0008083)
+- metalloendopeptidase inhibitor activity (GO:0008191)
+- protease binding (GO:0002020)
+- zinc ion binding (GO:0008270)
+
+TIMP3:
+- metal ion binding (GO:0046872)
+- metalloendopeptidase inhibitor activity (GO:0008191)
+- protein binding (GO:0005515)
+
+TNC:
+- extracellular matrix structural constituent (GO:0005201)
+- integrin binding (GO:0005178)
+- syndecan binding (GO:0045545)
+
+TNFAIP3:
+- DNA binding (GO:0003677)
+- K63-linked deubiquitinase activity (GO:0061578)
+- K63-linked polyubiquitin modification-dependent protein binding (GO:0070530)
+- cysteine-type deubiquitinase activity (GO:0004843)
+- identical protein binding (GO:0042802)
+- kinase binding (GO:0019900)
+- protease binding (GO:0002020)
+- ubiquitin binding (GO:0043130)
+- ubiquitin-protein transferase activity (GO:0004842)
+- zinc ion binding (GO:0008270)
+
+TNFRSF11B:
+- cytokine activity (GO:0005125)
+- heparan sulfate binding (GO:1904399)
+- signaling receptor activity (GO:0038023)
+
+TNFRSF12A:
+- protein binding (GO:0005515)
+
+TPM1:
+- actin filament binding (GO:0051015)
+- protein heterodimerization activity (GO:0046982)
+- protein homodimerization activity (GO:0042803)
+- structural constituent of cytoskeleton (GO:0005200)
+- structural constituent of muscle (GO:0008307)
+
+TPM2:
+- actin filament binding (GO:0051015)
+- protein heterodimerization activity (GO:0046982)
+- protein homodimerization activity (GO:0042803)
+- structural constituent of muscle (GO:0008307)
+
+TPM4:
+- actin filament binding (GO:0051015)
+- calcium ion binding (GO:0005509)
+- protein heterodimerization activity (GO:0046982)
+- protein homodimerization activity (GO:0042803)
+- structural constituent of muscle (GO:0008307)
+
+VCAM1:
+- cell adhesion mediator activity (GO:0098631)
+- integrin binding (GO:0005178)
+- primary methylamine oxidase activity (GO:0008131)
+
+VCAN:
+- calcium ion binding (GO:0005509)
+- carbohydrate binding (GO:0030246)
+- extracellular matrix structural constituent conferring compression resistance (GO:0030021)
+- hyaluronic acid binding (GO:0005540)
+- protein binding (GO:0005515)
+- protein tyrosine phosphatase activator activity (GO:0008160)
+
+VEGFA:
+- chemoattractant activity (GO:0042056)
+- cytokine activity (GO:0005125)
+- extracellular matrix binding (GO:0050840)
+- fibronectin binding (GO:0001968)
+- growth factor activity (GO:0008083)
+- heparin binding (GO:0008201)
+- neuropilin binding (GO:0038191)
+- platelet-derived growth factor receptor binding (GO:0005161)
+- protein homodimerization activity (GO:0042803)
+- transmembrane receptor protein tyrosine kinase activator activity (GO:0030297)
+- vascular endothelial growth factor receptor 1 binding (GO:0043183)
+- vascular endothelial growth factor receptor 2 binding (GO:0043184)
+
+VEGFC:
+- chemoattractant activity (GO:0042056)
+- growth factor activity (GO:0008083)
+- vascular endothelial growth factor receptor 3 binding (GO:0043185)
+
+VIM:
+- double-stranded RNA binding (GO:0003725)
+- identical protein binding (GO:0042802)
+- keratin filament binding (GO:1990254)
+- molecular adaptor activity (GO:0060090)
+- protein domain specific binding (GO:0019904)
+- scaffold protein binding (GO:0097110)
+- structural constituent of cytoskeleton (GO:0005200)
+- structural constituent of eye lens (GO:0005212)
+
+WIPF1:
+- SH3 domain binding (GO:0017124)
+- actin binding (GO:0003779)
+- profilin binding (GO:0005522)
+- protein folding chaperone (GO:0044183)
+
+WNT5A:
+- chemoattractant activity involved in axon guidance (GO:1902379)
+- cytokine activity (GO:0005125)
+- frizzled binding (GO:0005109)
+- phospholipid binding (GO:0005543)
+- protein domain specific binding (GO:0019904)
+- receptor tyrosine kinase-like orphan receptor binding (GO:0005115)
+
+LYPLA1:
+- palmitoyl-(protein) hydrolase activity (GO:0008474)
+- phosphatidylcholine lysophospholipase activity (GO:0004622)
+- protein binding (GO:0005515)
+
+EPB41L2:
+- PH domain binding (GO:0042731)
+- actin binding (GO:0003779)
+- spectrin binding (GO:0030507)
+- structural molecule activity (GO:0005198)
+
+CCL18:
+- CCR chemokine receptor binding (GO:0048020)
+- chemokine activity (GO:0008009)
+
+CHRNA1:
+- acetylcholine binding (GO:0042166)
+- acetylcholine receptor activity (GO:0015464)
+- acetylcholine-gated monoatomic cation-selective channel activity (GO:0022848)
+
+PRAMEF13:
+- ubiquitin-like ligase-substrate adaptor activity (GO:1990756)
+
+EPM2A:
+- MAP kinase serine/threonine phosphatase activity (GO:1990439)
+- RNA polymerase II CTD heptapeptide repeat S2 phosphatase activity (GO:0180006)
+- RNA polymerase II CTD heptapeptide repeat S5 phosphatase activity (GO:0180007)
+- RNA polymerase II CTD heptapeptide repeat S7 phosphatase activity (GO:0180008)
+- RNA polymerase II CTD heptapeptide repeat T4 phosphatase activity (GO:0180005)
+- RNA polymerase II CTD heptapeptide repeat Y1 phosphatase activity (GO:0180004)
+- alpha-1,4-glucan glucosyltransferase (UDP-glucose donor) activity (GO:0004373)
+- calmodulin-dependent protein phosphatase activity (GO:0033192)
+- carbohydrate phosphatase activity (GO:0019203)
+- glycogen binding (GO:2001069)
+- histone H2AXS140 phosphatase activity (GO:0140791)
+- histone H2AXY142 phosphatase activity (GO:0140793)
+- myosin phosphatase activity (GO:0017018)
+- non-membrane spanning protein tyrosine phosphatase activity (GO:0004726)
+- protein homodimerization activity (GO:0042803)
+- protein tyrosine phosphatase activity, metal-dependent (GO:0030946)
+- starch binding (GO:2001070)
+
+AK4:
+- AMP kinase activity (GO:0004017)
+- ATP binding (GO:0005524)
+- CMP kinase activity (GO:0036430)
+- GTP binding (GO:0005525)
+- dAMP kinase activity (GO:0047506)
+- dCMP kinase activity (GO:0036431)
+- nucleoside diphosphate kinase activity (GO:0004550)
+- nucleoside triphosphate adenylate kinase activity (GO:0046899)
+- protein binding (GO:0005515)
+
+AASS:
+- histone binding (GO:0042393)
+- saccharopine dehydrogenase (NAD+, L-glutamate-forming) activity (GO:0047131)
+- saccharopine dehydrogenase (NAD+, L-lysine-forming) activity (GO:0004754)
+- saccharopine dehydrogenase (NADP+, L-lysine-forming) activity (GO:0047130)
+- transcription corepressor activity (GO:0003714)
+
+ZNF81:
+- DNA-binding transcription factor activity, RNA polymerase II-specific (GO:0000981)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- metal ion binding (GO:0046872)
+
+PRR13:
+- protein binding (GO:0005515)
+
+LY86:
+- protein binding (GO:0005515)
+
+SHOC2:
+- protein phosphatase 1 binding (GO:0008157)
+- protein phosphatase regulator activity (GO:0019888)
+- volume-sensitive anion channel activity (GO:0005225)
+
+TMEM102:
+- protein binding (GO:0005515)
+
+TET1:
+- DNA 5-methylcytosine dioxygenase activity (GO:0070579)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- iron ion binding (GO:0005506)
+- methyl-CpG binding (GO:0008327)
+- protein binding (GO:0005515)
+- zinc ion binding (GO:0008270)
+
+GARIN4:
+- protein binding (GO:0005515)
+
+GNAI2:
+- G protein-coupled receptor binding (GO:0001664)
+- G-protein beta/gamma-subunit complex binding (GO:0031683)
+- GTP binding (GO:0005525)
+- GTPase activity (GO:0003924)
+- metal ion binding (GO:0046872)
+
+SENP8:
+- cysteine-type peptidase activity (GO:0008234)
+- deNEDDylase activity (GO:0019784)
+- protein binding (GO:0005515)
+
+ZNF655:
+- DNA-binding transcription factor activity, RNA polymerase II-specific (GO:0000981)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- metal ion binding (GO:0046872)
+- protein binding (GO:0005515)
+
+FKBP9:
+- RNA polymerase II CTD heptapeptide repeat P3 isomerase activity (GO:0140839)
+- RNA polymerase II CTD heptapeptide repeat P6 isomerase activity (GO:0140840)
+- calcium ion binding (GO:0005509)
+
+GUCD1:
+- protein binding (GO:0005515)
+
+GSKIP:
+- beta-catenin binding (GO:0008013)
+- protein kinase A regulatory subunit binding (GO:0034237)
+- protein kinase binding (GO:0019901)
+- protein kinase inhibitor activity (GO:0004860)
+
+RUBCNL:
+- phosphatidylinositol-3-phosphate binding (GO:0032266)
+- phosphatidylinositol-4-phosphate binding (GO:0070273)
+- phosphatidylinositol-5-phosphate binding (GO:0010314)
+- protein binding (GO:0005515)
+
+MITF:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- DNA-binding transcription repressor activity, RNA polymerase II-specific (GO:0001227)
+- E-box binding (GO:0070888)
+- chromatin binding (GO:0003682)
+- protein dimerization activity (GO:0046983)
+
+NDUFAB1:
+- acyl binding (GO:0000035)
+- acyl carrier activity (GO:0000036)
+- calcium ion binding (GO:0005509)
+- fatty acid binding (GO:0005504)
+- mitochondrial large ribosomal subunit binding (GO:0140978)
+- protein binding (GO:0005515)
+
+OR13C3:
+- G protein-coupled receptor activity (GO:0004930)
+- olfactory receptor activity (GO:0004984)
+
+EVA1B:
+- protein binding (GO:0005515)
+
+PTPRU:
+- beta-catenin binding (GO:0008013)
+- histone H2AXY142 phosphatase activity (GO:0140793)
+- non-membrane spanning protein tyrosine phosphatase activity (GO:0004726)
+- protein tyrosine phosphatase activity, metal-dependent (GO:0030946)
+- transmembrane receptor protein tyrosine phosphatase activity (GO:0005001)
+
+KIFC3:
+- ATP binding (GO:0005524)
+- identical protein binding (GO:0042802)
+- microtubule binding (GO:0008017)
+- microtubule motor activity (GO:0003777)
+
+NDUFS1:
+- 2 iron, 2 sulfur cluster binding (GO:0051537)
+- 4 iron, 4 sulfur cluster binding (GO:0051539)
+- NADH dehydrogenase (ubiquinone) activity (GO:0008137)
+- metal ion binding (GO:0046872)
+- protein binding (GO:0005515)
+
+CSF2RA:
+- cytokine binding (GO:0019955)
+- growth hormone receptor activity (GO:0004903)
+- peptide hormone binding (GO:0017046)
+
+DICER1:
+- ATP binding (GO:0005524)
+- deoxyribonuclease I activity (GO:0004530)
+- double-stranded RNA binding (GO:0003725)
+- helicase activity (GO:0004386)
+- metal ion binding (GO:0046872)
+- pre-miRNA binding (GO:0070883)
+- protein domain specific binding (GO:0019904)
+- ribonuclease III activity (GO:0004525)
+- siRNA binding (GO:0035197)
+
+COX19:
+- protein binding (GO:0005515)
+
+CMTM7:
+- cytokine activity (GO:0005125)
+
+ZKSCAN7:
+- DNA-binding transcription factor activity, RNA polymerase II-specific (GO:0000981)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- metal ion binding (GO:0046872)
+- protein binding (GO:0005515)
+
+HAGH:
+- hydroxyacylglutathione hydrolase activity (GO:0004416)
+- metal ion binding (GO:0046872)
+- protein binding (GO:0005515)
+
+C2orf74:
+- protein binding (GO:0005515)
+
+SCUBE2:
+- calcium ion binding (GO:0005509)
+- lipid binding (GO:0008289)
+- protein binding (GO:0005515)
+
+ADAM22:
+- integrin binding (GO:0005178)
+- metalloendopeptidase activity (GO:0004222)
+
+NBPF9:
+- No MF annotations found
+
+POLG:
+- 5'-deoxyribose-5-phosphate lyase activity (GO:0051575)
+- DNA binding (GO:0003677)
+- DNA-directed DNA polymerase activity (GO:0003887)
+- chromatin binding (GO:0003682)
+- protease binding (GO:0002020)
+- single-stranded DNA 3'-5' DNA exonuclease activity (GO:0008310)
+
+RBMXL3:
+- mRNA binding (GO:0003729)
+- snRNA binding (GO:0017069)
+
+DUSP8:
+- MAP kinase serine/threonine phosphatase activity (GO:1990439)
+- MAP kinase tyrosine phosphatase activity (GO:0033550)
+- MAP kinase tyrosine/serine/threonine phosphatase activity (GO:0017017)
+- RNA polymerase II CTD heptapeptide repeat S2 phosphatase activity (GO:0180006)
+- RNA polymerase II CTD heptapeptide repeat S5 phosphatase activity (GO:0180007)
+- RNA polymerase II CTD heptapeptide repeat S7 phosphatase activity (GO:0180008)
+- RNA polymerase II CTD heptapeptide repeat T4 phosphatase activity (GO:0180005)
+- RNA polymerase II CTD heptapeptide repeat Y1 phosphatase activity (GO:0180004)
+- calmodulin-dependent protein phosphatase activity (GO:0033192)
+- histone H2AXS140 phosphatase activity (GO:0140791)
+- histone H2AXY142 phosphatase activity (GO:0140793)
+- myosin phosphatase activity (GO:0017018)
+- non-membrane spanning protein tyrosine phosphatase activity (GO:0004726)
+- protein binding (GO:0005515)
+- protein tyrosine phosphatase activity, metal-dependent (GO:0030946)
+- protein tyrosine/threonine phosphatase activity (GO:0008330)
+
+SCML1:
+- chromatin binding (GO:0003682)
+- histone binding (GO:0042393)
+
+KCNIP3:
+- DNA-binding transcription repressor activity, RNA polymerase II-specific (GO:0001227)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- calcium ion binding (GO:0005509)
+- potassium channel activity (GO:0005267)
+- potassium channel regulator activity (GO:0015459)
+- protein binding (GO:0005515)
+
+UPK3B:
+- No MF annotations found
+
+ADIPOR1:
+- adipokinetic hormone receptor activity (GO:0097003)
+- adiponectin binding (GO:0055100)
+- identical protein binding (GO:0042802)
+- metal ion binding (GO:0046872)
+- protein kinase binding (GO:0019901)
+
+ZFP69:
+- DNA-binding transcription factor activity, RNA polymerase II-specific (GO:0000981)
+- RNA polymerase II transcription regulatory region sequence-specific DNA binding (GO:0000977)
+- metal ion binding (GO:0046872)
+
+TFDP2:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- RNA polymerase II transcription regulatory region sequence-specific DNA binding (GO:0000977)
+- protein domain specific binding (GO:0019904)
+- transcription factor binding (GO:0008134)
+
+CMPK1:
+- ATP binding (GO:0005524)
+- CMP kinase activity (GO:0036430)
+- UMP kinase activity (GO:0033862)
+- dCMP kinase activity (GO:0036431)
+- nucleoside diphosphate kinase activity (GO:0004550)
+- protein binding (GO:0005515)
+- uridine kinase activity (GO:0004849)
+
+PACC1:
+- pH-gated chloride channel activity (GO:0061797)
+- protein binding (GO:0005515)
+
+DEFB109D:
+- No MF annotations found
+
+NPIPA7:
+- protein binding (GO:0005515)
+
+NEUROG3:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- DNA-binding transcription repressor activity, RNA polymerase II-specific (GO:0001227)
+- E-box binding (GO:0070888)
+- chromatin DNA binding (GO:0031490)
+- protein dimerization activity (GO:0046983)
+
+TMEM38B:
+- identical protein binding (GO:0042802)
+- potassium channel activity (GO:0005267)
+
+CEPT1:
+- 1-alkenyl-2-acylglycerol choline phosphotransferase activity (GO:0047359)
+- diacylglycerol cholinephosphotransferase activity (GO:0004142)
+- ethanolaminephosphotransferase activity (GO:0004307)
+- metal ion binding (GO:0046872)
+- protein binding (GO:0005515)
+
+VPS4B:
+- ATP binding (GO:0005524)
+- ATP hydrolysis activity (GO:0016887)
+- ATP-dependent H2AZ histone chaperone activity (GO:0140849)
+- ATP-dependent H3-H4 histone complex chaperone activity (GO:0140665)
+- DNA clamp loader activity (GO:0003689)
+- chromatin extrusion motor activity (GO:0140584)
+- cohesin loader activity (GO:0061775)
+- protein homodimerization activity (GO:0042803)
+- protein-containing complex binding (GO:0044877)
+
+RNF17:
+- identical protein binding (GO:0042802)
+- metal ion binding (GO:0046872)
+
+KCNJ10:
+- ATP binding (GO:0005524)
+- ATP-activated inward rectifier potassium channel activity (GO:0015272)
+- protein binding (GO:0005515)
+
+PRPF19:
+- identical protein binding (GO:0042802)
+- ubiquitin-ubiquitin ligase activity (GO:0034450)
+
+WDR3:
+- snoRNA binding (GO:0030515)
+
+BNIP2:
+- GTPase activator activity (GO:0005096)
+- calcium ion binding (GO:0005509)
+- protein binding (GO:0005515)
+
+RHBDL3:
+- calcium ion binding (GO:0005509)
+- serine-type endopeptidase activity (GO:0004252)
+
+SEPTIN5:
+- GTP binding (GO:0005525)
+- GTPase activity (GO:0003924)
+- identical protein binding (GO:0042802)
+- molecular adaptor activity (GO:0060090)
+- structural molecule activity (GO:0005198)
+
+TMPRSS13:
+- serine-type endopeptidase activity (GO:0004252)
+
+TP53I11:
+- No MF annotations found
+
+HLA-DQB2:
+- MHC class II protein complex binding (GO:0023026)
+- MHC class II receptor activity (GO:0032395)
+- peptide antigen binding (GO:0042605)
+
+HNRNPA1L3:
+- mRNA 3'-UTR binding (GO:0003730)
+
+NIT1:
+- deaminated glutathione amidase activity (GO:0110050)
+
+NOP56:
+- cadherin binding (GO:0045296)
+- histone methyltransferase binding (GO:1990226)
+- snoRNA binding (GO:0030515)
+
+TP53RK:
+- 3-phosphoinositide-dependent protein kinase activity (GO:0004676)
+- AMP-activated protein kinase activity (GO:0004679)
+- ATP binding (GO:0005524)
+- DNA-dependent protein kinase activity (GO:0004677)
+- Rho-dependent protein serine/threonine kinase activity (GO:0072518)
+- eukaryotic translation initiation factor 2alpha kinase activity (GO:0004694)
+- histone H2AS1 kinase activity (GO:0044024)
+- histone H2AS121 kinase activity (GO:0072371)
+- histone H2AT120 kinase activity (GO:1990244)
+- histone H2AXS139 kinase activity (GO:0035979)
+- histone H2BS14 kinase activity (GO:0044025)
+- histone H2BS36 kinase activity (GO:0140823)
+- histone H3S10 kinase activity (GO:0035175)
+- histone H3S28 kinase activity (GO:0044022)
+- histone H3S57 kinase activity (GO:0140855)
+- histone H3T11 kinase activity (GO:0035402)
+- histone H3T3 kinase activity (GO:0072354)
+- histone H3T45 kinase activity (GO:0140857)
+- histone H3T6 kinase activity (GO:0035403)
+- histone H4S1 kinase activity (GO:0044023)
+- hydrolase activity (GO:0016787)
+- p53 binding (GO:0002039)
+- protein serine kinase activity (GO:0106310)
+- ribosomal protein S6 kinase activity (GO:0004711)
+
+ALPK3:
+- 3-phosphoinositide-dependent protein kinase activity (GO:0004676)
+- AMP-activated protein kinase activity (GO:0004679)
+- ATP binding (GO:0005524)
+- DNA-dependent protein kinase activity (GO:0004677)
+- Rho-dependent protein serine/threonine kinase activity (GO:0072518)
+- eukaryotic translation initiation factor 2alpha kinase activity (GO:0004694)
+- histone H2AS1 kinase activity (GO:0044024)
+- histone H2AS121 kinase activity (GO:0072371)
+- histone H2AT120 kinase activity (GO:1990244)
+- histone H2AXS139 kinase activity (GO:0035979)
+- histone H2BS14 kinase activity (GO:0044025)
+- histone H2BS36 kinase activity (GO:0140823)
+- histone H3S10 kinase activity (GO:0035175)
+- histone H3S28 kinase activity (GO:0044022)
+- histone H3S57 kinase activity (GO:0140855)
+- histone H3T11 kinase activity (GO:0035402)
+- histone H3T3 kinase activity (GO:0072354)
+- histone H3T45 kinase activity (GO:0140857)
+- histone H3T6 kinase activity (GO:0035403)
+- histone H4S1 kinase activity (GO:0044023)
+- protein serine kinase activity (GO:0106310)
+- ribosomal protein S6 kinase activity (GO:0004711)
+
+CSNK1E:
+- 3-phosphoinositide-dependent protein kinase activity (GO:0004676)
+- AMP-activated protein kinase activity (GO:0004679)
+- ATP binding (GO:0005524)
+- DNA-dependent protein kinase activity (GO:0004677)
+- RNA binding (GO:0003723)
+- Rho-dependent protein serine/threonine kinase activity (GO:0072518)
+- eukaryotic translation initiation factor 2alpha kinase activity (GO:0004694)
+- histone H2AS1 kinase activity (GO:0044024)
+- histone H2AS121 kinase activity (GO:0072371)
+- histone H2AT120 kinase activity (GO:1990244)
+- histone H2AXS139 kinase activity (GO:0035979)
+- histone H2BS14 kinase activity (GO:0044025)
+- histone H2BS36 kinase activity (GO:0140823)
+- histone H3S10 kinase activity (GO:0035175)
+- histone H3S28 kinase activity (GO:0044022)
+- histone H3S57 kinase activity (GO:0140855)
+- histone H3T11 kinase activity (GO:0035402)
+- histone H3T3 kinase activity (GO:0072354)
+- histone H3T45 kinase activity (GO:0140857)
+- histone H3T6 kinase activity (GO:0035403)
+- histone H4S1 kinase activity (GO:0044023)
+- protein binding (GO:0005515)
+- protein serine kinase activity (GO:0106310)
+- ribosomal protein S6 kinase activity (GO:0004711)
+
+SLC4A7:
+- monoatomic anion transmembrane transporter activity (GO:0008509)
+- protein binding (GO:0005515)
+- sodium:bicarbonate symporter activity (GO:0008510)
+- solute:inorganic anion antiporter activity (GO:0005452)
+
+SELENOM:
+- oxidoreductase activity (GO:0016491)
+- protein binding (GO:0005515)
+
+NXPE3:
+- protein binding (GO:0005515)
+
+DEFB121:
+- protein binding (GO:0005515)
+
+PRR30:
+- protein binding (GO:0005515)
+
+RSPH14:
+- protein binding (GO:0005515)
+
+IVL:
+- protein binding (GO:0005515)
+
+GBA1:
+- galactosylceramidase activity (GO:0004336)
+- glucosylceramidase activity (GO:0004348)
+- glucosyltransferase activity (GO:0046527)
+- scavenger receptor binding (GO:0005124)
+- steryl-beta-glucosidase activity (GO:0050295)
+
+CST5:
+- cysteine-type endopeptidase inhibitor activity (GO:0004869)
+- protein binding (GO:0005515)
+
+CEP78:
+- No MF annotations found
+
+PUS7:
+- RNA binding (GO:0003723)
+- enzyme binding (GO:0019899)
+- tRNA pseudouridine(13) synthase activity (GO:0160150)
+
+AGRN:
+- calcium ion binding (GO:0005509)
+- chondroitin sulfate binding (GO:0035374)
+- dystroglycan binding (GO:0002162)
+- extracellular matrix structural constituent (GO:0005201)
+- heparan sulfate proteoglycan binding (GO:0043395)
+- laminin binding (GO:0043236)
+- sialic acid binding (GO:0033691)
+- structural constituent of cytoskeleton (GO:0005200)
+
+ANKAR:
+- No MF annotations found
+
+CDK3:
+- ATP binding (GO:0005524)
+- cyclin binding (GO:0030332)
+- cyclin-dependent protein serine/threonine kinase activity (GO:0004693)
+- protein serine kinase activity (GO:0106310)
+
+ZC3HC1:
+- protein kinase binding (GO:0019901)
+- zinc ion binding (GO:0008270)
+
+ADRA1D:
+- alpha1-adrenergic receptor activity (GO:0004937)
+- identical protein binding (GO:0042802)
+
+MINAR1:
+- protein binding (GO:0005515)
+
+CAPN11:
+- calcium ion binding (GO:0005509)
+- calcium-dependent cysteine-type endopeptidase activity (GO:0004198)
+
+KRT5:
+- scaffold protein binding (GO:0097110)
+- structural constituent of cytoskeleton (GO:0005200)
+- structural constituent of skin epidermis (GO:0030280)
+
+FECH:
+- 2 iron, 2 sulfur cluster binding (GO:0051537)
+- ferrochelatase activity (GO:0004325)
+- ferrous iron binding (GO:0008198)
+- heme binding (GO:0020037)
+- iron-responsive element binding (GO:0030350)
+- protein homodimerization activity (GO:0042803)
+
+POU1F1:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- RNA polymerase II-specific DNA-binding transcription factor binding (GO:0061629)
+- lncRNA binding (GO:0106222)
+
+KLF16:
+- DNA-binding transcription repressor activity, RNA polymerase II-specific (GO:0001227)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- metal ion binding (GO:0046872)
+- protein binding (GO:0005515)
+
+ADPRH:
+- ADP-ribosylarginine hydrolase activity (GO:0003875)
+- magnesium ion binding (GO:0000287)
+- potassium ion binding (GO:0030955)
+- protein binding (GO:0005515)
+
+SDCCAG8:
+- protein binding (GO:0005515)
+
+PRRG1:
+- calcium ion binding (GO:0005509)
+- protein binding (GO:0005515)
+- serine-type endopeptidase activity (GO:0004252)
+
+GIN1:
+- nucleic acid binding (GO:0003676)
+
+FAM32A:
+- RNA binding (GO:0003723)
+- protein binding (GO:0005515)
+
+BLOC1S2:
+- gamma-tubulin binding (GO:0043015)
+
+CIMAP1B:
+- protein binding (GO:0005515)
+
+MACROD2:
+- ADP-ribosylglutamate hydrolase activity (GO:0140293)
+- deacetylase activity (GO:0019213)
+
+MAGI2:
+- SMAD binding (GO:0046332)
+- beta-1 adrenergic receptor binding (GO:0031697)
+- phosphatase binding (GO:0019902)
+- signaling receptor complex adaptor activity (GO:0030159)
+- type II activin receptor binding (GO:0070699)
+
+GALNT13:
+- carbohydrate binding (GO:0030246)
+- metal ion binding (GO:0046872)
+- polypeptide N-acetylgalactosaminyltransferase activity (GO:0004653)
+
+ZBED3:
+- DNA binding (GO:0003677)
+- DNA-binding transcription factor activity, RNA polymerase II-specific (GO:0000981)
+- metal ion binding (GO:0046872)
+
+DCBLD1:
+- signaling receptor activity (GO:0038023)
+
+HSDL1:
+- protein binding (GO:0005515)
+- steroid dehydrogenase activity (GO:0016229)
+
+IGF2BP3:
+- N6-methyladenosine-containing RNA reader activity (GO:1990247)
+- mRNA 3'-UTR binding (GO:0003730)
+- mRNA 5'-UTR binding (GO:0048027)
+- protein binding (GO:0005515)
+- translation regulator activity (GO:0045182)
+
+SLC25A26:
+- S-adenosyl-L-methionine:S-adenosyl-L-homocysteine antiporter activity (GO:0180003)
+
+OPRL1:
+- neuropeptide binding (GO:0042923)
+- nociceptin receptor activity (GO:0001626)
+- protein binding (GO:0005515)
+
+CCDC78:
+- protein binding (GO:0005515)
+
+OPRD1:
+- G protein-coupled enkephalin receptor activity (GO:0038046)
+- neuropeptide binding (GO:0042923)
+- receptor serine/threonine kinase binding (GO:0033612)
+
+DOCK6:
+- guanyl-nucleotide exchange factor activity (GO:0005085)
+- protein binding (GO:0005515)
+
+ABCB8:
+- ATP binding (GO:0005524)
+- ATP hydrolysis activity (GO:0016887)
+- ATPase-coupled transmembrane transporter activity (GO:0042626)
+- protein binding (GO:0005515)
+
+PLCL1:
+- phosphatidylinositol-4,5-bisphosphate phospholipase C activity (GO:0004435)
+
+TREM1:
+- receptor decoy activity (GO:0140319)
+- scaffold protein binding (GO:0097110)
+- transmembrane signaling receptor activity (GO:0004888)
+
+LRRFIP2:
+- LRR domain binding (GO:0030275)
+
+KANK4:
+- protein binding (GO:0005515)
+
+TMPRSS2:
+- protein binding (GO:0005515)
+- serine-type endopeptidase activity (GO:0004252)
+
+MARCHF3:
+- protein binding (GO:0005515)
+- ubiquitin-protein transferase activity (GO:0004842)
+- zinc ion binding (GO:0008270)
+
+USP17L15:
+- cysteine-type deubiquitinase activity (GO:0004843)
+
+PAWR:
+- actin binding (GO:0003779)
+- enzyme binding (GO:0019899)
+- leucine zipper domain binding (GO:0043522)
+- transcription corepressor activity (GO:0003714)
+
+CCNP:
+- cyclin-dependent protein serine/threonine kinase regulator activity (GO:0016538)
+
+RNF14:
+- nuclear androgen receptor binding (GO:0050681)
+- transcription coactivator activity (GO:0003713)
+- ubiquitin conjugating enzyme binding (GO:0031624)
+- ubiquitin protein ligase activity (GO:0061630)
+- zinc ion binding (GO:0008270)
+
+FAM151A:
+- molecular_function (GO:0003674)
+
+HOXA7:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- DNA-binding transcription factor binding (GO:0140297)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+
+C6orf163:
+- molecular_function (GO:0003674)
+
+DNAAF9:
+- protein binding (GO:0005515)
+
+NRL:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- leucine zipper domain binding (GO:0043522)
+- promoter-specific chromatin binding (GO:1990841)
+
+C11orf97:
+- No MF annotations found
+
+ZCCHC24:
+- RNA binding (GO:0003723)
+- zinc ion binding (GO:0008270)
+
+MAPKAPK5:
+- 3-phosphoinositide-dependent protein kinase activity (GO:0004676)
+- AMP-activated protein kinase activity (GO:0004679)
+- ATP binding (GO:0005524)
+- DNA-dependent protein kinase activity (GO:0004677)
+- MAP kinase kinase activity (GO:0004708)
+- Rho-dependent protein serine/threonine kinase activity (GO:0072518)
+- calcium-dependent protein serine/threonine kinase activity (GO:0009931)
+- calcium/calmodulin-dependent protein kinase activity (GO:0004683)
+- calmodulin binding (GO:0005516)
+- eukaryotic translation initiation factor 2alpha kinase activity (GO:0004694)
+- histone H2AS1 kinase activity (GO:0044024)
+- histone H2AS121 kinase activity (GO:0072371)
+- histone H2AT120 kinase activity (GO:1990244)
+- histone H2AXS139 kinase activity (GO:0035979)
+- histone H2BS14 kinase activity (GO:0044025)
+- histone H2BS36 kinase activity (GO:0140823)
+- histone H3S10 kinase activity (GO:0035175)
+- histone H3S28 kinase activity (GO:0044022)
+- histone H3S57 kinase activity (GO:0140855)
+- histone H3T11 kinase activity (GO:0035402)
+- histone H3T3 kinase activity (GO:0072354)
+- histone H3T45 kinase activity (GO:0140857)
+- histone H3T6 kinase activity (GO:0035403)
+- histone H4S1 kinase activity (GO:0044023)
+- mitogen-activated protein kinase binding (GO:0051019)
+- p53 binding (GO:0002039)
+- protein serine kinase activity (GO:0106310)
+- ribosomal protein S6 kinase activity (GO:0004711)
+
+FRG1:
+- RNA binding (GO:0003723)
+- actin filament binding (GO:0051015)
+
+POLR2K:
+- DNA binding (GO:0003677)
+- protein binding (GO:0005515)
+- zinc ion binding (GO:0008270)
+
+AP2S1:
+- clathrin adaptor activity (GO:0035615)
+- protein binding (GO:0005515)
+
+NDUFA12:
+- NADH dehydrogenase (ubiquinone) activity (GO:0008137)
+- protein binding (GO:0005515)
+
+CNTF:
+- ciliary neurotrophic factor receptor binding (GO:0005127)
+- cytokine activity (GO:0005125)
+- growth factor activity (GO:0008083)
+- interleukin-6 receptor binding (GO:0005138)
+- protein-containing complex binding (GO:0044877)
+
+OR4N4:
+- G protein-coupled receptor activity (GO:0004930)
+- olfactory receptor activity (GO:0004984)
+
+OR2AK2:
+- G protein-coupled receptor activity (GO:0004930)
+- olfactory receptor activity (GO:0004984)
+
+CDC25C:
+- WW domain binding (GO:0050699)
+- histone H2AXY142 phosphatase activity (GO:0140793)
+- non-membrane spanning protein tyrosine phosphatase activity (GO:0004726)
+- protein kinase binding (GO:0019901)
+- protein tyrosine phosphatase activity, metal-dependent (GO:0030946)
+
+BGLAP:
+- calcium ion binding (GO:0005509)
+- hormone activity (GO:0005179)
+- hydroxyapatite binding (GO:0046848)
+- structural constituent of bone (GO:0008147)
+
+DUSP6:
+- MAP kinase serine/threonine phosphatase activity (GO:1990439)
+- MAP kinase tyrosine phosphatase activity (GO:0033550)
+- MAP kinase tyrosine/serine/threonine phosphatase activity (GO:0017017)
+- RNA polymerase II CTD heptapeptide repeat S2 phosphatase activity (GO:0180006)
+- RNA polymerase II CTD heptapeptide repeat S5 phosphatase activity (GO:0180007)
+- RNA polymerase II CTD heptapeptide repeat S7 phosphatase activity (GO:0180008)
+- RNA polymerase II CTD heptapeptide repeat T4 phosphatase activity (GO:0180005)
+- RNA polymerase II CTD heptapeptide repeat Y1 phosphatase activity (GO:0180004)
+- calmodulin-dependent protein phosphatase activity (GO:0033192)
+- histone H2AXS140 phosphatase activity (GO:0140791)
+- histone H2AXY142 phosphatase activity (GO:0140793)
+- myosin phosphatase activity (GO:0017018)
+- non-membrane spanning protein tyrosine phosphatase activity (GO:0004726)
+- protein binding (GO:0005515)
+- protein tyrosine phosphatase activity, metal-dependent (GO:0030946)
+- protein tyrosine/threonine phosphatase activity (GO:0008330)
+
+CTC1:
+- G-rich strand telomeric DNA binding (GO:0098505)
+- protein binding (GO:0005515)
+
+SLC24A4:
+- calcium channel activity (GO:0005262)
+- calcium, potassium:sodium antiporter activity (GO:0008273)
+- calcium-dependent protein binding (GO:0048306)
+- calmodulin binding (GO:0005516)
+- symporter activity (GO:0015293)
+
+HOXA2:
+- DNA-binding transcription repressor activity, RNA polymerase II-specific (GO:0001227)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+
+SERINC5:
+- L-serine transmembrane transporter activity (GO:0015194)
+
+OLFM4:
+- cadherin binding (GO:0045296)
+- structural molecule activity (GO:0005198)
+
+GPR155:
+- cholesterol binding (GO:0015485)
+
+ARMC9:
+- protein binding (GO:0005515)
+
+PPWD1:
+- RNA polymerase II CTD heptapeptide repeat P3 isomerase activity (GO:0140839)
+- RNA polymerase II CTD heptapeptide repeat P6 isomerase activity (GO:0140840)
+
+SMOC2:
+- calcium ion binding (GO:0005509)
+- extracellular matrix binding (GO:0050840)
+- heparin binding (GO:0008201)
+- protein binding (GO:0005515)
+
+HILPDA:
+- signaling receptor binding (GO:0005102)
+
+GCHFR:
+- GTP cyclohydrolase binding (GO:0044549)
+
+TEX12:
+- protein binding (GO:0005515)
+
+CCDC77:
+- No MF annotations found
+
+HMGN2:
+- RNA binding (GO:0003723)
+- nucleosomal DNA binding (GO:0031492)
+- protein binding (GO:0005515)
+
+MAP2K1:
+- ATP binding (GO:0005524)
+- JUN kinase kinase activity (GO:0008545)
+- MAP-kinase scaffold activity (GO:0005078)
+- histone H2AXY142 kinase activity (GO:0140801)
+- histone H3Y41 kinase activity (GO:0035401)
+- protein serine kinase activity (GO:0106310)
+- protein serine/threonine kinase activator activity (GO:0043539)
+- protein serine/threonine kinase activity (GO:0004674)
+- scaffold protein binding (GO:0097110)
+
+NPIPA1:
+- No MF annotations found
+
+HLA-DPA1:
+- MHC class II protein complex binding (GO:0023026)
+- MHC class II receptor activity (GO:0032395)
+- peptide antigen binding (GO:0042605)
+
+SYNPR:
+- protein binding (GO:0005515)
+
+ZNF428:
+- metal ion binding (GO:0046872)
+- protein binding (GO:0005515)
+
+RGS22:
+- G-protein alpha-subunit binding (GO:0001965)
+
+RTL8B:
+- protein binding (GO:0005515)
+
+MORN2:
+- protein binding (GO:0005515)
+
+CLDN23:
+- identical protein binding (GO:0042802)
+- structural molecule activity (GO:0005198)
+
+YY1:
+- DNA-binding transcription activator activity, RNA polymerase II-specific (GO:0001228)
+- DNA-binding transcription factor binding (GO:0140297)
+- DNA-binding transcription repressor activity, RNA polymerase II-specific (GO:0001227)
+- RNA binding (GO:0003723)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- SMAD binding (GO:0046332)
+- chromatin binding (GO:0003682)
+- four-way junction DNA binding (GO:0000400)
+- metal ion binding (GO:0046872)
+
+SLC2A3:
+- D-glucose binding (GO:0005536)
+- D-glucose transmembrane transporter activity (GO:0055056)
+- dehydroascorbic acid transmembrane transporter activity (GO:0033300)
+- fructose transmembrane transporter activity (GO:0005353)
+- galactose transmembrane transporter activity (GO:0005354)
+- protein binding (GO:0005515)
+
+POGLUT1:
+- EGF-domain serine glucosyltransferase activity (GO:0140561)
+- EGF-domain serine xylosyltransferase activity (GO:0140562)
+
+PRR23B:
+- protein binding (GO:0005515)
+
+MRPL57:
+- protein binding (GO:0005515)
+- structural constituent of ribosome (GO:0003735)
+
+UQCC1:
+- protein binding (GO:0005515)
+
+NUDCD2:
+- unfolded protein binding (GO:0051082)
+
+FOLH1:
+- Ac-Asp-Glu binding (GO:1904492)
+- dipeptidase activity (GO:0016805)
+- metal ion binding (GO:0046872)
+- metallocarboxypeptidase activity (GO:0004181)
+- protein binding (GO:0005515)
+- tetrahydrofolyl-poly(glutamate) polymer binding (GO:1904493)
+
+BPIFC:
+- lipopolysaccharide binding (GO:0001530)
+- phospholipid binding (GO:0005543)
+
+KIAA1191:
+- oxidoreductase activity (GO:0016491)
+- protein binding (GO:0005515)
+
+CEACAM19:
+- protein binding (GO:0005515)
+
+GDF10:
+- cytokine activity (GO:0005125)
+- growth factor activity (GO:0008083)
+- protein serine/threonine kinase activator activity (GO:0043539)
+
+CHORDC1:
+- ADP binding (GO:0043531)
+- ATP binding (GO:0005524)
+- Hsp90 protein binding (GO:0051879)
+- zinc ion binding (GO:0008270)
+
+OAT:
+- identical protein binding (GO:0042802)
+- ornithine aminotransferase activity (GO:0004587)
+- pyridoxal phosphate binding (GO:0030170)
+
+MAP1LC3B2:
+- microtubule binding (GO:0008017)
+- phosphatidylethanolamine binding (GO:0008429)
+- ubiquitin protein ligase binding (GO:0031625)
+
+GOLGA8K:
+- No MF annotations found
+
+ZKSCAN8:
+- DNA-binding transcription factor activity, RNA polymerase II-specific (GO:0000981)
+- RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)
+- metal ion binding (GO:0046872)
+- protein binding (GO:0005515)
+
+NSMCE3:
+- protein dimerization activity (GO:0046983)
+
+ZRANB2:
+- RNA binding (GO:0003723)
+- lipopolysaccharide binding (GO:0001530)
+- metal ion binding (GO:0046872)
+- protein binding (GO:0005515)
+
+LZTS2:
+- protein binding (GO:0005515)
+
+ZFAND4:
+- zinc ion binding (GO:0008270)
+
+FAM89B:
+- transcription corepressor binding (GO:0001222)
+
+TTC32:
+- protein binding (GO:0005515)
+
+LRRIQ1:
+- No MF annotations found
+
+KLRC2:
+- MHC class I protein complex binding (GO:0023024)
+- activating MHC class Ib receptor activity (GO:0062081)
+- carbohydrate binding (GO:0030246)
+- protein antigen binding (GO:1990405)
+
+CCDC134:
+- protein binding (GO:0005515)
+
+DENND1C:
+- guanyl-nucleotide exchange factor activity (GO:0005085)
+- phosphatidylinositol phosphate binding (GO:1901981)
+- protein binding (GO:0005515)
+
+BBS9:
+- protein binding (GO:0005515)
+
+SEMA3C:
+- chemorepellent activity (GO:0045499)
+- neuropilin binding (GO:0038191)
+- semaphorin receptor binding (GO:0030215)
+
+PDXDC1:
+- cadherin binding (GO:0045296)
+- carboxy-lyase activity (GO:0016831)
+- pyridoxal phosphate binding (GO:0030170)
+
+POF1B:
+- actin filament binding (GO:0051015)
+
+IFNAR2:
+- JAK pathway signal transduction adaptor activity (GO:0008269)
+- protein kinase binding (GO:0019901)
+- type I interferon binding (GO:0019962)
+- type I interferon receptor activity (GO:0004905)
+
+UBE2W:
+- ATP binding (GO:0005524)
+- ubiquitin conjugating enzyme activity (GO:0061631)
+- ubiquitin protein ligase binding (GO:0031625)
+
+OR14J1:
+- G protein-coupled receptor activity (GO:0004930)
+- odorant binding (GO:0005549)
+- olfactory receptor activity (GO:0004984)
+
+CYP4Z1:
+- arachidonate 14,15-epoxygenase activity (GO:0008404)
+- fatty acid in-chain hydroxylase activity (GO:0052722)
+- heme binding (GO:0020037)
+- iron ion binding (GO:0005506)
+- oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen (GO:0016712)
+

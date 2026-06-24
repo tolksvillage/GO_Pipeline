@@ -1,0 +1,959 @@
+{
+  "metadata": {
+    "signature_name": "diluted_hallmark_EMT_step08_fixed200_total400",
+    "ontology": "MF",
+    "analysis_type": "manifold_analysis"
+  },
+  "summary_statistics": {
+    "unique_go_terms_top10": 18,
+    "parameter_configurations": 120,
+    "diversity_index": 0.015,
+    "number_of_groups": 10
+  },
+  "groups": [
+    {
+      "group_id": 1,
+      "original_group_index": 4,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0005201",
+        "name": "extracellular matrix structural constituent",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005201",
+          "name": "extracellular matrix structural constituent",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.48509230026517275,
+          "genes_direct": 29,
+          "genes_inherited": 27,
+          "genes_total": 56,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0030020",
+          "name": "extracellular matrix structural constituent conferring tensile strength",
+          "robustness_score": 64.16666666666667,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 12,
+            "equal": 10,
+            "difference_absolute": 43,
+            "difference_normalized": 0.7818181818181819
+          },
+          "ic": 0.6314336967681624,
+          "genes_direct": 16,
+          "genes_inherited": 0,
+          "genes_total": 16,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 2,
+      "original_group_index": 8,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0050840",
+        "name": "extracellular matrix binding",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0050840",
+          "name": "extracellular matrix binding",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.5914614546116892,
+          "genes_direct": 14,
+          "genes_inherited": 7,
+          "genes_total": 21,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 3,
+      "original_group_index": 9,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0005518",
+        "name": "collagen binding",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005518",
+          "name": "collagen binding",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.5806924354860502,
+          "genes_direct": 17,
+          "genes_inherited": 4,
+          "genes_total": 21,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 4,
+      "original_group_index": 7,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0005539",
+        "name": "glycosaminoglycan binding",
+        "robustness_score": 88.33333333333333
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005539",
+          "name": "glycosaminoglycan binding",
+          "robustness_score": 88.33333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 41,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -14,
+            "difference_normalized": -0.2545454545454545
+          },
+          "ic": 0.466966221009346,
+          "genes_direct": 3,
+          "genes_inherited": 33,
+          "genes_total": 36,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0008201",
+          "name": "heparin binding",
+          "robustness_score": 79.16666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 30,
+            "equal": 10,
+            "difference_absolute": 25,
+            "difference_normalized": 0.45454545454545453
+          },
+          "ic": 0.4999383111825368,
+          "genes_direct": 28,
+          "genes_inherited": 0,
+          "genes_total": 28,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 5,
+      "original_group_index": 0,
+      "size": 7,
+      "representative": {
+        "go_id": "GO:0005178",
+        "name": "integrin binding",
+        "robustness_score": 83.33333333333334
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005178",
+          "name": "integrin binding",
+          "robustness_score": 83.33333333333334,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 35,
+            "equal": 10,
+            "difference_absolute": 20,
+            "difference_normalized": 0.36363636363636365
+          },
+          "ic": 0.5010512128238753,
+          "genes_direct": 30,
+          "genes_inherited": 1,
+          "genes_total": 31,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0005125",
+          "name": "cytokine activity",
+          "robustness_score": 69.16666666666667,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 18,
+            "equal": 10,
+            "difference_absolute": 37,
+            "difference_normalized": 0.6727272727272727
+          },
+          "ic": 0.4693569937568711,
+          "genes_direct": 18,
+          "genes_inherited": 3,
+          "genes_total": 21,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0050839",
+          "name": "cell adhesion molecule binding",
+          "robustness_score": 45.83333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 55,
+            "equal": 0,
+            "difference_absolute": -55,
+            "difference_normalized": -1.0
+          },
+          "ic": 0.3854370377034072,
+          "genes_direct": 3,
+          "genes_inherited": 41,
+          "genes_total": 44,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0048018",
+          "name": "receptor ligand activity",
+          "robustness_score": 35.833333333333336,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 43,
+            "equal": 0,
+            "difference_absolute": -43,
+            "difference_normalized": -0.7818181818181819
+          },
+          "ic": 0.3873204483635338,
+          "genes_direct": 6,
+          "genes_inherited": 32,
+          "genes_total": 38,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0005126",
+          "name": "cytokine receptor binding",
+          "robustness_score": 20.833333333333336,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 25,
+            "equal": 0,
+            "difference_absolute": -25,
+            "difference_normalized": -0.45454545454545453
+          },
+          "ic": 0.452718215279633,
+          "genes_direct": 1,
+          "genes_inherited": 19,
+          "genes_total": 20,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0005102",
+          "name": "signaling receptor binding",
+          "robustness_score": 16.666666666666664,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 20,
+            "equal": 0,
+            "difference_absolute": -20,
+            "difference_normalized": -0.36363636363636365
+          },
+          "ic": 0.2825785823522705,
+          "genes_direct": 13,
+          "genes_inherited": 80,
+          "genes_total": 93,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0008083",
+          "name": "growth factor activity",
+          "robustness_score": 11.666666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 14,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 14,
+            "difference_normalized": 0.2545454545454545
+          },
+          "ic": 0.5038907528952741,
+          "genes_direct": 14,
+          "genes_inherited": 0,
+          "genes_total": 14,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 6,
+      "original_group_index": 5,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0019838",
+        "name": "growth factor binding",
+        "robustness_score": 76.66666666666667
+      },
+      "terms": [
+        {
+          "go_id": "GO:0019838",
+          "name": "growth factor binding",
+          "robustness_score": 76.66666666666667,
+          "alpha_beta_preference": {
+            "alpha_dominant": 27,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -28,
+            "difference_normalized": -0.509090909090909
+          },
+          "ic": 0.5222374400632567,
+          "genes_direct": 2,
+          "genes_inherited": 17,
+          "genes_total": 19,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 7,
+      "original_group_index": 3,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0002020",
+        "name": "protease binding",
+        "robustness_score": 41.66666666666667
+      },
+      "terms": [
+        {
+          "go_id": "GO:0002020",
+          "name": "protease binding",
+          "robustness_score": 41.66666666666667,
+          "alpha_beta_preference": {
+            "alpha_dominant": 50,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 50,
+            "difference_normalized": 0.9090909090909091
+          },
+          "ic": 0.5243499902722373,
+          "genes_direct": 15,
+          "genes_inherited": 0,
+          "genes_total": 15,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 8,
+      "original_group_index": 2,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0019955",
+        "name": "cytokine binding",
+        "robustness_score": 30.833333333333336
+      },
+      "terms": [
+        {
+          "go_id": "GO:0019955",
+          "name": "cytokine binding",
+          "robustness_score": 30.833333333333336,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 37,
+            "equal": 0,
+            "difference_absolute": -37,
+            "difference_normalized": -0.6727272727272727
+          },
+          "ic": 0.5155110292785097,
+          "genes_direct": 3,
+          "genes_inherited": 9,
+          "genes_total": 12,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 9,
+      "original_group_index": 1,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0001968",
+        "name": "fibronectin binding",
+        "robustness_score": 20.833333333333336
+      },
+      "terms": [
+        {
+          "go_id": "GO:0001968",
+          "name": "fibronectin binding",
+          "robustness_score": 20.833333333333336,
+          "alpha_beta_preference": {
+            "alpha_dominant": 25,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 25,
+            "difference_normalized": 0.45454545454545453
+          },
+          "ic": 0.6706913867752269,
+          "genes_direct": 11,
+          "genes_inherited": 0,
+          "genes_total": 11,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 10,
+      "original_group_index": 6,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0046332",
+        "name": "SMAD binding",
+        "robustness_score": 15.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0046332",
+          "name": "SMAD binding",
+          "robustness_score": 15.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 8,
+            "beta_dominant": 0,
+            "equal": 10,
+            "difference_absolute": 8,
+            "difference_normalized": 0.14545454545454545
+          },
+          "ic": 0.5733353753558624,
+          "genes_direct": 9,
+          "genes_inherited": 3,
+          "genes_total": 12,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    }
+  ],
+  "filtered_by_preference": {
+    "threshold": 0.2,
+    "alpha_greater_than_beta": {
+      "summary_statistics": {
+        "number_of_groups": 5,
+        "total_terms": 7,
+        "filter_type": "alpha_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 1,
+          "original_group_index": 4,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005201",
+            "name": "extracellular matrix structural constituent",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0030020",
+              "name": "extracellular matrix structural constituent conferring tensile strength",
+              "robustness_score": 64.16666666666667,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 12,
+                "equal": 10,
+                "difference_absolute": 43,
+                "difference_normalized": 0.7818181818181819
+              },
+              "ic": 0.6314336967681624,
+              "genes_direct": 16,
+              "genes_inherited": 0,
+              "genes_total": 16,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 4,
+          "original_group_index": 7,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005539",
+            "name": "glycosaminoglycan binding",
+            "robustness_score": 88.33333333333333
+          },
+          "terms": [
+            {
+              "go_id": "GO:0008201",
+              "name": "heparin binding",
+              "robustness_score": 79.16666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 30,
+                "equal": 10,
+                "difference_absolute": 25,
+                "difference_normalized": 0.45454545454545453
+              },
+              "ic": 0.4999383111825368,
+              "genes_direct": 28,
+              "genes_inherited": 0,
+              "genes_total": 28,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 5,
+          "original_group_index": 0,
+          "size": 3,
+          "representative": {
+            "go_id": "GO:0005178",
+            "name": "integrin binding",
+            "robustness_score": 83.33333333333334
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005178",
+              "name": "integrin binding",
+              "robustness_score": 83.33333333333334,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 35,
+                "equal": 10,
+                "difference_absolute": 20,
+                "difference_normalized": 0.36363636363636365
+              },
+              "ic": 0.5010512128238753,
+              "genes_direct": 30,
+              "genes_inherited": 1,
+              "genes_total": 31,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0005125",
+              "name": "cytokine activity",
+              "robustness_score": 69.16666666666667,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 18,
+                "equal": 10,
+                "difference_absolute": 37,
+                "difference_normalized": 0.6727272727272727
+              },
+              "ic": 0.4693569937568711,
+              "genes_direct": 18,
+              "genes_inherited": 3,
+              "genes_total": 21,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0008083",
+              "name": "growth factor activity",
+              "robustness_score": 11.666666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 14,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 14,
+                "difference_normalized": 0.2545454545454545
+              },
+              "ic": 0.5038907528952741,
+              "genes_direct": 14,
+              "genes_inherited": 0,
+              "genes_total": 14,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 7,
+          "original_group_index": 3,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0002020",
+            "name": "protease binding",
+            "robustness_score": 41.66666666666667
+          },
+          "terms": [
+            {
+              "go_id": "GO:0002020",
+              "name": "protease binding",
+              "robustness_score": 41.66666666666667,
+              "alpha_beta_preference": {
+                "alpha_dominant": 50,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 50,
+                "difference_normalized": 0.9090909090909091
+              },
+              "ic": 0.5243499902722373,
+              "genes_direct": 15,
+              "genes_inherited": 0,
+              "genes_total": 15,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 9,
+          "original_group_index": 1,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0001968",
+            "name": "fibronectin binding",
+            "robustness_score": 20.833333333333336
+          },
+          "terms": [
+            {
+              "go_id": "GO:0001968",
+              "name": "fibronectin binding",
+              "robustness_score": 20.833333333333336,
+              "alpha_beta_preference": {
+                "alpha_dominant": 25,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 25,
+                "difference_normalized": 0.45454545454545453
+              },
+              "ic": 0.6706913867752269,
+              "genes_direct": 11,
+              "genes_inherited": 0,
+              "genes_total": 11,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "beta_greater_than_alpha": {
+      "summary_statistics": {
+        "number_of_groups": 4,
+        "total_terms": 7,
+        "filter_type": "beta_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 4,
+          "original_group_index": 7,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005539",
+            "name": "glycosaminoglycan binding",
+            "robustness_score": 88.33333333333333
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005539",
+              "name": "glycosaminoglycan binding",
+              "robustness_score": 88.33333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 41,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -14,
+                "difference_normalized": -0.2545454545454545
+              },
+              "ic": 0.466966221009346,
+              "genes_direct": 3,
+              "genes_inherited": 33,
+              "genes_total": 36,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 5,
+          "original_group_index": 0,
+          "size": 4,
+          "representative": {
+            "go_id": "GO:0005178",
+            "name": "integrin binding",
+            "robustness_score": 83.33333333333334
+          },
+          "terms": [
+            {
+              "go_id": "GO:0050839",
+              "name": "cell adhesion molecule binding",
+              "robustness_score": 45.83333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 55,
+                "equal": 0,
+                "difference_absolute": -55,
+                "difference_normalized": -1.0
+              },
+              "ic": 0.3854370377034072,
+              "genes_direct": 3,
+              "genes_inherited": 41,
+              "genes_total": 44,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0048018",
+              "name": "receptor ligand activity",
+              "robustness_score": 35.833333333333336,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 43,
+                "equal": 0,
+                "difference_absolute": -43,
+                "difference_normalized": -0.7818181818181819
+              },
+              "ic": 0.3873204483635338,
+              "genes_direct": 6,
+              "genes_inherited": 32,
+              "genes_total": 38,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0005126",
+              "name": "cytokine receptor binding",
+              "robustness_score": 20.833333333333336,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 25,
+                "equal": 0,
+                "difference_absolute": -25,
+                "difference_normalized": -0.45454545454545453
+              },
+              "ic": 0.452718215279633,
+              "genes_direct": 1,
+              "genes_inherited": 19,
+              "genes_total": 20,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0005102",
+              "name": "signaling receptor binding",
+              "robustness_score": 16.666666666666664,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 20,
+                "equal": 0,
+                "difference_absolute": -20,
+                "difference_normalized": -0.36363636363636365
+              },
+              "ic": 0.2825785823522705,
+              "genes_direct": 13,
+              "genes_inherited": 80,
+              "genes_total": 93,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 6,
+          "original_group_index": 5,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0019838",
+            "name": "growth factor binding",
+            "robustness_score": 76.66666666666667
+          },
+          "terms": [
+            {
+              "go_id": "GO:0019838",
+              "name": "growth factor binding",
+              "robustness_score": 76.66666666666667,
+              "alpha_beta_preference": {
+                "alpha_dominant": 27,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -28,
+                "difference_normalized": -0.509090909090909
+              },
+              "ic": 0.5222374400632567,
+              "genes_direct": 2,
+              "genes_inherited": 17,
+              "genes_total": 19,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 8,
+          "original_group_index": 2,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0019955",
+            "name": "cytokine binding",
+            "robustness_score": 30.833333333333336
+          },
+          "terms": [
+            {
+              "go_id": "GO:0019955",
+              "name": "cytokine binding",
+              "robustness_score": 30.833333333333336,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 37,
+                "equal": 0,
+                "difference_absolute": -37,
+                "difference_normalized": -0.6727272727272727
+              },
+              "ic": 0.5155110292785097,
+              "genes_direct": 3,
+              "genes_inherited": 9,
+              "genes_total": 12,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "alpha_equals_beta": {
+      "summary_statistics": {
+        "number_of_groups": 4,
+        "total_terms": 4,
+        "filter_type": "equal",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 1,
+          "original_group_index": 4,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005201",
+            "name": "extracellular matrix structural constituent",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005201",
+              "name": "extracellular matrix structural constituent",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.48509230026517275,
+              "genes_direct": 29,
+              "genes_inherited": 27,
+              "genes_total": 56,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 2,
+          "original_group_index": 8,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0050840",
+            "name": "extracellular matrix binding",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0050840",
+              "name": "extracellular matrix binding",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.5914614546116892,
+              "genes_direct": 14,
+              "genes_inherited": 7,
+              "genes_total": 21,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 3,
+          "original_group_index": 9,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005518",
+            "name": "collagen binding",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005518",
+              "name": "collagen binding",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.5806924354860502,
+              "genes_direct": 17,
+              "genes_inherited": 4,
+              "genes_total": 21,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 10,
+          "original_group_index": 6,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0046332",
+            "name": "SMAD binding",
+            "robustness_score": 15.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0046332",
+              "name": "SMAD binding",
+              "robustness_score": 15.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 8,
+                "beta_dominant": 0,
+                "equal": 10,
+                "difference_absolute": 8,
+                "difference_normalized": 0.14545454545454545
+              },
+              "ic": 0.5733353753558624,
+              "genes_direct": 9,
+              "genes_inherited": 3,
+              "genes_total": 12,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    }
+  }
+}

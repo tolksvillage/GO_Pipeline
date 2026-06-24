@@ -10,6 +10,8 @@ import textwrap
 import argparse
 import sys
 from tqdm import tqdm
+import os
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 # Configuration
 DATA_SUBPATH = Path("parameter_analysis")
@@ -422,7 +424,7 @@ def run_single_visualization(ontology_dir: Path, robustness_threshold: float = 0
         raise
 
 
-def process_all_signatures(input_dir: Path, robustness_threshold: float = 0.0):
+def process_all_signatures(input_dir: Path, robustness_threshold: float = 0.0, state=None):
     """Traverses the input directory and processes all signatures and ontologies."""
 
     data_subpath = Path("parameter_analysis")
@@ -452,6 +454,11 @@ def process_all_signatures(input_dir: Path, robustness_threshold: float = 0.0):
 
         for ontology_dir in ontology_dirs:
             ontology_name = ontology_dir.name
+            work_key = f"{signature_dir.name}::{ontology_name}"
+
+            if state is not None and state.is_done("manifold_visualizer", work_key):
+                continue
+
             manifold_file = ontology_dir / f"manifold_analysis_{ontology_name}.json"
 
             if not manifold_file.exists():
@@ -477,8 +484,13 @@ def process_all_signatures(input_dir: Path, robustness_threshold: float = 0.0):
                     robustness_threshold=robustness_threshold
                 )
 
-            except Exception:
-                pass
+                if state is not None:
+                    state.mark_done("manifold_visualizer", work_key)
+
+            except Exception as e:
+                if state is not None:
+                    state.mark_failed("manifold_visualizer", work_key, str(e))
+                continue
 
 
 if __name__ == "__main__":
@@ -505,6 +517,11 @@ if __name__ == "__main__":
         default=20.0,
         help="Minimum robustness threshold (robustness_score)."
     )
+    parser.add_argument(
+        "--state_file",
+        default=None,
+        help="Path to pipeline status data",
+    )
 
     args = parser.parse_args()
 
@@ -513,7 +530,8 @@ if __name__ == "__main__":
         if not input_path.is_dir():
             print(f"Error: The specified input directory does not exist: {input_path}")
             sys.exit(1)
-        process_all_signatures(input_path, args.robustness)
+        state = PipelineState(args.state_file or os.path.join(str(input_path), ".pipeline_state.json"))
+        process_all_signatures(input_path, args.robustness, state=state)
 
     elif args.specific_path:
         specific_path = Path(args.specific_path).resolve()

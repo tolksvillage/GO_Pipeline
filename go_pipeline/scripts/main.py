@@ -3,33 +3,38 @@ import subprocess
 import sys
 import argparse
 
-def run_step(step_name: str, command: list[str], verbose: bool = True) -> None:
-    print(f"\n=== Starting: {step_name} ===")
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
+def run_step(step_name: str, command: list[str], state: PipelineState, verbose: bool = True) -> None:
+    state.reload()
+
+    if state.is_done("steps", step_name):
+        print(f"\n=== Skip (already processed): {step_name} ===")
+        return
+
+    print(f"\n=== Starting: {step_name} ===")
     env = os.environ.copy()
     env["PYTHONUTF8"] = "1"
 
     if verbose:
         result = subprocess.run(command, env=env)
     else:
-        result = subprocess.run(
-            command,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            env=env,
-        )
+        result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=env)
+
+    state.reload()
 
     if result.returncode != 0:
         if not verbose:
             stdout_text = result.stdout.decode("utf-8", errors="replace")
             stderr_text = result.stderr.decode("utf-8", errors="replace")
-
             if stdout_text.strip():
                 print(stdout_text)
             if stderr_text.strip():
                 print(stderr_text)
-
+        state.mark_failed("steps", step_name, f"returncode={result.returncode}")
         raise RuntimeError(f"Step failed: {step_name}")
+
+    state.mark_done("steps", step_name)
 
 
 def ask_yes_no(question: str) -> bool:
@@ -171,6 +176,9 @@ def main() -> None:
 
     with_paths = args.with_paths
 
+    state_file = os.path.join(output_path, ".pipeline_state.json")
+    state = PipelineState(state_file)
+
     steps = []
 
     if with_dilution_analysis:
@@ -187,6 +195,7 @@ def main() -> None:
                     "--steps=10",
                     f"--mode={dilution_mode}",
                     f"--output={signatures_path}",
+                    f"--state_file={state_file}",
                 ],
             )
         )
@@ -200,6 +209,7 @@ def main() -> None:
                 "go_pipeline.scripts.genes_to_ont",
                 f"--base_path={signatures_path}",
                 f"--output_path={output_path}",
+                f"--state_file={state_file}",
             ],
         ),
         (
@@ -209,6 +219,7 @@ def main() -> None:
                 "-m",
                 "go_pipeline.scripts.representatives",
                 f"--input_dir={output_path}",
+                f"--state_file={state_file}",
             ],
         ),
         (
@@ -220,6 +231,7 @@ def main() -> None:
                 f"--input={output_path}",
                 f"--output={output_path}",
                 f"--signatures={signatures_path}",
+                f"--state_file={state_file}",
             ],
         ),
         (
@@ -229,6 +241,7 @@ def main() -> None:
                 "-m",
                 "go_pipeline.scripts.parameter_analysis_main",
                 f"--input_path={output_path}",
+                f"--state_file={state_file}",
             ],
         ),
         (
@@ -238,6 +251,7 @@ def main() -> None:
                 "-m",
                 "go_pipeline.scripts.parameter_analysis_divide_manifold",
                 f"--input_path={output_path}",
+                f"--state_file={state_file}",
             ],
         ),
         (
@@ -247,6 +261,7 @@ def main() -> None:
                 "-m",
                 "go_pipeline.scripts.manifold_visualizer",
                 f"--input_dir={output_path}",
+                f"--state_file={state_file}",
             ],
         ),
         (
@@ -257,6 +272,7 @@ def main() -> None:
                 "go_pipeline.scripts.llm_request.get_term_definition",
                 f"--input_data={output_path}",
                 "--obo_file=data/go-basic.obo",
+                f"--state_file={state_file}",
             ],
         ),
         (
@@ -268,6 +284,7 @@ def main() -> None:
                 f"--input_data={output_path}",
                 "--gene_summary=data/NCBI/gene_summary.gz",
                 "--gene_info=data/Homo_sapiens.gene_info.gz",
+                f"--state_file={state_file}",
             ],
         ),
     ])
@@ -286,6 +303,7 @@ def main() -> None:
                         "--mode=fixed",
                         "--analyze_all",
                         "--auto_cutoff",
+                        f"--state_file={state_file}",
                     ],
                 )
             )
@@ -298,7 +316,9 @@ def main() -> None:
                         "go_pipeline.scripts.create_summary_data",
                         f"--input_path={output_path}",
                         "--mode", "fixed",
-                        "--ontology", "all"
+                        "--ontology", "all",
+                        f"--state_file={state_file}",
+
                     ],
                 )
             )
@@ -315,6 +335,7 @@ def main() -> None:
                         "--mode=cumulative",
                         "--analyze_all",
                         "--auto_cutoff",
+                        f"--state_file={state_file}",
                     ],
                 )
             )
@@ -328,6 +349,7 @@ def main() -> None:
                     "-m",
                     "go_pipeline.scripts.paths.path_collector",
                     f"--base_dir={output_path}",
+                    f"--state_file={state_file}",
                 ],
             ),
             (
@@ -337,6 +359,7 @@ def main() -> None:
                     "-m",
                     "go_pipeline.scripts.paths.path_rankings",
                     f"--input_dir={output_path}",
+                    f"--state_file={state_file}",
                 ],
             ),
         ])
@@ -347,6 +370,7 @@ def main() -> None:
             "-m",
             "go_pipeline.scripts.llm_request.llm_request",
             f"--input_dir={output_path}",
+            f"--state_file={state_file}",
         ]
 
         if with_dilution_analysis and dilution_mode in ("fixed", "both"):
@@ -359,9 +383,8 @@ def main() -> None:
             )
         )
 
-
     for step_name, command in steps:
-        run_step(step_name, command)
+        run_step(step_name, command, state)
 
     print("\nFinished.")
 

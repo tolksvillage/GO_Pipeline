@@ -1,0 +1,1122 @@
+{
+  "GO:0000166": {
+    "go_annotation": "nucleotide binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 25,
+    "genes_total_count": 26,
+    "ic_normalized": 0.25036997659135185,
+    "frequency": 0.0753285817040476
+  },
+  "GO:0000405": {
+    "go_annotation": "bubble DNA binding",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7986656069816442,
+    "frequency": 0.0002615575753612764
+  },
+  "GO:0000774": {
+    "go_annotation": "adenyl-nucleotide exchange factor activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7378028511146788,
+    "frequency": 0.0004904204538023932
+  },
+  "GO:0000832": {
+    "go_annotation": "inositol hexakisphosphate 5-kinase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8441720054611952,
+    "frequency": 0.00016347348460079775
+  },
+  "GO:0000978": {
+    "go_annotation": "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+    "genes_direct_count": 15,
+    "genes_inherited_count": 3,
+    "genes_total_count": 18,
+    "ic_normalized": 0.31288566544390944,
+    "frequency": 0.039495193879552734
+  },
+  "GO:0000981": {
+    "go_annotation": "DNA-binding transcription factor activity, RNA polymerase II-specific",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 18,
+    "genes_total_count": 19,
+    "ic_normalized": 0.2867094561492768,
+    "frequency": 0.05175570522461257
+  },
+  "GO:0000987": {
+    "go_annotation": "cis-regulatory region sequence-specific DNA binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 18,
+    "genes_total_count": 19,
+    "ic_normalized": 0.31019820571977724,
+    "frequency": 0.04060681357483816
+  },
+  "GO:0001221": {
+    "go_annotation": "transcription coregulator binding",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 2,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5389197631226498,
+    "frequency": 0.003825279539658667
+  },
+  "GO:0001228": {
+    "go_annotation": "DNA-binding transcription activator activity, RNA polymerase II-specific",
+    "genes_direct_count": 15,
+    "genes_inherited_count": 0,
+    "genes_total_count": 15,
+    "ic_normalized": 0.397906574709193,
+    "frequency": 0.016412737853920095
+  },
+  "GO:0002039": {
+    "go_annotation": "p53 binding",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 0,
+    "genes_total_count": 8,
+    "ic_normalized": 0.5872814654927143,
+    "frequency": 0.0023213234813313282
+  },
+  "GO:0003677": {
+    "go_annotation": "DNA binding",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 30,
+    "genes_total_count": 36,
+    "ic_normalized": 0.22836232646415328,
+    "frequency": 0.09455306349310141
+  },
+  "GO:0003682": {
+    "go_annotation": "chromatin binding",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 10,
+    "genes_total_count": 14,
+    "ic_normalized": 0.3753037371192707,
+    "frequency": 0.020728437847381154
+  },
+  "GO:0003684": {
+    "go_annotation": "damaged DNA binding",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 0,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5611474766383105,
+    "frequency": 0.003040606813574838
+  },
+  "GO:0003690": {
+    "go_annotation": "double-stranded DNA binding",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 23,
+    "genes_total_count": 25,
+    "ic_normalized": 0.26479905614547594,
+    "frequency": 0.0648989733865167
+  },
+  "GO:0003712": {
+    "go_annotation": "transcription coregulator activity",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 11,
+    "genes_total_count": 13,
+    "ic_normalized": 0.3977138952888093,
+    "frequency": 0.016445432550840255
+  },
+  "GO:0003713": {
+    "go_annotation": "transcription coactivator activity",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.46160714859797397,
+    "frequency": 0.008500621199241483
+  },
+  "GO:0003714": {
+    "go_annotation": "transcription corepressor activity",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 0,
+    "genes_total_count": 6,
+    "ic_normalized": 0.48367882440574556,
+    "frequency": 0.006767802262473027
+  },
+  "GO:0003779": {
+    "go_annotation": "actin binding",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 1,
+    "genes_total_count": 4,
+    "ic_normalized": 0.40511148765477045,
+    "frequency": 0.01523572876479435
+  },
+  "GO:0003887": {
+    "go_annotation": "DNA-directed DNA polymerase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6739737816837608,
+    "frequency": 0.0009481462106846269
+  },
+  "GO:0004000": {
+    "go_annotation": "adenosine deaminase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7594079169745798,
+    "frequency": 0.0003923363630419146
+  },
+  "GO:0004090": {
+    "go_annotation": "carbonyl reductase (NADPH) activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7770605411217433,
+    "frequency": 0.0003269469692015955
+  },
+  "GO:0004143": {
+    "go_annotation": "ATP-dependent diacylglycerol kinase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7678324782910505,
+    "frequency": 0.00035964166612175504
+  },
+  "GO:0004175": {
+    "go_annotation": "endopeptidase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 7,
+    "genes_total_count": 8,
+    "ic_normalized": 0.4016422790124083,
+    "frequency": 0.015791538612437064
+  },
+  "GO:0004197": {
+    "go_annotation": "cysteine-type endopeptidase activity",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5484794063349127,
+    "frequency": 0.0034656378735369122
+  },
+  "GO:0004222": {
+    "go_annotation": "metalloendopeptidase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.5431484429023385,
+    "frequency": 0.00366180605505787
+  },
+  "GO:0004252": {
+    "go_annotation": "serine-type endopeptidase activity",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.479558143942095,
+    "frequency": 0.007062054534754463
+  },
+  "GO:0004324": {
+    "go_annotation": "ferredoxin-NADP+ reductase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 1.0,
+    "frequency": 3.269469692015955e-05
+  },
+  "GO:0004359": {
+    "go_annotation": "glutaminase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8657770713210962,
+    "frequency": 0.0001307787876806382
+  },
+  "GO:0004520": {
+    "go_annotation": "DNA endonuclease activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.603579922435775,
+    "frequency": 0.001961681815209573
+  },
+  "GO:0004529": {
+    "go_annotation": "DNA exonuclease activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6675166309848268,
+    "frequency": 0.001013535604524946
+  },
+  "GO:0004550": {
+    "go_annotation": "nucleoside diphosphate kinase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.714915364164954,
+    "frequency": 0.0006211992414830315
+  },
+  "GO:0004560": {
+    "go_annotation": "alpha-L-fucosidase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9328885356605481,
+    "frequency": 6.53893938403191e-05
+  },
+  "GO:0004602": {
+    "go_annotation": "glutathione peroxidase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6964171330987784,
+    "frequency": 0.0007519780291636697
+  },
+  "GO:0004615": {
+    "go_annotation": "phosphomannomutase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9328885356605481,
+    "frequency": 6.53893938403191e-05
+  },
+  "GO:0004622": {
+    "go_annotation": "phosphatidylcholine lysophospholipase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6845466074762306,
+    "frequency": 0.0008500621199241483
+  },
+  "GO:0004672": {
+    "go_annotation": "protein kinase activity",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 10,
+    "genes_total_count": 12,
+    "ic_normalized": 0.36488902149767705,
+    "frequency": 0.023082456025632643
+  },
+  "GO:0004674": {
+    "go_annotation": "protein serine/threonine kinase activity",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 6,
+    "genes_total_count": 9,
+    "ic_normalized": 0.39412400865127606,
+    "frequency": 0.017066631792323286
+  },
+  "GO:0004693": {
+    "go_annotation": "cyclin-dependent protein serine/threonine kinase activity",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.603579922435775,
+    "frequency": 0.001961681815209573
+  },
+  "GO:0004694": {
+    "go_annotation": "eukaryotic translation initiation factor 2alpha kinase activity",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.4681542282674179,
+    "frequency": 0.00794481135159877
+  },
+  "GO:0004842": {
+    "go_annotation": "ubiquitin-protein transferase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 4,
+    "genes_total_count": 5,
+    "ic_normalized": 0.36325716191165996,
+    "frequency": 0.023474792388674556
+  },
+  "GO:0004857": {
+    "go_annotation": "enzyme inhibitor activity",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 10,
+    "genes_total_count": 12,
+    "ic_normalized": 0.4142564776560088,
+    "frequency": 0.013862551494147649
+  },
+  "GO:0004860": {
+    "go_annotation": "protein kinase inhibitor activity",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 6,
+    "genes_total_count": 8,
+    "ic_normalized": 0.571002217234726,
+    "frequency": 0.0027463545412934024
+  },
+  "GO:0004861": {
+    "go_annotation": "cyclin-dependent protein serine/threonine kinase inhibitor activity",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.7516580718156826,
+    "frequency": 0.00042503105996207413
+  },
+  "GO:0004867": {
+    "go_annotation": "serine-type endopeptidase inhibitor activity",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5580735239562239,
+    "frequency": 0.0031386909043353167
+  },
+  "GO:0004888": {
+    "go_annotation": "transmembrane signaling receptor activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 7,
+    "genes_total_count": 8,
+    "ic_normalized": 0.2910244582261834,
+    "frequency": 0.04949977113712156
+  },
+  "GO:0005019": {
+    "go_annotation": "platelet-derived growth factor beta-receptor activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6212325465829386,
+    "frequency": 0.0016347348460079775
+  },
+  "GO:0005048": {
+    "go_annotation": "signal sequence binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6120044837522458,
+    "frequency": 0.0017982083306087753
+  },
+  "GO:0005085": {
+    "go_annotation": "guanyl-nucleotide exchange factor activity",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.4661822379664712,
+    "frequency": 0.008108284836199568
+  },
+  "GO:0005096": {
+    "go_annotation": "GTPase activator activity",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.45512597572380475,
+    "frequency": 0.009089125743804355
+  },
+  "GO:0005102": {
+    "go_annotation": "signaling receptor binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 31,
+    "genes_total_count": 32,
+    "ic_normalized": 0.2825785823522705,
+    "frequency": 0.05401163931210358
+  },
+  "GO:0005114": {
+    "go_annotation": "type II transforming growth factor beta receptor binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7678324782910505,
+    "frequency": 0.00035964166612175504
+  },
+  "GO:0005123": {
+    "go_annotation": "death receptor binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7052251459136298,
+    "frequency": 0.0006865886353233506
+  },
+  "GO:0005125": {
+    "go_annotation": "cytokine activity",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 0,
+    "genes_total_count": 6,
+    "ic_normalized": 0.4693569937568711,
+    "frequency": 0.007846727260838291
+  },
+  "GO:0005126": {
+    "go_annotation": "cytokine receptor binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 6,
+    "genes_total_count": 7,
+    "ic_normalized": 0.452718215279633,
+    "frequency": 0.009317988622245471
+  },
+  "GO:0005178": {
+    "go_annotation": "integrin binding",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5010512128238753,
+    "frequency": 0.0056561825671876025
+  },
+  "GO:0005246": {
+    "go_annotation": "calcium channel regulator activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6155908706743646,
+    "frequency": 0.0017328189367684561
+  },
+  "GO:0005262": {
+    "go_annotation": "calcium channel activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.5062239110164105,
+    "frequency": 0.005361930294906166
+  },
+  "GO:0005461": {
+    "go_annotation": "UDP-glucuronate transmembrane transporter activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9328885356605481,
+    "frequency": 6.53893938403191e-05
+  },
+  "GO:0005484": {
+    "go_annotation": "SNAP receptor activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6530387626280633,
+    "frequency": 0.0011770090891257438
+  },
+  "GO:0005524": {
+    "go_annotation": "ATP binding",
+    "genes_direct_count": 19,
+    "genes_inherited_count": 0,
+    "genes_total_count": 19,
+    "ic_normalized": 0.2835208902942089,
+    "frequency": 0.05348852416138102
+  },
+  "GO:0005543": {
+    "go_annotation": "phospholipid binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.38994924450609103,
+    "frequency": 0.017818609821486954
+  },
+  "GO:0005546": {
+    "go_annotation": "phosphatidylinositol-4,5-bisphosphate binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.536468458096323,
+    "frequency": 0.003923363630419146
+  },
+  "GO:0008013": {
+    "go_annotation": "beta-catenin binding",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5405891385599736,
+    "frequency": 0.0037598901458183484
+  },
+  "GO:0008017": {
+    "go_annotation": "microtubule binding",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.45204113995546064,
+    "frequency": 0.00938337801608579
+  },
+  "GO:0008047": {
+    "go_annotation": "enzyme activator activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 19,
+    "genes_total_count": 20,
+    "ic_normalized": 0.37469479563535946,
+    "frequency": 0.020859216635061795
+  },
+  "GO:0008083": {
+    "go_annotation": "growth factor activity",
+    "genes_direct_count": 10,
+    "genes_inherited_count": 0,
+    "genes_total_count": 10,
+    "ic_normalized": 0.5038907528952741,
+    "frequency": 0.005492709082586805
+  },
+  "GO:0008139": {
+    "go_annotation": "nuclear localization sequence binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6883440109223905,
+    "frequency": 0.0008173674230039888
+  },
+  "GO:0008142": {
+    "go_annotation": "oxysterol binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7099490767822914,
+    "frequency": 0.000653893938403191
+  },
+  "GO:0008270": {
+    "go_annotation": "zinc ion binding",
+    "genes_direct_count": 11,
+    "genes_inherited_count": 0,
+    "genes_total_count": 11,
+    "ic_normalized": 0.3424645878976453,
+    "frequency": 0.029098280258942
+  },
+  "GO:0008289": {
+    "go_annotation": "lipid binding",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 8,
+    "genes_total_count": 12,
+    "ic_normalized": 0.33737870753535276,
+    "frequency": 0.030667625711109658
+  },
+  "GO:0008481": {
+    "go_annotation": "sphingosine kinase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9328885356605481,
+    "frequency": 6.53893938403191e-05
+  },
+  "GO:0008559": {
+    "go_annotation": "ABC-type xenobiotic transporter activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7444828359206943,
+    "frequency": 0.0004577257568822337
+  },
+  "GO:0008656": {
+    "go_annotation": "cysteine-type endopeptidase activator activity involved in apoptotic process",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.7201502269675152,
+    "frequency": 0.0005885045445628719
+  },
+  "GO:0008757": {
+    "go_annotation": "S-adenosylmethionine-dependent methyltransferase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.48000743187958056,
+    "frequency": 0.0070293598378343035
+  },
+  "GO:0008821": {
+    "go_annotation": "crossover junction DNA endonuclease activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7986656069816442,
+    "frequency": 0.0002615575753612764
+  },
+  "GO:0015180": {
+    "go_annotation": "L-alanine transmembrane transporter activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7872616913069671,
+    "frequency": 0.00029425227228143595
+  },
+  "GO:0015234": {
+    "go_annotation": "thiamine transmembrane transporter activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8115943002601462,
+    "frequency": 0.00022886287844111686
+  },
+  "GO:0015267": {
+    "go_annotation": "channel activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 3,
+    "genes_total_count": 4,
+    "ic_normalized": 0.3680957820879116,
+    "frequency": 0.02233047799646897
+  },
+  "GO:0016004": {
+    "go_annotation": "phospholipase activator activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7099490767822914,
+    "frequency": 0.000653893938403191
+  },
+  "GO:0016301": {
+    "go_annotation": "kinase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 16,
+    "genes_total_count": 17,
+    "ic_normalized": 0.34235586090498493,
+    "frequency": 0.02913097495586216
+  },
+  "GO:0016538": {
+    "go_annotation": "cyclin-dependent protein serine/threonine kinase regulator activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 8,
+    "genes_total_count": 9,
+    "ic_normalized": 0.6251849882956758,
+    "frequency": 0.0015693454521676583
+  },
+  "GO:0016671": {
+    "go_annotation": "oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7872616913069671,
+    "frequency": 0.00029425227228143595
+  },
+  "GO:0016684": {
+    "go_annotation": "oxidoreductase activity, acting on peroxide as acceptor",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6052072107710281,
+    "frequency": 0.0019289871182894135
+  },
+  "GO:0016740": {
+    "go_annotation": "transferase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 30,
+    "genes_total_count": 31,
+    "ic_normalized": 0.22954124107724533,
+    "frequency": 0.09340874910089583
+  },
+  "GO:0016929": {
+    "go_annotation": "deSUMOylase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8115943002601462,
+    "frequency": 0.00022886287844111686
+  },
+  "GO:0017154": {
+    "go_annotation": "semaphorin receptor activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7516580718156826,
+    "frequency": 0.00042503105996207413
+  },
+  "GO:0019003": {
+    "go_annotation": "GDP binding",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5819748565758741,
+    "frequency": 0.002452102269011966
+  },
+  "GO:0019838": {
+    "go_annotation": "growth factor binding",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 2,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5222374400632567,
+    "frequency": 0.0045445628719021774
+  },
+  "GO:0019899": {
+    "go_annotation": "enzyme binding",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 50,
+    "genes_total_count": 54,
+    "ic_normalized": 0.25966950517460724,
+    "frequency": 0.06843000065389394
+  },
+  "GO:0019900": {
+    "go_annotation": "kinase binding",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 28,
+    "genes_total_count": 35,
+    "ic_normalized": 0.3549900520499195,
+    "frequency": 0.02556725299156477
+  },
+  "GO:0019901": {
+    "go_annotation": "protein kinase binding",
+    "genes_direct_count": 17,
+    "genes_inherited_count": 11,
+    "genes_total_count": 28,
+    "ic_normalized": 0.3653013203895091,
+    "frequency": 0.022984371934872162
+  },
+  "GO:0019902": {
+    "go_annotation": "phosphatase binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 4,
+    "genes_total_count": 5,
+    "ic_normalized": 0.49197590528669743,
+    "frequency": 0.006211992414830315
+  },
+  "GO:0019904": {
+    "go_annotation": "protein domain specific binding",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 15,
+    "genes_total_count": 17,
+    "ic_normalized": 0.374240589750985,
+    "frequency": 0.020957300725822272
+  },
+  "GO:0030946": {
+    "go_annotation": "protein tyrosine phosphatase activity, metal-dependent",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.565404046775902,
+    "frequency": 0.0029098280258942
+  },
+  "GO:0030971": {
+    "go_annotation": "receptor tyrosine kinase binding",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5745233826139343,
+    "frequency": 0.0026482704505329233
+  },
+  "GO:0031267": {
+    "go_annotation": "small GTPase binding",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.452718215279633,
+    "frequency": 0.009317988622245471
+  },
+  "GO:0031419": {
+    "go_annotation": "cobalamin binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7678324782910505,
+    "frequency": 0.00035964166612175504
+  },
+  "GO:0031434": {
+    "go_annotation": "mitogen-activated protein kinase kinase binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7770605411217433,
+    "frequency": 0.0003269469692015955
+  },
+  "GO:0031490": {
+    "go_annotation": "chromatin DNA binding",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 1,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5302197496238366,
+    "frequency": 0.0041849212057804225
+  },
+  "GO:0031492": {
+    "go_annotation": "nucleosomal DNA binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6381136815741779,
+    "frequency": 0.0013731772706467012
+  },
+  "GO:0031624": {
+    "go_annotation": "ubiquitin conjugating enzyme binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6706913867752269,
+    "frequency": 0.0009808409076047864
+  },
+  "GO:0031625": {
+    "go_annotation": "ubiquitin protein ligase binding",
+    "genes_direct_count": 11,
+    "genes_inherited_count": 0,
+    "genes_total_count": 11,
+    "ic_normalized": 0.4467885231642572,
+    "frequency": 0.009906493166808344
+  },
+  "GO:0034739": {
+    "go_annotation": "histone H4K16 deacetylase activity, hydrolytic mechanism",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7770605411217433,
+    "frequency": 0.0003269469692015955
+  },
+  "GO:0035091": {
+    "go_annotation": "phosphatidylinositol binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.43970462819754275,
+    "frequency": 0.010658471195972014
+  },
+  "GO:0035642": {
+    "go_annotation": "histone H3R17 methyltransferase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7872616913069671,
+    "frequency": 0.00029425227228143595
+  },
+  "GO:0038023": {
+    "go_annotation": "signaling receptor activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 10,
+    "genes_total_count": 11,
+    "ic_normalized": 0.27481070546284553,
+    "frequency": 0.058523507487085596
+  },
+  "GO:0042056": {
+    "go_annotation": "chemoattractant activity",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6381136815741779,
+    "frequency": 0.0013731772706467012
+  },
+  "GO:0042277": {
+    "go_annotation": "peptide binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 3,
+    "genes_total_count": 4,
+    "ic_normalized": 0.4604963749223668,
+    "frequency": 0.008598705290001962
+  },
+  "GO:0042288": {
+    "go_annotation": "MHC class I protein binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.714915364164954,
+    "frequency": 0.0006211992414830315
+  },
+  "GO:0042802": {
+    "go_annotation": "identical protein binding",
+    "genes_direct_count": 29,
+    "genes_inherited_count": 24,
+    "genes_total_count": 53,
+    "ic_normalized": 0.2540968068436206,
+    "frequency": 0.07248414307199372
+  },
+  "GO:0042803": {
+    "go_annotation": "protein homodimerization activity",
+    "genes_direct_count": 24,
+    "genes_inherited_count": 0,
+    "genes_total_count": 24,
+    "ic_normalized": 0.36099145163497137,
+    "frequency": 0.02403060223631727
+  },
+  "GO:0042809": {
+    "go_annotation": "nuclear vitamin D receptor binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7378028511146788,
+    "frequency": 0.0004904204538023932
+  },
+  "GO:0043539": {
+    "go_annotation": "protein serine/threonine kinase activator activity",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 4,
+    "genes_total_count": 6,
+    "ic_normalized": 0.58459180984926,
+    "frequency": 0.002386712875171647
+  },
+  "GO:0044877": {
+    "go_annotation": "protein-containing complex binding",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 14,
+    "genes_total_count": 22,
+    "ic_normalized": 0.2968222997441534,
+    "frequency": 0.046622637808147516
+  },
+  "GO:0045296": {
+    "go_annotation": "cadherin binding",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 1,
+    "genes_total_count": 9,
+    "ic_normalized": 0.43970462819754275,
+    "frequency": 0.010658471195972014
+  },
+  "GO:0046914": {
+    "go_annotation": "transition metal ion binding",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 13,
+    "genes_total_count": 16,
+    "ic_normalized": 0.31556741928270954,
+    "frequency": 0.038416268881187474
+  },
+  "GO:0046982": {
+    "go_annotation": "protein heterodimerization activity",
+    "genes_direct_count": 12,
+    "genes_inherited_count": 0,
+    "genes_total_count": 12,
+    "ic_normalized": 0.4362046792919132,
+    "frequency": 0.011050807559013928
+  },
+  "GO:0046983": {
+    "go_annotation": "protein dimerization activity",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 27,
+    "genes_total_count": 30,
+    "ic_normalized": 0.32221797957040427,
+    "frequency": 0.03586608252141503
+  },
+  "GO:0047298": {
+    "go_annotation": "(S)-3-amino-2-methylpropionate transaminase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 1.0,
+    "frequency": 3.269469692015955e-05
+  },
+  "GO:0047847": {
+    "go_annotation": "deoxyuridine phosphorylase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9328885356605481,
+    "frequency": 6.53893938403191e-05
+  },
+  "GO:0048487": {
+    "go_annotation": "beta-tubulin binding",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6381136815741779,
+    "frequency": 0.0013731772706467012
+  },
+  "GO:0050473": {
+    "go_annotation": "arachidonate 15-lipoxygenase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8936308456534835,
+    "frequency": 9.808409076047865e-05
+  },
+  "GO:0050700": {
+    "go_annotation": "CARD domain binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7378028511146788,
+    "frequency": 0.0004904204538023932
+  },
+  "GO:0051786": {
+    "go_annotation": "all-trans-retinol 13,14-reductase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 1.0,
+    "frequency": 3.269469692015955e-05
+  },
+  "GO:0052851": {
+    "go_annotation": "ferric-chelate reductase (NADPH) activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8657770713210962,
+    "frequency": 0.0001307787876806382
+  },
+  "GO:0061629": {
+    "go_annotation": "RNA polymerase II-specific DNA-binding transcription factor binding",
+    "genes_direct_count": 9,
+    "genes_inherited_count": 7,
+    "genes_total_count": 16,
+    "ic_normalized": 0.4306387000016502,
+    "frequency": 0.01170470149741712
+  },
+  "GO:0061630": {
+    "go_annotation": "ubiquitin protein ligase activity",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.37777853962824864,
+    "frequency": 0.020205322696658604
+  },
+  "GO:0061676": {
+    "go_annotation": "importin-alpha family protein binding",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7986656069816442,
+    "frequency": 0.0002615575753612764
+  },
+  "GO:0070123": {
+    "go_annotation": "transforming growth factor beta receptor activity, type III",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7516580718156826,
+    "frequency": 0.00042503105996207413
+  },
+  "GO:0071889": {
+    "go_annotation": "14-3-3 protein binding",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.6614633239445341,
+    "frequency": 0.0010789249983652652
+  },
+  "GO:0098631": {
+    "go_annotation": "cell adhesion mediator activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.572161768540561,
+    "frequency": 0.0027136598443732425
+  },
+  "GO:0106379": {
+    "go_annotation": "8-oxo-(d)RTP hydrolase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8441720054611952,
+    "frequency": 0.00016347348460079775
+  },
+  "GO:0120283": {
+    "go_annotation": "protein serine/threonine kinase binding",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7378028511146788,
+    "frequency": 0.0004904204538023932
+  },
+  "GO:0140537": {
+    "go_annotation": "transcription regulator activator activity",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7678324782910505,
+    "frequency": 0.00035964166612175504
+  },
+  "GO:0140677": {
+    "go_annotation": "molecular function activator activity",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 32,
+    "genes_total_count": 35,
+    "ic_normalized": 0.31169081634191736,
+    "frequency": 0.03998561433335513
+  },
+  "GO:0140926": {
+    "go_annotation": "L-kynurenine transmembrane transporter activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 1.0,
+    "frequency": 3.269469692015955e-05
+  },
+  "GO:0160185": {
+    "go_annotation": "phospholipase C activator activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8936308456534835,
+    "frequency": 9.808409076047865e-05
+  },
+  "GO:0180005": {
+    "go_annotation": "RNA polymerase II CTD heptapeptide repeat T4 phosphatase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.5745233826139343,
+    "frequency": 0.0026482704505329233
+  },
+  "GO:1902098": {
+    "go_annotation": "calcitriol binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8936308456534835,
+    "frequency": 9.808409076047865e-05
+  },
+  "GO:1990841": {
+    "go_annotation": "promoter-specific chromatin binding",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5914614546116892,
+    "frequency": 0.0022232393905708492
+  }
+}

@@ -16,6 +16,7 @@ import argparse
 import glob
 from tqdm import tqdm
 
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 _descendants_cache = {}
 
@@ -549,9 +550,14 @@ def main():
         required=True,
         help="Base directory containing signature folders"
     )
+    parser.add_argument("--state_file", default=None)
+
     args = parser.parse_args()
 
     base_input_dir = args.input_dir
+
+    state_path = args.state_file or os.path.join(base_input_dir, ".pipeline_state.json")
+    state = PipelineState(state_path)
 
     signatures = [
         d for d in glob.glob(os.path.join(base_input_dir, "*"))
@@ -566,15 +572,19 @@ def main():
     ontologies = ["BP", "MF", "CC"]
 
     for signature_dir in tqdm(signatures, desc="Signatures", unit="sig"):
+        sig_name = os.path.basename(signature_dir)
         output_dir = os.path.join(signature_dir, "representatives_analysis")
 
         for ontology in ontologies:
-            process_ontology(
-                ontology,
-                base_path=signature_dir,
-                output_dir=output_dir,
-                go_dag=go_dag
-            )
+            work_key = f"{sig_name}::{ontology}"
+            if state.is_done("representatives", work_key):
+                continue
+            try:
+                process_ontology(ontology, base_path=signature_dir, output_dir=output_dir, go_dag=go_dag)
+                state.mark_done("representatives", work_key)
+            except Exception as e:
+                state.mark_failed("representatives", work_key, str(e))
+                continue
 
 
 if __name__ == "__main__":

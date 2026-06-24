@@ -3,6 +3,8 @@ import re
 from pathlib import Path
 from goatools import obo_parser
 from tqdm import tqdm
+import os
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 def load_go_dag(obo_file_path):
     """Load the GO DAG from an OBO file."""
@@ -140,11 +142,13 @@ def enrich_manifold_analysis_json(json_path, obo_file_path, go_dag, mapping_file
 
 
 
-def process_signatures(input_data_path, obo_file_path):
+def process_signatures(input_data_path, obo_file_path, state_file=None):
     """Find and enrich all relevant JSON files."""
     go_dag = load_go_dag(obo_file_path)
     if go_dag is None:
         return
+
+    state = PipelineState(state_file or os.path.join(input_data_path, ".pipeline_state.json"))
 
     files_found = False
     input_path = Path(input_data_path)
@@ -169,6 +173,11 @@ def process_signatures(input_data_path, obo_file_path):
             for json_file in ranking_dir.glob("*.json"):
                 if "ranking" in json_file.name or "representatives" in json_file.name:
 
+                    work_key = str(json_file)
+                    if state.is_done("go_definitions_ranking", work_key):
+                        files_found = True
+                        continue
+
                     mapping_file = (
                         signature_dir
                         / "BP"
@@ -177,13 +186,19 @@ def process_signatures(input_data_path, obo_file_path):
                     )
 
                     if mapping_file.exists():
-                        enrich_ranking_json(
-                            json_file,
-                            obo_file_path,
-                            go_dag,
-                            mapping_file
-                        )
-                        files_found = True
+                        try:
+                            enrich_ranking_json(
+                                json_file,
+                                obo_file_path,
+                                go_dag,
+                                mapping_file
+                            )
+                            state.mark_done("go_definitions_ranking", work_key)
+                            files_found = True
+                        except Exception as e:
+                            state.mark_failed("go_definitions_ranking", work_key, str(e))
+                            pbar.write(f"  Fehler bei {json_file}: {e}")
+                            continue
 
         if signature_dir.name.startswith("diluted_"):
             continue
@@ -204,6 +219,11 @@ def process_signatures(input_data_path, obo_file_path):
 
                     if manifold_file.exists():
 
+                        work_key = str(manifold_file)
+                        if state.is_done("go_definitions_manifold", work_key):
+                            files_found = True
+                            continue
+
                         mapping_file = (
                             signature_dir
                             / ontology
@@ -212,13 +232,19 @@ def process_signatures(input_data_path, obo_file_path):
                         )
 
                         if mapping_file.exists():
-                            enrich_manifold_analysis_json(
-                                manifold_file,
-                                obo_file_path,
-                                go_dag,
-                                mapping_file
-                            )
-                            files_found = True
+                            try:
+                                enrich_manifold_analysis_json(
+                                    manifold_file,
+                                    obo_file_path,
+                                    go_dag,
+                                    mapping_file
+                                )
+                                state.mark_done("go_definitions_manifold", work_key)
+                                files_found = True
+                            except Exception as e:
+                                state.mark_failed("go_definitions_manifold", work_key, str(e))
+                                pbar.write(f"  Fehler bei {manifold_file}: {e}")
+                                continue
 
     if not files_found:
         print("No JSON files found to enrich.")
@@ -243,6 +269,11 @@ if __name__ == "__main__":
         default="data/go-basic.obo",
         help="Path to the GO OBO file",
     )
+    parser.add_argument(
+        "--state_file",
+        default=None,
+        help="Pfad zur gemeinsamen Pipeline-Status-Datei (Resume)",
+    )
     args = parser.parse_args()
 
-    process_signatures(args.input_data, args.obo_file)
+    process_signatures(args.input_data, args.obo_file, state_file=args.state_file)

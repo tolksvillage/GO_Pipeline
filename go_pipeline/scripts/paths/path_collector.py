@@ -5,7 +5,8 @@ from collections import defaultdict
 from pathlib import Path
 from tqdm import tqdm
 from goatools import obo_parser
-
+import os
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 NAMESPACE_CONFIG = {
     "BP": {
@@ -337,7 +338,7 @@ def process_single_namespace(dir_path: Path, go_dag, namespace: str) -> bool:
 
 
 
-def process_single_directory(dir_path: Path, go_dag, namespaces=None) -> dict:
+def process_single_directory(dir_path: Path, go_dag, namespaces=None, state=None) -> dict:
     """Process all requested namespaces for one directory."""
     if namespaces is None:
         namespaces = ["BP", "MF", "CC"]
@@ -345,14 +346,27 @@ def process_single_directory(dir_path: Path, go_dag, namespaces=None) -> dict:
     results = {}
 
     for namespace in namespaces:
-        results[namespace] = process_single_namespace(dir_path, go_dag, namespace)
+        work_key = f"{dir_path.name}::{namespace}"
+
+        if state is not None and state.is_done("path_collector", work_key):
+            results[namespace] = True
+            continue
+
+        success = process_single_namespace(dir_path, go_dag, namespace)
+        results[namespace] = success
+
+        if state is not None:
+            if success:
+                state.mark_done("path_collector", work_key)
+            else:
+                state.mark_failed("path_collector", work_key, "process_single_namespace returned False")
 
     successful = sum(1 for success in results.values() if success)
     return results
 
 
 
-def process_all_directories(base_dir: str, obo_file: str, namespaces=None) -> None:
+def process_all_directories(base_dir: str, obo_file: str, namespaces=None, state_file=None) -> None:
     """Process all result directories under the given base directory."""
     if namespaces is None:
         namespaces = ["BP", "MF", "CC"]
@@ -361,6 +375,8 @@ def process_all_directories(base_dir: str, obo_file: str, namespaces=None) -> No
     if not base_path.exists():
         print(f"Directory does not exist: {base_dir}")
         return
+
+    state = PipelineState(state_file or os.path.join(str(base_path), ".pipeline_state.json"))
 
     try:
         go_dag = obo_parser.GODag(obo_file, optional_attrs=["relationship"])
@@ -379,7 +395,7 @@ def process_all_directories(base_dir: str, obo_file: str, namespaces=None) -> No
     namespace_stats = {ns: {"successful": 0, "failed": 0} for ns in namespaces}
 
     for dir_path in tqdm(subdirs, desc="Signatures", unit="sig"):
-        results = process_single_directory(dir_path, go_dag, namespaces)
+        results = process_single_directory(dir_path, go_dag, namespaces, state=state)
 
         if any(results.values()):
             total_successful += 1
@@ -424,6 +440,11 @@ def main() -> None:
         choices=["BP", "MF", "CC"],
         help="Namespaces to process (default: BP MF CC)",
     )
+    parser.add_argument(
+        "--state_file",
+        default=None,
+        help="Pfad zur gemeinsamen Pipeline-Status-Datei (Resume)",
+    )
 
     args = parser.parse_args()
 
@@ -435,7 +456,7 @@ def main() -> None:
         if namespace not in NAMESPACE_CONFIG:
             sys.exit(1)
 
-    process_all_directories(args.base_dir, args.obo_file, args.namespaces)
+    process_all_directories(args.base_dir, args.obo_file, args.namespaces, state_file=args.state_file)
 
 
 if __name__ == "__main__":

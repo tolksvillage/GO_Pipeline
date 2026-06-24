@@ -3,7 +3,7 @@ import os
 import argparse
 from pathlib import Path
 from tqdm import tqdm
-
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 def filter_manifold_by_alpha_beta_preference(data, preference_type, threshold=0.15):
     """
@@ -155,6 +155,11 @@ def main():
         default=0.20,
         help="Normalized threshold for classifying alpha-beta preference (default: 0.15 = 15%%)"
     )
+    parser.add_argument(
+        "--state_file",
+        default=None,
+        help="Path to pipeline status data"
+    )
 
     args = parser.parse_args()
 
@@ -164,6 +169,8 @@ def main():
         print(f"Error: Base path '{input_path}' does not exist!")
         return 1
 
+    state = PipelineState(args.state_file or os.path.join(input_path, ".pipeline_state.json"))
+
     manifold_files = find_manifold_files(input_path)
 
     successful_count = 0
@@ -172,10 +179,19 @@ def main():
     progress_bar = tqdm(manifold_files, desc="Manifold files", unit="file", dynamic_ncols=True)
 
     for info in progress_bar:
+        work_key = info['json_file']
+
+        if state.is_done("parameter_analysis_divide_manifold", work_key):
+            successful_count += 1
+            continue
+
         if process_single_manifold(info, threshold=args.threshold):
             successful_count += 1
+            state.mark_done("parameter_analysis_divide_manifold", work_key)
         else:
             failed_count += 1
+            state.mark_failed("parameter_analysis_divide_manifold", work_key,
+                               "process_single_manifold returned False")
 
     return 0 if failed_count == 0 else 1
 

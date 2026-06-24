@@ -11,6 +11,8 @@ import os
 from pathlib import Path
 from tqdm import tqdm
 
+from go_pipeline.scripts.helper.signature_utils import is_original_signature
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 def load_valid_genes(gene_file_path):
     """
@@ -224,7 +226,13 @@ def main():
         default='data/all_genes.txt',
         help='Path to the file containing valid genes (default: data/all_genes.txt)'
     )
+    parser.add_argument("--state_file", default=None,
+                        help="Path to pipeline status data")
+
     args = parser.parse_args()
+
+    state_path = args.state_file or os.path.join(args.output, ".pipeline_state.json")
+    state = PipelineState(state_path)
 
     if args.seed:
         random.seed(args.seed)
@@ -236,7 +244,7 @@ def main():
         signature_paths = sorted([
             os.path.join(args.signatures, f)
             for f in os.listdir(args.signatures)
-            if f.endswith(".txt")
+            if f.endswith(".txt") and is_original_signature(Path(f).stem)
         ])
         if not signature_paths:
             return
@@ -274,24 +282,22 @@ def main():
         genes_to_add = info['size']
 
         for current_mode in modes_to_run:
-            random_pool = create_random_pool(all_gene_symbols, info['signature'], pool_size)
+            work_key = f"{info['name']}::{current_mode}"
+            if state.is_done("dilute_signatures", work_key):
+                continue
 
-            dilution_signatures = create_dilution_signatures(
-                info['signature'],
-                random_pool,
-                args.steps,
-                genes_to_add,
-                current_mode
-            )
-
-            save_signatures_for_signature(
-                info['name'],
-                dilution_signatures,
-                args.output,
-                current_mode
-            )
-
-            info[f'dilution_signatures_{current_mode}'] = dilution_signatures
+            try:
+                random_pool = create_random_pool(all_gene_symbols, info['signature'], pool_size)
+                dilution_signatures = create_dilution_signatures(
+                    info['signature'], random_pool, args.steps, genes_to_add, current_mode
+                )
+                save_signatures_for_signature(info['name'], dilution_signatures, args.output, current_mode)
+                info[f'dilution_signatures_{current_mode}'] = dilution_signatures
+                state.mark_done("dilute_signatures", work_key)
+            except Exception as e:
+                state.mark_failed("dilute_signatures", work_key, str(e))
+                print(f"  Mistake at '{info['name']}' ({current_mode}): {e} -> continue with next signature")
+                continue
 
         info['steps'] = args.steps
         info['genes_per_step'] = genes_to_add

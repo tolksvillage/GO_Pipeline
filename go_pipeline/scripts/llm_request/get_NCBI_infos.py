@@ -4,6 +4,8 @@ import os
 import argparse
 from pathlib import Path
 from tqdm import tqdm
+import os
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 def load_gene_symbol_to_id_mapping(gene_info_file):
     """Load gene symbol to GeneID mapping from Homo_sapiens.gene_info.gz."""
@@ -172,12 +174,13 @@ def enhance_manifold_analysis_json_with_summaries(manifold_file, gene_summaries)
         return False
 
 
-def process_signature_directories(base_path, gene_summaries):
-    """Process all signature directories and update ranking and manifold JSON files."""
+def process_signature_directories(base_path, gene_summaries, state_file=None):
     base_path = Path(base_path)
     if not base_path.exists():
         print(f"Input path {base_path} does not exist")
         return
+
+    state = PipelineState(state_file or os.path.join(str(base_path), ".pipeline_state.json"))
 
     total_ranking_files = 0
     total_manifold_files = 0
@@ -197,9 +200,23 @@ def process_signature_directories(base_path, gene_summaries):
         dilution_dir = sig_dir / "Dilutions" / "fixed"
         if dilution_dir.exists():
             for file_path in dilution_dir.glob("*ranking*.json"):
-                success = enhance_ranking_json_with_summaries(file_path, gene_summaries)
-                if success:
+                work_key = str(file_path)
+
+                if state.is_done("ncbi_ranking", work_key):
                     total_ranking_files += 1
+                    continue
+
+                try:
+                    success = enhance_ranking_json_with_summaries(file_path, gene_summaries)
+                    if success:
+                        total_ranking_files += 1
+                        state.mark_done("ncbi_ranking", work_key)
+                    else:
+                        state.mark_failed("ncbi_ranking", work_key,
+                                           "enhance_ranking_json_with_summaries returned False")
+                except Exception as e:
+                    state.mark_failed("ncbi_ranking", work_key, str(e))
+                    continue
 
         param_analysis_dir = sig_dir / "parameter_analysis"
         if param_analysis_dir.exists():
@@ -209,11 +226,25 @@ def process_signature_directories(base_path, gene_summaries):
                     manifold_file = ontology_dir / f"manifold_analysis_{ontology}.json"
 
                     if manifold_file.exists():
-                        success = enhance_manifold_analysis_json_with_summaries(
-                            manifold_file, gene_summaries
-                        )
-                        if success:
+                        work_key = str(manifold_file)
+
+                        if state.is_done("ncbi_manifold", work_key):
                             total_manifold_files += 1
+                            continue
+
+                        try:
+                            success = enhance_manifold_analysis_json_with_summaries(
+                                manifold_file, gene_summaries
+                            )
+                            if success:
+                                total_manifold_files += 1
+                                state.mark_done("ncbi_manifold", work_key)
+                            else:
+                                state.mark_failed("ncbi_manifold", work_key,
+                                                   "enhance_manifold_analysis_json_with_summaries returned False")
+                        except Exception as e:
+                            state.mark_failed("ncbi_manifold", work_key, str(e))
+                            continue
 
 
 def main():
@@ -238,6 +269,11 @@ def main():
         default="data/Homo_sapiens.gene_info.gz",
         help="Path to Homo_sapiens.gene_info.gz"
     )
+    parser.add_argument(
+        "--state_file",
+        default=None,
+        help="Pfad zur gemeinsamen Pipeline-Status-Datei (Resume)"
+    )
 
     args = parser.parse_args()
 
@@ -250,7 +286,7 @@ def main():
         print("No gene summaries loaded. Exiting.")
         return
 
-    process_signature_directories(args.input_data, gene_summaries)
+    process_signature_directories(args.input_data, gene_summaries, state_file=args.state_file)
 
 
 if __name__ == "__main__":

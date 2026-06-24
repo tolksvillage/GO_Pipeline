@@ -1,0 +1,598 @@
+{
+  "metadata": {
+    "signature_name": "hallmark_EMT",
+    "dilution_mode": "fixed",
+    "analysis_type": "all_terms",
+    "threshold": 0.0,
+    "n_terms": 18,
+    "n_steps": 11,
+    "auto_cutoff_enabled": true,
+    "auto_cutoff_rank": 4
+  },
+  "score_calculation_formula": {
+    "formula": "dilution_resistance_score = initial_robustness * mean_retention * stability",
+    "components": {
+      "mean_retention": "mean(all_robustness) / initial_robustness",
+      "stability": "max(0, 1 - (avg_deviation / initial_robustness))",
+      "avg_deviation": "mean(|robustness_i - initial_robustness|) for i > 0"
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "go_id": "GO:0031012",
+      "go_name": "extracellular matrix",
+      "ic": 0.4550161056273093,
+      "genes_direct": 31,
+      "genes_inherited": 28,
+      "genes_total": 59,
+      "is_robust": true,
+      "robustness_score": {
+        "Original": 100.0,
+        "Step_01": 100.0,
+        "Step_02": 100.0,
+        "Step_03": 100.0,
+        "Step_04": 100.0,
+        "Step_05": 100.0,
+        "Step_06": 100.0,
+        "Step_07": 100.0,
+        "Step_08": 100.0,
+        "Step_09": 100.0,
+        "Step_10": 100.0
+      },
+      "score_components": {
+        "initial_robustness": 100.0,
+        "final_robustness": 100.0,
+        "mean_robustness": 100.0,
+        "mean_retention": 1.0,
+        "avg_deviation": 0.0,
+        "stability": 1.0,
+        "dilution_resistance_score": 100.0
+      }
+    },
+    {
+      "rank": 2,
+      "go_id": "GO:0005581",
+      "go_name": "collagen trimer",
+      "ic": 0.5768296099976926,
+      "genes_direct": 4,
+      "genes_inherited": 14,
+      "genes_total": 18,
+      "is_robust": true,
+      "robustness_score": {
+        "Original": 100.0,
+        "Step_01": 91.66666666666666,
+        "Step_02": 100.0,
+        "Step_03": 100.0,
+        "Step_04": 100.0,
+        "Step_05": 100.0,
+        "Step_06": 100.0,
+        "Step_07": 91.66666666666666,
+        "Step_08": 100.0,
+        "Step_09": 100.0,
+        "Step_10": 100.0
+      },
+      "score_components": {
+        "initial_robustness": 100.0,
+        "final_robustness": 100.0,
+        "mean_robustness": 98.48484848484848,
+        "mean_retention": 0.9848484848484849,
+        "avg_deviation": 1.6666666666666685,
+        "stability": 0.9833333333333333,
+        "dilution_resistance_score": 96.84343434343434
+      }
+    },
+    {
+      "rank": 3,
+      "go_id": "GO:0005788",
+      "go_name": "endoplasmic reticulum lumen",
+      "ic": 0.45349604662934156,
+      "genes_direct": 43,
+      "genes_inherited": 1,
+      "genes_total": 44,
+      "is_robust": true,
+      "robustness_score": {
+        "Original": 90.0,
+        "Step_01": 85.0,
+        "Step_02": 87.5,
+        "Step_03": 87.5,
+        "Step_04": 100.0,
+        "Step_05": 87.5,
+        "Step_06": 100.0,
+        "Step_07": 87.5,
+        "Step_08": 87.5,
+        "Step_09": 87.5,
+        "Step_10": 85.83333333333333
+      },
+      "score_components": {
+        "initial_robustness": 90.0,
+        "final_robustness": 85.83333333333333,
+        "mean_robustness": 89.62121212121212,
+        "mean_retention": 0.9957912457912458,
+        "avg_deviation": 4.416666666666667,
+        "stability": 0.950925925925926,
+        "dilution_resistance_score": 85.22313411896745
+      }
+    },
+    {
+      "rank": 4,
+      "go_id": "GO:0005604",
+      "go_name": "basement membrane",
+      "ic": 0.5683794511205472,
+      "genes_direct": 26,
+      "genes_inherited": 0,
+      "genes_total": 26,
+      "is_robust": true,
+      "robustness_score": {
+        "Original": 90.83333333333333,
+        "Step_01": 85.83333333333333,
+        "Step_02": 87.5,
+        "Step_03": 88.33333333333333,
+        "Step_04": 87.5,
+        "Step_05": 88.33333333333333,
+        "Step_06": 87.5,
+        "Step_07": 87.5,
+        "Step_08": 87.5,
+        "Step_09": 87.5,
+        "Step_10": 88.33333333333333
+      },
+      "score_components": {
+        "initial_robustness": 90.83333333333333,
+        "final_robustness": 88.33333333333333,
+        "mean_robustness": 87.87878787878788,
+        "mean_retention": 0.9674728940783986,
+        "avg_deviation": 3.2499999999999973,
+        "stability": 0.9642201834862385,
+        "dilution_resistance_score": 84.73450097303308
+      }
+    },
+    {
+      "rank": 5,
+      "go_id": "GO:0005925",
+      "go_name": "focal adhesion",
+      "ic": 0.4234894919313692,
+      "genes_direct": 29,
+      "genes_inherited": 0,
+      "genes_total": 29,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 81.66666666666667,
+        "Step_01": 66.66666666666666,
+        "Step_02": 66.66666666666666,
+        "Step_03": 70.83333333333334,
+        "Step_04": 75.0,
+        "Step_05": 69.16666666666667,
+        "Step_06": 75.83333333333333,
+        "Step_07": 70.83333333333334,
+        "Step_08": 75.0,
+        "Step_09": 75.83333333333333,
+        "Step_10": 69.16666666666667
+      },
+      "score_components": {
+        "initial_robustness": 81.66666666666667,
+        "final_robustness": 69.16666666666667,
+        "mean_robustness": 72.42424242424242,
+        "mean_retention": 0.8868274582560296,
+        "avg_deviation": 10.166666666666671,
+        "stability": 0.8755102040816326,
+        "dilution_resistance_score": 63.408163265306115
+      }
+    },
+    {
+      "rank": 6,
+      "go_id": "GO:0009986",
+      "go_name": "cell surface",
+      "ic": 0.38644713841048767,
+      "genes_direct": 33,
+      "genes_inherited": 0,
+      "genes_total": 33,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 66.66666666666666,
+        "Step_01": 60.83333333333333,
+        "Step_02": 57.49999999999999,
+        "Step_03": 60.0,
+        "Step_04": 64.16666666666667,
+        "Step_05": 64.16666666666667,
+        "Step_06": 62.5,
+        "Step_07": 60.0,
+        "Step_08": 55.00000000000001,
+        "Step_09": 60.0,
+        "Step_10": 45.83333333333333
+      },
+      "score_components": {
+        "initial_robustness": 66.66666666666666,
+        "final_robustness": 45.83333333333333,
+        "mean_robustness": 59.696969696969695,
+        "mean_retention": 0.8954545454545456,
+        "avg_deviation": 7.666666666666657,
+        "stability": 0.8850000000000001,
+        "dilution_resistance_score": 52.83181818181819
+      }
+    },
+    {
+      "rank": 7,
+      "go_id": "GO:0042383",
+      "go_name": "sarcolemma",
+      "ic": 0.5587751521382567,
+      "genes_direct": 11,
+      "genes_inherited": 0,
+      "genes_total": 11,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 75.0,
+        "Step_01": 32.5,
+        "Step_02": 63.33333333333333,
+        "Step_03": 62.5,
+        "Step_04": 32.5,
+        "Step_05": 56.666666666666664,
+        "Step_06": 75.0,
+        "Step_07": 66.66666666666666,
+        "Step_08": 66.66666666666666,
+        "Step_09": 63.33333333333333,
+        "Step_10": 70.83333333333334
+      },
+      "score_components": {
+        "initial_robustness": 75.0,
+        "final_robustness": 70.83333333333334,
+        "mean_robustness": 60.45454545454545,
+        "mean_retention": 0.806060606060606,
+        "avg_deviation": 16.000000000000004,
+        "stability": 0.7866666666666666,
+        "dilution_resistance_score": 47.557575757575755
+      }
+    },
+    {
+      "rank": 8,
+      "go_id": "GO:0032432",
+      "go_name": "actin filament bundle",
+      "ic": 0.5673741331615688,
+      "genes_direct": 1,
+      "genes_inherited": 9,
+      "genes_total": 10,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 45.83333333333333,
+        "Step_01": 43.333333333333336,
+        "Step_02": 40.0,
+        "Step_03": 40.0,
+        "Step_04": 45.0,
+        "Step_05": 37.5,
+        "Step_06": 42.5,
+        "Step_07": 54.166666666666664,
+        "Step_08": 45.0,
+        "Step_09": 40.0,
+        "Step_10": 54.166666666666664
+      },
+      "score_components": {
+        "initial_robustness": 45.83333333333333,
+        "final_robustness": 54.166666666666664,
+        "mean_robustness": 44.31818181818182,
+        "mean_retention": 0.9669421487603307,
+        "avg_deviation": 4.9999999999999964,
+        "stability": 0.890909090909091,
+        "dilution_resistance_score": 39.48347107438017
+      }
+    },
+    {
+      "rank": 9,
+      "go_id": "GO:0005796",
+      "go_name": "Golgi lumen",
+      "ic": 0.5578660384007584,
+      "genes_direct": 11,
+      "genes_inherited": 0,
+      "genes_total": 11,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 70.83333333333334,
+        "Step_01": 0.0,
+        "Step_02": 62.5,
+        "Step_03": 66.66666666666666,
+        "Step_04": 57.49999999999999,
+        "Step_05": 75.0,
+        "Step_06": 40.0,
+        "Step_07": 41.66666666666667,
+        "Step_08": 66.66666666666666,
+        "Step_09": 45.83333333333333,
+        "Step_10": 62.5
+      },
+      "score_components": {
+        "initial_robustness": 70.83333333333334,
+        "final_robustness": 62.5,
+        "mean_robustness": 53.560606060606055,
+        "mean_retention": 0.7561497326203207,
+        "avg_deviation": 19.833333333333343,
+        "stability": 0.72,
+        "dilution_resistance_score": 38.563636363636355
+      }
+    },
+    {
+      "rank": 10,
+      "go_id": "GO:0005615",
+      "go_name": "extracellular space",
+      "ic": 0.2799179250443269,
+      "genes_direct": 104,
+      "genes_inherited": 0,
+      "genes_total": 104,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 54.166666666666664,
+        "Step_01": 37.5,
+        "Step_02": 60.0,
+        "Step_03": 58.333333333333336,
+        "Step_04": 54.166666666666664,
+        "Step_05": 54.166666666666664,
+        "Step_06": 33.33333333333333,
+        "Step_07": 8.333333333333332,
+        "Step_08": 45.83333333333333,
+        "Step_09": 57.49999999999999,
+        "Step_10": 0.0
+      },
+      "score_components": {
+        "initial_robustness": 54.166666666666664,
+        "final_robustness": 0.0,
+        "mean_robustness": 42.12121212121212,
+        "mean_retention": 0.7776223776223776,
+        "avg_deviation": 15.916666666666666,
+        "stability": 0.7061538461538461,
+        "dilution_resistance_score": 29.74405594405594
+      }
+    },
+    {
+      "rank": 11,
+      "go_id": "GO:0005583",
+      "go_name": "fibrillar collagen trimer",
+      "ic": 0.7639297418513931,
+      "genes_direct": 1,
+      "genes_inherited": 7,
+      "genes_total": 8,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 45.83333333333333,
+        "Step_01": 25.0,
+        "Step_02": 45.83333333333333,
+        "Step_03": 33.33333333333333,
+        "Step_04": 35.833333333333336,
+        "Step_05": 35.833333333333336,
+        "Step_06": 33.33333333333333,
+        "Step_07": 33.33333333333333,
+        "Step_08": 33.33333333333333,
+        "Step_09": 36.666666666666664,
+        "Step_10": 30.833333333333336
+      },
+      "score_components": {
+        "initial_robustness": 45.83333333333333,
+        "final_robustness": 30.833333333333336,
+        "mean_robustness": 35.378787878787875,
+        "mean_retention": 0.771900826446281,
+        "avg_deviation": 11.499999999999996,
+        "stability": 0.7490909090909091,
+        "dilution_resistance_score": 26.501928374655648
+      }
+    },
+    {
+      "rank": 12,
+      "go_id": "GO:0005911",
+      "go_name": "cell-cell junction",
+      "ic": 0.40335196611701307,
+      "genes_direct": 5,
+      "genes_inherited": 12,
+      "genes_total": 17,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 33.33333333333333,
+        "Step_01": 14.166666666666666,
+        "Step_02": 16.666666666666664,
+        "Step_03": 29.166666666666668,
+        "Step_04": 43.333333333333336,
+        "Step_05": 45.83333333333333,
+        "Step_06": 66.66666666666666,
+        "Step_07": 43.333333333333336,
+        "Step_08": 16.666666666666664,
+        "Step_09": 60.83333333333333,
+        "Step_10": 62.5
+      },
+      "score_components": {
+        "initial_robustness": 33.33333333333333,
+        "final_robustness": 62.5,
+        "mean_robustness": 39.31818181818182,
+        "mean_retention": 1.1795454545454547,
+        "avg_deviation": 17.916666666666664,
+        "stability": 0.4625,
+        "dilution_resistance_score": 18.184659090909093
+      }
+    },
+    {
+      "rank": 13,
+      "go_id": "GO:0098552",
+      "go_name": "side of membrane",
+      "ic": 0.3769603182350518,
+      "genes_direct": 3,
+      "genes_inherited": 19,
+      "genes_total": 22,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 29.166666666666668,
+        "Step_01": 67.5,
+        "Step_02": 12.5,
+        "Step_03": 41.66666666666667,
+        "Step_04": 25.0,
+        "Step_05": 30.833333333333336,
+        "Step_06": 24.166666666666668,
+        "Step_07": 12.5,
+        "Step_08": 54.166666666666664,
+        "Step_09": 12.5,
+        "Step_10": 29.166666666666668
+      },
+      "score_components": {
+        "initial_robustness": 29.166666666666668,
+        "final_robustness": 29.166666666666668,
+        "mean_robustness": 30.833333333333336,
+        "mean_retention": 1.0571428571428572,
+        "avg_deviation": 13.666666666666666,
+        "stability": 0.5314285714285715,
+        "dilution_resistance_score": 16.38571428571429
+      }
+    },
+    {
+      "rank": 14,
+      "go_id": "GO:1903561",
+      "go_name": "extracellular vesicle",
+      "ic": 0.26520406583152933,
+      "genes_direct": 2,
+      "genes_inherited": 70,
+      "genes_total": 72,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 25.0,
+        "Step_01": 8.333333333333332,
+        "Step_02": 33.33333333333333,
+        "Step_03": 12.5,
+        "Step_04": 12.5,
+        "Step_05": 25.0,
+        "Step_06": 20.833333333333336,
+        "Step_07": 12.5,
+        "Step_08": 20.833333333333336,
+        "Step_09": 21.666666666666668,
+        "Step_10": 14.166666666666666
+      },
+      "score_components": {
+        "initial_robustness": 25.0,
+        "final_robustness": 14.166666666666666,
+        "mean_robustness": 18.787878787878785,
+        "mean_retention": 0.7515151515151515,
+        "avg_deviation": 8.499999999999998,
+        "stability": 0.6600000000000001,
+        "dilution_resistance_score": 12.4
+      }
+    },
+    {
+      "rank": 15,
+      "go_id": "GO:0043202",
+      "go_name": "lysosomal lumen",
+      "ic": 0.5615558870629612,
+      "genes_direct": 10,
+      "genes_inherited": 0,
+      "genes_total": 10,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 54.166666666666664,
+        "Step_01": 67.5,
+        "Step_02": 0.0,
+        "Step_03": 54.166666666666664,
+        "Step_04": 0.0,
+        "Step_05": 62.5,
+        "Step_06": 0.0,
+        "Step_07": 45.83333333333333,
+        "Step_08": 0.0,
+        "Step_09": 0.0,
+        "Step_10": 0.0
+      },
+      "score_components": {
+        "initial_robustness": 54.166666666666664,
+        "final_robustness": 0.0,
+        "mean_robustness": 25.83333333333333,
+        "mean_retention": 0.47692307692307684,
+        "avg_deviation": 35.5,
+        "stability": 0.34461538461538455,
+        "dilution_resistance_score": 8.9025641025641
+      }
+    },
+    {
+      "rank": 16,
+      "go_id": "GO:0098797",
+      "go_name": "plasma membrane protein complex",
+      "ic": 0.37222896739686745,
+      "genes_direct": 1,
+      "genes_inherited": 20,
+      "genes_total": 21,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 18.333333333333332,
+        "Step_01": 12.5,
+        "Step_02": 0.0,
+        "Step_03": 0.0,
+        "Step_04": 0.0,
+        "Step_05": 12.5,
+        "Step_06": 0.0,
+        "Step_07": 29.166666666666668,
+        "Step_08": 16.666666666666664,
+        "Step_09": 15.0,
+        "Step_10": 11.666666666666666
+      },
+      "score_components": {
+        "initial_robustness": 18.333333333333332,
+        "final_robustness": 11.666666666666666,
+        "mean_robustness": 10.53030303030303,
+        "mean_retention": 0.5743801652892562,
+        "avg_deviation": 10.75,
+        "stability": 0.4136363636363636,
+        "dilution_resistance_score": 4.355716253443525
+      }
+    },
+    {
+      "rank": 17,
+      "go_id": "GO:0030054",
+      "go_name": "cell junction",
+      "ic": 0.2764872014267659,
+      "genes_direct": 1,
+      "genes_inherited": 49,
+      "genes_total": 50,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 10.0,
+        "Step_01": 0.0,
+        "Step_02": 0.0,
+        "Step_03": 8.333333333333332,
+        "Step_04": 0.0,
+        "Step_05": 0.0,
+        "Step_06": 8.333333333333332,
+        "Step_07": 0.0,
+        "Step_08": 0.0,
+        "Step_09": 0.0,
+        "Step_10": 0.0
+      },
+      "score_components": {
+        "initial_robustness": 10.0,
+        "final_robustness": 0.0,
+        "mean_robustness": 2.424242424242424,
+        "mean_retention": 0.24242424242424238,
+        "avg_deviation": 8.333333333333334,
+        "stability": 0.16666666666666663,
+        "dilution_resistance_score": 0.40404040404040387
+      }
+    },
+    {
+      "rank": 18,
+      "go_id": "GO:0031982",
+      "go_name": "vesicle",
+      "ic": 0.22398022584107877,
+      "genes_direct": 1,
+      "genes_inherited": 91,
+      "genes_total": 92,
+      "is_robust": false,
+      "robustness_score": {
+        "Original": 9.166666666666666,
+        "Step_01": 0.0,
+        "Step_02": 0.0,
+        "Step_03": 0.0,
+        "Step_04": 0.0,
+        "Step_05": 11.666666666666666,
+        "Step_06": 0.0,
+        "Step_07": 0.0,
+        "Step_08": 0.0,
+        "Step_09": 0.0,
+        "Step_10": 0.0
+      },
+      "score_components": {
+        "initial_robustness": 9.166666666666666,
+        "final_robustness": 0.0,
+        "mean_robustness": 1.8939393939393938,
+        "mean_retention": 0.2066115702479339,
+        "avg_deviation": 8.5,
+        "stability": 0.07272727272727264,
+        "dilution_resistance_score": 0.13774104683195576
+      }
+    }
+  ]
+}

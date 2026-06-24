@@ -1,0 +1,493 @@
+{
+  "GO:0051239": [
+    "F2R",
+    "IL1A",
+    "PROCR",
+    "SOCS1",
+    "SPHK1",
+    "TGFB1",
+    "TNNI1",
+    "GLIPR2",
+    "ADRA1A"
+  ],
+  "GO:0010646": [
+    "APP",
+    "DEF6",
+    "FBXW7",
+    "PLK2",
+    "RACK1",
+    "RGS16",
+    "TRAF4",
+    "RGS18",
+    "TWSG1",
+    "STK11",
+    "HOMER2",
+    "PLEKHG6"
+  ],
+  "GO:0048856": [
+    "APAF1",
+    "CDK5R1",
+    "NHLH2",
+    "PDGFA",
+    "TAGLN",
+    "COL6A1",
+    "OSR2",
+    "DMBX1",
+    "PBX2",
+    "HNF1B",
+    "ITGA3",
+    "LOX"
+  ],
+  "GO:0032501": [
+    "FGF13",
+    "JAG2",
+    "KRT17",
+    "KRT83",
+    "SFTPA2",
+    "ADGRV1",
+    "OR52A5",
+    "KRTAP6-1",
+    "TMEM63C",
+    "NPHP3"
+  ],
+  "GO:0051716": [
+    "ATF3",
+    "BAK1",
+    "CDKN1A",
+    "DDB2",
+    "FAS",
+    "GADD45A",
+    "NDRG1",
+    "POLH",
+    "PPM1D",
+    "PPP1R15A",
+    "RAD9A",
+    "SESN1",
+    "SP1",
+    "TP53",
+    "XPC",
+    "XRCC4",
+    "CCDC47",
+    "FAAP100"
+  ],
+  "GO:0051234": [
+    "ABCC5",
+    "PITPNC1",
+    "POM121",
+    "SEC61A1",
+    "SLC19A2",
+    "SLC35D1",
+    "SLC3A2",
+    "SLC7A11",
+    "STEAP3",
+    "TAP1",
+    "TCN2",
+    "VAMP8",
+    "SLC28A3",
+    "CNGA1",
+    "SLC24A5",
+    "SLC7A9",
+    "SLC16A12",
+    "SV2B",
+    "SLC16A13",
+    "SLC25A23",
+    "KIF3B",
+    "ABCG8"
+  ],
+  "GO:0006139": [
+    "ERCC5",
+    "NOL8",
+    "UTP14A",
+    "POLR1G",
+    "SMARCAL1",
+    "NME3",
+    "TRMT2A",
+    "CWC15",
+    "NUDT12",
+    "SMN1",
+    "GTF3A"
+  ],
+  "GO:0009893": [
+    "HDAC3",
+    "KLF4",
+    "FIZ1",
+    "TLR6",
+    "MED6"
+  ],
+  "GO:0048869": [
+    "CEBPA",
+    "RB1",
+    "RUNX3",
+    "RBPJ",
+    "SP7"
+  ],
+  "GO:0042221": [
+    "FOS",
+    "FOXO3",
+    "HMOX1",
+    "INHBB",
+    "MAPKAPK3",
+    "MDM2",
+    "PCNA",
+    "SDC1",
+    "TXNIP",
+    "ZFP36L1",
+    "LRAT",
+    "NQO1"
+  ],
+  "GO:0009653": [
+    "PERP",
+    "SERPINB5",
+    "TP63",
+    "ZNF365",
+    "CRISPLD1",
+    "HOXB7",
+    "AMTN",
+    "DYNC2I1",
+    "FBXW4",
+    "ADAM7"
+  ],
+  "GO:0007166": [
+    "ACVR1B",
+    "EPHA2",
+    "IRAK1",
+    "ARHGEF19",
+    "TIE1",
+    "DISP2"
+  ],
+  "GO:0051128": [
+    "ANKRA2",
+    "CDKN2AIP",
+    "OSGIN1",
+    "S100A10",
+    "SERTAD3",
+    "ARHGAP28"
+  ],
+  "GO:0006950": [
+    "DDIT3",
+    "DDIT4",
+    "GPX2",
+    "HSPA4L",
+    "LY86",
+    "TPM1"
+  ],
+  "GO:0032879": [
+    "ABAT",
+    "STOM",
+    "CNST",
+    "AKAP6"
+  ],
+  "GO:0050793": [
+    "BMP2",
+    "BTG1",
+    "NOTCH1",
+    "ZBTB16",
+    "IL20",
+    "ODAPH",
+    "ELAPOR2",
+    "PALMD",
+    "LRRN3"
+  ],
+  "GO:0044281": [
+    "ADA",
+    "AK1",
+    "COQ8A",
+    "DCXR",
+    "EPHX1",
+    "GLS2",
+    "LDHB",
+    "PMM1",
+    "PRKAB1",
+    "RETSAT",
+    "GLUD1",
+    "IPPK",
+    "MTRR",
+    "CBR4",
+    "BAAT",
+    "AK5",
+    "HGD",
+    "TYMP"
+  ],
+  "GO:0006996": [
+    "IRAG2",
+    "ARMC2",
+    "FBXW8"
+  ],
+  "GO:0043067": [
+    "NUPR1",
+    "PHLDA3",
+    "PIDD1",
+    "TM7SF3",
+    "TRIAP1",
+    "TSC22D1",
+    "G0S2",
+    "SLC39A7",
+    "RPL10"
+  ],
+  "GO:0042127": [
+    "CDH13",
+    "THAP12"
+  ],
+  "GO:0035556": [
+    "EPS8L2",
+    "HINT1",
+    "IER3",
+    "MKNK2",
+    "RAB40C",
+    "RALGDS",
+    "RPS27L",
+    "RRAD",
+    "RXRA",
+    "VDR",
+    "RXRB",
+    "ARHGDIB",
+    "PEAR1",
+    "RAB33A",
+    "TIAM2",
+    "PRKCSH"
+  ],
+  "GO:0065009": [
+    "TAX1BP3",
+    "TRIB3",
+    "PRMT7",
+    "CAPN1",
+    "XIRP1"
+  ],
+  "GO:0051726": [
+    "CCND2",
+    "CCND3",
+    "CGRRF1",
+    "RRP8",
+    "CCNQ",
+    "TICRR",
+    "SON",
+    "KNL1"
+  ],
+  "GO:0048584": [
+    "CASP1",
+    "CD81",
+    "HBEGF",
+    "HRAS",
+    "S100A4",
+    "TPD52L1",
+    "ALKAL2",
+    "GH1",
+    "GPR4"
+  ],
+  "GO:0012501": [
+    "BAX",
+    "CSRNP2",
+    "DRAM1",
+    "EI24",
+    "FAM162A",
+    "NINJ1",
+    "ZMAT3",
+    "MIEN1",
+    "ITGB3BP",
+    "TNFAIP1"
+  ],
+  "GO:0043412": [
+    "TPRKB",
+    "ANAPC16",
+    "ZDHHC14",
+    "RAMACL",
+    "USP12",
+    "PLOD1",
+    "TRMT10A"
+  ],
+  "GO:0009056": [
+    "CTSD",
+    "GM2A",
+    "NUDT15",
+    "CTRL"
+  ],
+  "GO:0009058": [
+    "IP6K2",
+    "RPL18",
+    "RPL36",
+    "RPS12",
+    "MRPL48",
+    "MRPL54",
+    "RPL34"
+  ],
+  "GO:0008283": [
+    "KLK8",
+    "SFN",
+    "TGFA",
+    "ALKBH3",
+    "DCHS2"
+  ],
+  "GO:0009628": [
+    "AEN",
+    "BTG2",
+    "H2AJ",
+    "IER5"
+  ],
+  "GO:0051246": [
+    "CDKN2A",
+    "ELP1",
+    "PLXNB2",
+    "RCHY1"
+  ],
+  "GO:2000145": [
+    "DNAI3"
+  ],
+  "GO:0065008": [
+    "BAIAP2"
+  ],
+  "GO:0002376": [
+    "IFI30",
+    "RNF19B",
+    "BMX",
+    "VAV1"
+  ],
+  "GO:0042592": [
+    "ISCU",
+    "ATP2B3",
+    "PRCP",
+    "RCN3"
+  ],
+  "GO:0048646": [
+    "PTPN14",
+    "SAT1",
+    "ST14",
+    "TM4SF1",
+    "KDM4C"
+  ],
+  "GO:0022414": [
+    "LIF",
+    "BRME1",
+    "DACH2",
+    "SSH2",
+    "TAF4B",
+    "KMT2D",
+    "LHFPL2"
+  ],
+  "GO:0030155": [
+    "TNFSF9",
+    "TMEM131L",
+    "MAGI1",
+    "LIMS1"
+  ],
+  "GO:0022402": [
+    "CCNG1",
+    "CCP110",
+    "PLK3",
+    "RAD51C",
+    "WRAP73",
+    "ARHGEF10",
+    "CENPT",
+    "MITD1",
+    "KIF11"
+  ],
+  "GO:0080134": [
+    "TRAFD1",
+    "EVPL",
+    "PPP4R3B",
+    "CDC37"
+  ],
+  "GO:0051252": [
+    "JUN",
+    "PRMT2",
+    "TOB1",
+    "ZNF362",
+    "ZNF454",
+    "ZNF487"
+  ],
+  "GO:0051641": [
+    "RHBDF2",
+    "PREB",
+    "SNUPN",
+    "BET1",
+    "GOLT1B",
+    "ATG16L1"
+  ],
+  "GO:0009894": [
+    "MTMR8"
+  ],
+  "GO:0044419": [
+    "C8G",
+    "TRIML2",
+    "RNASE6"
+  ],
+  "GO:0007155": [
+    "CLCA2",
+    "ITGB4",
+    "PDZD2"
+  ],
+  "GO:0006325": [
+    "H2AC25",
+    "PPM1H",
+    "MORC2"
+  ],
+  "GO:0030030": [
+    "CYFIP2"
+  ],
+  "GO:0006629": [
+    "ABHD4",
+    "ALOX15B",
+    "DGKA",
+    "FDXR",
+    "ELOVL4",
+    "DOLK",
+    "TPTE2",
+    "ACBD3"
+  ],
+  "GO:0007186": [
+    "OR52E4",
+    "OR2C3",
+    "OR5H14"
+  ],
+  "GO:0006508": [
+    "CTSF"
+  ],
+  "GO:0045934": [
+    "H1-2",
+    "HEXIM1",
+    "MXD1",
+    "MXD4",
+    "WWP1",
+    "TAGLN3"
+  ],
+  "GO:0061024": [
+    "PLSCR2"
+  ],
+  "GO:1901135": [
+    "FUCA1",
+    "UPP1",
+    "ITIH1",
+    "HMMR",
+    "GLCE",
+    "PIGY",
+    "NDUFB1"
+  ],
+  "GO:0097435": [
+    "TCHH"
+  ],
+  "GO:0051259": [
+    "KCTD11",
+    "KCTD5",
+    "CLYBL"
+  ],
+  "GO:0019220": [
+    "CCNK",
+    "CDKN2B",
+    "RAP2B",
+    "TSPYL2",
+    "ZNF622"
+  ],
+  "GO:0048585": [
+    "PTPRE",
+    "USP49",
+    "NDUFAF2",
+    "ATP2B4"
+  ],
+  "GO:0007017": [
+    "KIF13B",
+    "CCDC170",
+    "TUBA3C"
+  ],
+  "GO:0006091": [
+    "COA6"
+  ]
+}

@@ -1,0 +1,1144 @@
+{
+  "metadata": {
+    "signature_name": "diluted_hallmark_p53_pathways_step09_fixed200_total400",
+    "ontology": "MF",
+    "analysis_type": "manifold_analysis"
+  },
+  "summary_statistics": {
+    "unique_go_terms_top10": 20,
+    "parameter_configurations": 120,
+    "diversity_index": 0.016666666666666666,
+    "number_of_groups": 14
+  },
+  "groups": [
+    {
+      "group_id": 1,
+      "original_group_index": 5,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0019901",
+        "name": "protein kinase binding",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0019901",
+          "name": "protein kinase binding",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.3653013203895091,
+          "genes_direct": 24,
+          "genes_inherited": 15,
+          "genes_total": 39,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0019900",
+          "name": "kinase binding",
+          "robustness_score": 88.33333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 41,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -14,
+            "difference_normalized": -0.2545454545454545
+          },
+          "ic": 0.3549900520499195,
+          "genes_direct": 7,
+          "genes_inherited": 39,
+          "genes_total": 46,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 2,
+      "original_group_index": 6,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0061629",
+        "name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0061629",
+          "name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.4306387000016502,
+          "genes_direct": 11,
+          "genes_inherited": 8,
+          "genes_total": 19,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 3,
+      "original_group_index": 3,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0004860",
+        "name": "protein kinase inhibitor activity",
+        "robustness_score": 83.33333333333334
+      },
+      "terms": [
+        {
+          "go_id": "GO:0004860",
+          "name": "protein kinase inhibitor activity",
+          "robustness_score": 83.33333333333334,
+          "alpha_beta_preference": {
+            "alpha_dominant": 35,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -20,
+            "difference_normalized": -0.36363636363636365
+          },
+          "ic": 0.571002217234726,
+          "genes_direct": 3,
+          "genes_inherited": 6,
+          "genes_total": 9,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 4,
+      "original_group_index": 0,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0008083",
+        "name": "growth factor activity",
+        "robustness_score": 66.66666666666666
+      },
+      "terms": [
+        {
+          "go_id": "GO:0008083",
+          "name": "growth factor activity",
+          "robustness_score": 66.66666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 15,
+            "equal": 10,
+            "difference_absolute": 40,
+            "difference_normalized": 0.7272727272727273
+          },
+          "ic": 0.5038907528952741,
+          "genes_direct": 11,
+          "genes_inherited": 0,
+          "genes_total": 11,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0048018",
+          "name": "receptor ligand activity",
+          "robustness_score": 14.166666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 17,
+            "equal": 0,
+            "difference_absolute": -17,
+            "difference_normalized": -0.3090909090909091
+          },
+          "ic": 0.3873204483635338,
+          "genes_direct": 1,
+          "genes_inherited": 20,
+          "genes_total": 21,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 5,
+      "original_group_index": 7,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0031490",
+        "name": "chromatin DNA binding",
+        "robustness_score": 66.66666666666666
+      },
+      "terms": [
+        {
+          "go_id": "GO:0031490",
+          "name": "chromatin DNA binding",
+          "robustness_score": 66.66666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 15,
+            "equal": 10,
+            "difference_absolute": 40,
+            "difference_normalized": 0.7272727272727273
+          },
+          "ic": 0.5302197496238366,
+          "genes_direct": 6,
+          "genes_inherited": 2,
+          "genes_total": 8,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0003682",
+          "name": "chromatin binding",
+          "robustness_score": 3.3333333333333335,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 4,
+            "equal": 0,
+            "difference_absolute": -4,
+            "difference_normalized": -0.07272727272727272
+          },
+          "ic": 0.3753037371192707,
+          "genes_direct": 10,
+          "genes_inherited": 12,
+          "genes_total": 22,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 6,
+      "original_group_index": 4,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0016538",
+        "name": "cyclin-dependent protein serine/threonine kinase regulator activity",
+        "robustness_score": 63.33333333333333
+      },
+      "terms": [
+        {
+          "go_id": "GO:0016538",
+          "name": "cyclin-dependent protein serine/threonine kinase regulator activity",
+          "robustness_score": 63.33333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 11,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -44,
+            "difference_normalized": -0.8
+          },
+          "ic": 0.6251849882956758,
+          "genes_direct": 1,
+          "genes_inherited": 8,
+          "genes_total": 9,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 7,
+      "original_group_index": 10,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0002039",
+        "name": "p53 binding",
+        "robustness_score": 54.166666666666664
+      },
+      "terms": [
+        {
+          "go_id": "GO:0002039",
+          "name": "p53 binding",
+          "robustness_score": 54.166666666666664,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 0,
+            "equal": 10,
+            "difference_absolute": 55,
+            "difference_normalized": 1.0
+          },
+          "ic": 0.5872814654927143,
+          "genes_direct": 8,
+          "genes_inherited": 0,
+          "genes_total": 8,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 8,
+      "original_group_index": 12,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0019904",
+        "name": "protein domain specific binding",
+        "robustness_score": 54.166666666666664
+      },
+      "terms": [
+        {
+          "go_id": "GO:0019904",
+          "name": "protein domain specific binding",
+          "robustness_score": 54.166666666666664,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -55,
+            "difference_normalized": -1.0
+          },
+          "ic": 0.374240589750985,
+          "genes_direct": 5,
+          "genes_inherited": 19,
+          "genes_total": 24,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 9,
+      "original_group_index": 13,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0043539",
+        "name": "protein serine/threonine kinase activator activity",
+        "robustness_score": 50.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0043539",
+          "name": "protein serine/threonine kinase activator activity",
+          "robustness_score": 50.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 12,
+            "beta_dominant": 38,
+            "equal": 10,
+            "difference_absolute": -26,
+            "difference_normalized": -0.4727272727272727
+          },
+          "ic": 0.58459180984926,
+          "genes_direct": 3,
+          "genes_inherited": 4,
+          "genes_total": 7,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 10,
+      "original_group_index": 2,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0140677",
+        "name": "molecular function activator activity",
+        "robustness_score": 45.83333333333333
+      },
+      "terms": [
+        {
+          "go_id": "GO:0140677",
+          "name": "molecular function activator activity",
+          "robustness_score": 45.83333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 55,
+            "equal": 0,
+            "difference_absolute": -55,
+            "difference_normalized": -1.0
+          },
+          "ic": 0.31169081634191736,
+          "genes_direct": 3,
+          "genes_inherited": 46,
+          "genes_total": 49,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0008047",
+          "name": "enzyme activator activity",
+          "robustness_score": 30.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 36,
+            "equal": 0,
+            "difference_absolute": -36,
+            "difference_normalized": -0.6545454545454545
+          },
+          "ic": 0.37469479563535946,
+          "genes_direct": 1,
+          "genes_inherited": 25,
+          "genes_total": 26,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 11,
+      "original_group_index": 8,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0003684",
+        "name": "damaged DNA binding",
+        "robustness_score": 45.83333333333333
+      },
+      "terms": [
+        {
+          "go_id": "GO:0003684",
+          "name": "damaged DNA binding",
+          "robustness_score": 45.83333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 55,
+            "difference_normalized": 1.0
+          },
+          "ic": 0.5611474766383105,
+          "genes_direct": 8,
+          "genes_inherited": 0,
+          "genes_total": 8,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 12,
+      "original_group_index": 11,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0031625",
+        "name": "ubiquitin protein ligase binding",
+        "robustness_score": 36.666666666666664
+      },
+      "terms": [
+        {
+          "go_id": "GO:0031625",
+          "name": "ubiquitin protein ligase binding",
+          "robustness_score": 36.666666666666664,
+          "alpha_beta_preference": {
+            "alpha_dominant": 44,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 44,
+            "difference_normalized": 0.8
+          },
+          "ic": 0.4467885231642572,
+          "genes_direct": 14,
+          "genes_inherited": 0,
+          "genes_total": 14,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 13,
+      "original_group_index": 9,
+      "size": 3,
+      "representative": {
+        "go_id": "GO:0042803",
+        "name": "protein homodimerization activity",
+        "robustness_score": 35.833333333333336
+      },
+      "terms": [
+        {
+          "go_id": "GO:0042803",
+          "name": "protein homodimerization activity",
+          "robustness_score": 35.833333333333336,
+          "alpha_beta_preference": {
+            "alpha_dominant": 43,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 43,
+            "difference_normalized": 0.7818181818181819
+          },
+          "ic": 0.36099145163497137,
+          "genes_direct": 32,
+          "genes_inherited": 0,
+          "genes_total": 32,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0046983",
+          "name": "protein dimerization activity",
+          "robustness_score": 33.33333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 40,
+            "equal": 0,
+            "difference_absolute": -40,
+            "difference_normalized": -0.7272727272727273
+          },
+          "ic": 0.32221797957040427,
+          "genes_direct": 3,
+          "genes_inherited": 37,
+          "genes_total": 40,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0046982",
+          "name": "protein heterodimerization activity",
+          "robustness_score": 11.666666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 14,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 14,
+            "difference_normalized": 0.2545454545454545
+          },
+          "ic": 0.4362046792919132,
+          "genes_direct": 15,
+          "genes_inherited": 0,
+          "genes_total": 15,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 14,
+      "original_group_index": 1,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0001228",
+        "name": "DNA-binding transcription activator activity, RNA polymerase II-specific",
+        "robustness_score": 16.666666666666664
+      },
+      "terms": [
+        {
+          "go_id": "GO:0001228",
+          "name": "DNA-binding transcription activator activity, RNA polymerase II-specific",
+          "robustness_score": 16.666666666666664,
+          "alpha_beta_preference": {
+            "alpha_dominant": 20,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 20,
+            "difference_normalized": 0.36363636363636365
+          },
+          "ic": 0.397906574709193,
+          "genes_direct": 22,
+          "genes_inherited": 0,
+          "genes_total": 22,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    }
+  ],
+  "filtered_by_preference": {
+    "threshold": 0.2,
+    "alpha_greater_than_beta": {
+      "summary_statistics": {
+        "number_of_groups": 7,
+        "total_terms": 8,
+        "filter_type": "alpha_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 4,
+          "original_group_index": 0,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0008083",
+            "name": "growth factor activity",
+            "robustness_score": 66.66666666666666
+          },
+          "terms": [
+            {
+              "go_id": "GO:0008083",
+              "name": "growth factor activity",
+              "robustness_score": 66.66666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 15,
+                "equal": 10,
+                "difference_absolute": 40,
+                "difference_normalized": 0.7272727272727273
+              },
+              "ic": 0.5038907528952741,
+              "genes_direct": 11,
+              "genes_inherited": 0,
+              "genes_total": 11,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 5,
+          "original_group_index": 7,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0031490",
+            "name": "chromatin DNA binding",
+            "robustness_score": 66.66666666666666
+          },
+          "terms": [
+            {
+              "go_id": "GO:0031490",
+              "name": "chromatin DNA binding",
+              "robustness_score": 66.66666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 15,
+                "equal": 10,
+                "difference_absolute": 40,
+                "difference_normalized": 0.7272727272727273
+              },
+              "ic": 0.5302197496238366,
+              "genes_direct": 6,
+              "genes_inherited": 2,
+              "genes_total": 8,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 7,
+          "original_group_index": 10,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0002039",
+            "name": "p53 binding",
+            "robustness_score": 54.166666666666664
+          },
+          "terms": [
+            {
+              "go_id": "GO:0002039",
+              "name": "p53 binding",
+              "robustness_score": 54.166666666666664,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 0,
+                "equal": 10,
+                "difference_absolute": 55,
+                "difference_normalized": 1.0
+              },
+              "ic": 0.5872814654927143,
+              "genes_direct": 8,
+              "genes_inherited": 0,
+              "genes_total": 8,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 11,
+          "original_group_index": 8,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0003684",
+            "name": "damaged DNA binding",
+            "robustness_score": 45.83333333333333
+          },
+          "terms": [
+            {
+              "go_id": "GO:0003684",
+              "name": "damaged DNA binding",
+              "robustness_score": 45.83333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 55,
+                "difference_normalized": 1.0
+              },
+              "ic": 0.5611474766383105,
+              "genes_direct": 8,
+              "genes_inherited": 0,
+              "genes_total": 8,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 12,
+          "original_group_index": 11,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0031625",
+            "name": "ubiquitin protein ligase binding",
+            "robustness_score": 36.666666666666664
+          },
+          "terms": [
+            {
+              "go_id": "GO:0031625",
+              "name": "ubiquitin protein ligase binding",
+              "robustness_score": 36.666666666666664,
+              "alpha_beta_preference": {
+                "alpha_dominant": 44,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 44,
+                "difference_normalized": 0.8
+              },
+              "ic": 0.4467885231642572,
+              "genes_direct": 14,
+              "genes_inherited": 0,
+              "genes_total": 14,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 13,
+          "original_group_index": 9,
+          "size": 2,
+          "representative": {
+            "go_id": "GO:0042803",
+            "name": "protein homodimerization activity",
+            "robustness_score": 35.833333333333336
+          },
+          "terms": [
+            {
+              "go_id": "GO:0042803",
+              "name": "protein homodimerization activity",
+              "robustness_score": 35.833333333333336,
+              "alpha_beta_preference": {
+                "alpha_dominant": 43,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 43,
+                "difference_normalized": 0.7818181818181819
+              },
+              "ic": 0.36099145163497137,
+              "genes_direct": 32,
+              "genes_inherited": 0,
+              "genes_total": 32,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0046982",
+              "name": "protein heterodimerization activity",
+              "robustness_score": 11.666666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 14,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 14,
+                "difference_normalized": 0.2545454545454545
+              },
+              "ic": 0.4362046792919132,
+              "genes_direct": 15,
+              "genes_inherited": 0,
+              "genes_total": 15,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 14,
+          "original_group_index": 1,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0001228",
+            "name": "DNA-binding transcription activator activity, RNA polymerase II-specific",
+            "robustness_score": 16.666666666666664
+          },
+          "terms": [
+            {
+              "go_id": "GO:0001228",
+              "name": "DNA-binding transcription activator activity, RNA polymerase II-specific",
+              "robustness_score": 16.666666666666664,
+              "alpha_beta_preference": {
+                "alpha_dominant": 20,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 20,
+                "difference_normalized": 0.36363636363636365
+              },
+              "ic": 0.397906574709193,
+              "genes_direct": 22,
+              "genes_inherited": 0,
+              "genes_total": 22,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "beta_greater_than_alpha": {
+      "summary_statistics": {
+        "number_of_groups": 8,
+        "total_terms": 9,
+        "filter_type": "beta_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 1,
+          "original_group_index": 5,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0019901",
+            "name": "protein kinase binding",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0019900",
+              "name": "kinase binding",
+              "robustness_score": 88.33333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 41,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -14,
+                "difference_normalized": -0.2545454545454545
+              },
+              "ic": 0.3549900520499195,
+              "genes_direct": 7,
+              "genes_inherited": 39,
+              "genes_total": 46,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 3,
+          "original_group_index": 3,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0004860",
+            "name": "protein kinase inhibitor activity",
+            "robustness_score": 83.33333333333334
+          },
+          "terms": [
+            {
+              "go_id": "GO:0004860",
+              "name": "protein kinase inhibitor activity",
+              "robustness_score": 83.33333333333334,
+              "alpha_beta_preference": {
+                "alpha_dominant": 35,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -20,
+                "difference_normalized": -0.36363636363636365
+              },
+              "ic": 0.571002217234726,
+              "genes_direct": 3,
+              "genes_inherited": 6,
+              "genes_total": 9,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 4,
+          "original_group_index": 0,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0008083",
+            "name": "growth factor activity",
+            "robustness_score": 66.66666666666666
+          },
+          "terms": [
+            {
+              "go_id": "GO:0048018",
+              "name": "receptor ligand activity",
+              "robustness_score": 14.166666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 17,
+                "equal": 0,
+                "difference_absolute": -17,
+                "difference_normalized": -0.3090909090909091
+              },
+              "ic": 0.3873204483635338,
+              "genes_direct": 1,
+              "genes_inherited": 20,
+              "genes_total": 21,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 6,
+          "original_group_index": 4,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0016538",
+            "name": "cyclin-dependent protein serine/threonine kinase regulator activity",
+            "robustness_score": 63.33333333333333
+          },
+          "terms": [
+            {
+              "go_id": "GO:0016538",
+              "name": "cyclin-dependent protein serine/threonine kinase regulator activity",
+              "robustness_score": 63.33333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 11,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -44,
+                "difference_normalized": -0.8
+              },
+              "ic": 0.6251849882956758,
+              "genes_direct": 1,
+              "genes_inherited": 8,
+              "genes_total": 9,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 8,
+          "original_group_index": 12,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0019904",
+            "name": "protein domain specific binding",
+            "robustness_score": 54.166666666666664
+          },
+          "terms": [
+            {
+              "go_id": "GO:0019904",
+              "name": "protein domain specific binding",
+              "robustness_score": 54.166666666666664,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -55,
+                "difference_normalized": -1.0
+              },
+              "ic": 0.374240589750985,
+              "genes_direct": 5,
+              "genes_inherited": 19,
+              "genes_total": 24,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 9,
+          "original_group_index": 13,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0043539",
+            "name": "protein serine/threonine kinase activator activity",
+            "robustness_score": 50.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0043539",
+              "name": "protein serine/threonine kinase activator activity",
+              "robustness_score": 50.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 12,
+                "beta_dominant": 38,
+                "equal": 10,
+                "difference_absolute": -26,
+                "difference_normalized": -0.4727272727272727
+              },
+              "ic": 0.58459180984926,
+              "genes_direct": 3,
+              "genes_inherited": 4,
+              "genes_total": 7,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 10,
+          "original_group_index": 2,
+          "size": 2,
+          "representative": {
+            "go_id": "GO:0140677",
+            "name": "molecular function activator activity",
+            "robustness_score": 45.83333333333333
+          },
+          "terms": [
+            {
+              "go_id": "GO:0140677",
+              "name": "molecular function activator activity",
+              "robustness_score": 45.83333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 55,
+                "equal": 0,
+                "difference_absolute": -55,
+                "difference_normalized": -1.0
+              },
+              "ic": 0.31169081634191736,
+              "genes_direct": 3,
+              "genes_inherited": 46,
+              "genes_total": 49,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0008047",
+              "name": "enzyme activator activity",
+              "robustness_score": 30.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 36,
+                "equal": 0,
+                "difference_absolute": -36,
+                "difference_normalized": -0.6545454545454545
+              },
+              "ic": 0.37469479563535946,
+              "genes_direct": 1,
+              "genes_inherited": 25,
+              "genes_total": 26,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 13,
+          "original_group_index": 9,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0042803",
+            "name": "protein homodimerization activity",
+            "robustness_score": 35.833333333333336
+          },
+          "terms": [
+            {
+              "go_id": "GO:0046983",
+              "name": "protein dimerization activity",
+              "robustness_score": 33.33333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 40,
+                "equal": 0,
+                "difference_absolute": -40,
+                "difference_normalized": -0.7272727272727273
+              },
+              "ic": 0.32221797957040427,
+              "genes_direct": 3,
+              "genes_inherited": 37,
+              "genes_total": 40,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "alpha_equals_beta": {
+      "summary_statistics": {
+        "number_of_groups": 3,
+        "total_terms": 3,
+        "filter_type": "equal",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 1,
+          "original_group_index": 5,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0019901",
+            "name": "protein kinase binding",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0019901",
+              "name": "protein kinase binding",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.3653013203895091,
+              "genes_direct": 24,
+              "genes_inherited": 15,
+              "genes_total": 39,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 2,
+          "original_group_index": 6,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0061629",
+            "name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0061629",
+              "name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.4306387000016502,
+              "genes_direct": 11,
+              "genes_inherited": 8,
+              "genes_total": 19,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 5,
+          "original_group_index": 7,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0031490",
+            "name": "chromatin DNA binding",
+            "robustness_score": 66.66666666666666
+          },
+          "terms": [
+            {
+              "go_id": "GO:0003682",
+              "name": "chromatin binding",
+              "robustness_score": 3.3333333333333335,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 4,
+                "equal": 0,
+                "difference_absolute": -4,
+                "difference_normalized": -0.07272727272727272
+              },
+              "ic": 0.3753037371192707,
+              "genes_direct": 10,
+              "genes_inherited": 12,
+              "genes_total": 22,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    }
+  }
+}

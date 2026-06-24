@@ -7,6 +7,7 @@ from tqdm import tqdm
 from goatools.anno.gaf_reader import GafReader
 from go_pipeline.init_GO import initialize_go
 
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 @contextlib.contextmanager
 def suppress_output():
@@ -140,7 +141,12 @@ def main():
     parser.add_argument("--base_path", required=True)
     parser.add_argument("--output_path", required=True)
     parser.add_argument("--namespaces", nargs='+', choices=['BP', 'MF', 'CC'], default=['BP', 'MF', 'CC'])
+    parser.add_argument("--state_file", default=None,
+                        help="Path to pipeline status data")
     args = parser.parse_args()
+
+    state_path = args.state_file or os.path.join(args.output_path, ".pipeline_state.json")
+    state = PipelineState(state_path)
 
     base_path = Path(args.base_path)
     signature_files = sorted(base_path.glob("*.txt"))
@@ -167,6 +173,10 @@ def main():
             signature_output = Path(args.output_path) / signature_name
 
             for namespace in args.namespaces:
+                work_key = f"{signature_name}::{namespace}"
+                if state.is_done("genes_to_ont", work_key):
+                    continue
+
                 try:
                     namespace_path = signature_output / namespace
                     namespace_path.mkdir(parents=True, exist_ok=True)
@@ -179,9 +189,10 @@ def main():
                         go_dag=go_dags[namespace],
                         annotations=all_annotations
                     )
-
-                except Exception:
-                    pass
+                    state.mark_done("genes_to_ont", work_key)
+                except Exception as e:
+                    state.mark_failed("genes_to_ont", work_key, str(e))
+                    continue
 
 
 if __name__ == "__main__":

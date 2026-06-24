@@ -1,0 +1,1050 @@
+{
+  "metadata": {
+    "signature_name": "diluted_hallmark_p53_pathways_step04_fixed200_total400",
+    "ontology": "CC",
+    "analysis_type": "manifold_analysis"
+  },
+  "summary_statistics": {
+    "unique_go_terms_top10": 18,
+    "parameter_configurations": 120,
+    "diversity_index": 0.015,
+    "number_of_groups": 14
+  },
+  "groups": [
+    {
+      "group_id": 1,
+      "original_group_index": 1,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0032993",
+        "name": "protein-DNA complex",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0032993",
+          "name": "protein-DNA complex",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.5035453881585661,
+          "genes_direct": 5,
+          "genes_inherited": 6,
+          "genes_total": 11,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 2,
+      "original_group_index": 4,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0045121",
+        "name": "membrane raft",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0045121",
+          "name": "membrane raft",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.4613518969519171,
+          "genes_direct": 8,
+          "genes_inherited": 5,
+          "genes_total": 13,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 3,
+      "original_group_index": 8,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0090575",
+        "name": "RNA polymerase II transcription regulator complex",
+        "robustness_score": 91.66666666666666
+      },
+      "terms": [
+        {
+          "go_id": "GO:0090575",
+          "name": "RNA polymerase II transcription regulator complex",
+          "robustness_score": 91.66666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 45,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -10,
+            "difference_normalized": -0.18181818181818182
+          },
+          "ic": 0.4735707614261414,
+          "genes_direct": 4,
+          "genes_inherited": 9,
+          "genes_total": 13,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0005667",
+          "name": "transcription regulator complex",
+          "robustness_score": 70.83333333333334,
+          "alpha_beta_preference": {
+            "alpha_dominant": 20,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -35,
+            "difference_normalized": -0.6363636363636364
+          },
+          "ic": 0.40624197331981254,
+          "genes_direct": 3,
+          "genes_inherited": 20,
+          "genes_total": 23,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 4,
+      "original_group_index": 9,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0000307",
+        "name": "cyclin-dependent protein kinase holoenzyme complex",
+        "robustness_score": 91.66666666666666
+      },
+      "terms": [
+        {
+          "go_id": "GO:0000307",
+          "name": "cyclin-dependent protein kinase holoenzyme complex",
+          "robustness_score": 91.66666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 45,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -10,
+            "difference_normalized": -0.18181818181818182
+          },
+          "ic": 0.5991397611230418,
+          "genes_direct": 4,
+          "genes_inherited": 4,
+          "genes_total": 8,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 5,
+      "original_group_index": 7,
+      "size": 3,
+      "representative": {
+        "go_id": "GO:0005911",
+        "name": "cell-cell junction",
+        "robustness_score": 76.66666666666667
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005911",
+          "name": "cell-cell junction",
+          "robustness_score": 76.66666666666667,
+          "alpha_beta_preference": {
+            "alpha_dominant": 27,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -28,
+            "difference_normalized": -0.509090909090909
+          },
+          "ic": 0.40335196611701307,
+          "genes_direct": 4,
+          "genes_inherited": 19,
+          "genes_total": 23,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0070161",
+          "name": "anchoring junction",
+          "robustness_score": 54.166666666666664,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -55,
+            "difference_normalized": -1.0
+          },
+          "ic": 0.3507483211391161,
+          "genes_direct": 4,
+          "genes_inherited": 30,
+          "genes_total": 34,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0005912",
+          "name": "adherens junction",
+          "robustness_score": 45.83333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 55,
+            "difference_normalized": 1.0
+          },
+          "ic": 0.4985703425725075,
+          "genes_direct": 10,
+          "genes_inherited": 0,
+          "genes_total": 10,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 6,
+      "original_group_index": 0,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0043202",
+        "name": "lysosomal lumen",
+        "robustness_score": 62.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0043202",
+          "name": "lysosomal lumen",
+          "robustness_score": 62.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 10,
+            "equal": 10,
+            "difference_absolute": 45,
+            "difference_normalized": 0.8181818181818182
+          },
+          "ic": 0.5615558870629612,
+          "genes_direct": 10,
+          "genes_inherited": 0,
+          "genes_total": 10,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 7,
+      "original_group_index": 12,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0034774",
+        "name": "secretory granule lumen",
+        "robustness_score": 62.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0034774",
+          "name": "secretory granule lumen",
+          "robustness_score": 62.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 10,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -45,
+            "difference_normalized": -0.8181818181818182
+          },
+          "ic": 0.45111343496447437,
+          "genes_direct": 2,
+          "genes_inherited": 13,
+          "genes_total": 15,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0060205",
+          "name": "cytoplasmic vesicle lumen",
+          "robustness_score": 54.166666666666664,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -55,
+            "difference_normalized": -1.0
+          },
+          "ic": 0.44965408736528945,
+          "genes_direct": 1,
+          "genes_inherited": 15,
+          "genes_total": 16,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 8,
+      "original_group_index": 5,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0048471",
+        "name": "perinuclear region of cytoplasm",
+        "robustness_score": 45.83333333333333
+      },
+      "terms": [
+        {
+          "go_id": "GO:0048471",
+          "name": "perinuclear region of cytoplasm",
+          "robustness_score": 45.83333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 55,
+            "difference_normalized": 1.0
+          },
+          "ic": 0.3739104566131055,
+          "genes_direct": 33,
+          "genes_inherited": 0,
+          "genes_total": 33,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 9,
+      "original_group_index": 3,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0005819",
+        "name": "spindle",
+        "robustness_score": 37.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005819",
+          "name": "spindle",
+          "robustness_score": 37.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 45,
+            "equal": 0,
+            "difference_absolute": -45,
+            "difference_normalized": -0.8181818181818182
+          },
+          "ic": 0.47099802538843566,
+          "genes_direct": 4,
+          "genes_inherited": 6,
+          "genes_total": 10,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 10,
+      "original_group_index": 13,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0009986",
+        "name": "cell surface",
+        "robustness_score": 37.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0009986",
+          "name": "cell surface",
+          "robustness_score": 37.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 45,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 45,
+            "difference_normalized": 0.8181818181818182
+          },
+          "ic": 0.38644713841048767,
+          "genes_direct": 27,
+          "genes_inherited": 0,
+          "genes_total": 27,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 11,
+      "original_group_index": 6,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0005796",
+        "name": "Golgi lumen",
+        "robustness_score": 29.166666666666668
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005796",
+          "name": "Golgi lumen",
+          "robustness_score": 29.166666666666668,
+          "alpha_beta_preference": {
+            "alpha_dominant": 35,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 35,
+            "difference_normalized": 0.6363636363636364
+          },
+          "ic": 0.5578660384007584,
+          "genes_direct": 8,
+          "genes_inherited": 0,
+          "genes_total": 8,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 12,
+      "original_group_index": 11,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0000785",
+        "name": "chromatin",
+        "robustness_score": 23.333333333333332
+      },
+      "terms": [
+        {
+          "go_id": "GO:0000785",
+          "name": "chromatin",
+          "robustness_score": 23.333333333333332,
+          "alpha_beta_preference": {
+            "alpha_dominant": 28,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 28,
+            "difference_normalized": 0.509090909090909
+          },
+          "ic": 0.31651655211353497,
+          "genes_direct": 35,
+          "genes_inherited": 8,
+          "genes_total": 43,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 13,
+      "original_group_index": 2,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0030425",
+        "name": "dendrite",
+        "robustness_score": 8.333333333333332
+      },
+      "terms": [
+        {
+          "go_id": "GO:0030425",
+          "name": "dendrite",
+          "robustness_score": 8.333333333333332,
+          "alpha_beta_preference": {
+            "alpha_dominant": 10,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 10,
+            "difference_normalized": 0.18181818181818182
+          },
+          "ic": 0.4177300521859814,
+          "genes_direct": 14,
+          "genes_inherited": 1,
+          "genes_total": 15,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 14,
+      "original_group_index": 10,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0005814",
+        "name": "centriole",
+        "robustness_score": 8.333333333333332
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005814",
+          "name": "centriole",
+          "robustness_score": 8.333333333333332,
+          "alpha_beta_preference": {
+            "alpha_dominant": 10,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 10,
+            "difference_normalized": 0.18181818181818182
+          },
+          "ic": 0.5149267010818065,
+          "genes_direct": 7,
+          "genes_inherited": 0,
+          "genes_total": 7,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    }
+  ],
+  "filtered_by_preference": {
+    "threshold": 0.2,
+    "alpha_greater_than_beta": {
+      "summary_statistics": {
+        "number_of_groups": 6,
+        "total_terms": 6,
+        "filter_type": "alpha_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 5,
+          "original_group_index": 7,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005911",
+            "name": "cell-cell junction",
+            "robustness_score": 76.66666666666667
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005912",
+              "name": "adherens junction",
+              "robustness_score": 45.83333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 55,
+                "difference_normalized": 1.0
+              },
+              "ic": 0.4985703425725075,
+              "genes_direct": 10,
+              "genes_inherited": 0,
+              "genes_total": 10,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 6,
+          "original_group_index": 0,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0043202",
+            "name": "lysosomal lumen",
+            "robustness_score": 62.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0043202",
+              "name": "lysosomal lumen",
+              "robustness_score": 62.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 10,
+                "equal": 10,
+                "difference_absolute": 45,
+                "difference_normalized": 0.8181818181818182
+              },
+              "ic": 0.5615558870629612,
+              "genes_direct": 10,
+              "genes_inherited": 0,
+              "genes_total": 10,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 8,
+          "original_group_index": 5,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0048471",
+            "name": "perinuclear region of cytoplasm",
+            "robustness_score": 45.83333333333333
+          },
+          "terms": [
+            {
+              "go_id": "GO:0048471",
+              "name": "perinuclear region of cytoplasm",
+              "robustness_score": 45.83333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 55,
+                "difference_normalized": 1.0
+              },
+              "ic": 0.3739104566131055,
+              "genes_direct": 33,
+              "genes_inherited": 0,
+              "genes_total": 33,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 10,
+          "original_group_index": 13,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0009986",
+            "name": "cell surface",
+            "robustness_score": 37.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0009986",
+              "name": "cell surface",
+              "robustness_score": 37.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 45,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 45,
+                "difference_normalized": 0.8181818181818182
+              },
+              "ic": 0.38644713841048767,
+              "genes_direct": 27,
+              "genes_inherited": 0,
+              "genes_total": 27,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 11,
+          "original_group_index": 6,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005796",
+            "name": "Golgi lumen",
+            "robustness_score": 29.166666666666668
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005796",
+              "name": "Golgi lumen",
+              "robustness_score": 29.166666666666668,
+              "alpha_beta_preference": {
+                "alpha_dominant": 35,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 35,
+                "difference_normalized": 0.6363636363636364
+              },
+              "ic": 0.5578660384007584,
+              "genes_direct": 8,
+              "genes_inherited": 0,
+              "genes_total": 8,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 12,
+          "original_group_index": 11,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0000785",
+            "name": "chromatin",
+            "robustness_score": 23.333333333333332
+          },
+          "terms": [
+            {
+              "go_id": "GO:0000785",
+              "name": "chromatin",
+              "robustness_score": 23.333333333333332,
+              "alpha_beta_preference": {
+                "alpha_dominant": 28,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 28,
+                "difference_normalized": 0.509090909090909
+              },
+              "ic": 0.31651655211353497,
+              "genes_direct": 35,
+              "genes_inherited": 8,
+              "genes_total": 43,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "beta_greater_than_alpha": {
+      "summary_statistics": {
+        "number_of_groups": 4,
+        "total_terms": 6,
+        "filter_type": "beta_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 3,
+          "original_group_index": 8,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0090575",
+            "name": "RNA polymerase II transcription regulator complex",
+            "robustness_score": 91.66666666666666
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005667",
+              "name": "transcription regulator complex",
+              "robustness_score": 70.83333333333334,
+              "alpha_beta_preference": {
+                "alpha_dominant": 20,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -35,
+                "difference_normalized": -0.6363636363636364
+              },
+              "ic": 0.40624197331981254,
+              "genes_direct": 3,
+              "genes_inherited": 20,
+              "genes_total": 23,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 5,
+          "original_group_index": 7,
+          "size": 2,
+          "representative": {
+            "go_id": "GO:0005911",
+            "name": "cell-cell junction",
+            "robustness_score": 76.66666666666667
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005911",
+              "name": "cell-cell junction",
+              "robustness_score": 76.66666666666667,
+              "alpha_beta_preference": {
+                "alpha_dominant": 27,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -28,
+                "difference_normalized": -0.509090909090909
+              },
+              "ic": 0.40335196611701307,
+              "genes_direct": 4,
+              "genes_inherited": 19,
+              "genes_total": 23,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0070161",
+              "name": "anchoring junction",
+              "robustness_score": 54.166666666666664,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -55,
+                "difference_normalized": -1.0
+              },
+              "ic": 0.3507483211391161,
+              "genes_direct": 4,
+              "genes_inherited": 30,
+              "genes_total": 34,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 7,
+          "original_group_index": 12,
+          "size": 2,
+          "representative": {
+            "go_id": "GO:0034774",
+            "name": "secretory granule lumen",
+            "robustness_score": 62.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0034774",
+              "name": "secretory granule lumen",
+              "robustness_score": 62.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 10,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -45,
+                "difference_normalized": -0.8181818181818182
+              },
+              "ic": 0.45111343496447437,
+              "genes_direct": 2,
+              "genes_inherited": 13,
+              "genes_total": 15,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0060205",
+              "name": "cytoplasmic vesicle lumen",
+              "robustness_score": 54.166666666666664,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -55,
+                "difference_normalized": -1.0
+              },
+              "ic": 0.44965408736528945,
+              "genes_direct": 1,
+              "genes_inherited": 15,
+              "genes_total": 16,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 9,
+          "original_group_index": 3,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005819",
+            "name": "spindle",
+            "robustness_score": 37.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005819",
+              "name": "spindle",
+              "robustness_score": 37.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 45,
+                "equal": 0,
+                "difference_absolute": -45,
+                "difference_normalized": -0.8181818181818182
+              },
+              "ic": 0.47099802538843566,
+              "genes_direct": 4,
+              "genes_inherited": 6,
+              "genes_total": 10,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "alpha_equals_beta": {
+      "summary_statistics": {
+        "number_of_groups": 6,
+        "total_terms": 6,
+        "filter_type": "equal",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 1,
+          "original_group_index": 1,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0032993",
+            "name": "protein-DNA complex",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0032993",
+              "name": "protein-DNA complex",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.5035453881585661,
+              "genes_direct": 5,
+              "genes_inherited": 6,
+              "genes_total": 11,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 2,
+          "original_group_index": 4,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0045121",
+            "name": "membrane raft",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0045121",
+              "name": "membrane raft",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.4613518969519171,
+              "genes_direct": 8,
+              "genes_inherited": 5,
+              "genes_total": 13,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 3,
+          "original_group_index": 8,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0090575",
+            "name": "RNA polymerase II transcription regulator complex",
+            "robustness_score": 91.66666666666666
+          },
+          "terms": [
+            {
+              "go_id": "GO:0090575",
+              "name": "RNA polymerase II transcription regulator complex",
+              "robustness_score": 91.66666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 45,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -10,
+                "difference_normalized": -0.18181818181818182
+              },
+              "ic": 0.4735707614261414,
+              "genes_direct": 4,
+              "genes_inherited": 9,
+              "genes_total": 13,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 4,
+          "original_group_index": 9,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0000307",
+            "name": "cyclin-dependent protein kinase holoenzyme complex",
+            "robustness_score": 91.66666666666666
+          },
+          "terms": [
+            {
+              "go_id": "GO:0000307",
+              "name": "cyclin-dependent protein kinase holoenzyme complex",
+              "robustness_score": 91.66666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 45,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -10,
+                "difference_normalized": -0.18181818181818182
+              },
+              "ic": 0.5991397611230418,
+              "genes_direct": 4,
+              "genes_inherited": 4,
+              "genes_total": 8,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 13,
+          "original_group_index": 2,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0030425",
+            "name": "dendrite",
+            "robustness_score": 8.333333333333332
+          },
+          "terms": [
+            {
+              "go_id": "GO:0030425",
+              "name": "dendrite",
+              "robustness_score": 8.333333333333332,
+              "alpha_beta_preference": {
+                "alpha_dominant": 10,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 10,
+                "difference_normalized": 0.18181818181818182
+              },
+              "ic": 0.4177300521859814,
+              "genes_direct": 14,
+              "genes_inherited": 1,
+              "genes_total": 15,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 14,
+          "original_group_index": 10,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005814",
+            "name": "centriole",
+            "robustness_score": 8.333333333333332
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005814",
+              "name": "centriole",
+              "robustness_score": 8.333333333333332,
+              "alpha_beta_preference": {
+                "alpha_dominant": 10,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 10,
+                "difference_normalized": 0.18181818181818182
+              },
+              "ic": 0.5149267010818065,
+              "genes_direct": 7,
+              "genes_inherited": 0,
+              "genes_total": 7,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    }
+  }
+}

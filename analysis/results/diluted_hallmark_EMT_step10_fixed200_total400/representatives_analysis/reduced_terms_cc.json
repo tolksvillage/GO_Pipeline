@@ -1,0 +1,1202 @@
+{
+  "GO:0000139": {
+    "go_annotation": "Golgi membrane",
+    "genes_direct_count": 10,
+    "genes_inherited_count": 0,
+    "genes_total_count": 10,
+    "ic_normalized": 0.3773654432011963,
+    "frequency": 0.018831987552646402
+  },
+  "GO:0000151": {
+    "go_annotation": "ubiquitin ligase complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.44294530121292164,
+    "frequency": 0.00944281996941814
+  },
+  "GO:0000228": {
+    "go_annotation": "nuclear chromosome",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5898314596232359,
+    "frequency": 0.002011964482120342
+  },
+  "GO:0000439": {
+    "go_annotation": "transcription factor TFIIH core complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.772195967155897,
+    "frequency": 0.00029508812404431686
+  },
+  "GO:0000785": {
+    "go_annotation": "chromatin",
+    "genes_direct_count": 16,
+    "genes_inherited_count": 4,
+    "genes_total_count": 20,
+    "ic_normalized": 0.31651655211353497,
+    "frequency": 0.03573248920245728
+  },
+  "GO:0000791": {
+    "go_annotation": "euchromatin",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6079153799299829,
+    "frequency": 0.0016632239718861496
+  },
+  "GO:0000794": {
+    "go_annotation": "condensed nuclear chromosome",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6426797431862876,
+    "frequency": 0.0011535263030823296
+  },
+  "GO:0001725": {
+    "go_annotation": "stress fiber",
+    "genes_direct_count": 11,
+    "genes_inherited_count": 0,
+    "genes_total_count": 11,
+    "ic_normalized": 0.5768296099976926,
+    "frequency": 0.0023070526061646592
+  },
+  "GO:0005576": {
+    "go_annotation": "extracellular region",
+    "genes_direct_count": 119,
+    "genes_inherited_count": 1,
+    "genes_total_count": 120,
+    "ic_normalized": 0.2744958677810127,
+    "frequency": 0.05561069828580626
+  },
+  "GO:0005581": {
+    "go_annotation": "collagen trimer",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 14,
+    "genes_total_count": 18,
+    "ic_normalized": 0.5768296099976926,
+    "frequency": 0.0023070526061646592
+  },
+  "GO:0005583": {
+    "go_annotation": "fibrillar collagen trimer",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 7,
+    "genes_total_count": 8,
+    "ic_normalized": 0.7639297418513931,
+    "frequency": 0.00032191431713925477
+  },
+  "GO:0005584": {
+    "go_annotation": "collagen type I trimer",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.9341498668114049,
+    "frequency": 5.3652386189875794e-05
+  },
+  "GO:0005587": {
+    "go_annotation": "collagen type IV trimer",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.8297798750399882,
+    "frequency": 0.00016095715856962738
+  },
+  "GO:0005588": {
+    "go_annotation": "collagen type V trimer",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.8956300082285832,
+    "frequency": 8.047857928481369e-05
+  },
+  "GO:0005592": {
+    "go_annotation": "collagen type XI trimer",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.8471007256973263,
+    "frequency": 0.0001341309654746895
+  },
+  "GO:0005595": {
+    "go_annotation": "collagen type XII trimer",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 1.0,
+    "frequency": 2.6826193094937897e-05
+  },
+  "GO:0005597": {
+    "go_annotation": "collagen type XVI trimer",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 1.0,
+    "frequency": 2.6826193094937897e-05
+  },
+  "GO:0005604": {
+    "go_annotation": "basement membrane",
+    "genes_direct_count": 27,
+    "genes_inherited_count": 0,
+    "genes_total_count": 27,
+    "ic_normalized": 0.5683794511205472,
+    "frequency": 0.0025216621509241625
+  },
+  "GO:0005606": {
+    "go_annotation": "laminin-1 complex",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.8956300082285832,
+    "frequency": 8.047857928481369e-05
+  },
+  "GO:0005608": {
+    "go_annotation": "laminin-3 complex",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.8956300082285832,
+    "frequency": 8.047857928481369e-05
+  },
+  "GO:0005614": {
+    "go_annotation": "interstitial matrix",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.772195967155897,
+    "frequency": 0.00029508812404431686
+  },
+  "GO:0005615": {
+    "go_annotation": "extracellular space",
+    "genes_direct_count": 113,
+    "genes_inherited_count": 0,
+    "genes_total_count": 113,
+    "ic_normalized": 0.2799179250443269,
+    "frequency": 0.0525256860798884
+  },
+  "GO:0005654": {
+    "go_annotation": "nucleoplasm",
+    "genes_direct_count": 59,
+    "genes_inherited_count": 0,
+    "genes_total_count": 59,
+    "ic_normalized": 0.21438369484222608,
+    "frequency": 0.10470263164954262
+  },
+  "GO:0005667": {
+    "go_annotation": "transcription regulator complex",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 4,
+    "genes_total_count": 7,
+    "ic_normalized": 0.40624197331981254,
+    "frequency": 0.013895968023177831
+  },
+  "GO:0005681": {
+    "go_annotation": "spliceosomal complex",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.4933828591639504,
+    "frequency": 0.005553021970652145
+  },
+  "GO:0005694": {
+    "go_annotation": "chromosome",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 2,
+    "genes_total_count": 4,
+    "ic_normalized": 0.4502351390885101,
+    "frequency": 0.008745338948949754
+  },
+  "GO:0005739": {
+    "go_annotation": "mitochondrion",
+    "genes_direct_count": 24,
+    "genes_inherited_count": 0,
+    "genes_total_count": 24,
+    "ic_normalized": 0.2942395800688126,
+    "frequency": 0.04517530917187542
+  },
+  "GO:0005759": {
+    "go_annotation": "mitochondrial matrix",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.42305068440483173,
+    "frequency": 0.011642567803203047
+  },
+  "GO:0005764": {
+    "go_annotation": "lysosome",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 0,
+    "genes_total_count": 8,
+    "ic_normalized": 0.4502351390885101,
+    "frequency": 0.008745338948949754
+  },
+  "GO:0005765": {
+    "go_annotation": "lysosomal membrane",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 1,
+    "genes_total_count": 8,
+    "ic_normalized": 0.41835301612704034,
+    "frequency": 0.012232744051291681
+  },
+  "GO:0005768": {
+    "go_annotation": "endosome",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 11,
+    "genes_total_count": 14,
+    "ic_normalized": 0.3717175171139802,
+    "frequency": 0.019985513855728734
+  },
+  "GO:0005769": {
+    "go_annotation": "early endosome",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 0,
+    "genes_total_count": 6,
+    "ic_normalized": 0.45170350928755104,
+    "frequency": 0.008611207983475064
+  },
+  "GO:0005774": {
+    "go_annotation": "vacuolar membrane",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 8,
+    "genes_total_count": 9,
+    "ic_normalized": 0.4107488259796892,
+    "frequency": 0.013252139388899322
+  },
+  "GO:0005782": {
+    "go_annotation": "peroxisomal matrix",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6246252853268518,
+    "frequency": 0.0013949620409367707
+  },
+  "GO:0005783": {
+    "go_annotation": "endoplasmic reticulum",
+    "genes_direct_count": 28,
+    "genes_inherited_count": 5,
+    "genes_total_count": 33,
+    "ic_normalized": 0.3285928784355992,
+    "frequency": 0.031467124500362154
+  },
+  "GO:0005788": {
+    "go_annotation": "endoplasmic reticulum lumen",
+    "genes_direct_count": 44,
+    "genes_inherited_count": 1,
+    "genes_total_count": 45,
+    "ic_normalized": 0.45349604662934156,
+    "frequency": 0.008450250824905439
+  },
+  "GO:0005789": {
+    "go_annotation": "endoplasmic reticulum membrane",
+    "genes_direct_count": 23,
+    "genes_inherited_count": 3,
+    "genes_total_count": 26,
+    "ic_normalized": 0.3250164839580227,
+    "frequency": 0.03267430318963436
+  },
+  "GO:0005794": {
+    "go_annotation": "Golgi apparatus",
+    "genes_direct_count": 31,
+    "genes_inherited_count": 0,
+    "genes_total_count": 31,
+    "ic_normalized": 0.3403918401312175,
+    "frequency": 0.027791936046355662
+  },
+  "GO:0005796": {
+    "go_annotation": "Golgi lumen",
+    "genes_direct_count": 13,
+    "genes_inherited_count": 0,
+    "genes_total_count": 13,
+    "ic_normalized": 0.5578660384007584,
+    "frequency": 0.0028167502749684792
+  },
+  "GO:0005802": {
+    "go_annotation": "trans-Golgi network",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 0,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5045724431409988,
+    "frequency": 0.004936019529468573
+  },
+  "GO:0005811": {
+    "go_annotation": "lipid droplet",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5560735010589678,
+    "frequency": 0.002870402661158355
+  },
+  "GO:0005813": {
+    "go_annotation": "centrosome",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 0,
+    "genes_total_count": 6,
+    "ic_normalized": 0.38600146913064876,
+    "frequency": 0.017195589773855192
+  },
+  "GO:0005815": {
+    "go_annotation": "microtubule organizing center",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 8,
+    "genes_total_count": 11,
+    "ic_normalized": 0.3678444607430734,
+    "frequency": 0.020817125841671807
+  },
+  "GO:0005828": {
+    "go_annotation": "kinetochore microtubule",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.702122842706784,
+    "frequency": 0.0006170024411835716
+  },
+  "GO:0005856": {
+    "go_annotation": "cytoskeleton",
+    "genes_direct_count": 13,
+    "genes_inherited_count": 16,
+    "genes_total_count": 29,
+    "ic_normalized": 0.34693972768559594,
+    "frequency": 0.025940928722804946
+  },
+  "GO:0005874": {
+    "go_annotation": "microtubule",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 3,
+    "genes_total_count": 6,
+    "ic_normalized": 0.4187706065163009,
+    "frequency": 0.012179091665101805
+  },
+  "GO:0005882": {
+    "go_annotation": "intermediate filament",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 3,
+    "genes_total_count": 10,
+    "ic_normalized": 0.4850401737663107,
+    "frequency": 0.006062719639455965
+  },
+  "GO:0005884": {
+    "go_annotation": "actin filament",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 0,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5714608561788906,
+    "frequency": 0.0024411835716393487
+  },
+  "GO:0005901": {
+    "go_annotation": "caveola",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5911066688449637,
+    "frequency": 0.0019851382890254043
+  },
+  "GO:0005902": {
+    "go_annotation": "microvillus",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 0,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5911066688449637,
+    "frequency": 0.0019851382890254043
+  },
+  "GO:0005911": {
+    "go_annotation": "cell-cell junction",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 18,
+    "genes_total_count": 26,
+    "ic_normalized": 0.40335196611701307,
+    "frequency": 0.014325187112696838
+  },
+  "GO:0005912": {
+    "go_annotation": "adherens junction",
+    "genes_direct_count": 13,
+    "genes_inherited_count": 0,
+    "genes_total_count": 13,
+    "ic_normalized": 0.4985703425725075,
+    "frequency": 0.0052579338466078275
+  },
+  "GO:0005923": {
+    "go_annotation": "bicellular tight junction",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.5383097514148709,
+    "frequency": 0.0034605789092469886
+  },
+  "GO:0005925": {
+    "go_annotation": "focal adhesion",
+    "genes_direct_count": 32,
+    "genes_inherited_count": 0,
+    "genes_total_count": 32,
+    "ic_normalized": 0.4234894919313692,
+    "frequency": 0.011588915417013172
+  },
+  "GO:0005929": {
+    "go_annotation": "cilium",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 5,
+    "genes_total_count": 7,
+    "ic_normalized": 0.4150767721327745,
+    "frequency": 0.012661963140810688
+  },
+  "GO:0005938": {
+    "go_annotation": "cell cortex",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 2,
+    "genes_total_count": 8,
+    "ic_normalized": 0.49954472712026354,
+    "frequency": 0.005204281460417952
+  },
+  "GO:0008622": {
+    "go_annotation": "epsilon DNA polymerase complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8471007256973263,
+    "frequency": 0.0001341309654746895
+  },
+  "GO:0009897": {
+    "go_annotation": "external side of plasma membrane",
+    "genes_direct_count": 19,
+    "genes_inherited_count": 0,
+    "genes_total_count": 19,
+    "ic_normalized": 0.43009106482261983,
+    "frequency": 0.010810955817259972
+  },
+  "GO:0009898": {
+    "go_annotation": "cytoplasmic side of plasma membrane",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5459753319750807,
+    "frequency": 0.0031923169782976098
+  },
+  "GO:0009986": {
+    "go_annotation": "cell surface",
+    "genes_direct_count": 39,
+    "genes_inherited_count": 0,
+    "genes_total_count": 39,
+    "ic_normalized": 0.38644713841048767,
+    "frequency": 0.01711511119457038
+  },
+  "GO:0010008": {
+    "go_annotation": "endosome membrane",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 8,
+    "genes_total_count": 12,
+    "ic_normalized": 0.39071074892364155,
+    "frequency": 0.016363977787912116
+  },
+  "GO:0010494": {
+    "go_annotation": "cytoplasmic stress granule",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.56061990254022,
+    "frequency": 0.0027362716956836654
+  },
+  "GO:0012507": {
+    "go_annotation": "ER to Golgi transport vesicle membrane",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6192966928532233,
+    "frequency": 0.0014754406202215843
+  },
+  "GO:0014704": {
+    "go_annotation": "intercalated disc",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.6342295843091422,
+    "frequency": 0.0012608310754620813
+  },
+  "GO:0015629": {
+    "go_annotation": "actin cytoskeleton",
+    "genes_direct_count": 9,
+    "genes_inherited_count": 0,
+    "genes_total_count": 9,
+    "ic_normalized": 0.4613518969519171,
+    "frequency": 0.00777959599753199
+  },
+  "GO:0016010": {
+    "go_annotation": "dystrophin-associated glycoprotein complex",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.7365994672456196,
+    "frequency": 0.00042921908951900636
+  },
+  "GO:0016282": {
+    "go_annotation": "eukaryotic 43S preinitiation complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7254098832685713,
+    "frequency": 0.0004828714757088822
+  },
+  "GO:0016323": {
+    "go_annotation": "basolateral plasma membrane",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 0,
+    "genes_total_count": 8,
+    "ic_normalized": 0.46920209930560813,
+    "frequency": 0.007162593556348419
+  },
+  "GO:0016324": {
+    "go_annotation": "apical plasma membrane",
+    "genes_direct_count": 13,
+    "genes_inherited_count": 0,
+    "genes_total_count": 13,
+    "ic_normalized": 0.42822365018871156,
+    "frequency": 0.011025565362019476
+  },
+  "GO:0016604": {
+    "go_annotation": "nuclear body",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 8,
+    "genes_total_count": 15,
+    "ic_normalized": 0.34451484717560266,
+    "frequency": 0.026611583550178394
+  },
+  "GO:0016607": {
+    "go_annotation": "nuclear speck",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 0,
+    "genes_total_count": 7,
+    "ic_normalized": 0.42753272597535535,
+    "frequency": 0.01110604394130429
+  },
+  "GO:0030027": {
+    "go_annotation": "lamellipodium",
+    "genes_direct_count": 11,
+    "genes_inherited_count": 0,
+    "genes_total_count": 11,
+    "ic_normalized": 0.5025293179319521,
+    "frequency": 0.005043324301848325
+  },
+  "GO:0030054": {
+    "go_annotation": "cell junction",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 68,
+    "genes_total_count": 69,
+    "ic_normalized": 0.2764872014267659,
+    "frequency": 0.05445717198272393
+  },
+  "GO:0030056": {
+    "go_annotation": "hemidesmosome",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.8024496004342148,
+    "frequency": 0.00021460954475950318
+  },
+  "GO:0030123": {
+    "go_annotation": "AP-3 adaptor complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.772195967155897,
+    "frequency": 0.00029508812404431686
+  },
+  "GO:0030124": {
+    "go_annotation": "AP-4 adaptor complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8682997336228099,
+    "frequency": 0.00010730477237975159
+  },
+  "GO:0030133": {
+    "go_annotation": "transport vesicle",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 3,
+    "genes_total_count": 8,
+    "ic_normalized": 0.47507279525365514,
+    "frequency": 0.006733374466829412
+  },
+  "GO:0030141": {
+    "go_annotation": "secretory granule",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 8,
+    "genes_total_count": 10,
+    "ic_normalized": 0.45624991076880317,
+    "frequency": 0.008208815087050996
+  },
+  "GO:0030175": {
+    "go_annotation": "filopodium",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5813543537424796,
+    "frequency": 0.0021997478337849076
+  },
+  "GO:0030424": {
+    "go_annotation": "axon",
+    "genes_direct_count": 9,
+    "genes_inherited_count": 0,
+    "genes_total_count": 9,
+    "ic_normalized": 0.4418718246998349,
+    "frequency": 0.009550124741797892
+  },
+  "GO:0030425": {
+    "go_annotation": "dendrite",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 1,
+    "genes_total_count": 7,
+    "ic_normalized": 0.4177300521859814,
+    "frequency": 0.012313222630576494
+  },
+  "GO:0030659": {
+    "go_annotation": "cytoplasmic vesicle membrane",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 29,
+    "genes_total_count": 31,
+    "ic_normalized": 0.32308627411080276,
+    "frequency": 0.033344958017007806
+  },
+  "GO:0030667": {
+    "go_annotation": "secretory granule membrane",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 9,
+    "genes_total_count": 11,
+    "ic_normalized": 0.45379811893660216,
+    "frequency": 0.0084234246318105
+  },
+  "GO:0030863": {
+    "go_annotation": "cortical cytoskeleton",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 2,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5746455675901118,
+    "frequency": 0.002360704992354535
+  },
+  "GO:0030864": {
+    "go_annotation": "cortical actin cytoskeleton",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6079153799299829,
+    "frequency": 0.0016632239718861496
+  },
+  "GO:0031012": {
+    "go_annotation": "extracellular matrix",
+    "genes_direct_count": 32,
+    "genes_inherited_count": 29,
+    "genes_total_count": 61,
+    "ic_normalized": 0.4550161056273093,
+    "frequency": 0.008316119859430747
+  },
+  "GO:0031091": {
+    "go_annotation": "platelet alpha granule",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.7154004593201362,
+    "frequency": 0.000536523861898758
+  },
+  "GO:0031093": {
+    "go_annotation": "platelet alpha granule lumen",
+    "genes_direct_count": 10,
+    "genes_inherited_count": 0,
+    "genes_total_count": 10,
+    "ic_normalized": 0.6005472188744588,
+    "frequency": 0.001797354937360839
+  },
+  "GO:0031201": {
+    "go_annotation": "SNARE complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6302706089496977,
+    "frequency": 0.0013144834616519569
+  },
+  "GO:0031258": {
+    "go_annotation": "lamellipodium membrane",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.7063458339673019,
+    "frequency": 0.0005901762480886337
+  },
+  "GO:0031410": {
+    "go_annotation": "cytoplasmic vesicle",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 42,
+    "genes_total_count": 48,
+    "ic_normalized": 0.3010805501287735,
+    "frequency": 0.04203664457976768
+  },
+  "GO:0031463": {
+    "go_annotation": "Cul3-RING ubiquitin ligase complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6126271716985597,
+    "frequency": 0.001582745392601336
+  },
+  "GO:0031901": {
+    "go_annotation": "early endosome membrane",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.49111540879614524,
+    "frequency": 0.005687152936126834
+  },
+  "GO:0031904": {
+    "go_annotation": "endosome lumen",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6495503261315412,
+    "frequency": 0.001073047723797516
+  },
+  "GO:0031982": {
+    "go_annotation": "vesicle",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 124,
+    "genes_total_count": 125,
+    "ic_normalized": 0.22398022584107877,
+    "frequency": 0.0946428092389409
+  },
+  "GO:0032154": {
+    "go_annotation": "cleavage furrow",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.6192966928532233,
+    "frequency": 0.0014754406202215843
+  },
+  "GO:0032432": {
+    "go_annotation": "actin filament bundle",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 11,
+    "genes_total_count": 12,
+    "ic_normalized": 0.5673741331615688,
+    "frequency": 0.0025484883440191003
+  },
+  "GO:0032590": {
+    "go_annotation": "dendrite membrane",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.673765513118578,
+    "frequency": 0.0008316119859430748
+  },
+  "GO:0033018": {
+    "go_annotation": "sarcoplasmic reticulum lumen",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7812505925087312,
+    "frequency": 0.000268261930949379
+  },
+  "GO:0034666": {
+    "go_annotation": "integrin alpha2-beta1 complex",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.8956300082285832,
+    "frequency": 8.047857928481369e-05
+  },
+  "GO:0034682": {
+    "go_annotation": "integrin alphav-beta1 complex",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.9341498668114049,
+    "frequency": 5.3652386189875794e-05
+  },
+  "GO:0034683": {
+    "go_annotation": "integrin alphav-beta3 complex",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.8956300082285832,
+    "frequency": 8.047857928481369e-05
+  },
+  "GO:0034684": {
+    "go_annotation": "integrin alphav-beta5 complex",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.9341498668114049,
+    "frequency": 5.3652386189875794e-05
+  },
+  "GO:0034774": {
+    "go_annotation": "secretory granule lumen",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 18,
+    "genes_total_count": 20,
+    "ic_normalized": 0.45111343496447437,
+    "frequency": 0.008664860369664941
+  },
+  "GO:0034777": {
+    "go_annotation": "recycling endosome lumen",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 1.0,
+    "frequency": 2.6826193094937897e-05
+  },
+  "GO:0035579": {
+    "go_annotation": "specific granule membrane",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5714608561788906,
+    "frequency": 0.0024411835716393487
+  },
+  "GO:0035580": {
+    "go_annotation": "specific granule lumen",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6079153799299829,
+    "frequency": 0.0016632239718861496
+  },
+  "GO:0036464": {
+    "go_annotation": "cytoplasmic ribonucleoprotein granule",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.4684931283989141,
+    "frequency": 0.007216245942538294
+  },
+  "GO:0042272": {
+    "go_annotation": "nuclear RNA export factor complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8297798750399882,
+    "frequency": 0.00016095715856962738
+  },
+  "GO:0042383": {
+    "go_annotation": "sarcolemma",
+    "genes_direct_count": 14,
+    "genes_inherited_count": 0,
+    "genes_total_count": 14,
+    "ic_normalized": 0.5587751521382567,
+    "frequency": 0.0027899240818735414
+  },
+  "GO:0042470": {
+    "go_annotation": "melanosome",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 0,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5625011850174626,
+    "frequency": 0.0026826193094937898
+  },
+  "GO:0042765": {
+    "go_annotation": "GPI-anchor transamidase complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8471007256973263,
+    "frequency": 0.0001341309654746895
+  },
+  "GO:0042995": {
+    "go_annotation": "cell projection",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 45,
+    "genes_total_count": 47,
+    "ic_normalized": 0.28520547121764384,
+    "frequency": 0.04968210961182499
+  },
+  "GO:0043005": {
+    "go_annotation": "neuron projection",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 20,
+    "genes_total_count": 24,
+    "ic_normalized": 0.34261854348549087,
+    "frequency": 0.02714810741207715
+  },
+  "GO:0043202": {
+    "go_annotation": "lysosomal lumen",
+    "genes_direct_count": 10,
+    "genes_inherited_count": 0,
+    "genes_total_count": 10,
+    "ic_normalized": 0.5615558870629612,
+    "frequency": 0.0027094455025887276
+  },
+  "GO:0043235": {
+    "go_annotation": "receptor complex",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 13,
+    "genes_total_count": 20,
+    "ic_normalized": 0.4010668946459591,
+    "frequency": 0.01467392762293103
+  },
+  "GO:0044853": {
+    "go_annotation": "plasma membrane raft",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 2,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5551897583085593,
+    "frequency": 0.002897228854253293
+  },
+  "GO:0045095": {
+    "go_annotation": "keratin filament",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.559693049719374,
+    "frequency": 0.0027630978887786036
+  },
+  "GO:0045121": {
+    "go_annotation": "membrane raft",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 4,
+    "genes_total_count": 12,
+    "ic_normalized": 0.4613518969519171,
+    "frequency": 0.00777959599753199
+  },
+  "GO:0045179": {
+    "go_annotation": "apical cortex",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.8024496004342148,
+    "frequency": 0.00021460954475950318
+  },
+  "GO:0045202": {
+    "go_annotation": "synapse",
+    "genes_direct_count": 11,
+    "genes_inherited_count": 21,
+    "genes_total_count": 32,
+    "ic_normalized": 0.325564045477282,
+    "frequency": 0.032486519837969796
+  },
+  "GO:0045211": {
+    "go_annotation": "postsynaptic membrane",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 0,
+    "genes_total_count": 7,
+    "ic_normalized": 0.500035692867211,
+    "frequency": 0.0051774552673230145
+  },
+  "GO:0045277": {
+    "go_annotation": "respiratory chain complex IV",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.698079608662798,
+    "frequency": 0.0006438286342785095
+  },
+  "GO:0048471": {
+    "go_annotation": "perinuclear region of cytoplasm",
+    "genes_direct_count": 22,
+    "genes_inherited_count": 0,
+    "genes_total_count": 22,
+    "ic_normalized": 0.3739104566131055,
+    "frequency": 0.01952946857311479
+  },
+  "GO:0055038": {
+    "go_annotation": "recycling endosome membrane",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5517347717204685,
+    "frequency": 0.0030045336266330447
+  },
+  "GO:0060170": {
+    "go_annotation": "ciliary membrane",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5848951981408363,
+    "frequency": 0.0021192692545000938
+  },
+  "GO:0070062": {
+    "go_annotation": "extracellular exosome",
+    "genes_direct_count": 90,
+    "genes_inherited_count": 0,
+    "genes_total_count": 90,
+    "ic_normalized": 0.269671051337292,
+    "frequency": 0.058507927140059555
+  },
+  "GO:0070160": {
+    "go_annotation": "tight junction",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5291881999158428,
+    "frequency": 0.0038093194194811814
+  },
+  "GO:0070161": {
+    "go_annotation": "anchoring junction",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 48,
+    "genes_total_count": 49,
+    "ic_normalized": 0.3507483211391161,
+    "frequency": 0.024921533385197307
+  },
+  "GO:0070382": {
+    "go_annotation": "exocytic vesicle",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 1,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5259006171782807,
+    "frequency": 0.003943450384955871
+  },
+  "GO:0070821": {
+    "go_annotation": "tertiary granule membrane",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5923992283837142,
+    "frequency": 0.0019583120959304665
+  },
+  "GO:0071204": {
+    "go_annotation": "histone pre-mRNA 3'end processing complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8297798750399882,
+    "frequency": 0.00016095715856962738
+  },
+  "GO:0071953": {
+    "go_annotation": "elastic fiber",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.8471007256973263,
+    "frequency": 0.0001341309654746895
+  },
+  "GO:0090575": {
+    "go_annotation": "RNA polymerase II transcription regulator complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.4735707614261414,
+    "frequency": 0.0068406792392091634
+  },
+  "GO:0097060": {
+    "go_annotation": "synaptic membrane",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 8,
+    "genes_total_count": 9,
+    "ic_normalized": 0.42088654388495184,
+    "frequency": 0.011910829734152426
+  },
+  "GO:0098552": {
+    "go_annotation": "side of membrane",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 23,
+    "genes_total_count": 28,
+    "ic_normalized": 0.3769603182350518,
+    "frequency": 0.01891246613193122
+  },
+  "GO:0098562": {
+    "go_annotation": "cytoplasmic side of membrane",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 3,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5120906200089632,
+    "frequency": 0.004560452826139443
+  },
+  "GO:0098797": {
+    "go_annotation": "plasma membrane protein complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 26,
+    "genes_total_count": 27,
+    "ic_normalized": 0.37222896739686745,
+    "frequency": 0.01987820908334898
+  },
+  "GO:0098966": {
+    "go_annotation": "perisynaptic extracellular matrix",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7639297418513931,
+    "frequency": 0.00032191431713925477
+  },
+  "GO:0098978": {
+    "go_annotation": "glutamatergic synapse",
+    "genes_direct_count": 13,
+    "genes_inherited_count": 1,
+    "genes_total_count": 14,
+    "ic_normalized": 0.39180723533162515,
+    "frequency": 0.016176194436247553
+  },
+  "GO:0099634": {
+    "go_annotation": "postsynaptic specialization membrane",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5239813264346409,
+    "frequency": 0.004023928964240684
+  },
+  "GO:1902494": {
+    "go_annotation": "catalytic complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 20,
+    "genes_total_count": 21,
+    "ic_normalized": 0.28923978449909055,
+    "frequency": 0.04761649274351477
+  },
+  "GO:1903561": {
+    "go_annotation": "extracellular vesicle",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 90,
+    "genes_total_count": 92,
+    "ic_normalized": 0.26520406583152933,
+    "frequency": 0.061324677415028034
+  },
+  "GO:1904813": {
+    "go_annotation": "ficolin-1-rich granule lumen",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5420652467413879,
+    "frequency": 0.003326447943772299
+  },
+  "GO:1905368": {
+    "go_annotation": "peptidase complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 5,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5405451877434201,
+    "frequency": 0.0033801003299621752
+  },
+  "GO:1905369": {
+    "go_annotation": "endopeptidase complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 4,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5673741331615688,
+    "frequency": 0.0025484883440191003
+  },
+  "GO:1990406": {
+    "go_annotation": "CGRP receptor complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9341498668114049,
+    "frequency": 5.3652386189875794e-05
+  },
+  "GO:1990498": {
+    "go_annotation": "mitotic spindle microtubule",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7365994672456196,
+    "frequency": 0.00042921908951900636
+  },
+  "GO:1990724": {
+    "go_annotation": "galectin complex",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9341498668114049,
+    "frequency": 5.3652386189875794e-05
+  },
+  "GO:1990779": {
+    "go_annotation": "glycoprotein Ib-IX-V complex",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.8471007256973263,
+    "frequency": 0.0001341309654746895
+  }
+}

@@ -1,0 +1,2860 @@
+ABAT:
+- 4-aminobutyrate transaminase complex (GO:0032144)
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+
+ABCC5:
+- Golgi lumen (GO:0005796)
+- apical plasma membrane (GO:0016324)
+- basolateral plasma membrane (GO:0016323)
+- endosome membrane (GO:0010008)
+- plasma membrane (GO:0005886)
+
+ABHD4:
+- endoplasmic reticulum membrane (GO:0005789)
+- lipid droplet (GO:0005811)
+- mitochondrion (GO:0005739)
+
+ACVR1B:
+- activin receptor complex (GO:0048179)
+- cell surface (GO:0009986)
+- cytosol (GO:0005829)
+- plasma membrane (GO:0005886)
+
+ADA:
+- anchoring junction (GO:0070161)
+- cell surface (GO:0009986)
+- cytoplasmic vesicle lumen (GO:0060205)
+- cytosol (GO:0005829)
+- external side of plasma membrane (GO:0009897)
+- lysosome (GO:0005764)
+- plasma membrane (GO:0005886)
+
+AEN:
+- nuclear membrane (GO:0031965)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+AK1:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- outer dense fiber (GO:0001520)
+
+ALOX15B:
+- adherens junction (GO:0005912)
+- cytoskeleton (GO:0005856)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- focal adhesion (GO:0005925)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+
+ANKRA2:
+- 3M complex (GO:1990393)
+- cytoskeleton (GO:0005856)
+- cytosol (GO:0005829)
+- membrane (GO:0016020)
+- nucleus (GO:0005634)
+
+APAF1:
+- apoptosome (GO:0043293)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- ficolin-1-rich granule lumen (GO:1904813)
+- nucleus (GO:0005634)
+- secretory granule lumen (GO:0034774)
+
+APP:
+- COPII-coated ER to Golgi transport vesicle (GO:0030134)
+- Golgi apparatus (GO:0005794)
+- Golgi lumen (GO:0005796)
+- Golgi-associated vesicle (GO:0005798)
+- amyloid-beta complex (GO:0106003)
+- apical part of cell (GO:0045177)
+- axon (GO:0030424)
+- cell body (GO:0044297)
+- cell surface (GO:0009986)
+- cell-cell junction (GO:0005911)
+- ciliary rootlet (GO:0035253)
+- clathrin-coated pit (GO:0005905)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- dendrite (GO:0030425)
+- dendrite membrane (GO:0032590)
+- dendritic shaft (GO:0043198)
+- dendritic spine (GO:0043197)
+- early endosome (GO:0005769)
+- endoplasmic reticulum lumen (GO:0005788)
+- endosome lumen (GO:0031904)
+- endosome to plasma membrane transport vesicle (GO:0070381)
+- external side of plasma membrane (GO:0009897)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- growth cone (GO:0030426)
+- high-density lipoprotein particle (GO:0034364)
+- intermediate-density lipoprotein particle (GO:0034363)
+- low-density lipoprotein particle (GO:0034362)
+- lysosome (GO:0005764)
+- membrane raft (GO:0045121)
+- mitochondrial inner membrane (GO:0005743)
+- mitochondrion (GO:0005739)
+- neuromuscular junction (GO:0031594)
+- nuclear envelope lumen (GO:0005641)
+- nucleus (GO:0005634)
+- perikaryon (GO:0043204)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+- platelet alpha granule lumen (GO:0031093)
+- presynapse (GO:0098793)
+- presynaptic active zone (GO:0048786)
+- receptor complex (GO:0043235)
+- recycling endosome (GO:0055037)
+- smooth endoplasmic reticulum (GO:0005790)
+- spindle midzone (GO:0051233)
+- synaptic membrane (GO:0097060)
+- synaptic vesicle (GO:0008021)
+- trans-Golgi network membrane (GO:0032588)
+- very-low-density lipoprotein particle (GO:0034361)
+
+ATF3:
+- CHOP-ATF3 complex (GO:1990622)
+- RNA polymerase II transcription regulator complex (GO:0090575)
+- chromatin (GO:0000785)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+BAIAP2:
+- Schaffer collateral - CA1 synapse (GO:0098685)
+- actin cytoskeleton (GO:0015629)
+- adherens junction (GO:0005912)
+- dendritic shaft (GO:0043198)
+- dendritic spine cytoplasm (GO:0061846)
+- excitatory synapse (GO:0060076)
+- extracellular exosome (GO:0070062)
+- filopodium (GO:0030175)
+- glutamatergic synapse (GO:0098978)
+- lamellipodium (GO:0030027)
+- microtubule (GO:0005874)
+- neuron projection branch point (GO:0061845)
+- neuron projection terminus (GO:0044306)
+- neuronal cell body (GO:0043025)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+- postsynaptic cytosol (GO:0099524)
+- postsynaptic density, intracellular component (GO:0099092)
+- presynaptic cytosol (GO:0099523)
+- ruffle (GO:0001726)
+- secretory granule (GO:0030141)
+- synaptic membrane (GO:0097060)
+
+BAK1:
+- BAK complex (GO:0097145)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- mitochondrial outer membrane (GO:0005741)
+- mitochondrion (GO:0005739)
+- pore complex (GO:0046930)
+
+BAX:
+- BAK complex (GO:0097145)
+- BAX complex (GO:0097144)
+- cell periphery (GO:0071944)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum membrane (GO:0005789)
+- extracellular exosome (GO:0070062)
+- mitochondrial outer membrane (GO:0005741)
+- mitochondrial permeability transition pore complex (GO:0005757)
+- mitochondrion (GO:0005739)
+- nuclear envelope (GO:0005635)
+- nucleus (GO:0005634)
+
+BLCAP:
+- cytoplasm (GO:0005737)
+- membrane (GO:0016020)
+- nucleus (GO:0005634)
+
+BMP2:
+- BMP receptor complex (GO:0070724)
+- cell surface (GO:0009986)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- intracellular membrane-bounded organelle (GO:0043231)
+
+BTG1:
+- cytoplasm (GO:0005737)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+BTG2:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- nucleus (GO:0005634)
+
+CASP1:
+- AIM2 inflammasome complex (GO:0097169)
+- IPAF inflammasome complex (GO:0072557)
+- NLRP1 inflammasome complex (GO:0072558)
+- NLRP3 inflammasome complex (GO:0072559)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- microtubule (GO:0005874)
+- nucleolus (GO:0005730)
+- plasma membrane (GO:0005886)
+- protease inhibitor complex (GO:0097179)
+
+CCND2:
+- chromatin (GO:0000785)
+- cyclin D2-CDK4 complex (GO:0097129)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- microtubule organizing center (GO:0005815)
+- nuclear membrane (GO:0031965)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+CCND3:
+- cyclin D3-CDK4 complex (GO:0097130)
+- cyclin D3-CDK6 complex (GO:0097133)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- microtubule organizing center (GO:0005815)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+CCNG1:
+- cyclin-dependent protein kinase holoenzyme complex (GO:0000307)
+- cytoplasm (GO:0005737)
+- dendrite (GO:0030425)
+- neuronal cell body (GO:0043025)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+
+CCNK:
+- cyclin K-CDK12 complex (GO:0002944)
+- cyclin K-CDK13 complex (GO:0002945)
+- cyclin/CDK positive transcription elongation factor complex (GO:0008024)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+CCP110:
+- centriole (GO:0005814)
+- centrosome (GO:0005813)
+- cilium (GO:0005929)
+- cytosol (GO:0005829)
+- protein-containing complex (GO:0032991)
+
+CD81:
+- basal plasma membrane (GO:0009925)
+- basolateral plasma membrane (GO:0016323)
+- extracellular exosome (GO:0070062)
+- focal adhesion (GO:0005925)
+- immunological synapse (GO:0001772)
+- plasma membrane (GO:0005886)
+- tetraspanin-enriched microdomain (GO:0097197)
+
+CD82:
+- extracellular exosome (GO:0070062)
+- phagocytic vesicle (GO:0045335)
+- plasma membrane (GO:0005886)
+
+CDH13:
+- GABA-ergic synapse (GO:0098982)
+- adherens junction (GO:0005912)
+- catenin complex (GO:0016342)
+- caveola (GO:0005901)
+- cytoplasm (GO:0005737)
+- external side of plasma membrane (GO:0009897)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- focal adhesion (GO:0005925)
+- neuron projection (GO:0043005)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+
+CDK5R1:
+- axon (GO:0030424)
+- contractile muscle fiber (GO:0043292)
+- cyclin-dependent protein kinase holoenzyme complex (GO:0000307)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- dendrite (GO:0030425)
+- dendritic spine (GO:0043197)
+- growth cone (GO:0030426)
+- neuromuscular junction (GO:0031594)
+- neuronal cell body (GO:0043025)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- perikaryon (GO:0043204)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+- postsynaptic density (GO:0014069)
+- presynapse (GO:0098793)
+- protein kinase 5 complex (GO:0016533)
+
+CDKN1A:
+- PCNA-p21 complex (GO:0070557)
+- cyclin-dependent protein kinase holoenzyme complex (GO:0000307)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nuclear body (GO:0016604)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+
+CDKN2A:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+- nuclear body (GO:0016604)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- protein-containing complex (GO:0032991)
+- senescence-associated heterochromatin focus (GO:0035985)
+
+CDKN2AIP:
+- granular component (GO:0001652)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+
+CDKN2B:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleus (GO:0005634)
+
+CEBPA:
+- C/EBP complex (GO:1990647)
+- CHOP-C/EBP complex (GO:0036488)
+- chromatin (GO:0000785)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+CGRRF1:
+- endoplasmic reticulum (GO:0005783)
+- nucleoplasm (GO:0005654)
+
+CLCA2:
+- anchoring junction (GO:0070161)
+- basal plasma membrane (GO:0009925)
+- cytosol (GO:0005829)
+- extracellular region (GO:0005576)
+- nuclear membrane (GO:0031965)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+
+COQ8A:
+- membrane (GO:0016020)
+- mitochondrion (GO:0005739)
+
+CSRNP2:
+- chromatin (GO:0000785)
+- nucleus (GO:0005634)
+
+CTSD:
+- cytosol (GO:0005829)
+- endosome lumen (GO:0031904)
+- endosome membrane (GO:0010008)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- ficolin-1-rich granule lumen (GO:1904813)
+- lysosomal lumen (GO:0043202)
+- lysosomal membrane (GO:0005765)
+- lysosome (GO:0005764)
+- melanosome (GO:0042470)
+- membrane raft (GO:0045121)
+- specific granule lumen (GO:0035580)
+- tertiary granule lumen (GO:1904724)
+
+CTSF:
+- endoplasmic reticulum (GO:0005783)
+- extracellular exosome (GO:0070062)
+- extracellular space (GO:0005615)
+- lysosomal lumen (GO:0043202)
+- lysosome (GO:0005764)
+- plasma membrane (GO:0005886)
+
+CYFIP2:
+- SCAR complex (GO:0031209)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- membrane (GO:0016020)
+- neuron projection (GO:0043005)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+- synapse (GO:0045202)
+
+DCXR:
+- brush border (GO:0005903)
+- cytoplasmic microtubule (GO:0005881)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- microvillus (GO:0005902)
+- mitochondrion (GO:0005739)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+
+DDB2:
+- Cul4A-RING E3 ubiquitin ligase complex (GO:0031464)
+- Cul4B-RING E3 ubiquitin ligase complex (GO:0031465)
+- cell junction (GO:0030054)
+- chromatin (GO:0000785)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- site of DNA damage (GO:0090734)
+
+DDIT3:
+- CHOP-ATF3 complex (GO:1990622)
+- CHOP-ATF4 complex (GO:1990617)
+- CHOP-C/EBP complex (GO:0036488)
+- chromatin (GO:0000785)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- late endosome (GO:0005770)
+- nucleus (GO:0005634)
+- protein-DNA complex (GO:0032993)
+
+DDIT4:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- mitochondrion (GO:0005739)
+
+DEF6:
+- cytoplasm (GO:0005737)
+- cytoskeleton (GO:0005856)
+- cytosol (GO:0005829)
+- filopodium (GO:0030175)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+
+DGKA:
+- cytosol (GO:0005829)
+- plasma membrane (GO:0005886)
+
+DNTTIP2:
+- chromosome (GO:0005694)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- small-subunit processome (GO:0032040)
+
+DRAM1:
+- cytoplasm (GO:0005737)
+- lysosomal membrane (GO:0005765)
+- lysosome (GO:0005764)
+
+EI24:
+- Golgi apparatus (GO:0005794)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum membrane (GO:0005789)
+- nuclear membrane (GO:0031965)
+
+ELP1:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- elongator holoenzyme complex (GO:0033588)
+- nucleus (GO:0005634)
+
+EPHA2:
+- cell surface (GO:0009986)
+- focal adhesion (GO:0005925)
+- lamellipodium (GO:0030027)
+- lamellipodium membrane (GO:0031258)
+- plasma membrane (GO:0005886)
+- receptor complex (GO:0043235)
+- ruffle membrane (GO:0032587)
+- tight junction (GO:0070160)
+
+EPHX1:
+- endoplasmic reticulum membrane (GO:0005789)
+
+EPS8L2:
+- centrosome (GO:0005813)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- plasma membrane (GO:0005886)
+- protein-containing complex (GO:0032991)
+- ruffle membrane (GO:0032587)
+- stereocilium bundle (GO:0032421)
+- stereocilium tip (GO:0032426)
+
+ERCC5:
+- DNA replication factor A complex (GO:0005662)
+- nucleoplasm (GO:0005654)
+- nucleotide-excision repair complex (GO:0000109)
+- nucleus (GO:0005634)
+
+F2R:
+- Golgi apparatus (GO:0005794)
+- caveola (GO:0005901)
+- cell surface (GO:0009986)
+- early endosome (GO:0005769)
+- extracellular region (GO:0005576)
+- late endosome (GO:0005770)
+- neuromuscular junction (GO:0031594)
+- plasma membrane (GO:0005886)
+- platelet dense tubular network (GO:0031094)
+- postsynaptic membrane (GO:0045211)
+
+FAM162A:
+- cytosol (GO:0005829)
+- mitochondrial membrane (GO:0031966)
+- mitochondrion (GO:0005739)
+
+FAS:
+- CD95 death-inducing signaling complex (GO:0031265)
+- cell surface (GO:0009986)
+- cytosol (GO:0005829)
+- external side of plasma membrane (GO:0009897)
+- extracellular exosome (GO:0070062)
+- membrane raft (GO:0045121)
+- nuclear body (GO:0016604)
+- plasma membrane (GO:0005886)
+
+FBXW7:
+- Golgi apparatus (GO:0005794)
+- Parkin-FBXW7-Cul1 ubiquitin ligase complex (GO:1990452)
+- SCF ubiquitin ligase complex (GO:0019005)
+- chromosome (GO:0005694)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- mitochondrion (GO:0005739)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+
+FDXR:
+- mitochondrial inner membrane (GO:0005743)
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+
+FGF13:
+- axon (GO:0030424)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- dendrite (GO:0030425)
+- filopodium (GO:0030175)
+- growth cone (GO:0030426)
+- intercalated disc (GO:0014704)
+- lateral plasma membrane (GO:0016328)
+- microtubule (GO:0005874)
+- nucleus (GO:0005634)
+- sarcolemma (GO:0042383)
+
+FOS:
+- chromatin (GO:0000785)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- nuclear matrix (GO:0016363)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- protein-DNA complex (GO:0032993)
+- transcription factor AP-1 complex (GO:0035976)
+
+FOXO3:
+- RNA polymerase II transcription repressor complex (GO:0090571)
+- chromatin (GO:0000785)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- mitochondrial matrix (GO:0005759)
+- mitochondrial outer membrane (GO:0005741)
+- mitochondrion (GO:0005739)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+FUCA1:
+- azurophil granule lumen (GO:0035578)
+- cytoplasm (GO:0005737)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- lysosomal lumen (GO:0043202)
+- lysosome (GO:0005764)
+- membrane (GO:0016020)
+
+GADD45A:
+- cytoplasm (GO:0005737)
+- nuclear speck (GO:0016607)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+GLS2:
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+
+GM2A:
+- apical plasma membrane (GO:0016324)
+- azurophil granule lumen (GO:0035578)
+- basolateral plasma membrane (GO:0016323)
+- cytoplasmic side of plasma membrane (GO:0009898)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- intracellular membrane-bounded organelle (GO:0043231)
+- lysosomal lumen (GO:0043202)
+
+GPX2:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- intercellular bridge (GO:0045171)
+- mitotic spindle (GO:0072686)
+
+H1-2:
+- euchromatin (GO:0000791)
+- nucleosome (GO:0000786)
+- nucleus (GO:0005634)
+
+H2AC25:
+- extracellular exosome (GO:0070062)
+- nucleosome (GO:0000786)
+- nucleus (GO:0005634)
+
+H2AJ:
+- extracellular exosome (GO:0070062)
+- nucleosome (GO:0000786)
+- nucleus (GO:0005634)
+
+HBEGF:
+- cell surface (GO:0009986)
+- clathrin-coated endocytic vesicle membrane (GO:0030669)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- plasma membrane (GO:0005886)
+
+HDAC3:
+- Golgi apparatus (GO:0005794)
+- chromatin (GO:0000785)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- histone deacetylase complex (GO:0000118)
+- mitotic spindle (GO:0072686)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- transcription repressor complex (GO:0017053)
+
+HEXIM1:
+- 7SK snRNP (GO:0120259)
+- cytoplasm (GO:0005737)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+HINT1:
+- cytoplasm (GO:0005737)
+- cytoskeleton (GO:0005856)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- histone deacetylase complex (GO:0000118)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+
+HMOX1:
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum membrane (GO:0005789)
+- extracellular space (GO:0005615)
+- mitochondrial outer membrane (GO:0005741)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+
+HRAS:
+- GTPase complex (GO:1905360)
+- Golgi apparatus (GO:0005794)
+- Golgi membrane (GO:0000139)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endoplasmic reticulum membrane (GO:0005789)
+- glutamatergic synapse (GO:0098978)
+- nucleoplasm (GO:0005654)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+
+HSPA4L:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleus (GO:0005634)
+
+IER3:
+- cytosol (GO:0005829)
+- membrane (GO:0016020)
+- mitochondrion (GO:0005739)
+- nucleus (GO:0005634)
+
+IER5:
+- cytoplasm (GO:0005737)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- protein phosphatase type 2A complex (GO:0000159)
+
+IFI30:
+- cell junction (GO:0030054)
+- cytosol (GO:0005829)
+- extracellular region (GO:0005576)
+- lysosomal lumen (GO:0043202)
+- lysosome (GO:0005764)
+
+IL1A:
+- cell surface (GO:0009986)
+- cytosol (GO:0005829)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- nucleus (GO:0005634)
+
+INHBB:
+- cell periphery (GO:0071944)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- perinuclear region of cytoplasm (GO:0048471)
+
+IP6K2:
+- cell junction (GO:0030054)
+- cytoplasm (GO:0005737)
+- fibrillar center (GO:0001650)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+IRAG2:
+- azurophil granule membrane (GO:0035577)
+- centrosome (GO:0005813)
+- chromosome (GO:0005694)
+- endoplasmic reticulum membrane (GO:0005789)
+- nuclear envelope (GO:0005635)
+- plasma membrane (GO:0005886)
+- spindle pole (GO:0000922)
+
+IRAK1:
+- cell surface (GO:0009986)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endosome membrane (GO:0010008)
+- lipid droplet (GO:0005811)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- protein-containing complex (GO:0032991)
+
+ISCU:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- mitochondrial [2Fe-2S] assembly complex (GO:0099128)
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+- nucleus (GO:0005634)
+
+ITGB4:
+- basal plasma membrane (GO:0009925)
+- basement membrane (GO:0005604)
+- cell leading edge (GO:0031252)
+- cell surface (GO:0009986)
+- extracellular exosome (GO:0070062)
+- focal adhesion (GO:0005925)
+- hemidesmosome (GO:0030056)
+- integrin complex (GO:0008305)
+- nuclear membrane (GO:0031965)
+- nucleolus (GO:0005730)
+- plasma membrane (GO:0005886)
+
+JAG2:
+- plasma membrane (GO:0005886)
+
+JUN:
+- euchromatin (GO:0000791)
+- nuclear chromosome (GO:0000228)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- transcription factor AP-1 complex (GO:0035976)
+
+KIF13B:
+- axon (GO:0030424)
+- cytoplasm (GO:0005737)
+- kinesin complex (GO:0005871)
+- microtubule (GO:0005874)
+
+KLF4:
+- cytosol (GO:0005829)
+- euchromatin (GO:0000791)
+- microtubule cytoskeleton (GO:0015630)
+- nucleoplasm (GO:0005654)
+- transcription regulator complex (GO:0005667)
+
+KLK8:
+- cytoplasm (GO:0005737)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- secretory granule (GO:0030141)
+- serine protease inhibitor complex (GO:0097180)
+
+KRT17:
+- cornified envelope (GO:0001533)
+- cytosol (GO:0005829)
+- intermediate filament cytoskeleton (GO:0045111)
+
+LDHB:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- membrane raft (GO:0045121)
+- mitochondrial inner membrane (GO:0005743)
+- mitochondrion (GO:0005739)
+- oxidoreductase complex (GO:1990204)
+
+LIF:
+- cytosol (GO:0005829)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+
+MAPKAPK3:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+MDM2:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endocytic vesicle membrane (GO:0030666)
+- glutamatergic synapse (GO:0098978)
+- nuclear body (GO:0016604)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- postsynaptic density (GO:0014069)
+- transcription repressor complex (GO:0017053)
+
+MKNK2:
+- PML body (GO:0016605)
+- cytoplasm (GO:0005737)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+MXD1:
+- Mad-Max complex (GO:0070443)
+- chromatin (GO:0000785)
+- cytosol (GO:0005829)
+- mitochondrion (GO:0005739)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+MXD4:
+- chromatin (GO:0000785)
+- nucleoplasm (GO:0005654)
+
+NDRG1:
+- adherens junction (GO:0005912)
+- centrosome (GO:0005813)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- microtubule (GO:0005874)
+- microtubule cytoskeleton (GO:0015630)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+- recycling endosome membrane (GO:0055038)
+
+NHLH2:
+- chromatin (GO:0000785)
+- nucleus (GO:0005634)
+- transcription regulator complex (GO:0005667)
+
+NINJ1:
+- extracellular region (GO:0005576)
+- plasma membrane (GO:0005886)
+- synaptic membrane (GO:0097060)
+
+NOL8:
+- chromosome (GO:0005694)
+- nucleolus (GO:0005730)
+
+NOTCH1:
+- Golgi membrane (GO:0000139)
+- MAML1-RBP-Jkappa- ICN1 complex (GO:0002193)
+- Schaffer collateral - CA1 synapse (GO:0098685)
+- acrosomal vesicle (GO:0001669)
+- adherens junction (GO:0005912)
+- apical plasma membrane (GO:0016324)
+- cell surface (GO:0009986)
+- cytosol (GO:0005829)
+- endoplasmic reticulum membrane (GO:0005789)
+- extracellular region (GO:0005576)
+- glutamatergic synapse (GO:0098978)
+- late endosome membrane (GO:0031902)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- postsynaptic density membrane (GO:0098839)
+- receptor complex (GO:0043235)
+
+NUDT15:
+- cytosol (GO:0005829)
+
+NUPR1:
+- cytoplasm (GO:0005737)
+- intercellular bridge (GO:0045171)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+- protein-DNA complex (GO:0032993)
+
+OSGIN1:
+- No CC annotations found
+
+PCNA:
+- PCNA complex (GO:0043626)
+- PCNA-p21 complex (GO:0070557)
+- centrosome (GO:0005813)
+- chromatin (GO:0000785)
+- chromosome, telomeric region (GO:0000781)
+- cyclin-dependent protein kinase holoenzyme complex (GO:0000307)
+- extracellular exosome (GO:0070062)
+- male germ cell nucleus (GO:0001673)
+- nuclear body (GO:0016604)
+- nuclear lamina (GO:0005652)
+- nuclear replication fork (GO:0043596)
+- nucleoplasm (GO:0005654)
+- replisome (GO:0030894)
+
+PDGFA:
+- Golgi lumen (GO:0005796)
+- Golgi membrane (GO:0000139)
+- cell surface (GO:0009986)
+- endoplasmic reticulum lumen (GO:0005788)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- microvillus (GO:0005902)
+- platelet alpha granule lumen (GO:0031093)
+- platelet-derived growth factor complex (GO:1990265)
+
+PERP:
+- Golgi apparatus (GO:0005794)
+- desmosome (GO:0030057)
+- mitochondrion (GO:0005739)
+- plasma membrane (GO:0005886)
+
+PHLDA3:
+- cytoplasm (GO:0005737)
+- plasma membrane (GO:0005886)
+
+PIDD1:
+- Golgi apparatus (GO:0005794)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endopeptidase complex (GO:1905369)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+PITPNC1:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+
+PLK2:
+- centriole (GO:0005814)
+- centrosome (GO:0005813)
+- chromatin (GO:0000785)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- dendrite (GO:0030425)
+- kinetochore (GO:0000776)
+- nucleus (GO:0005634)
+- spindle pole (GO:0000922)
+
+PLK3:
+- Golgi stack (GO:0005795)
+- centrosome (GO:0005813)
+- cytoplasm (GO:0005737)
+- dendrite (GO:0030425)
+- kinetochore (GO:0000776)
+- neuronal cell body (GO:0043025)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- spindle pole (GO:0000922)
+
+PLXNB2:
+- cell surface (GO:0009986)
+- extracellular exosome (GO:0070062)
+- plasma membrane (GO:0005886)
+- semaphorin receptor complex (GO:0002116)
+
+PMM1:
+- cytosol (GO:0005829)
+- neuronal cell body (GO:0043025)
+
+POLH:
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- replication fork (GO:0005657)
+- site of double-strand break (GO:0035861)
+
+POM121:
+- endoplasmic reticulum membrane (GO:0005789)
+- nuclear envelope (GO:0005635)
+- nuclear membrane (GO:0031965)
+- nuclear pore (GO:0005643)
+- nucleoplasm (GO:0005654)
+
+PPM1D:
+- cytosol (GO:0005829)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+PPP1R15A:
+- Golgi apparatus (GO:0005794)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum membrane (GO:0005789)
+- mitochondrial outer membrane (GO:0005741)
+- mitochondrion (GO:0005739)
+- protein phosphatase type 1 complex (GO:0000164)
+
+PRKAB1:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+- nucleotide-activated protein kinase complex (GO:0031588)
+- nucleus (GO:0005634)
+
+PRMT2:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+PROCR:
+- cell surface (GO:0009986)
+- centrosome (GO:0005813)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- focal adhesion (GO:0005925)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+
+PTPN14:
+- cytoplasm (GO:0005737)
+- cytoskeleton (GO:0005856)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+PTPRE:
+- cytoplasm (GO:0005737)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+
+PVT1:
+- No CC annotations found
+
+RAB40C:
+- Golgi apparatus (GO:0005794)
+- endosome (GO:0005768)
+- lipid droplet (GO:0005811)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+- synaptic vesicle (GO:0008021)
+
+RACK1:
+- IRE1-RACK1-PP2A complex (GO:1990630)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- cytosolic small ribosomal subunit (GO:0022627)
+- dendrite (GO:0030425)
+- extracellular exosome (GO:0070062)
+- midbody (GO:0030496)
+- mitochondrion (GO:0005739)
+- neuronal cell body (GO:0043025)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- perikaryon (GO:0043204)
+- perinuclear region of cytoplasm (GO:0048471)
+- phagocytic cup (GO:0001891)
+
+RAD51C:
+- Rad51B-Rad51C-Rad51D-XRCC2 complex (GO:0033063)
+- Rad51C-XRCC3 complex (GO:0033065)
+- cell junction (GO:0030054)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- mitochondrion (GO:0005739)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+- replication fork (GO:0005657)
+
+RAD9A:
+- checkpoint clamp complex (GO:0030896)
+- cytoplasm (GO:0005737)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+RALGDS:
+- brush border (GO:0005903)
+- cytosol (GO:0005829)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+
+RAP2B:
+- bicellular tight junction (GO:0005923)
+- cell-cell contact zone (GO:0044291)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- membrane raft (GO:0045121)
+- plasma membrane (GO:0005886)
+- recycling endosome membrane (GO:0055038)
+- specific granule membrane (GO:0035579)
+- tertiary granule membrane (GO:0070821)
+
+RB1:
+- PML body (GO:0016605)
+- Rb-E2F complex (GO:0035189)
+- SWI/SNF complex (GO:0016514)
+- chromatin (GO:0000785)
+- chromatin lock complex (GO:0061793)
+- cyclin/CDK positive transcription elongation factor complex (GO:0008024)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- spindle (GO:0005819)
+
+RCHY1:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nuclear speck (GO:0016607)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- ubiquitin ligase complex (GO:0000151)
+
+RETSAT:
+- endoplasmic reticulum membrane (GO:0005789)
+- nuclear outer membrane (GO:0005640)
+
+RGS16:
+- cytoplasm (GO:0005737)
+- plasma membrane (GO:0005886)
+
+RHBDF2:
+- Golgi lumen (GO:0005796)
+- endoplasmic reticulum membrane (GO:0005789)
+- plasma membrane (GO:0005886)
+
+RNF19B:
+- cytolytic granule (GO:0044194)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum membrane (GO:0005789)
+- ubiquitin ligase complex (GO:0000151)
+
+RPL18:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- cytosolic large ribosomal subunit (GO:0022625)
+- cytosolic ribosome (GO:0022626)
+- focal adhesion (GO:0005925)
+- membrane (GO:0016020)
+- nucleolus (GO:0005730)
+- nucleus (GO:0005634)
+- rough endoplasmic reticulum (GO:0005791)
+
+RPL36:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- cytosolic large ribosomal subunit (GO:0022625)
+- cytosolic ribosome (GO:0022626)
+- membrane (GO:0016020)
+- nucleolus (GO:0005730)
+- synapse (GO:0045202)
+
+RPS12:
+- Golgi apparatus (GO:0005794)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- cytosolic ribosome (GO:0022626)
+- cytosolic small ribosomal subunit (GO:0022627)
+- membrane (GO:0016020)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- small-subunit processome (GO:0032040)
+
+RPS27L:
+- cytosolic small ribosomal subunit (GO:0022627)
+- nucleus (GO:0005634)
+
+RRAD:
+- cytosol (GO:0005829)
+- plasma membrane (GO:0005886)
+
+RRP8:
+- cytosol (GO:0005829)
+- eNoSc complex (GO:0061773)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+- rDNA heterochromatin (GO:0033553)
+
+RXRA:
+- RNA polymerase II transcription regulator complex (GO:0090575)
+- chromatin (GO:0000785)
+- cytosol (GO:0005829)
+- mitochondrion (GO:0005739)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- receptor complex (GO:0043235)
+
+S100A10:
+- AnxA2-p11 complex (GO:1990665)
+- RNA polymerase II transcription regulator complex (GO:0090575)
+- cell surface (GO:0009986)
+- cytoplasm (GO:0005737)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- membrane raft (GO:0045121)
+- nuclear matrix (GO:0016363)
+- plasma membrane (GO:0005886)
+- plasma membrane protein complex (GO:0098797)
+
+S100A4:
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+
+SAT1:
+- cytosol (GO:0005829)
+
+SDC1:
+- Golgi lumen (GO:0005796)
+- cell surface (GO:0009986)
+- external side of plasma membrane (GO:0009897)
+- extracellular exosome (GO:0070062)
+- lysosomal lumen (GO:0043202)
+- plasma membrane (GO:0005886)
+- protein-containing complex (GO:0032991)
+
+SEC61A1:
+- Sec61 translocon complex (GO:0005784)
+- endoplasmic reticulum membrane (GO:0005789)
+
+SERPINB5:
+- cornified envelope (GO:0001533)
+- extracellular space (GO:0005615)
+- sarcoplasm (GO:0016528)
+
+SERTAD3:
+- nucleus (GO:0005634)
+
+SESN1:
+- GATOR2 complex (GO:0061700)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- fibrillar center (GO:0001650)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+SFN:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- extracellular space (GO:0005615)
+- nucleus (GO:0005634)
+
+SLC19A2:
+- plasma membrane (GO:0005886)
+
+SLC35D1:
+- Golgi apparatus (GO:0005794)
+- endoplasmic reticulum membrane (GO:0005789)
+
+SLC3A2:
+- amino acid transport complex (GO:1990184)
+- anchoring junction (GO:0070161)
+- apical plasma membrane (GO:0016324)
+- apical pole of neuron (GO:0044225)
+- basal plasma membrane (GO:0009925)
+- basolateral plasma membrane (GO:0016323)
+- cell surface (GO:0009986)
+- extracellular exosome (GO:0070062)
+- lysosomal membrane (GO:0005765)
+- melanosome (GO:0042470)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+- synapse (GO:0045202)
+
+SLC7A11:
+- apical part of cell (GO:0045177)
+- astrocyte projection (GO:0097449)
+- brush border membrane (GO:0031526)
+- cell surface (GO:0009986)
+- microvillus membrane (GO:0031528)
+- plasma membrane (GO:0005886)
+
+SOCS1:
+- cytoplasm (GO:0005737)
+- cytoplasmic ribonucleoprotein granule (GO:0036464)
+- cytoplasmic vesicle (GO:0031410)
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+
+SP1:
+- cytoplasm (GO:0005737)
+- euchromatin (GO:0000791)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- protein-DNA complex (GO:0032993)
+- transcription repressor complex (GO:0017053)
+
+SPHK1:
+- clathrin-coated pit (GO:0005905)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- early endosome membrane (GO:0031901)
+- endocytic vesicle (GO:0030139)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- presynapse (GO:0098793)
+
+ST14:
+- basolateral plasma membrane (GO:0016323)
+- external side of plasma membrane (GO:0009897)
+- extracellular space (GO:0005615)
+- plasma membrane (GO:0005886)
+
+STEAP3:
+- cytoplasm (GO:0005737)
+- endosome membrane (GO:0010008)
+- multivesicular body (GO:0005771)
+- plasma membrane (GO:0005886)
+
+STOM:
+- azurophil granule membrane (GO:0035577)
+- blood microparticle (GO:0072562)
+- cytoskeleton (GO:0005856)
+- endoplasmic reticulum (GO:0005783)
+- extracellular exosome (GO:0070062)
+- extracellular space (GO:0005615)
+- melanosome (GO:0042470)
+- membrane raft (GO:0045121)
+- mitochondrion (GO:0005739)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+- specific granule membrane (GO:0035579)
+- tertiary granule membrane (GO:0070821)
+
+TAP1:
+- MHC class I peptide loading complex (GO:0042824)
+- TAP complex (GO:0042825)
+- centriolar satellite (GO:0034451)
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum membrane (GO:0005789)
+- endoplasmic reticulum-Golgi intermediate compartment membrane (GO:0033116)
+- phagocytic vesicle membrane (GO:0030670)
+
+TAX1BP3:
+- actin cytoskeleton (GO:0015629)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- fibrillar center (GO:0001650)
+- intracellular membrane-bounded organelle (GO:0043231)
+- plasma membrane (GO:0005886)
+
+TCHH:
+- cornified envelope (GO:0001533)
+- cytoskeleton (GO:0005856)
+- cytosol (GO:0005829)
+
+TCN2:
+- external side of plasma membrane (GO:0009897)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- lysosomal lumen (GO:0043202)
+- plasma membrane (GO:0005886)
+
+TGFA:
+- ER to Golgi transport vesicle membrane (GO:0012507)
+- basolateral plasma membrane (GO:0016323)
+- cell surface (GO:0009986)
+- clathrin-coated endocytic vesicle membrane (GO:0030669)
+- cytoplasmic vesicle (GO:0031410)
+- endoplasmic reticulum membrane (GO:0005789)
+- endoplasmic reticulum-Golgi intermediate compartment membrane (GO:0033116)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+
+TGFB1:
+- Golgi lumen (GO:0005796)
+- axon (GO:0030424)
+- blood microparticle (GO:0072562)
+- cell surface (GO:0009986)
+- cytoplasm (GO:0005737)
+- extracellular matrix (GO:0031012)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- microvillus (GO:0005902)
+- neuronal cell body (GO:0043025)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- platelet alpha granule lumen (GO:0031093)
+
+TM4SF1:
+- plasma membrane (GO:0005886)
+
+TM7SF3:
+- extracellular exosome (GO:0070062)
+- plasma membrane (GO:0005886)
+
+TNFSF9:
+- extracellular space (GO:0005615)
+- plasma membrane (GO:0005886)
+
+TNNI1:
+- cytosol (GO:0005829)
+- troponin complex (GO:0005861)
+
+TOB1:
+- CCR4-NOT complex (GO:0030014)
+- cytoplasm (GO:0005737)
+- nucleus (GO:0005634)
+
+TP53:
+- PML body (GO:0016605)
+- centrosome (GO:0005813)
+- chromatin (GO:0000785)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- germ cell nucleus (GO:0043073)
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+- nuclear matrix (GO:0016363)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- replication fork (GO:0005657)
+- site of double-strand break (GO:0035861)
+- transcription repressor complex (GO:0017053)
+
+TP63:
+- chromatin (GO:0000785)
+- cytoplasm (GO:0005737)
+- dendrite (GO:0030425)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- protein-containing complex (GO:0032991)
+
+TPD52L1:
+- cytoplasm (GO:0005737)
+- perinuclear region of cytoplasm (GO:0048471)
+
+TPRKB:
+- EKC/KEOPS complex (GO:0000408)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleus (GO:0005634)
+
+TRAF4:
+- bicellular tight junction (GO:0005923)
+- cytoplasm (GO:0005737)
+- cytoskeleton (GO:0005856)
+- cytosol (GO:0005829)
+- fibrillar center (GO:0001650)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+- plasma membrane signaling receptor complex (GO:0098802)
+
+TRAFD1:
+- mitochondrion (GO:0005739)
+
+TRIAP1:
+- mitochondrial intermembrane space (GO:0005758)
+- mitochondrion (GO:0005739)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- protein-containing complex (GO:0032991)
+
+TRIB3:
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+
+TSC22D1:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- mitochondrion (GO:0005739)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+
+TSPYL2:
+- chromatin (GO:0000785)
+- cytoplasm (GO:0005737)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+TXNIP:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+
+UPP1:
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+
+VAMP8:
+- SNARE complex (GO:0031201)
+- azurophil granule membrane (GO:0035577)
+- clathrin-coated endocytic vesicle membrane (GO:0030669)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- early endosome (GO:0005769)
+- early endosome membrane (GO:0031901)
+- extracellular exosome (GO:0070062)
+- late endosome membrane (GO:0031902)
+- mucin granule (GO:0098594)
+- perinuclear region of cytoplasm (GO:0048471)
+- phagocytic vesicle membrane (GO:0030670)
+- plasma membrane (GO:0005886)
+- recycling endosome (GO:0055037)
+- recycling endosome membrane (GO:0055038)
+- specific granule membrane (GO:0035579)
+- tertiary granule membrane (GO:0070821)
+- zymogen granule membrane (GO:0042589)
+
+VDR:
+- RNA polymerase II transcription regulator complex (GO:0090575)
+- chromatin (GO:0000785)
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- receptor complex (GO:0043235)
+
+VWA5A:
+- nucleoplasm (GO:0005654)
+
+WRAP73:
+- MWP complex (GO:1990811)
+- centriolar satellite (GO:0034451)
+- centriole (GO:0005814)
+- centrosome (GO:0005813)
+- ciliary basal body (GO:0036064)
+- cytoplasm (GO:0005737)
+
+WWP1:
+- anchoring junction (GO:0070161)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- ubiquitin ligase complex (GO:0000151)
+
+XPC:
+- XPC complex (GO:0071942)
+- chromatin (GO:0000785)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- mitochondrion (GO:0005739)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleotide-excision repair factor 2 complex (GO:0000111)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- site of DNA damage (GO:0090734)
+
+ZBTB16:
+- PML body (GO:0016605)
+- cytosol (GO:0005829)
+- male germ cell nucleus (GO:0001673)
+- nuclear speck (GO:0016607)
+- transcription repressor complex (GO:0017053)
+
+ZFP36L1:
+- P-body (GO:0000932)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleus (GO:0005634)
+- ribonucleoprotein complex (GO:1990904)
+
+ZMAT3:
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+
+ZNF365:
+- centrosome (GO:0005813)
+- cytoplasm (GO:0005737)
+
+PHF6:
+- kinetochore (GO:0000776)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+SMPDL3A:
+- extracellular exosome (GO:0070062)
+- extracellular space (GO:0005615)
+
+MYRF:
+- Golgi apparatus (GO:0005794)
+- cytosol (GO:0005829)
+- endoplasmic reticulum membrane (GO:0005789)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+RPS8:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- cytosolic ribosome (GO:0022626)
+- cytosolic small ribosomal subunit (GO:0022627)
+- endoplasmic reticulum (GO:0005783)
+- extracellular exosome (GO:0070062)
+- focal adhesion (GO:0005925)
+- membrane (GO:0016020)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- small-subunit processome (GO:0032040)
+
+LGR5:
+- Golgi apparatus (GO:0005794)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+- trans-Golgi network membrane (GO:0032588)
+
+EXOSC7:
+- cytoplasmic exosome (RNase complex) (GO:0000177)
+- cytosol (GO:0005829)
+- nucleolar exosome (RNase complex) (GO:0101019)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+KCNH1:
+- axon (GO:0030424)
+- dendrite (GO:0030425)
+- early endosome membrane (GO:0031901)
+- intracellular membrane-bounded organelle (GO:0043231)
+- nuclear inner membrane (GO:0005637)
+- perikaryon (GO:0043204)
+- plasma membrane (GO:0005886)
+- postsynaptic density membrane (GO:0098839)
+- presynaptic membrane (GO:0042734)
+- voltage-gated potassium channel complex (GO:0008076)
+
+SLFNL1:
+- No CC annotations found
+
+GARRE1:
+- P-body (GO:0000932)
+- cytosol (GO:0005829)
+
+CTU2:
+- cytosol (GO:0005829)
+- protein-containing complex (GO:0032991)
+
+SDK2:
+- plasma membrane (GO:0005886)
+- synapse (GO:0045202)
+
+ZDHHC9:
+- Golgi apparatus (GO:0005794)
+- Golgi membrane (GO:0000139)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum membrane (GO:0005789)
+- endoplasmic reticulum-Golgi intermediate compartment membrane (GO:0033116)
+- palmitoyltransferase complex (GO:0002178)
+
+ZIM2:
+- nucleus (GO:0005634)
+
+ZNF28:
+- nucleus (GO:0005634)
+
+PAX4:
+- chromatin (GO:0000785)
+- nucleoplasm (GO:0005654)
+
+OR51G2:
+- plasma membrane (GO:0005886)
+
+FOXC1:
+- cytosol (GO:0005829)
+- heterochromatin (GO:0000792)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+FOXI3:
+- nucleus (GO:0005634)
+
+NPAS3:
+- chromatin (GO:0000785)
+- nucleoplasm (GO:0005654)
+
+ABCF2:
+- plasma membrane (GO:0005886)
+
+TBKBP1:
+- cytoplasm (GO:0005737)
+- serine/threonine protein kinase complex (GO:1902554)
+
+DYNLT4:
+- acrosomal vesicle (GO:0001669)
+- axoneme (GO:0005930)
+- cytoplasm (GO:0005737)
+- cytoplasmic dynein complex (GO:0005868)
+- microtubule organizing center (GO:0005815)
+- nucleolus (GO:0005730)
+- nucleus (GO:0005634)
+- sperm flagellum (GO:0036126)
+
+KCNIP1:
+- Kv4.3-KChIP1 channel complex (GO:0071196)
+- cytoplasm (GO:0005737)
+- cytoplasmic side of plasma membrane (GO:0009898)
+- dendrite (GO:0030425)
+- plasma membrane (GO:0005886)
+- synapse (GO:0045202)
+
+HPDL:
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+
+SMURF1:
+- axon (GO:0030424)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- mitochondrion (GO:0005739)
+- neuronal cell body (GO:0043025)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+
+SELENOW:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+
+EEF1AKMT4:
+- No CC annotations found
+
+ANAPC4:
+- anaphase-promoting complex (GO:0005680)
+- cytosol (GO:0005829)
+- nuclear periphery (GO:0034399)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+OR11L1:
+- extracellular exosome (GO:0070062)
+- plasma membrane (GO:0005886)
+
+MYH14:
+- brush border (GO:0005903)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- growth cone (GO:0030426)
+- membrane (GO:0016020)
+- myosin II complex (GO:0016460)
+- myosin II filament (GO:0097513)
+- stress fiber (GO:0001725)
+
+ZNF518A:
+- nucleus (GO:0005634)
+
+ENTPD5:
+- endoplasmic reticulum (GO:0005783)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+
+MPV17:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- mitochondrial inner membrane (GO:0005743)
+- mitochondrion (GO:0005739)
+- peroxisomal membrane (GO:0005778)
+- peroxisome (GO:0005777)
+
+RNMT:
+- fibrillar center (GO:0001650)
+- mRNA cap methyltransferase RNMT:RAMAC complex (GO:0160130)
+- mRNA capping enzyme complex (GO:0031533)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- receptor complex (GO:0043235)
+
+CAPN2:
+- Golgi apparatus (GO:0005794)
+- calpain complex (GO:0110158)
+- chromatin (GO:0000785)
+- cortical actin cytoskeleton (GO:0030864)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- dendrite (GO:0030425)
+- endoplasmic reticulum (GO:0005783)
+- external side of plasma membrane (GO:0009897)
+- extracellular exosome (GO:0070062)
+- focal adhesion (GO:0005925)
+- lysosome (GO:0005764)
+- membrane raft (GO:0045121)
+- neuronal cell body (GO:0043025)
+- nucleus (GO:0005634)
+- perinuclear endoplasmic reticulum (GO:0097038)
+- plasma membrane (GO:0005886)
+- postsynapse (GO:0098794)
+- presynapse (GO:0098793)
+- pseudopodium (GO:0031143)
+
+ZNF746:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+IL10RB:
+- interleukin-28 receptor complex (GO:0032002)
+- plasma membrane (GO:0005886)
+
+CAPN14:
+- cytoplasm (GO:0005737)
+
+RASAL1:
+- cytosol (GO:0005829)
+- plasma membrane (GO:0005886)
+
+GPRC5B:
+- cell surface (GO:0009986)
+- cytoplasmic vesicle membrane (GO:0030659)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- extracellular space (GO:0005615)
+- intracellular membrane-bounded organelle (GO:0043231)
+- membrane raft (GO:0045121)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+- receptor complex (GO:0043235)
+
+PCNP:
+- nuclear body (GO:0016604)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+ZNF490:
+- nucleus (GO:0005634)
+
+DENND4C:
+- Golgi apparatus (GO:0005794)
+- cytoplasmic vesicle membrane (GO:0030659)
+- cytosol (GO:0005829)
+- insulin-responsive compartment (GO:0032593)
+- plasma membrane (GO:0005886)
+- retromer complex (GO:0030904)
+
+NKX2-4:
+- chromatin (GO:0000785)
+- nucleus (GO:0005634)
+
+POU4F2:
+- cytoplasm (GO:0005737)
+- euchromatin (GO:0000791)
+- nuclear speck (GO:0016607)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- transcription regulator complex (GO:0005667)
+
+PHLDA2:
+- cytoplasm (GO:0005737)
+- membrane (GO:0016020)
+
+NEU3:
+- caveola (GO:0005901)
+- cytoplasm (GO:0005737)
+- early endosome membrane (GO:0031901)
+- lysosomal membrane (GO:0005765)
+- lysosome (GO:0005764)
+- plasma membrane (GO:0005886)
+- recycling endosome membrane (GO:0055038)
+
+LILRB2:
+- cell surface (GO:0009986)
+- cytoplasm (GO:0005737)
+- extracellular space (GO:0005615)
+- ficolin-1-rich granule membrane (GO:0101003)
+- plasma membrane (GO:0005886)
+- tertiary granule membrane (GO:0070821)
+
+BHLHE40:
+- chromatin (GO:0000785)
+- cytoplasm (GO:0005737)
+- nuclear body (GO:0016604)
+- nucleus (GO:0005634)
+
+KIAA0232:
+- No CC annotations found
+
+SDHAF2:
+- cytosol (GO:0005829)
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+- nucleolus (GO:0005730)
+
+STPG4:
+- cytoplasm (GO:0005737)
+- female pronucleus (GO:0001939)
+- germinal vesicle (GO:0042585)
+- male germ cell nucleus (GO:0001673)
+- male pronucleus (GO:0001940)
+
+TXNRD1:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- fibrillar center (GO:0001650)
+- mitochondrion (GO:0005739)
+- nucleoplasm (GO:0005654)
+
+RAD51D:
+- Rad51B-Rad51C-Rad51D-XRCC2 complex (GO:0033063)
+- centrosome (GO:0005813)
+- chromosome, telomeric region (GO:0000781)
+- cytoplasm (GO:0005737)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- replication fork (GO:0005657)
+
+ANKRD28:
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+
+KTN1:
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum lumen (GO:0005788)
+- endoplasmic reticulum membrane (GO:0005789)
+- plasma membrane (GO:0005886)
+
+DCUN1D5:
+- cytoplasm (GO:0005737)
+- nucleus (GO:0005634)
+- spindle (GO:0005819)
+- ubiquitin ligase complex (GO:0000151)
+
+TMC1:
+- external side of plasma membrane (GO:0009897)
+- stereocilium (GO:0032420)
+- stereocilium tip (GO:0032426)
+
+GRSF1:
+- cytoplasm (GO:0005737)
+- mitochondrial matrix (GO:0005759)
+- mitochondrial nucleoid (GO:0042645)
+- mitochondrion (GO:0005739)
+- nucleoplasm (GO:0005654)
+- ribonucleoprotein complex (GO:1990904)
+- ribonucleoprotein granule (GO:0035770)
+
+POLR3A:
+- RNA polymerase III complex (GO:0005666)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- membrane (GO:0016020)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+RPRD2:
+- nucleoplasm (GO:0005654)
+- transcription preinitiation complex (GO:0097550)
+
+NLRP3:
+- Golgi membrane (GO:0000139)
+- NLRP3 inflammasome complex (GO:0072559)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- extracellular region (GO:0005576)
+- interphase microtubule organizing center (GO:0031021)
+- mitochondrion (GO:0005739)
+- nucleus (GO:0005634)
+
+CFAP70:
+- axoneme (GO:0005930)
+- ciliary basal body (GO:0036064)
+- extracellular exosome (GO:0070062)
+- outer dynein arm (GO:0036157)
+- sperm flagellum (GO:0036126)
+
+SPATA31F1:
+- membrane (GO:0016020)
+- nucleus (GO:0005634)
+
+BRWD3:
+- nucleus (GO:0005634)
+
+LRP3:
+- clathrin-coated pit (GO:0005905)
+- plasma membrane (GO:0005886)
+
+EXOC5:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- exocyst (GO:0000145)
+- midbody (GO:0030496)
+
+PMEPA1:
+- Golgi membrane (GO:0000139)
+- early endosome membrane (GO:0031901)
+- intracellular membrane-bounded organelle (GO:0043231)
+- plasma membrane (GO:0005886)
+
+ASDURF:
+- RPAP3/R2TP/prefoldin-like complex (GO:1990062)
+- cytoplasm (GO:0005737)
+
+TLX3:
+- chromatin (GO:0000785)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+EMX1:
+- chromatin (GO:0000785)
+- chromosome (GO:0005694)
+- cytoplasm (GO:0005737)
+- nucleolus (GO:0005730)
+- nucleus (GO:0005634)
+
+NAT2:
+- cytosol (GO:0005829)
+
+CASP10:
+- CD95 death-inducing signaling complex (GO:0031265)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- ripoptosome (GO:0097342)
+
+PPFIA3:
+- acrosomal vesicle (GO:0001669)
+- cytosol (GO:0005829)
+- epididymosome (GO:0098875)
+- glutamatergic synapse (GO:0098978)
+- presynaptic active zone (GO:0048786)
+- presynaptic active zone cytoplasmic component (GO:0098831)
+
+UBE3A:
+- glutamatergic synapse (GO:0098978)
+- nucleus (GO:0005634)
+- postsynaptic cytosol (GO:0099524)
+- proteasome complex (GO:0000502)
+- synaptic vesicle (GO:0008021)
+
+SEZ6:
+- apical dendrite (GO:0097440)
+- dendritic shaft (GO:0043198)
+- dendritic spine (GO:0043197)
+- endoplasmic reticulum (GO:0005783)
+- neuronal cell body (GO:0043025)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+
+DDR2:
+- actin cytoskeleton (GO:0015629)
+- apical plasma membrane (GO:0016324)
+- focal adhesion (GO:0005925)
+- plasma membrane (GO:0005886)
+- receptor complex (GO:0043235)
+
+DAAM1:
+- ciliary basal body (GO:0036064)
+- cytosol (GO:0005829)
+- glutamatergic synapse (GO:0098978)
+- motile cilium (GO:0031514)
+- perinuclear region of cytoplasm (GO:0048471)
+- plasma membrane (GO:0005886)
+- presynapse (GO:0098793)
+- stress fiber (GO:0001725)
+
+SLC35G3:
+- membrane (GO:0016020)
+
+PLEKHH2:
+- cortical actin cytoskeleton (GO:0030864)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- lamellipodium (GO:0030027)
+- nuclear body (GO:0016604)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+
+USP36:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nuclear speck (GO:0016607)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+JAML:
+- bicellular tight junction (GO:0005923)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+
+GLB1:
+- Golgi apparatus (GO:0005794)
+- azurophil granule lumen (GO:0035578)
+- cytoplasm (GO:0005737)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- ficolin-1-rich granule lumen (GO:1904813)
+- lysosomal lumen (GO:0043202)
+- lysosome (GO:0005764)
+- membrane (GO:0016020)
+- perinuclear region of cytoplasm (GO:0048471)
+
+PPP5C:
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- protein folding chaperone complex (GO:0101031)
+
+SDR39U1:
+- mitochondrion (GO:0005739)
+- nucleus (GO:0005634)
+
+SPATA17:
+- cytoplasm (GO:0005737)
+
+BANP:
+- nuclear body (GO:0016604)
+- nucleoplasm (GO:0005654)
+
+MAP7D2:
+- microtubule cytoskeleton (GO:0015630)
+
+EXOC4:
+- Flemming body (GO:0090543)
+- centrosome (GO:0005813)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- exocyst (GO:0000145)
+- growth cone membrane (GO:0032584)
+- microvillus (GO:0005902)
+- myelin sheath abaxonal region (GO:0035748)
+- plasma membrane (GO:0005886)
+- synapse (GO:0045202)
+
+OR6C2:
+- plasma membrane (GO:0005886)
+
+KCNE4:
+- apical plasma membrane (GO:0016324)
+- voltage-gated potassium channel complex (GO:0008076)
+
+OR56A1:
+- plasma membrane (GO:0005886)
+
+SLC44A3:
+- plasma membrane (GO:0005886)
+
+TSC22D2:
+- No CC annotations found
+
+HOXC8:
+- chromatin (GO:0000785)
+- microtubule cytoskeleton (GO:0015630)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+OR4A16:
+- plasma membrane (GO:0005886)
+
+IQGAP2:
+- actin cytoskeleton (GO:0015629)
+- cell cortex (GO:0005938)
+- cell surface (GO:0009986)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- filopodium (GO:0030175)
+- lamellipodium (GO:0030027)
+- microtubule (GO:0005874)
+- microvillus (GO:0005902)
+- plasma membrane (GO:0005886)
+- secretory granule membrane (GO:0030667)
+
+KLHL4:
+- Cul3-RING ubiquitin ligase complex (GO:0031463)
+- centriolar satellite (GO:0034451)
+- cytoplasm (GO:0005737)
+- microtubule cytoskeleton (GO:0015630)
+
+CNBP:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- nucleus (GO:0005634)
+
+NKX6-1:
+- chromatin (GO:0000785)
+- extracellular exosome (GO:0070062)
+- nucleus (GO:0005634)
+
+H2BC11:
+- CENP-A containing nucleosome (GO:0043505)
+- cytosol (GO:0005829)
+- extracellular space (GO:0005615)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+
+DIPK1B:
+- endoplasmic reticulum membrane (GO:0005789)
+
+TARS2:
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+
+ATP5IF1:
+- cell surface (GO:0009986)
+- cytoplasm (GO:0005737)
+- mitochondrion (GO:0005739)
+- protein-containing complex (GO:0032991)
+
+OR7A5:
+- plasma membrane (GO:0005886)
+
+DR1:
+- ATAC complex (GO:0140672)
+- RNA polymerase II transcription regulator complex (GO:0090575)
+- mitotic spindle (GO:0072686)
+- negative cofactor 2 complex (GO:0017054)
+- nucleoplasm (GO:0005654)
+
+TXNRD2:
+- axon (GO:0030424)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- dendrite (GO:0030425)
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+- neuronal cell body (GO:0043025)
+
+NSUN3:
+- mitochondrial large ribosomal subunit (GO:0005762)
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+
+MCOLN2:
+- late endosome membrane (GO:0031902)
+- lysosomal membrane (GO:0005765)
+- plasma membrane (GO:0005886)
+- recycling endosome membrane (GO:0055038)
+
+OIP5:
+- Cajal body (GO:0015030)
+- chromatin (GO:0000785)
+- chromocenter (GO:0010369)
+- chromosome, centromeric region (GO:0000775)
+- nuclear speck (GO:0016607)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+CEP44:
+- centriole (GO:0005814)
+- centrosome (GO:0005813)
+- cytoplasm (GO:0005737)
+- midbody (GO:0030496)
+- spindle pole (GO:0000922)
+
+PRDM4:
+- histone methyltransferase complex (GO:0035097)
+- nucleus (GO:0005634)
+
+KCNQ3:
+- axon initial segment (GO:0043194)
+- cell surface (GO:0009986)
+- mitochondrion (GO:0005739)
+- node of Ranvier (GO:0033268)
+- plasma membrane (GO:0005886)
+- synapse (GO:0045202)
+- voltage-gated potassium channel complex (GO:0008076)
+
+TBC1D3B:
+- plasma membrane (GO:0005886)
+
+PTTG1IP:
+- cytoplasm (GO:0005737)
+- extracellular exosome (GO:0070062)
+- membrane (GO:0016020)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+MCTP2:
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+- synaptic vesicle membrane (GO:0030672)
+
+TMEM176B:
+- nuclear membrane (GO:0031965)
+
+BAD:
+- BAD-BCL-2 complex (GO:0097138)
+- cytosol (GO:0005829)
+- mitochondrial outer membrane (GO:0005741)
+- mitochondrion (GO:0005739)
+
+PPAT:
+- cytosol (GO:0005829)
+
+KRTAP29-1:
+- cytosol (GO:0005829)
+- keratin filament (GO:0045095)
+
+ZNF580:
+- chromatin (GO:0000785)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+RIF1:
+- chromatin (GO:0000785)
+- chromosome, telomeric repeat region (GO:0140445)
+- condensed chromosome (GO:0000793)
+- cytoplasm (GO:0005737)
+- female pronucleus (GO:0001939)
+- male pronucleus (GO:0001940)
+- nuclear membrane (GO:0031965)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+- site of double-strand break (GO:0035861)
+- spindle midzone (GO:0051233)
+
+CCNB1:
+- centrosome (GO:0005813)
+- cyclin B1-CDK1 complex (GO:0097125)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- membrane (GO:0016020)
+- mitochondrial matrix (GO:0005759)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- outer kinetochore (GO:0000940)
+- spindle pole (GO:0000922)
+
+CYB5R3:
+- azurophil granule lumen (GO:0035578)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum membrane (GO:0005789)
+- extracellular region (GO:0005576)
+- hemoglobin complex (GO:0005833)
+- lipid droplet (GO:0005811)
+- mitochondrial outer membrane (GO:0005741)
+- mitochondrion (GO:0005739)
+- nitric-oxide synthase complex (GO:1903958)
+
+P2RX3:
+- Schaffer collateral - CA1 synapse (GO:0098685)
+- axon (GO:0030424)
+- hippocampal mossy fiber to CA3 synapse (GO:0098686)
+- plasma membrane (GO:0005886)
+- postsynapse (GO:0098794)
+- receptor complex (GO:0043235)
+
+ADAMTS3:
+- extracellular exosome (GO:0070062)
+- extracellular matrix (GO:0031012)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+
+C16orf74:
+- No CC annotations found
+
+PXK:
+- centriolar satellite (GO:0034451)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- protein-containing complex (GO:0032991)
+
+MOSPD1:
+- Golgi membrane (GO:0000139)
+- cytoplasm (GO:0005737)
+- endoplasmic reticulum membrane (GO:0005789)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+
+KRIT1:
+- cell-cell junction (GO:0005911)
+- cytoplasm (GO:0005737)
+- cytoskeleton (GO:0005856)
+- extracellular space (GO:0005615)
+- plasma membrane (GO:0005886)
+- protein-containing complex (GO:0032991)
+
+TPI1:
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- extracellular space (GO:0005615)
+- nucleus (GO:0005634)
+
+STX10:
+- Golgi membrane (GO:0000139)
+- SNARE complex (GO:0031201)
+- cytosol (GO:0005829)
+- endomembrane system (GO:0012505)
+- perinuclear region of cytoplasm (GO:0048471)
+- synaptic vesicle membrane (GO:0030672)
+- trans-Golgi network (GO:0005802)
+- trans-Golgi network membrane (GO:0032588)
+- vesicle (GO:0031982)
+
+KCNA4:
+- axon (GO:0030424)
+- axon initial segment (GO:0043194)
+- dendritic spine (GO:0043197)
+- plasma membrane (GO:0005886)
+- voltage-gated potassium channel complex (GO:0008076)
+
+PRRC2A:
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+
+SERPINB11:
+- cytoplasm (GO:0005737)
+- extracellular space (GO:0005615)
+
+OR6X1:
+- plasma membrane (GO:0005886)
+
+OSBPL11:
+- Golgi apparatus (GO:0005794)
+- cytosol (GO:0005829)
+- late endosome membrane (GO:0031902)
+- nucleoplasm (GO:0005654)
+
+MAPKAPK5:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- protein-containing complex (GO:0032991)
+- septin cytoskeleton (GO:0032156)
+
+RBFOX1:
+- cytoplasm (GO:0005737)
+- cytoplasmic stress granule (GO:0010494)
+- nuclear stress granule (GO:0097165)
+- nucleus (GO:0005634)
+- trans-Golgi network (GO:0005802)
+
+TERF2:
+- axon (GO:0030424)
+- chromosome, telomeric region (GO:0000781)
+- male germ cell nucleus (GO:0001673)
+- nuclear body (GO:0016604)
+- nucleoplasm (GO:0005654)
+- shelterin complex (GO:0070187)
+
+TUBAL3:
+- cytoplasm (GO:0005737)
+- microtubule (GO:0005874)
+
+MUC12:
+- Golgi lumen (GO:0005796)
+- plasma membrane (GO:0005886)
+
+FAM98B:
+- cytoplasm (GO:0005737)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- tRNA-splicing ligase complex (GO:0072669)
+
+PXDNL:
+- endoplasmic reticulum (GO:0005783)
+- extracellular space (GO:0005615)
+- plasma membrane (GO:0005886)
+
+ATF6:
+- Golgi apparatus (GO:0005794)
+- Golgi membrane (GO:0000139)
+- RNA polymerase II transcription regulator complex (GO:0090575)
+- chromatin (GO:0000785)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum membrane (GO:0005789)
+- nuclear envelope (GO:0005635)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+TGFB3:
+- T-tubule (GO:0030315)
+- cell surface (GO:0009986)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- intracellular membrane-bounded organelle (GO:0043231)
+- neuronal cell body (GO:0043025)
+- plasma membrane (GO:0005886)
+- platelet alpha granule lumen (GO:0031093)
+
+OOSP1:
+- extracellular region (GO:0005576)
+
+EIF5B:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- nucleus (GO:0005634)
+- synapse (GO:0045202)
+
+KLHL5:
+- Cul3-RING ubiquitin ligase complex (GO:0031463)
+- cytoplasm (GO:0005737)
+- cytoskeleton (GO:0005856)
+- cytosol (GO:0005829)
+
+CYTL1:
+- extracellular space (GO:0005615)
+
+GGH:
+- azurophil granule lumen (GO:0035578)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- melanosome (GO:0042470)
+- nucleus (GO:0005634)
+- specific granule lumen (GO:0035580)
+- tertiary granule lumen (GO:1904724)
+- vacuole (GO:0005773)
+
+EIF2S3B:
+- eukaryotic translation initiation factor 2 complex (GO:0005850)
+
+COX6A1:
+- mitochondrial inner membrane (GO:0005743)
+- mitochondrion (GO:0005739)
+- respiratory chain complex IV (GO:0045277)
+
+KIAA0319L:
+- Golgi apparatus (GO:0005794)
+- Golgi membrane (GO:0000139)
+- cytoplasmic vesicle (GO:0031410)
+- nucleolus (GO:0005730)
+- plasma membrane (GO:0005886)
+
+TOR1B:
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum lumen (GO:0005788)
+- extracellular exosome (GO:0070062)
+- nuclear envelope (GO:0005635)
+- nuclear membrane (GO:0031965)
+
+C22orf23:
+- No CC annotations found
+
+CIRBP:
+- cytoplasm (GO:0005737)
+- cytoplasmic stress granule (GO:0010494)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- spliceosomal complex (GO:0005681)
+
+ARL14EP:
+- cytosol (GO:0005829)
+- focal adhesion (GO:0005925)
+- intracellular membrane-bounded organelle (GO:0043231)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+
+RSPRY1:
+- cytoplasm (GO:0005737)
+- extracellular region (GO:0005576)
+
+LAS1L:
+- Las1 complex (GO:0090730)
+- MLL1 complex (GO:0071339)
+- membrane (GO:0016020)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+ZNF189:
+- nucleus (GO:0005634)
+
+NAA40:
+- centriolar satellite (GO:0034451)
+- cytosol (GO:0005829)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+GSG1L:
+- Schaffer collateral - CA1 synapse (GO:0098685)
+- glutamatergic synapse (GO:0098978)
+- plasma membrane (GO:0005886)
+- postsynaptic density membrane (GO:0098839)
+
+MYL3:
+- A band (GO:0031672)
+- I band (GO:0031674)
+- cytosol (GO:0005829)
+- muscle myosin complex (GO:0005859)
+- sarcomere (GO:0030017)
+
+LCE2D:
+- No CC annotations found
+
+GRB14:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endosome membrane (GO:0010008)
+- intracellular membrane-bounded organelle (GO:0043231)
+- plasma membrane (GO:0005886)
+
+PDE8A:
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+
+RPS6KA6:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- fibrillar center (GO:0001650)
+- mitochondrion (GO:0005739)
+- nucleolus (GO:0005730)
+- nucleoplasm (GO:0005654)
+
+FERMT1:
+- cell periphery (GO:0071944)
+- cytoplasm (GO:0005737)
+- cytoskeleton (GO:0005856)
+- cytosol (GO:0005829)
+- focal adhesion (GO:0005925)
+- ruffle membrane (GO:0032587)
+
+SLC16A7:
+- Schaffer collateral - CA1 synapse (GO:0098685)
+- basolateral plasma membrane (GO:0016323)
+- cytosol (GO:0005829)
+- glutamatergic synapse (GO:0098978)
+- hippocampal mossy fiber to CA3 synapse (GO:0098686)
+- nucleoplasm (GO:0005654)
+- parallel fiber to Purkinje cell synapse (GO:0098688)
+- plasma membrane (GO:0005886)
+- postsynaptic density membrane (GO:0098839)
+
+WDR13:
+- centriolar satellite (GO:0034451)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+
+NCBP2AS2:
+- mitochondrion (GO:0005739)
+
+RNF10:
+- cytoplasm (GO:0005737)
+- cytosolic ribosome (GO:0022626)
+- extrinsic component of postsynaptic density membrane (GO:0099147)
+- glutamatergic synapse (GO:0098978)
+- nucleus (GO:0005634)
+
+IER2:
+- cytoplasm (GO:0005737)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+MAGEA9:
+- nucleus (GO:0005634)
+
+LRG1:
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- extracellular space (GO:0005615)
+- ficolin-1-rich granule lumen (GO:1904813)
+- intracellular membrane-bounded organelle (GO:0043231)
+- membrane (GO:0016020)
+- specific granule lumen (GO:0035580)
+- tertiary granule lumen (GO:1904724)
+
+STT3A:
+- endoplasmic reticulum membrane (GO:0005789)
+- oligosaccharyltransferase complex (GO:0008250)
+
+ECSCR:
+- cytosol (GO:0005829)
+- intracellular membrane-bounded organelle (GO:0043231)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+
+TSKS:
+- centriole (GO:0005814)
+- cytoplasm (GO:0005737)
+
+AKR7A3:
+- Golgi apparatus (GO:0005794)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+
+CASR:
+- apical plasma membrane (GO:0016324)
+- axon terminus (GO:0043679)
+- basolateral plasma membrane (GO:0016323)
+- cell surface (GO:0009986)
+- glutamatergic synapse (GO:0098978)
+- neuronal cell body (GO:0043025)
+- plasma membrane (GO:0005886)
+- presynaptic membrane (GO:0042734)
+
+NUS1:
+- dehydrodolichyl diphosphate synthase complex (GO:1904423)
+- endoplasmic reticulum membrane (GO:0005789)
+
+TANC2:
+- axon (GO:0030424)
+- dendritic spine (GO:0043197)
+
+SPATA31C2:
+- membrane (GO:0016020)
+
+PTPN5:
+- cell junction (GO:0030054)
+- cytosol (GO:0005829)
+- endoplasmic reticulum membrane (GO:0005789)
+- nucleoplasm (GO:0005654)
+- plasma membrane (GO:0005886)
+
+CYP3A5:
+- endoplasmic reticulum membrane (GO:0005789)
+- intracellular membrane-bounded organelle (GO:0043231)
+
+UBAP2:
+- P-body (GO:0000932)
+- chromosome (GO:0005694)
+- cytoplasm (GO:0005737)
+- nucleus (GO:0005634)
+
+MALT1:
+- CBM complex (GO:0032449)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- fibrillar center (GO:0001650)
+- nucleus (GO:0005634)
+- perinuclear region of cytoplasm (GO:0048471)
+- polkadots (GO:0002096)
+
+SERP2:
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum membrane (GO:0005789)
+
+ZNF888:
+- nucleus (GO:0005634)
+
+MRPL14:
+- mitochondrial inner membrane (GO:0005743)
+- mitochondrial large ribosomal subunit (GO:0005762)
+- mitochondrion (GO:0005739)
+
+RSRC2:
+- No CC annotations found
+
+TMX4:
+- endomembrane system (GO:0012505)
+- endoplasmic reticulum (GO:0005783)
+- endoplasmic reticulum membrane (GO:0005789)
+- nuclear inner membrane (GO:0005637)
+
+CCDC34:
+- sperm midpiece (GO:0097225)
+
+OR8B12:
+- plasma membrane (GO:0005886)
+
+FOLR1:
+- ER to Golgi transport vesicle membrane (GO:0012507)
+- Golgi membrane (GO:0000139)
+- apical plasma membrane (GO:0016324)
+- basolateral plasma membrane (GO:0016323)
+- brush border membrane (GO:0031526)
+- cell surface (GO:0009986)
+- clathrin-coated vesicle (GO:0030136)
+- endoplasmic reticulum membrane (GO:0005789)
+- endoplasmic reticulum-Golgi intermediate compartment membrane (GO:0033116)
+- endosome (GO:0005768)
+- external side of plasma membrane (GO:0009897)
+- extracellular exosome (GO:0070062)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- transport vesicle (GO:0030133)
+
+TNNI3K:
+- cytoplasm (GO:0005737)
+- nucleus (GO:0005634)
+
+CTDP1:
+- centrosome (GO:0005813)
+- cytoplasm (GO:0005737)
+- midbody (GO:0030496)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- protein-containing complex (GO:0032991)
+- spindle (GO:0005819)
+- spindle midzone (GO:0051233)
+- spindle pole (GO:0000922)
+
+ALDH3A1:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- endoplasmic reticulum (GO:0005783)
+- extracellular space (GO:0005615)
+- plasma membrane (GO:0005886)
+
+CSNK2B:
+- PML body (GO:0016605)
+- PcG protein complex (GO:0031519)
+- chromatin (GO:0000785)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- extracellular exosome (GO:0070062)
+- extracellular region (GO:0005576)
+- ficolin-1-rich granule lumen (GO:1904813)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+- protein kinase CK2 complex (GO:0005956)
+- secretory granule lumen (GO:0034774)
+

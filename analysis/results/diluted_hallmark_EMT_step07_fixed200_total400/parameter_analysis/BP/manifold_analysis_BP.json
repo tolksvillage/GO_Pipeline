@@ -1,0 +1,1442 @@
+{
+  "metadata": {
+    "signature_name": "diluted_hallmark_EMT_step07_fixed200_total400",
+    "ontology": "BP",
+    "analysis_type": "manifold_analysis"
+  },
+  "summary_statistics": {
+    "unique_go_terms_top10": 22,
+    "parameter_configurations": 120,
+    "diversity_index": 0.018333333333333333,
+    "number_of_groups": 18
+  },
+  "groups": [
+    {
+      "group_id": 1,
+      "original_group_index": 5,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0030198",
+        "name": "extracellular matrix organization",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0030198",
+          "name": "extracellular matrix organization",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.45976630912456157,
+          "genes_direct": 17,
+          "genes_inherited": 39,
+          "genes_total": 56,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0030199",
+          "name": "collagen fibril organization",
+          "robustness_score": 67.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 16,
+            "equal": 10,
+            "difference_absolute": 39,
+            "difference_normalized": 0.7090909090909091
+          },
+          "ic": 0.5982037134328283,
+          "genes_direct": 22,
+          "genes_inherited": 0,
+          "genes_total": 22,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 2,
+      "original_group_index": 8,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0010811",
+        "name": "positive regulation of cell-substrate adhesion",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0010811",
+          "name": "positive regulation of cell-substrate adhesion",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.5387195571682281,
+          "genes_direct": 6,
+          "genes_inherited": 15,
+          "genes_total": 21,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": [
+        {
+          "source_group_id": 2,
+          "target_group_id": 5,
+          "relationship_type": "positively_regulates",
+          "source_term": {
+            "go_id": "GO:0010811",
+            "name": "positive regulation of cell-substrate adhesion"
+          },
+          "target_term": {
+            "go_id": "GO:0031589",
+            "name": "cell-substrate adhesion"
+          }
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "original_group_index": 15,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0001525",
+        "name": "angiogenesis",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0001525",
+          "name": "angiogenesis",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.454359850644698,
+          "genes_direct": 24,
+          "genes_inherited": 11,
+          "genes_total": 35,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": [
+        {
+          "source_group_id": 3,
+          "target_group_id": 11,
+          "relationship_type": "part_of",
+          "source_term": {
+            "go_id": "GO:0001525",
+            "name": "angiogenesis"
+          },
+          "target_term": {
+            "go_id": "GO:0048514",
+            "name": "blood vessel morphogenesis"
+          }
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "original_group_index": 6,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0045766",
+        "name": "positive regulation of angiogenesis",
+        "robustness_score": 75.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0045766",
+          "name": "positive regulation of angiogenesis",
+          "robustness_score": 75.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 25,
+            "equal": 10,
+            "difference_absolute": 30,
+            "difference_normalized": 0.5454545454545454
+          },
+          "ic": 0.49547568302295425,
+          "genes_direct": 13,
+          "genes_inherited": 5,
+          "genes_total": 18,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:1904018",
+          "name": "positive regulation of vasculature development",
+          "robustness_score": 60.83333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 8,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -47,
+            "difference_normalized": -0.8545454545454545
+          },
+          "ic": 0.4940579372501978,
+          "genes_direct": 2,
+          "genes_inherited": 18,
+          "genes_total": 20,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": [
+        {
+          "source_group_id": 4,
+          "target_group_id": 3,
+          "relationship_type": "positively_regulates",
+          "source_term": {
+            "go_id": "GO:0045766",
+            "name": "positive regulation of angiogenesis"
+          },
+          "target_term": {
+            "go_id": "GO:0001525",
+            "name": "angiogenesis"
+          }
+        }
+      ]
+    },
+    {
+      "group_id": 5,
+      "original_group_index": 1,
+      "size": 3,
+      "representative": {
+        "go_id": "GO:0007155",
+        "name": "cell adhesion",
+        "robustness_score": 73.33333333333333
+      },
+      "terms": [
+        {
+          "go_id": "GO:0007155",
+          "name": "cell adhesion",
+          "robustness_score": 73.33333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 37,
+            "beta_dominant": 41,
+            "equal": 10,
+            "difference_absolute": -4,
+            "difference_normalized": -0.07272727272727272
+          },
+          "ic": 0.3445326092065029,
+          "genes_direct": 29,
+          "genes_inherited": 44,
+          "genes_total": 73,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0007160",
+          "name": "cell-matrix adhesion",
+          "robustness_score": 54.166666666666664,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 0,
+            "equal": 10,
+            "difference_absolute": 55,
+            "difference_normalized": 1.0
+          },
+          "ic": 0.5321998137712997,
+          "genes_direct": 15,
+          "genes_inherited": 2,
+          "genes_total": 17,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0031589",
+          "name": "cell-substrate adhesion",
+          "robustness_score": 39.166666666666664,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 47,
+            "equal": 0,
+            "difference_absolute": -47,
+            "difference_normalized": -0.8545454545454545
+          },
+          "ic": 0.5023861182992957,
+          "genes_direct": 1,
+          "genes_inherited": 18,
+          "genes_total": 19,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 6,
+      "original_group_index": 10,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0009887",
+        "name": "animal organ morphogenesis",
+        "robustness_score": 45.83333333333333
+      },
+      "terms": [
+        {
+          "go_id": "GO:0009887",
+          "name": "animal organ morphogenesis",
+          "robustness_score": 45.83333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 55,
+            "equal": 0,
+            "difference_absolute": -55,
+            "difference_normalized": -1.0
+          },
+          "ic": 0.40918030183154475,
+          "genes_direct": 7,
+          "genes_inherited": 30,
+          "genes_total": 37,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 7,
+      "original_group_index": 3,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0048545",
+        "name": "response to steroid hormone",
+        "robustness_score": 41.66666666666667
+      },
+      "terms": [
+        {
+          "go_id": "GO:0048545",
+          "name": "response to steroid hormone",
+          "robustness_score": 41.66666666666667,
+          "alpha_beta_preference": {
+            "alpha_dominant": 11,
+            "beta_dominant": 29,
+            "equal": 10,
+            "difference_absolute": -18,
+            "difference_normalized": -0.32727272727272727
+          },
+          "ic": 0.48383769242955055,
+          "genes_direct": 6,
+          "genes_inherited": 12,
+          "genes_total": 18,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 8,
+      "original_group_index": 14,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0007229",
+        "name": "integrin-mediated signaling pathway",
+        "robustness_score": 35.833333333333336
+      },
+      "terms": [
+        {
+          "go_id": "GO:0007229",
+          "name": "integrin-mediated signaling pathway",
+          "robustness_score": 35.833333333333336,
+          "alpha_beta_preference": {
+            "alpha_dominant": 43,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 43,
+            "difference_normalized": 0.7818181818181819
+          },
+          "ic": 0.5490026131068092,
+          "genes_direct": 16,
+          "genes_inherited": 0,
+          "genes_total": 16,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 9,
+      "original_group_index": 7,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0016477",
+        "name": "cell migration",
+        "robustness_score": 33.33333333333333
+      },
+      "terms": [
+        {
+          "go_id": "GO:0016477",
+          "name": "cell migration",
+          "robustness_score": 33.33333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 12,
+            "beta_dominant": 18,
+            "equal": 10,
+            "difference_absolute": -6,
+            "difference_normalized": -0.10909090909090909
+          },
+          "ic": 0.3525701128150997,
+          "genes_direct": 17,
+          "genes_inherited": 46,
+          "genes_total": 63,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 10,
+      "original_group_index": 11,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0001649",
+        "name": "osteoblast differentiation",
+        "robustness_score": 32.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0001649",
+          "name": "osteoblast differentiation",
+          "robustness_score": 32.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 39,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 39,
+            "difference_normalized": 0.7090909090909091
+          },
+          "ic": 0.5329025734091158,
+          "genes_direct": 16,
+          "genes_inherited": 0,
+          "genes_total": 16,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": [
+        {
+          "source_group_id": 10,
+          "target_group_id": 15,
+          "relationship_type": "part_of",
+          "source_term": {
+            "go_id": "GO:0001649",
+            "name": "osteoblast differentiation"
+          },
+          "target_term": {
+            "go_id": "GO:0001503",
+            "name": "ossification"
+          }
+        }
+      ]
+    },
+    {
+      "group_id": 11,
+      "original_group_index": 4,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0048514",
+        "name": "blood vessel morphogenesis",
+        "robustness_score": 25.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0048514",
+          "name": "blood vessel morphogenesis",
+          "robustness_score": 25.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 30,
+            "equal": 0,
+            "difference_absolute": -30,
+            "difference_normalized": -0.5454545454545454
+          },
+          "ic": 0.5673715751112948,
+          "genes_direct": 3,
+          "genes_inherited": 11,
+          "genes_total": 14,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 12,
+      "original_group_index": 16,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0035987",
+        "name": "endodermal cell differentiation",
+        "robustness_score": 25.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0035987",
+          "name": "endodermal cell differentiation",
+          "robustness_score": 25.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 30,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 30,
+            "difference_normalized": 0.5454545454545454
+          },
+          "ic": 0.664207613094357,
+          "genes_direct": 13,
+          "genes_inherited": 0,
+          "genes_total": 13,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 13,
+      "original_group_index": 17,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0035295",
+        "name": "tube development",
+        "robustness_score": 24.166666666666668
+      },
+      "terms": [
+        {
+          "go_id": "GO:0035295",
+          "name": "tube development",
+          "robustness_score": 24.166666666666668,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 29,
+            "equal": 0,
+            "difference_absolute": -29,
+            "difference_normalized": -0.5272727272727272
+          },
+          "ic": 0.49500075187025677,
+          "genes_direct": 1,
+          "genes_inherited": 17,
+          "genes_total": 18,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 14,
+      "original_group_index": 12,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0050921",
+        "name": "positive regulation of chemotaxis",
+        "robustness_score": 21.666666666666668
+      },
+      "terms": [
+        {
+          "go_id": "GO:0050921",
+          "name": "positive regulation of chemotaxis",
+          "robustness_score": 21.666666666666668,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 26,
+            "equal": 0,
+            "difference_absolute": -26,
+            "difference_normalized": -0.4727272727272727
+          },
+          "ic": 0.5241479634405566,
+          "genes_direct": 2,
+          "genes_inherited": 13,
+          "genes_total": 15,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 15,
+      "original_group_index": 2,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0001503",
+        "name": "ossification",
+        "robustness_score": 18.333333333333332
+      },
+      "terms": [
+        {
+          "go_id": "GO:0001503",
+          "name": "ossification",
+          "robustness_score": 18.333333333333332,
+          "alpha_beta_preference": {
+            "alpha_dominant": 22,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 22,
+            "difference_normalized": 0.4
+          },
+          "ic": 0.5409959245026518,
+          "genes_direct": 10,
+          "genes_inherited": 4,
+          "genes_total": 14,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 16,
+      "original_group_index": 0,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0071363",
+        "name": "cellular response to growth factor stimulus",
+        "robustness_score": 11.666666666666666
+      },
+      "terms": [
+        {
+          "go_id": "GO:0071363",
+          "name": "cellular response to growth factor stimulus",
+          "robustness_score": 11.666666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 14,
+            "equal": 0,
+            "difference_absolute": -14,
+            "difference_normalized": -0.2545454545454545
+          },
+          "ic": 0.45943964157016004,
+          "genes_direct": 1,
+          "genes_inherited": 22,
+          "genes_total": 23,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 17,
+      "original_group_index": 9,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0001501",
+        "name": "skeletal system development",
+        "robustness_score": 8.333333333333332
+      },
+      "terms": [
+        {
+          "go_id": "GO:0001501",
+          "name": "skeletal system development",
+          "robustness_score": 8.333333333333332,
+          "alpha_beta_preference": {
+            "alpha_dominant": 10,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 10,
+            "difference_normalized": 0.18181818181818182
+          },
+          "ic": 0.5126467227491441,
+          "genes_direct": 12,
+          "genes_inherited": 2,
+          "genes_total": 14,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 18,
+      "original_group_index": 13,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0010977",
+        "name": "negative regulation of neuron projection development",
+        "robustness_score": 6.666666666666667
+      },
+      "terms": [
+        {
+          "go_id": "GO:0010977",
+          "name": "negative regulation of neuron projection development",
+          "robustness_score": 6.666666666666667,
+          "alpha_beta_preference": {
+            "alpha_dominant": 8,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 8,
+            "difference_normalized": 0.14545454545454545
+          },
+          "ic": 0.5350425173696021,
+          "genes_direct": 8,
+          "genes_inherited": 6,
+          "genes_total": 14,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    }
+  ],
+  "filtered_by_preference": {
+    "threshold": 0.2,
+    "alpha_greater_than_beta": {
+      "summary_statistics": {
+        "number_of_groups": 7,
+        "total_terms": 7,
+        "filter_type": "alpha_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 1,
+          "original_group_index": 5,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0030198",
+            "name": "extracellular matrix organization",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0030199",
+              "name": "collagen fibril organization",
+              "robustness_score": 67.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 16,
+                "equal": 10,
+                "difference_absolute": 39,
+                "difference_normalized": 0.7090909090909091
+              },
+              "ic": 0.5982037134328283,
+              "genes_direct": 22,
+              "genes_inherited": 0,
+              "genes_total": 22,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 4,
+          "original_group_index": 6,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0045766",
+            "name": "positive regulation of angiogenesis",
+            "robustness_score": 75.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0045766",
+              "name": "positive regulation of angiogenesis",
+              "robustness_score": 75.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 25,
+                "equal": 10,
+                "difference_absolute": 30,
+                "difference_normalized": 0.5454545454545454
+              },
+              "ic": 0.49547568302295425,
+              "genes_direct": 13,
+              "genes_inherited": 5,
+              "genes_total": 18,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": [
+            {
+              "source_group_id": 4,
+              "target_group_id": 3,
+              "relationship_type": "positively_regulates",
+              "source_term": {
+                "go_id": "GO:0045766",
+                "name": "positive regulation of angiogenesis"
+              },
+              "target_term": {
+                "go_id": "GO:0001525",
+                "name": "angiogenesis"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": 5,
+          "original_group_index": 1,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0007155",
+            "name": "cell adhesion",
+            "robustness_score": 73.33333333333333
+          },
+          "terms": [
+            {
+              "go_id": "GO:0007160",
+              "name": "cell-matrix adhesion",
+              "robustness_score": 54.166666666666664,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 0,
+                "equal": 10,
+                "difference_absolute": 55,
+                "difference_normalized": 1.0
+              },
+              "ic": 0.5321998137712997,
+              "genes_direct": 15,
+              "genes_inherited": 2,
+              "genes_total": 17,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 8,
+          "original_group_index": 14,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0007229",
+            "name": "integrin-mediated signaling pathway",
+            "robustness_score": 35.833333333333336
+          },
+          "terms": [
+            {
+              "go_id": "GO:0007229",
+              "name": "integrin-mediated signaling pathway",
+              "robustness_score": 35.833333333333336,
+              "alpha_beta_preference": {
+                "alpha_dominant": 43,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 43,
+                "difference_normalized": 0.7818181818181819
+              },
+              "ic": 0.5490026131068092,
+              "genes_direct": 16,
+              "genes_inherited": 0,
+              "genes_total": 16,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 10,
+          "original_group_index": 11,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0001649",
+            "name": "osteoblast differentiation",
+            "robustness_score": 32.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0001649",
+              "name": "osteoblast differentiation",
+              "robustness_score": 32.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 39,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 39,
+                "difference_normalized": 0.7090909090909091
+              },
+              "ic": 0.5329025734091158,
+              "genes_direct": 16,
+              "genes_inherited": 0,
+              "genes_total": 16,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": [
+            {
+              "source_group_id": 10,
+              "target_group_id": 15,
+              "relationship_type": "part_of",
+              "source_term": {
+                "go_id": "GO:0001649",
+                "name": "osteoblast differentiation"
+              },
+              "target_term": {
+                "go_id": "GO:0001503",
+                "name": "ossification"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": 12,
+          "original_group_index": 16,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0035987",
+            "name": "endodermal cell differentiation",
+            "robustness_score": 25.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0035987",
+              "name": "endodermal cell differentiation",
+              "robustness_score": 25.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 30,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 30,
+                "difference_normalized": 0.5454545454545454
+              },
+              "ic": 0.664207613094357,
+              "genes_direct": 13,
+              "genes_inherited": 0,
+              "genes_total": 13,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 15,
+          "original_group_index": 2,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0001503",
+            "name": "ossification",
+            "robustness_score": 18.333333333333332
+          },
+          "terms": [
+            {
+              "go_id": "GO:0001503",
+              "name": "ossification",
+              "robustness_score": 18.333333333333332,
+              "alpha_beta_preference": {
+                "alpha_dominant": 22,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 22,
+                "difference_normalized": 0.4
+              },
+              "ic": 0.5409959245026518,
+              "genes_direct": 10,
+              "genes_inherited": 4,
+              "genes_total": 14,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "beta_greater_than_alpha": {
+      "summary_statistics": {
+        "number_of_groups": 8,
+        "total_terms": 8,
+        "filter_type": "beta_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 4,
+          "original_group_index": 6,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0045766",
+            "name": "positive regulation of angiogenesis",
+            "robustness_score": 75.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:1904018",
+              "name": "positive regulation of vasculature development",
+              "robustness_score": 60.83333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 8,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -47,
+                "difference_normalized": -0.8545454545454545
+              },
+              "ic": 0.4940579372501978,
+              "genes_direct": 2,
+              "genes_inherited": 18,
+              "genes_total": 20,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": [
+            {
+              "source_group_id": 4,
+              "target_group_id": 3,
+              "relationship_type": "positively_regulates",
+              "source_term": {
+                "go_id": "GO:0045766",
+                "name": "positive regulation of angiogenesis"
+              },
+              "target_term": {
+                "go_id": "GO:0001525",
+                "name": "angiogenesis"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": 5,
+          "original_group_index": 1,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0007155",
+            "name": "cell adhesion",
+            "robustness_score": 73.33333333333333
+          },
+          "terms": [
+            {
+              "go_id": "GO:0031589",
+              "name": "cell-substrate adhesion",
+              "robustness_score": 39.166666666666664,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 47,
+                "equal": 0,
+                "difference_absolute": -47,
+                "difference_normalized": -0.8545454545454545
+              },
+              "ic": 0.5023861182992957,
+              "genes_direct": 1,
+              "genes_inherited": 18,
+              "genes_total": 19,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 6,
+          "original_group_index": 10,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0009887",
+            "name": "animal organ morphogenesis",
+            "robustness_score": 45.83333333333333
+          },
+          "terms": [
+            {
+              "go_id": "GO:0009887",
+              "name": "animal organ morphogenesis",
+              "robustness_score": 45.83333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 55,
+                "equal": 0,
+                "difference_absolute": -55,
+                "difference_normalized": -1.0
+              },
+              "ic": 0.40918030183154475,
+              "genes_direct": 7,
+              "genes_inherited": 30,
+              "genes_total": 37,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 7,
+          "original_group_index": 3,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0048545",
+            "name": "response to steroid hormone",
+            "robustness_score": 41.66666666666667
+          },
+          "terms": [
+            {
+              "go_id": "GO:0048545",
+              "name": "response to steroid hormone",
+              "robustness_score": 41.66666666666667,
+              "alpha_beta_preference": {
+                "alpha_dominant": 11,
+                "beta_dominant": 29,
+                "equal": 10,
+                "difference_absolute": -18,
+                "difference_normalized": -0.32727272727272727
+              },
+              "ic": 0.48383769242955055,
+              "genes_direct": 6,
+              "genes_inherited": 12,
+              "genes_total": 18,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 11,
+          "original_group_index": 4,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0048514",
+            "name": "blood vessel morphogenesis",
+            "robustness_score": 25.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0048514",
+              "name": "blood vessel morphogenesis",
+              "robustness_score": 25.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 30,
+                "equal": 0,
+                "difference_absolute": -30,
+                "difference_normalized": -0.5454545454545454
+              },
+              "ic": 0.5673715751112948,
+              "genes_direct": 3,
+              "genes_inherited": 11,
+              "genes_total": 14,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 13,
+          "original_group_index": 17,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0035295",
+            "name": "tube development",
+            "robustness_score": 24.166666666666668
+          },
+          "terms": [
+            {
+              "go_id": "GO:0035295",
+              "name": "tube development",
+              "robustness_score": 24.166666666666668,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 29,
+                "equal": 0,
+                "difference_absolute": -29,
+                "difference_normalized": -0.5272727272727272
+              },
+              "ic": 0.49500075187025677,
+              "genes_direct": 1,
+              "genes_inherited": 17,
+              "genes_total": 18,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 14,
+          "original_group_index": 12,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0050921",
+            "name": "positive regulation of chemotaxis",
+            "robustness_score": 21.666666666666668
+          },
+          "terms": [
+            {
+              "go_id": "GO:0050921",
+              "name": "positive regulation of chemotaxis",
+              "robustness_score": 21.666666666666668,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 26,
+                "equal": 0,
+                "difference_absolute": -26,
+                "difference_normalized": -0.4727272727272727
+              },
+              "ic": 0.5241479634405566,
+              "genes_direct": 2,
+              "genes_inherited": 13,
+              "genes_total": 15,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 16,
+          "original_group_index": 0,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0071363",
+            "name": "cellular response to growth factor stimulus",
+            "robustness_score": 11.666666666666666
+          },
+          "terms": [
+            {
+              "go_id": "GO:0071363",
+              "name": "cellular response to growth factor stimulus",
+              "robustness_score": 11.666666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 14,
+                "equal": 0,
+                "difference_absolute": -14,
+                "difference_normalized": -0.2545454545454545
+              },
+              "ic": 0.45943964157016004,
+              "genes_direct": 1,
+              "genes_inherited": 22,
+              "genes_total": 23,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "alpha_equals_beta": {
+      "summary_statistics": {
+        "number_of_groups": 7,
+        "total_terms": 7,
+        "filter_type": "equal",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 1,
+          "original_group_index": 5,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0030198",
+            "name": "extracellular matrix organization",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0030198",
+              "name": "extracellular matrix organization",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.45976630912456157,
+              "genes_direct": 17,
+              "genes_inherited": 39,
+              "genes_total": 56,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 2,
+          "original_group_index": 8,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0010811",
+            "name": "positive regulation of cell-substrate adhesion",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0010811",
+              "name": "positive regulation of cell-substrate adhesion",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.5387195571682281,
+              "genes_direct": 6,
+              "genes_inherited": 15,
+              "genes_total": 21,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": [
+            {
+              "source_group_id": 2,
+              "target_group_id": 5,
+              "relationship_type": "positively_regulates",
+              "source_term": {
+                "go_id": "GO:0010811",
+                "name": "positive regulation of cell-substrate adhesion"
+              },
+              "target_term": {
+                "go_id": "GO:0031589",
+                "name": "cell-substrate adhesion"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": 3,
+          "original_group_index": 15,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0001525",
+            "name": "angiogenesis",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0001525",
+              "name": "angiogenesis",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.454359850644698,
+              "genes_direct": 24,
+              "genes_inherited": 11,
+              "genes_total": 35,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": [
+            {
+              "source_group_id": 3,
+              "target_group_id": 11,
+              "relationship_type": "part_of",
+              "source_term": {
+                "go_id": "GO:0001525",
+                "name": "angiogenesis"
+              },
+              "target_term": {
+                "go_id": "GO:0048514",
+                "name": "blood vessel morphogenesis"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": 5,
+          "original_group_index": 1,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0007155",
+            "name": "cell adhesion",
+            "robustness_score": 73.33333333333333
+          },
+          "terms": [
+            {
+              "go_id": "GO:0007155",
+              "name": "cell adhesion",
+              "robustness_score": 73.33333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 37,
+                "beta_dominant": 41,
+                "equal": 10,
+                "difference_absolute": -4,
+                "difference_normalized": -0.07272727272727272
+              },
+              "ic": 0.3445326092065029,
+              "genes_direct": 29,
+              "genes_inherited": 44,
+              "genes_total": 73,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 9,
+          "original_group_index": 7,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0016477",
+            "name": "cell migration",
+            "robustness_score": 33.33333333333333
+          },
+          "terms": [
+            {
+              "go_id": "GO:0016477",
+              "name": "cell migration",
+              "robustness_score": 33.33333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 12,
+                "beta_dominant": 18,
+                "equal": 10,
+                "difference_absolute": -6,
+                "difference_normalized": -0.10909090909090909
+              },
+              "ic": 0.3525701128150997,
+              "genes_direct": 17,
+              "genes_inherited": 46,
+              "genes_total": 63,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 17,
+          "original_group_index": 9,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0001501",
+            "name": "skeletal system development",
+            "robustness_score": 8.333333333333332
+          },
+          "terms": [
+            {
+              "go_id": "GO:0001501",
+              "name": "skeletal system development",
+              "robustness_score": 8.333333333333332,
+              "alpha_beta_preference": {
+                "alpha_dominant": 10,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 10,
+                "difference_normalized": 0.18181818181818182
+              },
+              "ic": 0.5126467227491441,
+              "genes_direct": 12,
+              "genes_inherited": 2,
+              "genes_total": 14,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 18,
+          "original_group_index": 13,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0010977",
+            "name": "negative regulation of neuron projection development",
+            "robustness_score": 6.666666666666667
+          },
+          "terms": [
+            {
+              "go_id": "GO:0010977",
+              "name": "negative regulation of neuron projection development",
+              "robustness_score": 6.666666666666667,
+              "alpha_beta_preference": {
+                "alpha_dominant": 8,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 8,
+                "difference_normalized": 0.14545454545454545
+              },
+              "ic": 0.5350425173696021,
+              "genes_direct": 8,
+              "genes_inherited": 6,
+              "genes_total": 14,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    }
+  }
+}

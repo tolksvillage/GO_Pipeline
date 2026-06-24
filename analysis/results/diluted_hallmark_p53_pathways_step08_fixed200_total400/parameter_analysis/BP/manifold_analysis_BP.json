@@ -1,0 +1,1108 @@
+{
+  "metadata": {
+    "signature_name": "diluted_hallmark_p53_pathways_step08_fixed200_total400",
+    "ontology": "BP",
+    "analysis_type": "manifold_analysis"
+  },
+  "summary_statistics": {
+    "unique_go_terms_top10": 18,
+    "parameter_configurations": 120,
+    "diversity_index": 0.015,
+    "number_of_groups": 12
+  },
+  "groups": [
+    {
+      "group_id": 1,
+      "original_group_index": 0,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0043065",
+        "name": "positive regulation of apoptotic process",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0043065",
+          "name": "positive regulation of apoptotic process",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.3924624097675734,
+          "genes_direct": 17,
+          "genes_inherited": 29,
+          "genes_total": 46,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:2001235",
+          "name": "positive regulation of apoptotic signaling pathway",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.5228697764811269,
+          "genes_direct": 6,
+          "genes_inherited": 10,
+          "genes_total": 16,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": [
+        {
+          "source_group_id": 1,
+          "target_group_id": 8,
+          "relationship_type": "positively_regulates",
+          "source_term": {
+            "go_id": "GO:0043065",
+            "name": "positive regulation of apoptotic process"
+          },
+          "target_term": {
+            "go_id": "GO:0006915",
+            "name": "apoptotic process"
+          }
+        },
+        {
+          "source_group_id": 1,
+          "target_group_id": 2,
+          "relationship_type": "positively_regulates",
+          "source_term": {
+            "go_id": "GO:2001235",
+            "name": "positive regulation of apoptotic signaling pathway"
+          },
+          "target_term": {
+            "go_id": "GO:0097190",
+            "name": "apoptotic signaling pathway"
+          }
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "original_group_index": 1,
+      "size": 4,
+      "representative": {
+        "go_id": "GO:0008630",
+        "name": "intrinsic apoptotic signaling pathway in response to DNA damage",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0008630",
+          "name": "intrinsic apoptotic signaling pathway in response to DNA damage",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.5851389426138665,
+          "genes_direct": 7,
+          "genes_inherited": 8,
+          "genes_total": 15,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0072332",
+          "name": "intrinsic apoptotic signaling pathway by p53 class mediator",
+          "robustness_score": 89.16666666666667,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 42,
+            "equal": 10,
+            "difference_absolute": 13,
+            "difference_normalized": 0.23636363636363636
+          },
+          "ic": 0.6133504101784579,
+          "genes_direct": 5,
+          "genes_inherited": 8,
+          "genes_total": 13,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0097190",
+          "name": "apoptotic signaling pathway",
+          "robustness_score": 79.16666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 30,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -25,
+            "difference_normalized": -0.45454545454545453
+          },
+          "ic": 0.4477901080349008,
+          "genes_direct": 2,
+          "genes_inherited": 31,
+          "genes_total": 33,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0097193",
+          "name": "intrinsic apoptotic signaling pathway",
+          "robustness_score": 75.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 25,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -30,
+            "difference_normalized": -0.5454545454545454
+          },
+          "ic": 0.5039345019877328,
+          "genes_direct": 1,
+          "genes_inherited": 23,
+          "genes_total": 24,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": [
+        {
+          "source_group_id": 2,
+          "target_group_id": 8,
+          "relationship_type": "part_of",
+          "source_term": {
+            "go_id": "GO:0097190",
+            "name": "apoptotic signaling pathway"
+          },
+          "target_term": {
+            "go_id": "GO:0006915",
+            "name": "apoptotic process"
+          }
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "original_group_index": 4,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0050673",
+        "name": "epithelial cell proliferation",
+        "robustness_score": 91.66666666666666
+      },
+      "terms": [
+        {
+          "go_id": "GO:0050673",
+          "name": "epithelial cell proliferation",
+          "robustness_score": 91.66666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 45,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -10,
+            "difference_normalized": -0.18181818181818182
+          },
+          "ic": 0.5055084799509433,
+          "genes_direct": 4,
+          "genes_inherited": 13,
+          "genes_total": 17,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 4,
+      "original_group_index": 10,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0001666",
+        "name": "response to hypoxia",
+        "robustness_score": 90.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0001666",
+          "name": "response to hypoxia",
+          "robustness_score": 90.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 43,
+            "equal": 10,
+            "difference_absolute": 12,
+            "difference_normalized": 0.21818181818181817
+          },
+          "ic": 0.45529189885638766,
+          "genes_direct": 9,
+          "genes_inherited": 14,
+          "genes_total": 23,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0071456",
+          "name": "cellular response to hypoxia",
+          "robustness_score": 25.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 30,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 30,
+            "difference_normalized": 0.5454545454545454
+          },
+          "ic": 0.5274205706978241,
+          "genes_direct": 13,
+          "genes_inherited": 0,
+          "genes_total": 13,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 5,
+      "original_group_index": 6,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0045862",
+        "name": "positive regulation of proteolysis",
+        "robustness_score": 64.16666666666667
+      },
+      "terms": [
+        {
+          "go_id": "GO:0045862",
+          "name": "positive regulation of proteolysis",
+          "robustness_score": 64.16666666666667,
+          "alpha_beta_preference": {
+            "alpha_dominant": 19,
+            "beta_dominant": 48,
+            "equal": 10,
+            "difference_absolute": -29,
+            "difference_normalized": -0.5272727272727272
+          },
+          "ic": 0.48511018573603115,
+          "genes_direct": 4,
+          "genes_inherited": 13,
+          "genes_total": 17,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 6,
+      "original_group_index": 11,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0000302",
+        "name": "response to reactive oxygen species",
+        "robustness_score": 62.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0000302",
+          "name": "response to reactive oxygen species",
+          "robustness_score": 62.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 10,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": -45,
+            "difference_normalized": -0.8181818181818182
+          },
+          "ic": 0.5167241926961267,
+          "genes_direct": 2,
+          "genes_inherited": 14,
+          "genes_total": 16,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 7,
+      "original_group_index": 3,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0030308",
+        "name": "negative regulation of cell growth",
+        "robustness_score": 37.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0030308",
+          "name": "negative regulation of cell growth",
+          "robustness_score": 37.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 45,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 45,
+            "difference_normalized": 0.8181818181818182
+          },
+          "ic": 0.48596806089616557,
+          "genes_direct": 15,
+          "genes_inherited": 2,
+          "genes_total": 17,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 8,
+      "original_group_index": 2,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0006915",
+        "name": "apoptotic process",
+        "robustness_score": 24.166666666666668
+      },
+      "terms": [
+        {
+          "go_id": "GO:0006915",
+          "name": "apoptotic process",
+          "robustness_score": 24.166666666666668,
+          "alpha_beta_preference": {
+            "alpha_dominant": 29,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 29,
+            "difference_normalized": 0.5272727272727272
+          },
+          "ic": 0.3632301220315002,
+          "genes_direct": 27,
+          "genes_inherited": 20,
+          "genes_total": 47,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0051402",
+          "name": "neuron apoptotic process",
+          "robustness_score": 14.166666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 17,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 17,
+            "difference_normalized": 0.3090909090909091
+          },
+          "ic": 0.5498415920910792,
+          "genes_direct": 9,
+          "genes_inherited": 2,
+          "genes_total": 11,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 9,
+      "original_group_index": 9,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0071453",
+        "name": "cellular response to oxygen levels",
+        "robustness_score": 18.333333333333332
+      },
+      "terms": [
+        {
+          "go_id": "GO:0071453",
+          "name": "cellular response to oxygen levels",
+          "robustness_score": 18.333333333333332,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 22,
+            "equal": 0,
+            "difference_absolute": -22,
+            "difference_normalized": -0.4
+          },
+          "ic": 0.5132186373735601,
+          "genes_direct": 1,
+          "genes_inherited": 14,
+          "genes_total": 15,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 10,
+      "original_group_index": 8,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0001701",
+        "name": "in utero embryonic development",
+        "robustness_score": 12.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0001701",
+          "name": "in utero embryonic development",
+          "robustness_score": 12.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 15,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 15,
+            "difference_normalized": 0.2727272727272727
+          },
+          "ic": 0.4899271137247356,
+          "genes_direct": 13,
+          "genes_inherited": 0,
+          "genes_total": 13,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 11,
+      "original_group_index": 5,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0070374",
+        "name": "positive regulation of ERK1 and ERK2 cascade",
+        "robustness_score": 8.333333333333332
+      },
+      "terms": [
+        {
+          "go_id": "GO:0070374",
+          "name": "positive regulation of ERK1 and ERK2 cascade",
+          "robustness_score": 8.333333333333332,
+          "alpha_beta_preference": {
+            "alpha_dominant": 10,
+            "beta_dominant": 0,
+            "equal": 0,
+            "difference_absolute": 10,
+            "difference_normalized": 0.18181818181818182
+          },
+          "ic": 0.4945281777056838,
+          "genes_direct": 12,
+          "genes_inherited": 0,
+          "genes_total": 12,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 12,
+      "original_group_index": 7,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0009612",
+        "name": "response to mechanical stimulus",
+        "robustness_score": 8.333333333333332
+      },
+      "terms": [
+        {
+          "go_id": "GO:0009612",
+          "name": "response to mechanical stimulus",
+          "robustness_score": 8.333333333333332,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 10,
+            "equal": 0,
+            "difference_absolute": -10,
+            "difference_normalized": -0.18181818181818182
+          },
+          "ic": 0.48947900231555325,
+          "genes_direct": 4,
+          "genes_inherited": 12,
+          "genes_total": 16,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    }
+  ],
+  "filtered_by_preference": {
+    "threshold": 0.2,
+    "alpha_greater_than_beta": {
+      "summary_statistics": {
+        "number_of_groups": 5,
+        "total_terms": 7,
+        "filter_type": "alpha_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 2,
+          "original_group_index": 1,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0008630",
+            "name": "intrinsic apoptotic signaling pathway in response to DNA damage",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0072332",
+              "name": "intrinsic apoptotic signaling pathway by p53 class mediator",
+              "robustness_score": 89.16666666666667,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 42,
+                "equal": 10,
+                "difference_absolute": 13,
+                "difference_normalized": 0.23636363636363636
+              },
+              "ic": 0.6133504101784579,
+              "genes_direct": 5,
+              "genes_inherited": 8,
+              "genes_total": 13,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": [
+            {
+              "source_group_id": 2,
+              "target_group_id": 8,
+              "relationship_type": "part_of",
+              "source_term": {
+                "go_id": "GO:0097190",
+                "name": "apoptotic signaling pathway"
+              },
+              "target_term": {
+                "go_id": "GO:0006915",
+                "name": "apoptotic process"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": 4,
+          "original_group_index": 10,
+          "size": 2,
+          "representative": {
+            "go_id": "GO:0001666",
+            "name": "response to hypoxia",
+            "robustness_score": 90.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0001666",
+              "name": "response to hypoxia",
+              "robustness_score": 90.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 43,
+                "equal": 10,
+                "difference_absolute": 12,
+                "difference_normalized": 0.21818181818181817
+              },
+              "ic": 0.45529189885638766,
+              "genes_direct": 9,
+              "genes_inherited": 14,
+              "genes_total": 23,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0071456",
+              "name": "cellular response to hypoxia",
+              "robustness_score": 25.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 30,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 30,
+                "difference_normalized": 0.5454545454545454
+              },
+              "ic": 0.5274205706978241,
+              "genes_direct": 13,
+              "genes_inherited": 0,
+              "genes_total": 13,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 7,
+          "original_group_index": 3,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0030308",
+            "name": "negative regulation of cell growth",
+            "robustness_score": 37.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0030308",
+              "name": "negative regulation of cell growth",
+              "robustness_score": 37.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 45,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 45,
+                "difference_normalized": 0.8181818181818182
+              },
+              "ic": 0.48596806089616557,
+              "genes_direct": 15,
+              "genes_inherited": 2,
+              "genes_total": 17,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 8,
+          "original_group_index": 2,
+          "size": 2,
+          "representative": {
+            "go_id": "GO:0006915",
+            "name": "apoptotic process",
+            "robustness_score": 24.166666666666668
+          },
+          "terms": [
+            {
+              "go_id": "GO:0006915",
+              "name": "apoptotic process",
+              "robustness_score": 24.166666666666668,
+              "alpha_beta_preference": {
+                "alpha_dominant": 29,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 29,
+                "difference_normalized": 0.5272727272727272
+              },
+              "ic": 0.3632301220315002,
+              "genes_direct": 27,
+              "genes_inherited": 20,
+              "genes_total": 47,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0051402",
+              "name": "neuron apoptotic process",
+              "robustness_score": 14.166666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 17,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 17,
+                "difference_normalized": 0.3090909090909091
+              },
+              "ic": 0.5498415920910792,
+              "genes_direct": 9,
+              "genes_inherited": 2,
+              "genes_total": 11,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 10,
+          "original_group_index": 8,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0001701",
+            "name": "in utero embryonic development",
+            "robustness_score": 12.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0001701",
+              "name": "in utero embryonic development",
+              "robustness_score": 12.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 15,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 15,
+                "difference_normalized": 0.2727272727272727
+              },
+              "ic": 0.4899271137247356,
+              "genes_direct": 13,
+              "genes_inherited": 0,
+              "genes_total": 13,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "beta_greater_than_alpha": {
+      "summary_statistics": {
+        "number_of_groups": 4,
+        "total_terms": 5,
+        "filter_type": "beta_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 2,
+          "original_group_index": 1,
+          "size": 2,
+          "representative": {
+            "go_id": "GO:0008630",
+            "name": "intrinsic apoptotic signaling pathway in response to DNA damage",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0097190",
+              "name": "apoptotic signaling pathway",
+              "robustness_score": 79.16666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 30,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -25,
+                "difference_normalized": -0.45454545454545453
+              },
+              "ic": 0.4477901080349008,
+              "genes_direct": 2,
+              "genes_inherited": 31,
+              "genes_total": 33,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:0097193",
+              "name": "intrinsic apoptotic signaling pathway",
+              "robustness_score": 75.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 25,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -30,
+                "difference_normalized": -0.5454545454545454
+              },
+              "ic": 0.5039345019877328,
+              "genes_direct": 1,
+              "genes_inherited": 23,
+              "genes_total": 24,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": [
+            {
+              "source_group_id": 2,
+              "target_group_id": 8,
+              "relationship_type": "part_of",
+              "source_term": {
+                "go_id": "GO:0097190",
+                "name": "apoptotic signaling pathway"
+              },
+              "target_term": {
+                "go_id": "GO:0006915",
+                "name": "apoptotic process"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": 5,
+          "original_group_index": 6,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0045862",
+            "name": "positive regulation of proteolysis",
+            "robustness_score": 64.16666666666667
+          },
+          "terms": [
+            {
+              "go_id": "GO:0045862",
+              "name": "positive regulation of proteolysis",
+              "robustness_score": 64.16666666666667,
+              "alpha_beta_preference": {
+                "alpha_dominant": 19,
+                "beta_dominant": 48,
+                "equal": 10,
+                "difference_absolute": -29,
+                "difference_normalized": -0.5272727272727272
+              },
+              "ic": 0.48511018573603115,
+              "genes_direct": 4,
+              "genes_inherited": 13,
+              "genes_total": 17,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 6,
+          "original_group_index": 11,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0000302",
+            "name": "response to reactive oxygen species",
+            "robustness_score": 62.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0000302",
+              "name": "response to reactive oxygen species",
+              "robustness_score": 62.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 10,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -45,
+                "difference_normalized": -0.8181818181818182
+              },
+              "ic": 0.5167241926961267,
+              "genes_direct": 2,
+              "genes_inherited": 14,
+              "genes_total": 16,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 9,
+          "original_group_index": 9,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0071453",
+            "name": "cellular response to oxygen levels",
+            "robustness_score": 18.333333333333332
+          },
+          "terms": [
+            {
+              "go_id": "GO:0071453",
+              "name": "cellular response to oxygen levels",
+              "robustness_score": 18.333333333333332,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 22,
+                "equal": 0,
+                "difference_absolute": -22,
+                "difference_normalized": -0.4
+              },
+              "ic": 0.5132186373735601,
+              "genes_direct": 1,
+              "genes_inherited": 14,
+              "genes_total": 15,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "alpha_equals_beta": {
+      "summary_statistics": {
+        "number_of_groups": 5,
+        "total_terms": 6,
+        "filter_type": "equal",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 1,
+          "original_group_index": 0,
+          "size": 2,
+          "representative": {
+            "go_id": "GO:0043065",
+            "name": "positive regulation of apoptotic process",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0043065",
+              "name": "positive regulation of apoptotic process",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.3924624097675734,
+              "genes_direct": 17,
+              "genes_inherited": 29,
+              "genes_total": 46,
+              "path_ids": []
+            },
+            {
+              "go_id": "GO:2001235",
+              "name": "positive regulation of apoptotic signaling pathway",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.5228697764811269,
+              "genes_direct": 6,
+              "genes_inherited": 10,
+              "genes_total": 16,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": [
+            {
+              "source_group_id": 1,
+              "target_group_id": 8,
+              "relationship_type": "positively_regulates",
+              "source_term": {
+                "go_id": "GO:0043065",
+                "name": "positive regulation of apoptotic process"
+              },
+              "target_term": {
+                "go_id": "GO:0006915",
+                "name": "apoptotic process"
+              }
+            },
+            {
+              "source_group_id": 1,
+              "target_group_id": 2,
+              "relationship_type": "positively_regulates",
+              "source_term": {
+                "go_id": "GO:2001235",
+                "name": "positive regulation of apoptotic signaling pathway"
+              },
+              "target_term": {
+                "go_id": "GO:0097190",
+                "name": "apoptotic signaling pathway"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "original_group_index": 1,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0008630",
+            "name": "intrinsic apoptotic signaling pathway in response to DNA damage",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0008630",
+              "name": "intrinsic apoptotic signaling pathway in response to DNA damage",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.5851389426138665,
+              "genes_direct": 7,
+              "genes_inherited": 8,
+              "genes_total": 15,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": [
+            {
+              "source_group_id": 2,
+              "target_group_id": 8,
+              "relationship_type": "part_of",
+              "source_term": {
+                "go_id": "GO:0097190",
+                "name": "apoptotic signaling pathway"
+              },
+              "target_term": {
+                "go_id": "GO:0006915",
+                "name": "apoptotic process"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": 3,
+          "original_group_index": 4,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0050673",
+            "name": "epithelial cell proliferation",
+            "robustness_score": 91.66666666666666
+          },
+          "terms": [
+            {
+              "go_id": "GO:0050673",
+              "name": "epithelial cell proliferation",
+              "robustness_score": 91.66666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 45,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": -10,
+                "difference_normalized": -0.18181818181818182
+              },
+              "ic": 0.5055084799509433,
+              "genes_direct": 4,
+              "genes_inherited": 13,
+              "genes_total": 17,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 11,
+          "original_group_index": 5,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0070374",
+            "name": "positive regulation of ERK1 and ERK2 cascade",
+            "robustness_score": 8.333333333333332
+          },
+          "terms": [
+            {
+              "go_id": "GO:0070374",
+              "name": "positive regulation of ERK1 and ERK2 cascade",
+              "robustness_score": 8.333333333333332,
+              "alpha_beta_preference": {
+                "alpha_dominant": 10,
+                "beta_dominant": 0,
+                "equal": 0,
+                "difference_absolute": 10,
+                "difference_normalized": 0.18181818181818182
+              },
+              "ic": 0.4945281777056838,
+              "genes_direct": 12,
+              "genes_inherited": 0,
+              "genes_total": 12,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 12,
+          "original_group_index": 7,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0009612",
+            "name": "response to mechanical stimulus",
+            "robustness_score": 8.333333333333332
+          },
+          "terms": [
+            {
+              "go_id": "GO:0009612",
+              "name": "response to mechanical stimulus",
+              "robustness_score": 8.333333333333332,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 10,
+                "equal": 0,
+                "difference_absolute": -10,
+                "difference_normalized": -0.18181818181818182
+              },
+              "ic": 0.48947900231555325,
+              "genes_direct": 4,
+              "genes_inherited": 12,
+              "genes_total": 16,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    }
+  }
+}

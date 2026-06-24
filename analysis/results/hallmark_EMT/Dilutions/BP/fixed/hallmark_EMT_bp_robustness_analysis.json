@@ -1,0 +1,282 @@
+{
+  "GO:0030198": {
+    "go_name": "extracellular matrix organization",
+    "initial_robustness": 100.0,
+    "mean_robustness": 100.0,
+    "definition": "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of an extracellular matrix.",
+    "genes": {
+      "ABI3BP": {
+        "definition": "Predicted to enable actin filament binding activity. Predicted to be involved in several processes, including extracellular matrix organization; positive regulation of cell-substrate adhesion; and regulation of postsynapse organization. Located in collagen-containing extracellular matrix and extracellular space. [provided by Alliance of Genome Resources, Apr 2025]"
+      },
+      "COL12A1": {
+        "definition": "This gene encodes the alpha chain of type XII collagen, a member of the FACIT (fibril-associated collagens with interrupted triple helices) collagen family. Type XII collagen is a homotrimer found in association with type I collagen, an association that is thought to modify the interactions between collagen I fibrils and the surrounding matrix. Alternatively spliced transcript variants encoding different isoforms have been identified. [provided by RefSeq, Jul 2008]"
+      },
+      "COL16A1": {
+        "definition": "This gene encodes the alpha chain of type XVI collagen, a member of the FACIT collagen family (fibril-associated collagens with interrupted helices). Members of this collagen family are found in association with fibril-forming collagens such as type I and II, and serve to maintain the integrity of the extracellular matrix. High levels of type XVI collagen have been found in fibroblasts and keratinocytes, and in smooth muscle and amnion. [provided by RefSeq, Jul 2008]"
+      },
+      "COL4A2": {
+        "definition": "This gene encodes one of the six subunits of type IV collagen, the major structural component of basement membranes. The C-terminal portion of the protein, known as canstatin, is an inhibitor of angiogenesis and tumor growth. Like the other members of the type IV collagen gene family, this gene is organized in a head-to-head conformation with another type IV collagen gene so that each gene pair shares a common promoter. [provided by RefSeq, Jul 2008]"
+      },
+      "COL5A3": {
+        "definition": "This gene encodes an alpha chain for one of the low abundance fibrillar collagens. Fibrillar collagen molecules are trimers that can be composed of one or more types of alpha chains. Type V collagen is found in tissues containing type I collagen and appears to regulate the assembly of heterotypic fibers composed of both type I and type V collagen. This gene product is closely related to type XI collagen and it is possible that the collagen chains of types V and XI constitute a single collagen type with tissue-specific chain combinations. Mutations in this gene are thought to be responsible for the symptoms of a subset of patients with Ehlers-Danlos syndrome type III. Messages of several sizes can be detected in northern blots but sequence information cannot confirm the identity of the shorter messages. [provided by RefSeq, Jul 2008]"
+      },
+      "COL7A1": {
+        "definition": "This gene encodes the alpha chain of type VII collagen. The type VII collagen fibril, composed of three identical alpha collagen chains, is restricted to the basement zone beneath stratified squamous epithelia. It functions as an anchoring fibril between the external epithelia and the underlying stroma. Mutations in this gene are associated with all forms of dystrophic epidermolysis bullosa. In the absence of mutations, however, an acquired form of this disease can result from an autoimmune response made to type VII collagen. [provided by RefSeq, Jul 2008]"
+      },
+      "COL8A2": {
+        "definition": "This gene encodes the alpha 2 chain of type VIII collagen. This protein is a major component of the basement membrane of the corneal endothelium and forms homo- or heterotrimers with alpha 1 (VIII) type collagens. Defects in this gene are associated with Fuchs endothelial corneal dystrophy and posterior polymorphous corneal dystrophy type 2. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Jun 2014]"
+      },
+      "COLGALT1": {
+        "definition": "The protein encoded by this gene is one of two enzymes that transfers galactose moieties to hydroxylysine residues of collagen and mannose binding lectin. This gene is constitutively expressed and encodes a soluble protein that localizes to the endoplasmic reticulum. [provided by RefSeq, Dec 2015]"
+      },
+      "ECM2": {
+        "definition": "ECM2 encodes extracellular matrix protein 2, so named because it shares extensive similarity with known extracelluar matrix proteins. Three transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Oct 2010]"
+      },
+      "FBLN5": {
+        "definition": "The protein encoded by this gene is a secreted, extracellular matrix protein containing an Arg-Gly-Asp (RGD) motif and calcium-binding EGF-like domains. It promotes adhesion of endothelial cells through interaction of integrins and the RGD motif. It is prominently expressed in developing arteries but less so in adult vessels. However, its expression is reinduced in balloon-injured vessels and atherosclerotic lesions, notably in intimal vascular smooth muscle cells and endothelial cells. Therefore, the protein encoded by this gene may play a role in vascular development and remodeling. Defects in this gene are a cause of autosomal dominant cutis laxa, autosomal recessive cutis laxa type I (CL type I), and age-related macular degeneration type 3 (ARMD3). [provided by RefSeq, Jul 2008]"
+      },
+      "FMOD": {
+        "definition": "Fibromodulin belongs to the family of small interstitial proteoglycans. The encoded protein possesses a central region containing leucine-rich repeats with 4 keratan sulfate chains, flanked by terminal domains containing disulphide bonds. Owing to the interaction with type I and type II collagen fibrils and in vitro inhibition of fibrillogenesis, the encoded protein may play a role in the assembly of extracellular matrix. It may also regulate TGF-beta activities by sequestering TGF-beta into the extracellular matrix. Sequence variations in this gene may be associated with the pathogenesis of high myopia. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Jun 2013]"
+      },
+      "LAMC1": {
+        "definition": "Laminins, a family of extracellular matrix glycoproteins, are the major noncollagenous constituent of basement membranes. They have been implicated in a wide variety of biological processes including cell adhesion, differentiation, migration, signaling, neurite outgrowth and metastasis. Laminins, composed of 3 non identical chains: laminin alpha, beta and gamma (formerly A, B1, and B2, respectively), have a cruciform structure consisting of 3 short arms, each formed by a different chain, and a long arm composed of all 3 chains. Each laminin chain is a multidomain protein encoded by a distinct gene. Several isoforms of each chain have been described. Different alpha, beta and gamma chain isomers combine to give rise to different heterotrimeric laminin isoforms which are designated by Arabic numerals in the order of their discovery, i.e. alpha1beta1gamma1 heterotrimer is laminin 1. The biological functions of the different chains and trimer molecules are largely unknown, but some of the chains have been shown to differ with respect to their tissue distribution, presumably reflecting diverse functions in vivo. This gene encodes the gamma chain isoform laminin, gamma 1. The gamma 1 chain, formerly thought to be a beta chain, contains structural domains similar to beta chains, however, lacks the short alpha region separating domains I and II. The structural organization of this gene also suggested that it had diverged considerably from the beta chain genes. Embryos of transgenic mice in which both alleles of the gamma 1 chain gene were inactivated by homologous recombination, lacked basement membranes, indicating that laminin, gamma 1 chain is necessary for laminin heterotrimer assembly. It has been inferred by analogy with the strikingly similar 3' UTR sequence in mouse laminin gamma 1 cDNA, that multiple polyadenylation sites are utilized in human to generate the 2 different sized mRNAs (5.5 and 7.5 kb) seen on Northern analysis. [provided by RefSeq, Aug 2011]"
+      },
+      "LOXL1": {
+        "definition": "This gene encodes a member of the lysyl oxidase family of proteins. The prototypic member of the family is essential to the biogenesis of connective tissue, encoding an extracellular copper-dependent amine oxidase that catalyzes the first step in the formation of crosslinks in collagen and elastin. The encoded preproprotein is proteolytically processed to generate the mature enzyme. A highly conserved amino acid sequence at the C-terminus end appears to be sufficient for amine oxidase activity, suggesting that each family member may retain this function. The N-terminus is poorly conserved and may impart additional roles in developmental regulation, senescence, tumor suppression, cell growth control, and chemotaxis to each member of the family. Mutations in this gene are associated with exfoliation syndrome. [provided by RefSeq, Jan 2016]"
+      },
+      "MMP1": {
+        "definition": "This gene encodes a member of the peptidase M10 family of matrix metalloproteinases (MMPs). Proteins in this family are involved in the breakdown of extracellular matrix in normal physiological processes, such as embryonic development, reproduction, and tissue remodeling, as well as in disease processes, such as arthritis and metastasis. The encoded preproprotein is proteolytically processed to generate the mature protease. This secreted protease breaks down the interstitial collagens, including types I, II, and III. The gene is part of a cluster of MMP genes on chromosome 11. Mutations in this gene are associated with chronic obstructive pulmonary disease (COPD). Alternative splicing results in multiple transcript variants, at least one of which encodes an isoform that is proteolytically processed. [provided by RefSeq, Jan 2016]"
+      },
+      "NID2": {
+        "definition": "This gene encodes a member of the nidogen family of basement membrane proteins. This protein is a cell-adhesion protein that binds collagens I and IV and laminin and may be involved in maintaining the structure of the basement membrane.[provided by RefSeq, Jun 2010]"
+      },
+      "PRSS2": {
+        "definition": "This gene belongs to the trypsin family of serine proteases and encodes anionic trypsinogen. It is part of a cluster of trypsinogen genes that are located within the T cell receptor beta locus. Enzymes of this family cleave peptide bonds that follow lysine or arginine residues. This protein is found at high levels in pancreatic juice and its upregulation is a characteristic feature of pancreatitis. This protein has also been found to activate pro-urokinase in ovarian tumors, suggesting a function in tumor invasion. In addition, this enzyme is able to cleave across the type II collagen triple helix in rheumatoid arthritis synovitis tissue, potentially participating in the degradation of type II collagen-rich cartilage matrix. Alternative splicing results in multiple transcript variants.[provided by RefSeq, Jan 2015]"
+      },
+      "QSOX1": {
+        "definition": "This gene encodes a protein that contains domains of thioredoxin and ERV1, members of two long-standing gene families. The gene expression is induced as fibroblasts begin to exit the proliferative cycle and enter quiescence, suggesting that this gene plays an important role in growth regulation. Two transcript variants encoding two different isoforms have been found for this gene. [provided by RefSeq, Jul 2008]"
+      },
+      "SERPINH1": {
+        "definition": "This gene encodes a member of the serpin superfamily of serine proteinase inhibitors. The encoded protein is localized to the endoplasmic reticulum and plays a role in collagen biosynthesis as a collagen-specific molecular chaperone. Autoantibodies to the encoded protein have been found in patients with rheumatoid arthritis. Expression of this gene may be a marker for cancer, and nucleotide polymorphisms in this gene may be associated with preterm birth caused by preterm premature rupture of membranes. Alternatively spliced transcript variants have been observed for this gene, and a pseudogene of this gene is located on the short arm of chromosome 9. [provided by RefSeq, May 2011]"
+      },
+      "TGFBI": {
+        "definition": "This gene encodes an RGD-containing protein that binds to type I, II and IV collagens. The RGD motif is found in many extracellular matrix proteins modulating cell adhesion and serves as a ligand recognition sequence for several integrins. This protein plays a role in cell-collagen interactions and may be involved in endochondrial bone formation in cartilage. The protein is induced by transforming growth factor-beta and acts to inhibit cell adhesion. Mutations in this gene are associated with multiple types of corneal dystrophy. [provided by RefSeq, Jul 2008]"
+      }
+    }
+  },
+  "GO:0001525": {
+    "go_name": "angiogenesis",
+    "initial_robustness": 100.0,
+    "mean_robustness": 100.0,
+    "definition": "Blood vessel formation when new vessels emerge from the proliferation of pre-existing blood vessels.",
+    "genes": {
+      "ANPEP": {
+        "definition": "Aminopeptidase N is located in the small-intestinal and renal microvillar membrane, and also in other plasma membranes. In the small intestine aminopeptidase N plays a role in the final digestion of peptides generated from hydrolysis of proteins by gastric and pancreatic proteases. Its function in proximal tubular epithelial cells and other cell types is less clear. The large extracellular carboxyterminal domain contains a pentapeptide consensus sequence characteristic of members of the zinc-binding metalloproteinase superfamily. Sequence comparisons with known enzymes of this class showed that CD13 and aminopeptidase N are identical. The latter enzyme was thought to be involved in the metabolism of regulatory peptides by diverse cell types, including small intestinal and renal tubular epithelial cells, macrophages, granulocytes, and synaptic membranes from the CNS. This membrane-bound zinc metalloprotease is known to serve as a receptor for the HCoV-229E alphacoronavirus as well as other non-human coronaviruses. This gene has also been shown to promote angiogenesis, tumor growth, and metastasis and defects in this gene are associated with various types of leukemia and lymphoma. [provided by RefSeq, Apr 2020]"
+      },
+      "SAT1": {
+        "definition": "The protein encoded by this gene belongs to the acetyltransferase family, and is a rate-limiting enzyme in the catabolic pathway of polyamine metabolism. It catalyzes the acetylation of spermidine and spermine, and is involved in the regulation of the intracellular concentration of polyamines and their transport out of cells. Defects in this gene are associated with keratosis follicularis spinulosa decalvans (KFSD). Alternatively spliced transcripts have been found for this gene.[provided by RefSeq, Sep 2009]"
+      }
+    }
+  },
+  "GO:0010811": {
+    "go_name": "positive regulation of cell-substrate adhesion",
+    "initial_robustness": 100.0,
+    "mean_robustness": 99.24242424242425,
+    "definition": "Any process that increases the frequency, rate or extent of cell-substrate adhesion. Cell-substrate adhesion is the attachment of a cell to the underlying substrate via adhesion molecules.",
+    "genes": {
+      "EDIL3": {
+        "definition": "The protein encoded by this gene is an integrin ligand. It plays an important role in mediating angiogenesis and may be important in vessel wall remodeling and development. It also influences endothelial cell behavior. [provided by RefSeq, Jul 2008]"
+      },
+      "FBLN1": {
+        "definition": "Fibulin 1 is a secreted glycoprotein that becomes incorporated into a fibrillar extracellular matrix. Calcium-binding is apparently required to mediate its binding to laminin and nidogen. It mediates platelet adhesion via binding fibrinogen. Four splice variants which differ in the 3' end have been identified. Each variant encodes a different isoform, but no functional distinctions have been identified among the four variants. [provided by RefSeq, Jul 2008]"
+      },
+      "FBLN2": {
+        "definition": "This gene encodes an extracellular matrix protein, which belongs to the fibulin family. This protein binds various extracellular ligands and calcium. It may play a role during organ development, in particular, during the differentiation of heart, skeletal and neuronal structures. Alternatively spliced transcript variants encoding different isoforms have been identified. [provided by RefSeq, Jul 2008]"
+      }
+    }
+  },
+  "GO:0030199": {
+    "go_name": "collagen fibril organization",
+    "initial_robustness": 75.0,
+    "mean_robustness": 68.63636363636364,
+    "definition": "Any process that determines the size and arrangement of collagen fibrils within an extracellular matrix.",
+    "genes": {
+      "COL12A1": {
+        "definition": "This gene encodes the alpha chain of type XII collagen, a member of the FACIT (fibril-associated collagens with interrupted triple helices) collagen family. Type XII collagen is a homotrimer found in association with type I collagen, an association that is thought to modify the interactions between collagen I fibrils and the surrounding matrix. Alternatively spliced transcript variants encoding different isoforms have been identified. [provided by RefSeq, Jul 2008]"
+      },
+      "COL5A3": {
+        "definition": "This gene encodes an alpha chain for one of the low abundance fibrillar collagens. Fibrillar collagen molecules are trimers that can be composed of one or more types of alpha chains. Type V collagen is found in tissues containing type I collagen and appears to regulate the assembly of heterotypic fibers composed of both type I and type V collagen. This gene product is closely related to type XI collagen and it is possible that the collagen chains of types V and XI constitute a single collagen type with tissue-specific chain combinations. Mutations in this gene are thought to be responsible for the symptoms of a subset of patients with Ehlers-Danlos syndrome type III. Messages of several sizes can be detected in northern blots but sequence information cannot confirm the identity of the shorter messages. [provided by RefSeq, Jul 2008]"
+      },
+      "COLGALT1": {
+        "definition": "The protein encoded by this gene is one of two enzymes that transfers galactose moieties to hydroxylysine residues of collagen and mannose binding lectin. This gene is constitutively expressed and encodes a soluble protein that localizes to the endoplasmic reticulum. [provided by RefSeq, Dec 2015]"
+      },
+      "FMOD": {
+        "definition": "Fibromodulin belongs to the family of small interstitial proteoglycans. The encoded protein possesses a central region containing leucine-rich repeats with 4 keratan sulfate chains, flanked by terminal domains containing disulphide bonds. Owing to the interaction with type I and type II collagen fibrils and in vitro inhibition of fibrillogenesis, the encoded protein may play a role in the assembly of extracellular matrix. It may also regulate TGF-beta activities by sequestering TGF-beta into the extracellular matrix. Sequence variations in this gene may be associated with the pathogenesis of high myopia. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Jun 2013]"
+      },
+      "LOXL1": {
+        "definition": "This gene encodes a member of the lysyl oxidase family of proteins. The prototypic member of the family is essential to the biogenesis of connective tissue, encoding an extracellular copper-dependent amine oxidase that catalyzes the first step in the formation of crosslinks in collagen and elastin. The encoded preproprotein is proteolytically processed to generate the mature enzyme. A highly conserved amino acid sequence at the C-terminus end appears to be sufficient for amine oxidase activity, suggesting that each family member may retain this function. The N-terminus is poorly conserved and may impart additional roles in developmental regulation, senescence, tumor suppression, cell growth control, and chemotaxis to each member of the family. Mutations in this gene are associated with exfoliation syndrome. [provided by RefSeq, Jan 2016]"
+      },
+      "SERPINH1": {
+        "definition": "This gene encodes a member of the serpin superfamily of serine proteinase inhibitors. The encoded protein is localized to the endoplasmic reticulum and plays a role in collagen biosynthesis as a collagen-specific molecular chaperone. Autoantibodies to the encoded protein have been found in patients with rheumatoid arthritis. Expression of this gene may be a marker for cancer, and nucleotide polymorphisms in this gene may be associated with preterm birth caused by preterm premature rupture of membranes. Alternatively spliced transcript variants have been observed for this gene, and a pseudogene of this gene is located on the short arm of chromosome 9. [provided by RefSeq, May 2011]"
+      }
+    }
+  },
+  "GO:0045766": {
+    "go_name": "positive regulation of angiogenesis",
+    "initial_robustness": 81.66666666666667,
+    "mean_robustness": 67.12121212121212,
+    "definition": "Any process that activates or increases angiogenesis.",
+    "genes": {
+      "ECM1": {
+        "definition": "This gene encodes a soluble protein that is involved in endochondral bone formation, angiogenesis, and tumor biology. It also interacts with a variety of extracellular and structural proteins, contributing to the maintenance of skin integrity and homeostasis. Mutations in this gene are associated with lipoid proteinosis disorder (also known as hyalinosis cutis et mucosae or Urbach-Wiethe disease) that is characterized by generalized thickening of skin, mucosae and certain viscera. Alternatively spliced transcript variants encoding distinct isoforms have been described for this gene. [provided by RefSeq, Feb 2011]"
+      }
+    }
+  },
+  "GO:0009887": {
+    "go_name": "animal organ morphogenesis",
+    "initial_robustness": 69.16666666666667,
+    "mean_robustness": 62.121212121212125,
+    "definition": "Morphogenesis of an animal organ. An organ is defined as a tissue or set of tissues that work together to perform a specific function or functions. Morphogenesis is the process in which anatomical structures are generated and organized. Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions.",
+    "genes": {
+      "ELN": {
+        "definition": "This gene encodes a protein that is one of the two components of elastic fibers. Elastic fibers comprise part of the extracellular matrix and confer elasticity to organs and tissues including the heart, skin, lungs, ligaments, and blood vessels. The encoded protein is rich in hydrophobic amino acids such as glycine and proline, which form mobile hydrophobic regions bounded by crosslinks between lysine residues. Degradation products of the encoded protein, known as elastin-derived peptides or elastokines, bind the elastin receptor complex and other receptors and stimulate migration and proliferation of monocytes and skin fibroblasts. Elastokines can also contribute to cancer progression. Deletions and mutations in this gene are associated with supravalvular aortic stenosis (SVAS) and autosomal dominant cutis laxa. [provided by RefSeq, Aug 2017]"
+      },
+      "PLOD3": {
+        "definition": "The protein encoded by this gene is a membrane-bound homodimeric enzyme that is localized to the cisternae of the rough endoplasmic reticulum. The enzyme (cofactors iron and ascorbate) catalyzes the hydroxylation of lysyl residues in collagen-like peptides. The resultant hydroxylysyl groups are attachment sites for carbohydrates in collagen and thus are critical for the stability of intermolecular crosslinks. Some patients with Ehlers-Danlos syndrome type VIB have deficiencies in lysyl hydroxylase activity. [provided by RefSeq, Jul 2008]"
+      }
+    }
+  },
+  "GO:1904018": {
+    "go_name": "positive regulation of vasculature development",
+    "initial_robustness": 60.83333333333333,
+    "mean_robustness": 55.3030303030303,
+    "definition": "Any process that activates or increases the frequency, rate or extent of vasculature development.",
+    "genes": {
+      "ECM1": {
+        "definition": "This gene encodes a soluble protein that is involved in endochondral bone formation, angiogenesis, and tumor biology. It also interacts with a variety of extracellular and structural proteins, contributing to the maintenance of skin integrity and homeostasis. Mutations in this gene are associated with lipoid proteinosis disorder (also known as hyalinosis cutis et mucosae or Urbach-Wiethe disease) that is characterized by generalized thickening of skin, mucosae and certain viscera. Alternatively spliced transcript variants encoding distinct isoforms have been described for this gene. [provided by RefSeq, Feb 2011]"
+      }
+    }
+  },
+  "GO:0007160": {
+    "go_name": "cell-matrix adhesion",
+    "initial_robustness": 63.33333333333333,
+    "mean_robustness": 53.93939393939393,
+    "definition": "The binding of a cell to the extracellular matrix via adhesion molecules.",
+    "genes": {
+      "ITGAV": {
+        "definition": "The product of this gene belongs to the integrin alpha chain family. Integrins are heterodimeric integral membrane proteins composed of an alpha subunit and a beta subunit that function in cell surface adhesion and signaling. The encoded preproprotein is proteolytically processed to generate light and heavy chains that comprise the alpha V subunit. This subunit associates with beta 1, beta 3, beta 5, beta 6 and beta 8 subunits. The heterodimer consisting of alpha V and beta 3 subunits is also known as the vitronectin receptor. This integrin may regulate angiogenesis and cancer progression. Alternative splicing results in multiple transcript variants. Note that the integrin alpha 5 and integrin alpha V subunits are encoded by distinct genes. [provided by RefSeq, Oct 2015]"
+      },
+      "ITGB5": {
+        "definition": "This gene encodes a beta subunit of integrin, which can combine with different alpha chains to form a variety of integrin heterodimers. Integrins are integral cell-surface receptors that participate in cell adhesion as well as cell-surface mediated signaling. The alphav beta5 integrin is involved in adhesion to vitronectin. [provided by RefSeq, Aug 2017]"
+      }
+    }
+  },
+  "GO:0031589": {
+    "go_name": "cell-substrate adhesion",
+    "initial_robustness": 45.83333333333333,
+    "mean_robustness": 49.09090909090909,
+    "definition": "The attachment of a cell to the underlying substrate via adhesion molecules.",
+    "genes": {
+      "ITGAV": {
+        "definition": "The product of this gene belongs to the integrin alpha chain family. Integrins are heterodimeric integral membrane proteins composed of an alpha subunit and a beta subunit that function in cell surface adhesion and signaling. The encoded preproprotein is proteolytically processed to generate light and heavy chains that comprise the alpha V subunit. This subunit associates with beta 1, beta 3, beta 5, beta 6 and beta 8 subunits. The heterodimer consisting of alpha V and beta 3 subunits is also known as the vitronectin receptor. This integrin may regulate angiogenesis and cancer progression. Alternative splicing results in multiple transcript variants. Note that the integrin alpha 5 and integrin alpha V subunits are encoded by distinct genes. [provided by RefSeq, Oct 2015]"
+      },
+      "ITGB5": {
+        "definition": "This gene encodes a beta subunit of integrin, which can combine with different alpha chains to form a variety of integrin heterodimers. Integrins are integral cell-surface receptors that participate in cell adhesion as well as cell-surface mediated signaling. The alphav beta5 integrin is involved in adhesion to vitronectin. [provided by RefSeq, Aug 2017]"
+      }
+    }
+  },
+  "GO:0007229": {
+    "go_name": "integrin-mediated signaling pathway",
+    "initial_robustness": 39.166666666666664,
+    "mean_robustness": 33.63636363636363,
+    "definition": "The series of molecular signals initiated by an extracellular ligand binding to an integrin on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription.",
+    "genes": {
+      "CCN2": {
+        "definition": "The protein encoded by this gene is a mitogen that is secreted by vascular endothelial cells. The encoded protein plays a role in chondrocyte proliferation and differentiation, cell adhesion in many cell types, and is related to platelet-derived growth factor. Certain polymorphisms in this gene have been linked with a higher incidence of systemic sclerosis. [provided by RefSeq, Nov 2009]"
+      }
+    }
+  },
+  "GO:0007155": {
+    "go_name": "cell adhesion",
+    "initial_robustness": 56.666666666666664,
+    "mean_robustness": 51.439393939393945,
+    "definition": "The attachment of a cell, either to another cell or to an underlying substrate such as the extracellular matrix, via cell adhesion molecules.",
+    "genes": {
+      "ADAM12": {
+        "definition": "This gene encodes a member of a family of proteins that are structurally related to snake venom disintegrins and have been implicated in a variety of biological processes involving cell-cell and cell-matrix interactions, including fertilization, muscle development, and neurogenesis. Expression of this gene has been used as a maternal serum marker for pre-natal development. Alternative splicing results in multiple transcript variants encoding different isoforms. Shorter isoforms are secreted, while longer isoforms are membrane-bound form. [provided by RefSeq, Jan 2014]"
+      },
+      "CADM1": {
+        "definition": "Enables signaling receptor binding activity. Involved in several processes, including cell recognition; positive regulation of cytokine production; and susceptibility to natural killer cell mediated cytotoxicity. Located in plasma membrane. Implicated in breast carcinoma and prostate cancer. Biomarker of cervix uteri carcinoma in situ. [provided by Alliance of Genome Resources, Jul 2025]"
+      },
+      "CDH11": {
+        "definition": "This gene encodes a type II classical cadherin from the cadherin superfamily, integral membrane proteins that mediate calcium-dependent cell-cell adhesion. Mature cadherin proteins are composed of a large N-terminal extracellular domain, a single membrane-spanning domain, and a small, highly conserved C-terminal cytoplasmic domain. Type II (atypical) cadherins are defined based on their lack of a HAV cell adhesion recognition sequence specific to type I cadherins. Expression of this particular cadherin in osteoblastic cell lines, and its upregulation during differentiation, suggests a specific function in bone development and maintenance. [provided by RefSeq, Jul 2008]"
+      },
+      "CDH6": {
+        "definition": "This gene encodes a member of the cadherin superfamily. Cadherins are membrane glycoproteins that mediate homophilic cell-cell adhesion and play critical roles in cell differentiation and morphogenesis. The encoded protein is a type II cadherin and may play a role in kidney development as well as endometrium and placenta formation. Decreased expression of this gene may be associated with tumor growth and metastasis. [provided by RefSeq, May 2011]"
+      },
+      "COL6A2": {
+        "definition": "This gene encodes one of the three alpha chains of type VI collagen, a beaded filament collagen found in most connective tissues. The product of this gene contains several domains similar to von Willebrand Factor type A domains. These domains have been shown to bind extracellular matrix proteins, an interaction that explains the importance of this collagen in organizing matrix components. Mutations in this gene are associated with Bethlem myopathy and Ullrich scleroatonic muscular dystrophy. Three transcript variants have been identified for this gene. [provided by RefSeq, Jul 2008]"
+      },
+      "COL6A3": {
+        "definition": "This gene encodes the alpha-3 chain, one of the three alpha chains of type VI collagen, a beaded filament collagen found in most connective tissues. The alpha-3 chain of type VI collagen is much larger than the alpha-1 and -2 chains. This difference in size is largely due to an increase in the number of subdomains, similar to von Willebrand Factor type A domains, that are found in the amino terminal globular domain of all the alpha chains. These domains have been shown to bind extracellular matrix proteins, an interaction that explains the importance of this collagen in organizing matrix components. Mutations in the type VI collagen genes are associated with Bethlem myopathy, a rare autosomal dominant proximal myopathy with early childhood onset. Mutations in this gene are also a cause of Ullrich congenital muscular dystrophy, also referred to as Ullrich scleroatonic muscular dystrophy, an autosomal recessive congenital myopathy that is more severe than Bethlem myopathy. Multiple transcript variants have been identified, but the full-length nature of only some of these variants has been described. [provided by RefSeq, Jun 2009]"
+      },
+      "FAP": {
+        "definition": "The protein encoded by this gene is a homodimeric integral membrane gelatinase belonging to the serine protease family. It is selectively expressed in reactive stromal fibroblasts of epithelial cancers, granulation tissue of healing wounds, and malignant cells of bone and soft tissue sarcomas. This protein is thought to be involved in the control of fibroblast growth or epithelial-mesenchymal interactions during development, tissue repair, and epithelial carcinogenesis. Alternatively spliced transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Apr 2014]"
+      },
+      "IL32": {
+        "definition": "This gene encodes a member of the cytokine family. The protein contains a tyrosine sulfation site, 3 potential N-myristoylation sites, multiple putative phosphorylation sites, and an RGD cell-attachment sequence. Expression of this protein is increased after the activation of T-cells by mitogens or the activation of NK cells by IL-2. This protein induces the production of TNFalpha from macrophage cells. Alternate transcriptional splice variants, encoding different isoforms, have been characterized. [provided by RefSeq, Jul 2008]"
+      },
+      "ITGA5": {
+        "definition": "The product of this gene belongs to the integrin alpha chain family. Integrins are heterodimeric integral membrane proteins composed of an alpha subunit and a beta subunit that function in cell surface adhesion and signaling. The encoded preproprotein is proteolytically processed to generate light and heavy chains that comprise the alpha 5 subunit. This subunit associates with the beta 1 subunit to form a fibronectin receptor. This integrin may promote tumor invasion, and higher expression of this gene may be correlated with shorter survival time in lung cancer patients. Note that the integrin alpha 5 and integrin alpha V subunits are encoded by distinct genes. [provided by RefSeq, Oct 2015]"
+      },
+      "ITGAV": {
+        "definition": "The product of this gene belongs to the integrin alpha chain family. Integrins are heterodimeric integral membrane proteins composed of an alpha subunit and a beta subunit that function in cell surface adhesion and signaling. The encoded preproprotein is proteolytically processed to generate light and heavy chains that comprise the alpha V subunit. This subunit associates with beta 1, beta 3, beta 5, beta 6 and beta 8 subunits. The heterodimer consisting of alpha V and beta 3 subunits is also known as the vitronectin receptor. This integrin may regulate angiogenesis and cancer progression. Alternative splicing results in multiple transcript variants. Note that the integrin alpha 5 and integrin alpha V subunits are encoded by distinct genes. [provided by RefSeq, Oct 2015]"
+      },
+      "ITGB5": {
+        "definition": "This gene encodes a beta subunit of integrin, which can combine with different alpha chains to form a variety of integrin heterodimers. Integrins are integral cell-surface receptors that participate in cell adhesion as well as cell-surface mediated signaling. The alphav beta5 integrin is involved in adhesion to vitronectin. [provided by RefSeq, Aug 2017]"
+      },
+      "LAMC2": {
+        "definition": "Laminins, a family of extracellular matrix glycoproteins, are the major noncollagenous constituent of basement membranes. They have been implicated in a wide variety of biological processes including cell adhesion, differentiation, migration, signaling, neurite outgrowth and metastasis. Laminins, composed of 3 non identical chains: laminin alpha, beta and gamma (formerly A, B1, and B2, respectively), have a cruciform structure consisting of 3 short arms, each formed by a different chain, and a long arm composed of all 3 chains. Each laminin chain is a multidomain protein encoded by a distinct gene. Several isoforms of each chain have been described. Different alpha, beta and gamma chain isomers combine to give rise to different heterotrimeric laminin isoforms which are designated by Arabic numerals in the order of their discovery, i.e. alpha1beta1gamma1 heterotrimer is laminin 1. The biological functions of the different chains and trimer molecules are largely unknown, but some of the chains have been shown to differ with respect to their tissue distribution, presumably reflecting diverse functions in vivo. This gene encodes the gamma chain isoform laminin, gamma 2. The gamma 2 chain, formerly thought to be a truncated version of beta chain (B2t), is highly homologous to the gamma 1 chain; however, it lacks domain VI, and domains V, IV and III are shorter. It is expressed in several fetal tissues but differently from gamma 1, and is specifically localized to epithelial cells in skin, lung and kidney. The gamma 2 chain together with alpha 3 and beta 3 chains constitute laminin 5 (earlier known as kalinin), which is an integral part of the anchoring filaments that connect epithelial cells to the underlying basement membrane. The epithelium-specific expression of the gamma 2 chain implied its role as an epithelium attachment molecule, and mutations in this gene have been associated with junctional epidermolysis bullosa, a skin disease characterized by blisters due to disruption of the epidermal-dermal junction. Two transcript variants resulting from alternative splicing of the 3' terminal exon, and encoding different isoforms of gamma 2 chain, have been described. The two variants are differentially expressed in embryonic tissues, however, the biological significance of the two forms is not known. Transcript variants utilizing alternative polyA_signal have also been noted in literature. [provided by RefSeq, Aug 2011]"
+      },
+      "NTM": {
+        "definition": "This gene encodes a member of the IgLON (LAMP, OBCAM, Ntm) family of immunoglobulin (Ig) domain-containing glycosylphosphatidylinositol (GPI)-anchored cell adhesion molecules. The encoded protein may promote neurite outgrowth and adhesion via a homophilic mechanism. This gene is closely linked to a related family member, opioid binding protein/cell adhesion molecule-like (OPCML), on chromosome 11. Multiple transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Jan 2009]"
+      },
+      "TNFRSF12A": {
+        "definition": "Involved in positive regulation of extrinsic apoptotic signaling pathway and regulation of wound healing. Predicted to be located in cell surface and ruffle. Predicted to be active in plasma membrane. [provided by Alliance of Genome Resources, Apr 2025]"
+      }
+    }
+  },
+  "GO:0035987": {
+    "go_name": "endodermal cell differentiation",
+    "initial_robustness": 30.833333333333336,
+    "mean_robustness": 19.318181818181817,
+    "definition": "The process in which a relatively unspecialized cell acquires the specialized features of an endoderm cell, a cell of the inner of the three germ layers of the embryo.",
+    "genes": {
+      "INHBA": {
+        "definition": "This gene encodes a member of the TGF-beta (transforming growth factor-beta) superfamily of proteins. The encoded preproprotein is proteolytically processed to generate a subunit of the dimeric activin and inhibin protein complexes. These complexes activate and inhibit, respectively, follicle stimulating hormone secretion from the pituitary gland. The encoded protein also plays a role in eye, tooth and testis development. Elevated expression of this gene may be associated with cancer cachexia in human patients. [provided by RefSeq, Aug 2016]"
+      }
+    }
+  },
+  "GO:0050921": {
+    "go_name": "positive regulation of chemotaxis",
+    "initial_robustness": 36.666666666666664,
+    "mean_robustness": 22.803030303030305,
+    "definition": "Any process that activates or increases the frequency, rate or extent of the directed movement of a motile cell or organism in response to a specific chemical concentration gradient.",
+    "genes": {
+      "CXCL12": {
+        "definition": "This antimicrobial gene encodes a stromal cell-derived alpha chemokine member of the intercrine family. The encoded protein functions as the ligand for the G-protein coupled receptor, chemokine (C-X-C motif) receptor 4, and plays a role in many diverse cellular functions, including embryogenesis, immune surveillance, inflammation response, tissue homeostasis, and tumor growth and metastasis. Mutations in this gene are associated with resistance to human immunodeficiency virus type 1 infections. Multiple transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Sep 2014]"
+      }
+    }
+  },
+  "GO:0001503": {
+    "go_name": "ossification",
+    "initial_robustness": 45.0,
+    "mean_robustness": 13.939393939393938,
+    "definition": "The formation of bone or of a bony substance, or the conversion of fibrous tissue or of cartilage into bone or a bony substance.",
+    "genes": {
+      "BMP1": {
+        "definition": "This gene encodes a protein that is capable of inducing formation of cartilage in vivo. Although other bone morphogenetic proteins are members of the TGF-beta superfamily, this gene encodes a protein that is not closely related to other known growth factors. This gene is expressed as alternatively spliced variants that share an N-terminal protease domain but differ in their C-terminal region. [provided by RefSeq, Aug 2008]"
+      }
+    }
+  }
+}

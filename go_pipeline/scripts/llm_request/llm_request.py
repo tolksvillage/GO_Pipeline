@@ -8,7 +8,8 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 from tqdm import tqdm
 import requests
-
+import time
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 def load_manifold_analysis(json_path: str) -> Dict:
     """Load a manifold_analysis JSON file."""
@@ -781,6 +782,11 @@ def main():
             "instead of manifold analysis. Runs a single BP-only LLM analysis per signature."
         ),
     )
+    parser.add_argument(
+        "--state_file",
+        default=None,
+        help="Pfad zur gemeinsamen Pipeline-Status-Datei (Resume)",
+    )
 
     args = parser.parse_args()
 
@@ -788,6 +794,8 @@ def main():
         print(f"Error: Ollama server is not reachable at {args.ollama_url}")
         print("Please make sure Ollama is installed and available in your PATH.")
         return
+
+    state = PipelineState(args.state_file or os.path.join(args.input_dir, ".pipeline_state.json"))
 
     # ------------------------------------------------------------------ #
     #  FILTERED MODE                                                       #
@@ -806,13 +814,21 @@ def main():
                 return
 
         for signature_path in tqdm(signatures, desc="Signatures (filtered)", unit="sig"):
+            work_key = signature_path.name
+
+            if state.is_done("llm_request_filtered", work_key):
+                continue
+
             success, error = process_filtered_signature(
                 signature_path,
                 args.model,
                 args.ollama_url,
                 args.output_dir,
             )
-            if not success:
+            if success:
+                state.mark_done("llm_request_filtered", work_key)
+            else:
+                state.mark_failed("llm_request_filtered", work_key, str(error))
                 print(f"  Skipped {signature_path.name}: {error}")
 
         return
@@ -836,14 +852,20 @@ def main():
     total_processed = 0
 
     for signature_path in tqdm(signatures, desc="Signatures", unit="sig"):
-
         if args.synthesize_only:
-            synthesize_signature_analysis(
+            synth_key = f"{signature_path.name}::synthesis_only"
+            if state.is_done("llm_request", synth_key):
+                continue
+            success, error = synthesize_signature_analysis(
                 signature_path.name,
                 all_results,
                 args.model,
                 args.ollama_url,
             )
+            if success:
+                state.mark_done("llm_request", synth_key)
+            else:
+                state.mark_failed("llm_request", synth_key, str(error))
             continue
 
         ontologies = find_ontologies(signature_path)
@@ -856,22 +878,49 @@ def main():
             continue
 
         for ontology in ontologies:
-            process_signature(
-                signature_path,
-                ontology,
-                args.model,
-                args.ollama_url,
-                all_results,
-            )
-            total_processed += 1
+            work_key = f"{signature_path.name}::{ontology}"
+
+            if state.is_done("llm_request", work_key):
+                total_processed += 1
+                continue
+
+            last_error = None
+            succeeded = False
+            for attempt in range(3):
+                success, error = process_signature(
+                    signature_path,
+                    ontology,
+                    args.model,
+                    args.ollama_url,
+                    all_results,
+                )
+                if success:
+                    succeeded = True
+                    break
+                last_error = error
+                time.sleep(5)
+
+            if succeeded:
+                state.mark_done("llm_request", work_key)
+                total_processed += 1
+            else:
+                state.mark_failed("llm_request", work_key, str(last_error))
+                print(f"  Fehler bei {signature_path.name}/{ontology}: {last_error} -> weiter")
+                continue
 
         if not args.skip_synthesis and len(ontologies) >= 2:
-            synthesize_signature_analysis(
-                signature_path.name,
-                all_results,
-                args.model,
-                args.ollama_url,
-            )
+            synth_key = f"{signature_path.name}::synthesis"
+            if not state.is_done("llm_request", synth_key):
+                success, error = synthesize_signature_analysis(
+                    signature_path.name,
+                    all_results,
+                    args.model,
+                    args.ollama_url,
+                )
+                if success:
+                    state.mark_done("llm_request", synth_key)
+                else:
+                    state.mark_failed("llm_request", synth_key, str(error))
 
         if signature_path.name in all_results:
             save_signature_json(

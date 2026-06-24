@@ -1,0 +1,115 @@
+{
+  "GO:2001235": {
+    "go_name": "positive regulation of apoptotic signaling pathway",
+    "initial_robustness": 100.0,
+    "mean_robustness": 100.0,
+    "definition": "Any process that activates or increases the frequency, rate or extent of apoptotic signaling pathway.",
+    "genes": {
+      "NUPR1": {
+        "definition": "Enables DNA binding activity and transcription coactivator activity. Involved in several processes, including negative regulation of programmed cell death; positive regulation of oxidative phosphorylation; and regulation of catabolic process. Acts upstream of or within negative regulation of cell cycle. Located in intercellular bridge; nucleoplasm; and perinuclear region of cytoplasm. Part of protein-DNA complex. [provided by Alliance of Genome Resources, Apr 2025]"
+      }
+    }
+  },
+  "GO:0008630": {
+    "go_name": "intrinsic apoptotic signaling pathway in response to DNA damage",
+    "initial_robustness": 100.0,
+    "mean_robustness": 100.0,
+    "definition": "The series of molecular signals in which an intracellular signal is conveyed to trigger the apoptotic death of a cell. The pathway is induced by the detection of DNA damage, and ends when the execution phase of apoptosis is triggered.",
+    "genes": {
+      "AEN": {
+        "definition": "Enables DNA exonuclease activity. Involved in intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator and response to ionizing radiation. Located in nuclear membrane; nucleolus; and nucleoplasm. [provided by Alliance of Genome Resources, Jul 2025]"
+      },
+      "PHLDA3": {
+        "definition": "Enables phosphatidylinositol phosphate binding activity and phosphatidylinositol-3,4-bisphosphate binding activity. Involved in intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator; negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; and positive regulation of apoptotic process. Located in plasma membrane. [provided by Alliance of Genome Resources, Jul 2025]"
+      }
+    }
+  },
+  "GO:0043065": {
+    "go_name": "positive regulation of apoptotic process",
+    "initial_robustness": 100.0,
+    "mean_robustness": 98.48484848484848,
+    "definition": "Any process that activates or increases the frequency, rate or extent of cell death by apoptotic process.",
+    "genes": {
+      "NUPR1": {
+        "definition": "Enables DNA binding activity and transcription coactivator activity. Involved in several processes, including negative regulation of programmed cell death; positive regulation of oxidative phosphorylation; and regulation of catabolic process. Acts upstream of or within negative regulation of cell cycle. Located in intercellular bridge; nucleoplasm; and perinuclear region of cytoplasm. Part of protein-DNA complex. [provided by Alliance of Genome Resources, Apr 2025]"
+      },
+      "PIDD1": {
+        "definition": "The protein encoded by this gene contains a leucine-rich repeat and a death domain. This protein has been shown to interact with other death domain proteins, such as Fas (TNFRSF6)-associated via death domain (FADD) and MAP-kinase activating death domain-containing protein (MADD), and thus may function as an adaptor protein in cell death-related signaling processes. The expression of the mouse counterpart of this gene has been found to be positively regulated by the tumor suppressor p53 and to induce cell apoptosis in response to DNA damage, which suggests a role for this gene as an effector of p53-dependent apoptosis. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Aug 2010]"
+      },
+      "TSC22D1": {
+        "definition": "This gene encodes a member of the TSC22 domain family of leucine zipper transcription factors. The encoded protein is stimulated by transforming growth factor beta, and regulates the transcription of multiple genes including C-type natriuretic peptide. The encoded protein may play a critical role in tumor suppression through the induction of cancer cell apoptosis, and a single nucleotide polymorphism in the promoter of this gene has been associated with diabetic nephropathy. Alternatively spliced transcript variants encoding multiple isoforms have been observed for this gene. [provided by RefSeq, Aug 2011]"
+      }
+    }
+  },
+  "GO:0097193": {
+    "go_name": "intrinsic apoptotic signaling pathway",
+    "initial_robustness": 78.33333333333333,
+    "mean_robustness": 80.45454545454545,
+    "definition": "The series of molecular signals in which an intracellular signal is conveyed to trigger the apoptotic death of a cell. The pathway starts with reception of an intracellular signal (e.g. DNA damage, endoplasmic reticulum stress, oxidative stress etc.), and ends when the execution phase of apoptosis is triggered. The intrinsic apoptotic signaling pathway is crucially regulated by permeabilization of the mitochondrial outer membrane (MOMP).",
+    "genes": {
+      "AEN": {
+        "definition": "Enables DNA exonuclease activity. Involved in intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator and response to ionizing radiation. Located in nuclear membrane; nucleolus; and nucleoplasm. [provided by Alliance of Genome Resources, Jul 2025]"
+      },
+      "HINT1": {
+        "definition": "This gene encodes a protein that hydrolyzes purine nucleotide phosphoramidates substrates, including AMP-morpholidate, AMP-N-alanine methyl ester, AMP-alpha-acetyl lysine methyl ester, and AMP-NH2. The encoded protein interacts with these substrates via a histidine triad motif. This gene is considered a tumor suppressor gene. In addition, mutations in this gene can cause autosomal recessive neuromyotonia and axonal neuropathy. There are several related pseudogenes on chromosome 7. Several transcript variants have been observed. [provided by RefSeq, Dec 2015]"
+      },
+      "PHLDA3": {
+        "definition": "Enables phosphatidylinositol phosphate binding activity and phosphatidylinositol-3,4-bisphosphate binding activity. Involved in intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator; negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; and positive regulation of apoptotic process. Located in plasma membrane. [provided by Alliance of Genome Resources, Jul 2025]"
+      }
+    }
+  },
+  "GO:0072332": {
+    "go_name": "intrinsic apoptotic signaling pathway by p53 class mediator",
+    "initial_robustness": 100.0,
+    "mean_robustness": 69.92424242424242,
+    "definition": "The series of molecular signals in which an intracellular signal is conveyed to trigger the apoptotic death of a cell. The pathway is induced by the cell cycle regulator phosphoprotein p53, or an equivalent protein, and ends when the execution phase of apoptosis is triggered.",
+    "genes": {
+      "HINT1": {
+        "definition": "This gene encodes a protein that hydrolyzes purine nucleotide phosphoramidates substrates, including AMP-morpholidate, AMP-N-alanine methyl ester, AMP-alpha-acetyl lysine methyl ester, and AMP-NH2. The encoded protein interacts with these substrates via a histidine triad motif. This gene is considered a tumor suppressor gene. In addition, mutations in this gene can cause autosomal recessive neuromyotonia and axonal neuropathy. There are several related pseudogenes on chromosome 7. Several transcript variants have been observed. [provided by RefSeq, Dec 2015]"
+      }
+    }
+  },
+  "GO:0006915": {
+    "go_name": "apoptotic process",
+    "initial_robustness": 55.00000000000001,
+    "mean_robustness": 51.287878787878796,
+    "definition": "A programmed cell death process which begins when a cell receives an internal (e.g. DNA damage) or external signal (e.g. an extracellular death ligand), and proceeds through a series of biochemical events (signaling pathway phase) which trigger an execution phase. The execution phase is the last step of an apoptotic process, and is typically characterized by rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), plasma membrane blebbing and fragmentation of the cell into apoptotic bodies. When the execution phase is completed, the cell has died.",
+    "genes": {
+      "BAX": {
+        "definition": "The protein encoded by this gene belongs to the BCL2 protein family. BCL2 family members form hetero- or homodimers and act as anti- or pro-apoptotic regulators that are involved in a wide variety of cellular activities. This protein forms a heterodimer with BCL2, and functions as an apoptotic activator. The association and the ratio of BAX to BCL2 also determines survival or death of a cell following an apoptotic stimulus. This protein is reported to interact with, and increase the opening of, the mitochondrial voltage-dependent anion channel (VDAC), which leads to the loss in membrane potential and the release of cytochrome c. The expression of this gene is regulated by the tumor suppressor P53 and has been shown to be involved in P53-mediated apoptosis. Multiple alternatively spliced transcript variants, which encode different isoforms, have been reported for this gene. [provided by RefSeq, Dec 2019]"
+      },
+      "CSRNP2": {
+        "definition": "The protein encoded by this gene belongs to the CSRNP family of nuclear proteins that share conserved regions, including cysteine- and serine- rich regions, a basic domain, a transcriptional activation domain, and bind the sequence 'AGAGTG', thus have the hallmark of transcription factors. Studies in mice suggest that these genes may have redundant functions. Alternatively spliced transcript variants have been found for this gene. [provided by RefSeq, Aug 2011]"
+      },
+      "DRAM1": {
+        "definition": "This gene is regulated as part of the p53 tumor suppressor pathway. The gene encodes a lysosomal membrane protein that is required for the induction of autophagy by the pathway. Decreased transcriptional expression of this gene is associated with various tumors. This gene has a pseudogene on chromosome 4. [provided by RefSeq, Jul 2008]"
+      },
+      "EI24": {
+        "definition": "This gene encodes a putative tumor suppressor and has higher expression in p53-expressing cells than in control cells and is an immediate-early induction target of p53-mediated apoptosis. The encoded protein may suppress cell growth by inducing apoptotic cell death through the caspase 9 and mitochondrial pathways. This gene is located on human chromosome 11q24, a region frequently altered in cancers. Alternative splicing results in multiple transcript variants. Pseudogenes of this gene have been defined on chromosomes 1, 3, 7, and 8. [provided by RefSeq, Feb 2014]"
+      },
+      "FAM162A": {
+        "definition": "Involved in cellular response to hypoxia; positive regulation of apoptotic process; and positive regulation of release of cytochrome c from mitochondria. Located in cytosol and mitochondrion. [provided by Alliance of Genome Resources, Jul 2025]"
+      },
+      "ZMAT3": {
+        "definition": "This gene encodes a protein containing three zinc finger domains and a nuclear localization signal. The mRNA and the protein of this gene are upregulated by wildtype p53 and overexpression of this gene inhibits tumor cell growth, suggesting that this gene may have a role in the p53-dependent growth regulatory pathway. Alternative splicing of this gene results in two transcript variants encoding two isoforms differing in only one amino acid. [provided by RefSeq, Jul 2008]"
+      }
+    }
+  },
+  "GO:0030308": {
+    "go_name": "negative regulation of cell growth",
+    "initial_robustness": 41.66666666666667,
+    "mean_robustness": 41.21212121212121,
+    "definition": "Any process that stops, prevents, or reduces the frequency, rate, extent or direction of cell growth.",
+    "genes": {
+      "CDKN2AIP": {
+        "definition": "The protein encoded by this gene regulates the DNA damage response through several different signaling pathways. One such pathway is the p53-HDM2-p21(WAF1) pathway, which is critical to the DNA damage response. Two transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Nov 2015]"
+      },
+      "OSGIN1": {
+        "definition": "This gene encodes an oxidative stress response protein that regulates cell death. Expression of the gene is regulated by p53 and is induced by DNA damage. The protein regulates apoptosis by inducing cytochrome c release from mitochondria. It also appears to be a key regulator of both inflammatory and anti-inflammatory molecules. The loss of this protein correlates with uncontrolled cell growth and tumor formation. Naturally occurring read-through transcription exists between this gene and the neighboring upstream malonyl-CoA decarboxylase (MLYCD) gene, but the read-through transcripts are unlikely to produce a protein product. [provided by RefSeq, Aug 2011]"
+      },
+      "SERTAD3": {
+        "definition": "The protein encoded by this gene was identified in a yeast two-hybrid assay employing the second subunit of human replication protein A as bait. It is localized to the nucleus and its expression is significantly higher in cancer cell lines compared to normal cell lines. This protein has also been shown to be a strong transcriptional co-activator. Alternative splicing has been observed at this locus and two variants, both encoding the same protein, have been identified. [provided by RefSeq, Jul 2008]"
+      }
+    }
+  }
+}

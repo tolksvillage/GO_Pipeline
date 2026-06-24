@@ -7,3 +7,4 @@ seaborn==0.13.2
 tqdm==4.67.1
 requests==2.32.3
 scipy>=1.14.0
+setuptools==75.6.0

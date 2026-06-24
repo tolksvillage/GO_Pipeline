@@ -1,0 +1,1162 @@
+{
+  "metadata": {
+    "signature_name": "diluted_hallmark_EMT_step03_fixed200_total400",
+    "ontology": "CC",
+    "analysis_type": "manifold_analysis"
+  },
+  "summary_statistics": {
+    "unique_go_terms_top10": 19,
+    "parameter_configurations": 120,
+    "diversity_index": 0.015833333333333335,
+    "number_of_groups": 17
+  },
+  "groups": [
+    {
+      "group_id": 1,
+      "original_group_index": 1,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0031012",
+        "name": "extracellular matrix",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0031012",
+          "name": "extracellular matrix",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.4550161056273093,
+          "genes_direct": 33,
+          "genes_inherited": 30,
+          "genes_total": 63,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0005604",
+          "name": "basement membrane",
+          "robustness_score": 88.33333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 41,
+            "equal": 10,
+            "difference_absolute": 14,
+            "difference_normalized": 0.2545454545454545
+          },
+          "ic": 0.5683794511205472,
+          "genes_direct": 28,
+          "genes_inherited": 0,
+          "genes_total": 28,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 2,
+      "original_group_index": 2,
+      "size": 2,
+      "representative": {
+        "go_id": "GO:0005581",
+        "name": "collagen trimer",
+        "robustness_score": 100.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005581",
+          "name": "collagen trimer",
+          "robustness_score": 100.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 55,
+            "equal": 10,
+            "difference_absolute": 0,
+            "difference_normalized": 0.0
+          },
+          "ic": 0.5768296099976926,
+          "genes_direct": 5,
+          "genes_inherited": 15,
+          "genes_total": 20,
+          "path_ids": []
+        },
+        {
+          "go_id": "GO:0005583",
+          "name": "fibrillar collagen trimer",
+          "robustness_score": 33.33333333333333,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 40,
+            "equal": 0,
+            "difference_absolute": -40,
+            "difference_normalized": -0.7272727272727273
+          },
+          "ic": 0.7639297418513931,
+          "genes_direct": 1,
+          "genes_inherited": 7,
+          "genes_total": 8,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 3,
+      "original_group_index": 13,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0005788",
+        "name": "endoplasmic reticulum lumen",
+        "robustness_score": 87.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005788",
+          "name": "endoplasmic reticulum lumen",
+          "robustness_score": 87.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 40,
+            "equal": 10,
+            "difference_absolute": 15,
+            "difference_normalized": 0.2727272727272727
+          },
+          "ic": 0.45349604662934156,
+          "genes_direct": 45,
+          "genes_inherited": 1,
+          "genes_total": 46,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 4,
+      "original_group_index": 8,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0005925",
+        "name": "focal adhesion",
+        "robustness_score": 70.83333333333334
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005925",
+          "name": "focal adhesion",
+          "robustness_score": 70.83333333333334,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 20,
+            "equal": 10,
+            "difference_absolute": 35,
+            "difference_normalized": 0.6363636363636364
+          },
+          "ic": 0.4234894919313692,
+          "genes_direct": 33,
+          "genes_inherited": 0,
+          "genes_total": 33,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 5,
+      "original_group_index": 5,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0005796",
+        "name": "Golgi lumen",
+        "robustness_score": 66.66666666666666
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005796",
+          "name": "Golgi lumen",
+          "robustness_score": 66.66666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 15,
+            "equal": 10,
+            "difference_absolute": 40,
+            "difference_normalized": 0.7272727272727273
+          },
+          "ic": 0.5578660384007584,
+          "genes_direct": 13,
+          "genes_inherited": 0,
+          "genes_total": 13,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 6,
+      "original_group_index": 12,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0042383",
+        "name": "sarcolemma",
+        "robustness_score": 62.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0042383",
+          "name": "sarcolemma",
+          "robustness_score": 62.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 10,
+            "equal": 10,
+            "difference_absolute": 45,
+            "difference_normalized": 0.8181818181818182
+          },
+          "ic": 0.5587751521382567,
+          "genes_direct": 12,
+          "genes_inherited": 0,
+          "genes_total": 12,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 7,
+      "original_group_index": 15,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0009986",
+        "name": "cell surface",
+        "robustness_score": 60.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0009986",
+          "name": "cell surface",
+          "robustness_score": 60.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 7,
+            "equal": 10,
+            "difference_absolute": 48,
+            "difference_normalized": 0.8727272727272727
+          },
+          "ic": 0.38644713841048767,
+          "genes_direct": 38,
+          "genes_inherited": 0,
+          "genes_total": 38,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 8,
+      "original_group_index": 3,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0005615",
+        "name": "extracellular space",
+        "robustness_score": 58.333333333333336
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005615",
+          "name": "extracellular space",
+          "robustness_score": 58.333333333333336,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 5,
+            "equal": 10,
+            "difference_absolute": 50,
+            "difference_normalized": 0.9090909090909091
+          },
+          "ic": 0.2799179250443269,
+          "genes_direct": 120,
+          "genes_inherited": 0,
+          "genes_total": 120,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 9,
+      "original_group_index": 0,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0043202",
+        "name": "lysosomal lumen",
+        "robustness_score": 54.166666666666664
+      },
+      "terms": [
+        {
+          "go_id": "GO:0043202",
+          "name": "lysosomal lumen",
+          "robustness_score": 54.166666666666664,
+          "alpha_beta_preference": {
+            "alpha_dominant": 55,
+            "beta_dominant": 0,
+            "equal": 10,
+            "difference_absolute": 55,
+            "difference_normalized": 1.0
+          },
+          "ic": 0.5615558870629612,
+          "genes_direct": 11,
+          "genes_inherited": 0,
+          "genes_total": 11,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 10,
+      "original_group_index": 10,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0098552",
+        "name": "side of membrane",
+        "robustness_score": 41.66666666666667
+      },
+      "terms": [
+        {
+          "go_id": "GO:0098552",
+          "name": "side of membrane",
+          "robustness_score": 41.66666666666667,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 50,
+            "equal": 0,
+            "difference_absolute": -50,
+            "difference_normalized": -0.9090909090909091
+          },
+          "ic": 0.3769603182350518,
+          "genes_direct": 4,
+          "genes_inherited": 25,
+          "genes_total": 29,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 11,
+      "original_group_index": 14,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0032432",
+        "name": "actin filament bundle",
+        "robustness_score": 40.0
+      },
+      "terms": [
+        {
+          "go_id": "GO:0032432",
+          "name": "actin filament bundle",
+          "robustness_score": 40.0,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 48,
+            "equal": 0,
+            "difference_absolute": -48,
+            "difference_normalized": -0.8727272727272727
+          },
+          "ic": 0.5673741331615688,
+          "genes_direct": 1,
+          "genes_inherited": 9,
+          "genes_total": 10,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 12,
+      "original_group_index": 4,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0043235",
+        "name": "receptor complex",
+        "robustness_score": 37.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0043235",
+          "name": "receptor complex",
+          "robustness_score": 37.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 45,
+            "equal": 0,
+            "difference_absolute": -45,
+            "difference_normalized": -0.8181818181818182
+          },
+          "ic": 0.4010668946459591,
+          "genes_direct": 9,
+          "genes_inherited": 13,
+          "genes_total": 22,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 13,
+      "original_group_index": 11,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0034774",
+        "name": "secretory granule lumen",
+        "robustness_score": 37.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:0034774",
+          "name": "secretory granule lumen",
+          "robustness_score": 37.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 45,
+            "equal": 0,
+            "difference_absolute": -45,
+            "difference_normalized": -0.8181818181818182
+          },
+          "ic": 0.45111343496447437,
+          "genes_direct": 1,
+          "genes_inherited": 16,
+          "genes_total": 17,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 14,
+      "original_group_index": 7,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0005911",
+        "name": "cell-cell junction",
+        "robustness_score": 29.166666666666668
+      },
+      "terms": [
+        {
+          "go_id": "GO:0005911",
+          "name": "cell-cell junction",
+          "robustness_score": 29.166666666666668,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 35,
+            "equal": 0,
+            "difference_absolute": -35,
+            "difference_normalized": -0.6363636363636364
+          },
+          "ic": 0.40335196611701307,
+          "genes_direct": 7,
+          "genes_inherited": 14,
+          "genes_total": 21,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 15,
+      "original_group_index": 9,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:1903561",
+        "name": "extracellular vesicle",
+        "robustness_score": 12.5
+      },
+      "terms": [
+        {
+          "go_id": "GO:1903561",
+          "name": "extracellular vesicle",
+          "robustness_score": 12.5,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 15,
+            "equal": 0,
+            "difference_absolute": -15,
+            "difference_normalized": -0.2727272727272727
+          },
+          "ic": 0.26520406583152933,
+          "genes_direct": 2,
+          "genes_inherited": 85,
+          "genes_total": 87,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 16,
+      "original_group_index": 6,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0098857",
+        "name": "membrane microdomain",
+        "robustness_score": 11.666666666666666
+      },
+      "terms": [
+        {
+          "go_id": "GO:0098857",
+          "name": "membrane microdomain",
+          "robustness_score": 11.666666666666666,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 14,
+            "equal": 0,
+            "difference_absolute": -14,
+            "difference_normalized": -0.2545454545454545
+          },
+          "ic": 0.4603741696881426,
+          "genes_direct": 1,
+          "genes_inherited": 11,
+          "genes_total": 12,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    },
+    {
+      "group_id": 17,
+      "original_group_index": 16,
+      "size": 1,
+      "representative": {
+        "go_id": "GO:0030054",
+        "name": "cell junction",
+        "robustness_score": 8.333333333333332
+      },
+      "terms": [
+        {
+          "go_id": "GO:0030054",
+          "name": "cell junction",
+          "robustness_score": 8.333333333333332,
+          "alpha_beta_preference": {
+            "alpha_dominant": 0,
+            "beta_dominant": 10,
+            "equal": 0,
+            "difference_absolute": -10,
+            "difference_normalized": -0.18181818181818182
+          },
+          "ic": 0.2764872014267659,
+          "genes_direct": 3,
+          "genes_inherited": 70,
+          "genes_total": 73,
+          "path_ids": []
+        }
+      ],
+      "connections_to_other_groups": []
+    }
+  ],
+  "filtered_by_preference": {
+    "threshold": 0.2,
+    "alpha_greater_than_beta": {
+      "summary_statistics": {
+        "number_of_groups": 8,
+        "total_terms": 8,
+        "filter_type": "alpha_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 1,
+          "original_group_index": 1,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0031012",
+            "name": "extracellular matrix",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005604",
+              "name": "basement membrane",
+              "robustness_score": 88.33333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 41,
+                "equal": 10,
+                "difference_absolute": 14,
+                "difference_normalized": 0.2545454545454545
+              },
+              "ic": 0.5683794511205472,
+              "genes_direct": 28,
+              "genes_inherited": 0,
+              "genes_total": 28,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 3,
+          "original_group_index": 13,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005788",
+            "name": "endoplasmic reticulum lumen",
+            "robustness_score": 87.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005788",
+              "name": "endoplasmic reticulum lumen",
+              "robustness_score": 87.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 40,
+                "equal": 10,
+                "difference_absolute": 15,
+                "difference_normalized": 0.2727272727272727
+              },
+              "ic": 0.45349604662934156,
+              "genes_direct": 45,
+              "genes_inherited": 1,
+              "genes_total": 46,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 4,
+          "original_group_index": 8,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005925",
+            "name": "focal adhesion",
+            "robustness_score": 70.83333333333334
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005925",
+              "name": "focal adhesion",
+              "robustness_score": 70.83333333333334,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 20,
+                "equal": 10,
+                "difference_absolute": 35,
+                "difference_normalized": 0.6363636363636364
+              },
+              "ic": 0.4234894919313692,
+              "genes_direct": 33,
+              "genes_inherited": 0,
+              "genes_total": 33,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 5,
+          "original_group_index": 5,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005796",
+            "name": "Golgi lumen",
+            "robustness_score": 66.66666666666666
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005796",
+              "name": "Golgi lumen",
+              "robustness_score": 66.66666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 15,
+                "equal": 10,
+                "difference_absolute": 40,
+                "difference_normalized": 0.7272727272727273
+              },
+              "ic": 0.5578660384007584,
+              "genes_direct": 13,
+              "genes_inherited": 0,
+              "genes_total": 13,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 6,
+          "original_group_index": 12,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0042383",
+            "name": "sarcolemma",
+            "robustness_score": 62.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0042383",
+              "name": "sarcolemma",
+              "robustness_score": 62.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 10,
+                "equal": 10,
+                "difference_absolute": 45,
+                "difference_normalized": 0.8181818181818182
+              },
+              "ic": 0.5587751521382567,
+              "genes_direct": 12,
+              "genes_inherited": 0,
+              "genes_total": 12,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 7,
+          "original_group_index": 15,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0009986",
+            "name": "cell surface",
+            "robustness_score": 60.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0009986",
+              "name": "cell surface",
+              "robustness_score": 60.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 7,
+                "equal": 10,
+                "difference_absolute": 48,
+                "difference_normalized": 0.8727272727272727
+              },
+              "ic": 0.38644713841048767,
+              "genes_direct": 38,
+              "genes_inherited": 0,
+              "genes_total": 38,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 8,
+          "original_group_index": 3,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005615",
+            "name": "extracellular space",
+            "robustness_score": 58.333333333333336
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005615",
+              "name": "extracellular space",
+              "robustness_score": 58.333333333333336,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 5,
+                "equal": 10,
+                "difference_absolute": 50,
+                "difference_normalized": 0.9090909090909091
+              },
+              "ic": 0.2799179250443269,
+              "genes_direct": 120,
+              "genes_inherited": 0,
+              "genes_total": 120,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 9,
+          "original_group_index": 0,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0043202",
+            "name": "lysosomal lumen",
+            "robustness_score": 54.166666666666664
+          },
+          "terms": [
+            {
+              "go_id": "GO:0043202",
+              "name": "lysosomal lumen",
+              "robustness_score": 54.166666666666664,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 0,
+                "equal": 10,
+                "difference_absolute": 55,
+                "difference_normalized": 1.0
+              },
+              "ic": 0.5615558870629612,
+              "genes_direct": 11,
+              "genes_inherited": 0,
+              "genes_total": 11,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "beta_greater_than_alpha": {
+      "summary_statistics": {
+        "number_of_groups": 8,
+        "total_terms": 8,
+        "filter_type": "beta_greater",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 2,
+          "original_group_index": 2,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005581",
+            "name": "collagen trimer",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005583",
+              "name": "fibrillar collagen trimer",
+              "robustness_score": 33.33333333333333,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 40,
+                "equal": 0,
+                "difference_absolute": -40,
+                "difference_normalized": -0.7272727272727273
+              },
+              "ic": 0.7639297418513931,
+              "genes_direct": 1,
+              "genes_inherited": 7,
+              "genes_total": 8,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 10,
+          "original_group_index": 10,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0098552",
+            "name": "side of membrane",
+            "robustness_score": 41.66666666666667
+          },
+          "terms": [
+            {
+              "go_id": "GO:0098552",
+              "name": "side of membrane",
+              "robustness_score": 41.66666666666667,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 50,
+                "equal": 0,
+                "difference_absolute": -50,
+                "difference_normalized": -0.9090909090909091
+              },
+              "ic": 0.3769603182350518,
+              "genes_direct": 4,
+              "genes_inherited": 25,
+              "genes_total": 29,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 11,
+          "original_group_index": 14,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0032432",
+            "name": "actin filament bundle",
+            "robustness_score": 40.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0032432",
+              "name": "actin filament bundle",
+              "robustness_score": 40.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 48,
+                "equal": 0,
+                "difference_absolute": -48,
+                "difference_normalized": -0.8727272727272727
+              },
+              "ic": 0.5673741331615688,
+              "genes_direct": 1,
+              "genes_inherited": 9,
+              "genes_total": 10,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 12,
+          "original_group_index": 4,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0043235",
+            "name": "receptor complex",
+            "robustness_score": 37.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0043235",
+              "name": "receptor complex",
+              "robustness_score": 37.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 45,
+                "equal": 0,
+                "difference_absolute": -45,
+                "difference_normalized": -0.8181818181818182
+              },
+              "ic": 0.4010668946459591,
+              "genes_direct": 9,
+              "genes_inherited": 13,
+              "genes_total": 22,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 13,
+          "original_group_index": 11,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0034774",
+            "name": "secretory granule lumen",
+            "robustness_score": 37.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:0034774",
+              "name": "secretory granule lumen",
+              "robustness_score": 37.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 45,
+                "equal": 0,
+                "difference_absolute": -45,
+                "difference_normalized": -0.8181818181818182
+              },
+              "ic": 0.45111343496447437,
+              "genes_direct": 1,
+              "genes_inherited": 16,
+              "genes_total": 17,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 14,
+          "original_group_index": 7,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005911",
+            "name": "cell-cell junction",
+            "robustness_score": 29.166666666666668
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005911",
+              "name": "cell-cell junction",
+              "robustness_score": 29.166666666666668,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 35,
+                "equal": 0,
+                "difference_absolute": -35,
+                "difference_normalized": -0.6363636363636364
+              },
+              "ic": 0.40335196611701307,
+              "genes_direct": 7,
+              "genes_inherited": 14,
+              "genes_total": 21,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 15,
+          "original_group_index": 9,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:1903561",
+            "name": "extracellular vesicle",
+            "robustness_score": 12.5
+          },
+          "terms": [
+            {
+              "go_id": "GO:1903561",
+              "name": "extracellular vesicle",
+              "robustness_score": 12.5,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 15,
+                "equal": 0,
+                "difference_absolute": -15,
+                "difference_normalized": -0.2727272727272727
+              },
+              "ic": 0.26520406583152933,
+              "genes_direct": 2,
+              "genes_inherited": 85,
+              "genes_total": 87,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 16,
+          "original_group_index": 6,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0098857",
+            "name": "membrane microdomain",
+            "robustness_score": 11.666666666666666
+          },
+          "terms": [
+            {
+              "go_id": "GO:0098857",
+              "name": "membrane microdomain",
+              "robustness_score": 11.666666666666666,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 14,
+                "equal": 0,
+                "difference_absolute": -14,
+                "difference_normalized": -0.2545454545454545
+              },
+              "ic": 0.4603741696881426,
+              "genes_direct": 1,
+              "genes_inherited": 11,
+              "genes_total": 12,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    },
+    "alpha_equals_beta": {
+      "summary_statistics": {
+        "number_of_groups": 3,
+        "total_terms": 3,
+        "filter_type": "equal",
+        "threshold": 0.2
+      },
+      "groups": [
+        {
+          "group_id": 1,
+          "original_group_index": 1,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0031012",
+            "name": "extracellular matrix",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0031012",
+              "name": "extracellular matrix",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.4550161056273093,
+              "genes_direct": 33,
+              "genes_inherited": 30,
+              "genes_total": 63,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 2,
+          "original_group_index": 2,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0005581",
+            "name": "collagen trimer",
+            "robustness_score": 100.0
+          },
+          "terms": [
+            {
+              "go_id": "GO:0005581",
+              "name": "collagen trimer",
+              "robustness_score": 100.0,
+              "alpha_beta_preference": {
+                "alpha_dominant": 55,
+                "beta_dominant": 55,
+                "equal": 10,
+                "difference_absolute": 0,
+                "difference_normalized": 0.0
+              },
+              "ic": 0.5768296099976926,
+              "genes_direct": 5,
+              "genes_inherited": 15,
+              "genes_total": 20,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        },
+        {
+          "group_id": 17,
+          "original_group_index": 16,
+          "size": 1,
+          "representative": {
+            "go_id": "GO:0030054",
+            "name": "cell junction",
+            "robustness_score": 8.333333333333332
+          },
+          "terms": [
+            {
+              "go_id": "GO:0030054",
+              "name": "cell junction",
+              "robustness_score": 8.333333333333332,
+              "alpha_beta_preference": {
+                "alpha_dominant": 0,
+                "beta_dominant": 10,
+                "equal": 0,
+                "difference_absolute": -10,
+                "difference_normalized": -0.18181818181818182
+              },
+              "ic": 0.2764872014267659,
+              "genes_direct": 3,
+              "genes_inherited": 70,
+              "genes_total": 73,
+              "path_ids": []
+            }
+          ],
+          "connections_to_other_groups": []
+        }
+      ]
+    }
+  }
+}

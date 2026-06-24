@@ -5,7 +5,7 @@ from pathlib import Path
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
-
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
@@ -268,6 +268,8 @@ def main():
                         help="Dilution mode used in dilute_analysis.py")
     parser.add_argument("--ontology", default='BP', choices=['BP', 'MF', 'CC', 'all'],
                         help="GO ontology to analyze: 'BP', 'MF', 'CC', or 'all' (default: BP)")
+    parser.add_argument("--state_file", default=None,
+                        help="Path to pipeline status data")
     args = parser.parse_args()
 
     input_path = Path(args.input_path)
@@ -278,6 +280,8 @@ def main():
         print("No non-diluted signature folders found.")
         return
 
+    state = PipelineState(args.state_file or os.path.join(str(input_path), ".pipeline_state.json"))
+
     print(f"Found {len(signatures)} signature(s): {[s.name for s in signatures]}")
     print(f"Mode: {args.mode.upper()} | Ontologies: {', '.join(ontologies)}")
 
@@ -286,7 +290,30 @@ def main():
         print(f"\nProcessing: {sig_name}")
 
         for ontology in ontologies:
-            process_ontology(sig_dir, sig_name, ontology, args.mode)
+            work_key = f"{sig_name}::{ontology}::{args.mode}"
+
+            if state.is_done("create_summary_data", work_key):
+                continue
+
+            try:
+                process_ontology(sig_dir, sig_name, ontology, args.mode)
+                ont_lower = ontology.lower()
+                out_dir = sig_dir / "Dilutions" / ontology / args.mode
+                expected_files = [
+                    out_dir / f"{sig_name}_{ont_lower}_robustness_analysis_filtered.json",
+                    out_dir / f"{sig_name}_{ont_lower}_robustness_analysis.json",
+                ]
+                if all(f.exists() for f in expected_files):
+                    state.mark_done("create_summary_data", work_key)
+                else:
+                    state.mark_failed(
+                        "create_summary_data", work_key,
+                        "process_ontology hat keine Output-Dateien erzeugt (siehe ERROR-Ausgabe oben, z.B. fehlende Ranking/Manifold/Hierarchy-Datei)"
+                    )
+            except Exception as e:
+                state.mark_failed("create_summary_data", work_key, str(e))
+                print(f"  Fehler bei {sig_name}/{ontology}: {e} -> weiter mit naechster Kombination")
+                continue
 
 
 if __name__ == "__main__":

@@ -16,6 +16,8 @@ import seaborn as sns
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
+import os
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 def print(*args, **kwargs):
     pass
@@ -716,31 +718,47 @@ def analyze_all_original_terms(variants_dict, signature_name, base_path, thresho
 
 
 def process_multiple_signatures(grouped_data, signature_names, base_path, analyze_all=False,
-                                threshold=0.0, auto_cutoff=False, mode='cumulative', ontology='BP'):
+                                threshold=0.0, auto_cutoff=False, mode='cumulative', ontology='BP',
+                                state=None):
     """Process multiple signatures sequentially and create both versions (all terms + representatives)."""
     results = {}
 
     for signature_name in tqdm(signature_names, desc=f"Signatures ({mode})", unit="sig"):
-        for representatives_only in [False]:
-            variants_dict = process_signature_variants(grouped_data, signature_name, representatives_only)
+        work_key = f"{signature_name}::{ontology}::{mode}"
 
-            if variants_dict is None:
-                continue
+        if state is not None and state.is_done("dilute_analysis", work_key):
+            continue
 
-            key = f"{signature_name}_representatives" if representatives_only else signature_name
-            results[key] = variants_dict
+        try:
+            for representatives_only in [False]:
+                variants_dict = process_signature_variants(grouped_data, signature_name, representatives_only)
 
-            if analyze_all:
-                analyze_all_original_terms(
-                    variants_dict,
-                    signature_name,
-                    base_path,
-                    threshold,
-                    representatives_only,
-                    auto_cutoff,
-                    mode,
-                    ontology
-                )
+                if variants_dict is None:
+                    continue
+
+                key = f"{signature_name}_representatives" if representatives_only else signature_name
+                results[key] = variants_dict
+
+                if analyze_all:
+                    analyze_all_original_terms(
+                        variants_dict,
+                        signature_name,
+                        base_path,
+                        threshold,
+                        representatives_only,
+                        auto_cutoff,
+                        mode,
+                        ontology
+                    )
+
+            if state is not None:
+                state.mark_done("dilute_analysis", work_key)
+
+        except Exception as e:
+            if state is not None:
+                state.mark_failed("dilute_analysis", work_key, str(e))
+            print(f"  Mistake with signature '{signature_name}' ({ontology}, {mode}): {e} -> continue with next signature")
+            continue
     return results
 
 
@@ -763,8 +781,12 @@ def main():
                         help="Minimum robustness score (%%) for original terms (default: 0.0)")
     parser.add_argument("--auto_cutoff", action="store_true",
                         help="Enable automatic cut-off detection (method: maximum gap)")
+    parser.add_argument("--state_file", default=None,
+                        help="Path to pipeline status data")
 
     args = parser.parse_args()
+
+    state = PipelineState(args.state_file or os.path.join(args.input_path, ".pipeline_state.json"))
 
     ontologies = ['BP', 'MF', 'CC'] if args.ontology == 'all' else [args.ontology]
 
@@ -806,7 +828,8 @@ def main():
             threshold=args.threshold,
             auto_cutoff=args.auto_cutoff,
             mode=args.mode,
-            ontology=ontology
+            ontology=ontology,
+            state=state
         )
 
         if not results:

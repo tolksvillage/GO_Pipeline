@@ -7,7 +7,7 @@ from contextlib import redirect_stdout
 from io import StringIO
 import argparse
 from tqdm import tqdm
-
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 def get_all_signature_directories(base_path):
     """Find all directories containing the required JSON files for all ontologies"""
@@ -778,7 +778,7 @@ def process_single_ontology(signature_info, ontology):
         return False
 
 
-def process_single_signature(signature_info, selected_ontologies=None):
+def process_single_signature(signature_info, selected_ontologies=None, state=None):
     """Process a single signature directory for specified ontologies"""
     if selected_ontologies is None:
         selected_ontologies = ['BP', 'MF', 'CC']
@@ -793,8 +793,20 @@ def process_single_signature(signature_info, selected_ontologies=None):
     total_count = len(ontologies_to_process)
 
     for ontology in ontologies_to_process:
+        work_key = f"{signature_info['name']}::{ontology}"
+
+        if state is not None and state.is_done("parameter_analysis_main", work_key):
+            success_count += 1
+            continue
+
         if process_single_ontology(signature_info, ontology):
             success_count += 1
+            if state is not None:
+                state.mark_done("parameter_analysis_main", work_key)
+        else:
+            if state is not None:
+                state.mark_failed("parameter_analysis_main", work_key,
+                                   "process_single_ontology returned False")
 
     if success_count == total_count:
         return True
@@ -824,8 +836,14 @@ def main():
         default=["BP", "MF", "CC"],
         help="Specify which ontologies to process (default: all three)"
     )
+    parser.add_argument("--state_file", default=None,
+                        help="Path to pipeline status data")
 
     args = parser.parse_args()
+
+    input_path = args.input_path.strip()
+
+    state = PipelineState(args.state_file or os.path.join(input_path, ".pipeline_state.json"))
 
     input_path = args.input_path.strip()
 
@@ -858,7 +876,7 @@ def main():
     progress_bar = tqdm(signature_dirs, desc="Signatures", unit="sig", dynamic_ncols=True)
 
     for sig_info in progress_bar:
-        result = process_single_signature(sig_info, args.ontologies)
+        result = process_single_signature(sig_info, args.ontologies, state=state)
         if result is True:
             successful_count += 1
         elif result is False:

@@ -1,0 +1,1167 @@
+{
+  "GO:0031090": [
+    "BAX",
+    "EI24",
+    "EPHX1",
+    "HMOX1",
+    "HRAS",
+    "IRAG2",
+    "POM121",
+    "PPP1R15A",
+    "RAP2B",
+    "RETSAT",
+    "STOM",
+    "TAP1",
+    "TGFA",
+    "VAMP8",
+    "CLEC16A",
+    "RHO",
+    "SYT1",
+    "YIPF7",
+    "NEU4",
+    "PIKFYVE",
+    "HLA-DMA",
+    "CYP4V2",
+    "GUCY2D",
+    "RDH16",
+    "GRAMD2A",
+    "B3GNT2"
+  ],
+  "GO:0031966": [
+    "NEU4"
+  ],
+  "GO:0005741": [
+    "NEU4"
+  ],
+  "GO:0012506": [
+    "IRAG2",
+    "RAP2B",
+    "STOM",
+    "VAMP8",
+    "SYT1"
+  ],
+  "GO:0030659": [
+    "IRAG2",
+    "RAP2B",
+    "STOM",
+    "VAMP8",
+    "SYT1"
+  ],
+  "GO:0030662": [
+    "TGFA"
+  ],
+  "GO:0030665": [
+    "TGFA"
+  ],
+  "GO:0030669": [
+    "TGFA"
+  ],
+  "GO:0030667": [
+    "IRAG2",
+    "RAP2B",
+    "STOM",
+    "VAMP8"
+  ],
+  "GO:0035577": [
+    "IRAG2",
+    "STOM",
+    "VAMP8"
+  ],
+  "GO:0070821": [
+    "RAP2B"
+  ],
+  "GO:0031965": [
+    "EI24",
+    "POM121",
+    "RETSAT"
+  ],
+  "GO:0005640": [
+    "GUCY2D"
+  ],
+  "GO:0005789": [
+    "BAX",
+    "EPHX1",
+    "HMOX1",
+    "HRAS",
+    "PPP1R15A",
+    "YIPF7",
+    "CYP4V2",
+    "RDH16",
+    "GRAMD2A"
+  ],
+  "GO:0098588": [
+    "TAP1",
+    "TGFA",
+    "CLEC16A",
+    "RHO",
+    "PIKFYVE",
+    "HLA-DMA",
+    "GUCY2D",
+    "B3GNT2"
+  ],
+  "GO:0031968": [
+    "GUCY2D"
+  ],
+  "GO:0010008": [
+    "CLEC16A",
+    "PIKFYVE",
+    "HLA-DMA"
+  ],
+  "GO:0031902": [
+    "PIKFYVE",
+    "HLA-DMA"
+  ],
+  "GO:0030666": [
+    "TAP1"
+  ],
+  "GO:0030670": [
+    "TAP1"
+  ],
+  "GO:0000139": [
+    "RHO",
+    "B3GNT2"
+  ],
+  "GO:0031982": [
+    "APP",
+    "BTG2",
+    "CD82",
+    "RAB40C",
+    "STEAP3",
+    "TM7SF3",
+    "MYOF",
+    "LAPTM4B",
+    "WASHC2A",
+    "LYVE1",
+    "MME",
+    "RAB4A",
+    "CLTCL1",
+    "SPATA31H1",
+    "MYO5B",
+    "SPX"
+  ],
+  "GO:0097708": [
+    "APP",
+    "CD82",
+    "RAB40C",
+    "STEAP3",
+    "MYOF",
+    "LAPTM4B",
+    "WASHC2A",
+    "MME",
+    "RAB4A",
+    "CLTCL1",
+    "MYO5B",
+    "SPX"
+  ],
+  "GO:0031410": [
+    "APP",
+    "CD82",
+    "RAB40C",
+    "STEAP3",
+    "MYOF",
+    "LAPTM4B",
+    "WASHC2A",
+    "MME",
+    "RAB4A",
+    "CLTCL1",
+    "MYO5B",
+    "SPX"
+  ],
+  "GO:0005768": [
+    "APP",
+    "RAB40C",
+    "STEAP3",
+    "LAPTM4B",
+    "WASHC2A",
+    "MME",
+    "RAB4A",
+    "CLTCL1",
+    "MYO5B"
+  ],
+  "GO:0055037": [
+    "APP",
+    "RAB4A",
+    "CLTCL1",
+    "MYO5B"
+  ],
+  "GO:0098837": [
+    "RAB4A"
+  ],
+  "GO:0005770": [
+    "STEAP3"
+  ],
+  "GO:0005771": [
+    "STEAP3"
+  ],
+  "GO:0005769": [
+    "LAPTM4B",
+    "WASHC2A",
+    "MME"
+  ],
+  "GO:0099503": [
+    "SPX"
+  ],
+  "GO:0030141": [
+    "SPX"
+  ],
+  "GO:0031045": [
+    "SPX"
+  ],
+  "GO:0030139": [
+    "CD82"
+  ],
+  "GO:0045335": [
+    "CD82"
+  ],
+  "GO:1903561": [
+    "BTG2",
+    "TM7SF3",
+    "LYVE1",
+    "SPATA31H1"
+  ],
+  "GO:0070062": [
+    "BTG2",
+    "TM7SF3",
+    "LYVE1",
+    "SPATA31H1"
+  ],
+  "GO:1902494": [
+    "CCND3",
+    "CCNK",
+    "DDB2",
+    "ELP1",
+    "FBXW7",
+    "IER5",
+    "PRKAB1",
+    "RCHY1",
+    "TPRKB",
+    "CAPNS2",
+    "ASCC2",
+    "PRKDC",
+    "PHF20L1",
+    "BRMS1L",
+    "ZYG11A"
+  ],
+  "GO:1990391": [
+    "ASCC2"
+  ],
+  "GO:1905368": [
+    "CAPNS2"
+  ],
+  "GO:1905369": [
+    "CAPNS2"
+  ],
+  "GO:0008303": [
+    "CAPNS2"
+  ],
+  "GO:0110158": [
+    "CAPNS2"
+  ],
+  "GO:0033588": [
+    "ELP1"
+  ],
+  "GO:0000118": [
+    "BRMS1L"
+  ],
+  "GO:0070822": [
+    "BRMS1L"
+  ],
+  "GO:1990234": [
+    "CCND3",
+    "CCNK",
+    "DDB2",
+    "FBXW7",
+    "PRKAB1",
+    "RCHY1",
+    "TPRKB",
+    "PRKDC",
+    "PHF20L1",
+    "ZYG11A"
+  ],
+  "GO:0000151": [
+    "DDB2",
+    "FBXW7",
+    "RCHY1",
+    "ZYG11A"
+  ],
+  "GO:0031461": [
+    "DDB2",
+    "FBXW7",
+    "ZYG11A"
+  ],
+  "GO:0019005": [
+    "FBXW7"
+  ],
+  "GO:0080008": [
+    "DDB2"
+  ],
+  "GO:0031465": [
+    "DDB2"
+  ],
+  "GO:0031462": [
+    "ZYG11A"
+  ],
+  "GO:0061695": [
+    "CCND3",
+    "CCNK",
+    "PRKAB1",
+    "PRKDC"
+  ],
+  "GO:1902911": [
+    "CCND3",
+    "CCNK",
+    "PRKAB1",
+    "PRKDC"
+  ],
+  "GO:1902554": [
+    "CCND3",
+    "CCNK",
+    "PRKDC"
+  ],
+  "GO:0070418": [
+    "PRKDC"
+  ],
+  "GO:0000307": [
+    "CCND3",
+    "CCNK"
+  ],
+  "GO:0019908": [
+    "CCNK"
+  ],
+  "GO:0008024": [
+    "CCNK"
+  ],
+  "GO:0097133": [
+    "CCND3"
+  ],
+  "GO:0031588": [
+    "PRKAB1"
+  ],
+  "GO:1902493": [
+    "PHF20L1"
+  ],
+  "GO:0031248": [
+    "PHF20L1"
+  ],
+  "GO:0000123": [
+    "PHF20L1"
+  ],
+  "GO:1902562": [
+    "PHF20L1"
+  ],
+  "GO:0044545": [
+    "PHF20L1"
+  ],
+  "GO:0000408": [
+    "TPRKB"
+  ],
+  "GO:1903293": [
+    "IER5"
+  ],
+  "GO:0008287": [
+    "IER5"
+  ],
+  "GO:0000159": [
+    "IER5"
+  ],
+  "GO:0030054": [
+    "ALOX15B",
+    "BAIAP2",
+    "CDH13",
+    "IP6K2",
+    "ITGB4",
+    "NOTCH1",
+    "RPL18",
+    "RPL36",
+    "WWP1",
+    "RPS4X",
+    "NPTXR",
+    "CHN2",
+    "NCKIPSD",
+    "LYN",
+    "SHROOM3",
+    "CDH20",
+    "RHOA",
+    "PPP1CC",
+    "PRICKLE1",
+    "NETO1",
+    "PLPPR4"
+  ],
+  "GO:0045202": [
+    "BAIAP2",
+    "NOTCH1",
+    "RPL36",
+    "NPTXR",
+    "CHN2",
+    "NCKIPSD",
+    "PRICKLE1",
+    "NETO1",
+    "PLPPR4"
+  ],
+  "GO:0098978": [
+    "BAIAP2",
+    "NOTCH1",
+    "NPTXR",
+    "NCKIPSD",
+    "PRICKLE1",
+    "NETO1",
+    "PLPPR4"
+  ],
+  "GO:0070161": [
+    "ALOX15B",
+    "CDH13",
+    "ITGB4",
+    "RPL18",
+    "WWP1",
+    "RPS4X",
+    "LYN",
+    "SHROOM3",
+    "CDH20",
+    "RHOA",
+    "PPP1CC"
+  ],
+  "GO:0030055": [
+    "ITGB4",
+    "RPL18",
+    "RPS4X",
+    "PPP1CC"
+  ],
+  "GO:0005925": [
+    "ITGB4",
+    "RPL18",
+    "RPS4X",
+    "PPP1CC"
+  ],
+  "GO:0005911": [
+    "ALOX15B",
+    "CDH13",
+    "LYN",
+    "SHROOM3",
+    "CDH20",
+    "RHOA"
+  ],
+  "GO:0005912": [
+    "ALOX15B",
+    "CDH13",
+    "LYN",
+    "SHROOM3",
+    "CDH20"
+  ],
+  "GO:0043296": [
+    "RHOA"
+  ],
+  "GO:0098796": [
+    "SEC61A1",
+    "KCNJ1",
+    "ATP4B"
+  ],
+  "GO:1902495": [
+    "KCNJ1"
+  ],
+  "GO:0034702": [
+    "KCNJ1"
+  ],
+  "GO:0098797": [
+    "ATP4B"
+  ],
+  "GO:0005889": [
+    "ATP4B"
+  ],
+  "GO:0071256": [
+    "SEC61A1"
+  ],
+  "GO:0005784": [
+    "SEC61A1"
+  ],
+  "GO:0098590": [
+    "ABCC5",
+    "CD81",
+    "CLCA2",
+    "EPHA2",
+    "EPS8L2",
+    "F2R",
+    "GM2A",
+    "NINJ1",
+    "SLC3A2",
+    "SLC7A11",
+    "ST14",
+    "SLC16A3",
+    "SLC22A3",
+    "PLET1",
+    "PCDH17",
+    "PRCD",
+    "SLC10A2",
+    "AMN",
+    "PDE4D",
+    "SLC43A2"
+  ],
+  "GO:0016324": [
+    "ABCC5",
+    "GM2A",
+    "SLC3A2",
+    "SLC16A3",
+    "SLC22A3",
+    "PLET1",
+    "SLC10A2",
+    "PDE4D"
+  ],
+  "GO:0009925": [
+    "CLCA2"
+  ],
+  "GO:0016323": [
+    "CD81",
+    "ST14",
+    "SLC43A2"
+  ],
+  "GO:0031253": [
+    "EPHA2",
+    "EPS8L2",
+    "SLC7A11",
+    "PRCD",
+    "AMN"
+  ],
+  "GO:0032587": [
+    "EPHA2",
+    "EPS8L2"
+  ],
+  "GO:0060170": [
+    "PRCD"
+  ],
+  "GO:0042622": [
+    "PRCD"
+  ],
+  "GO:0031528": [
+    "SLC7A11",
+    "AMN"
+  ],
+  "GO:0097060": [
+    "F2R",
+    "NINJ1",
+    "PCDH17"
+  ],
+  "GO:0045211": [
+    "F2R",
+    "PCDH17"
+  ],
+  "GO:0140513": [
+    "ERCC5",
+    "PCNA",
+    "RAD51C",
+    "RB1",
+    "XPC"
+  ],
+  "GO:0090575": [
+    "ATF3",
+    "CEBPA",
+    "DDIT3",
+    "FOS",
+    "JUN",
+    "RXRA",
+    "VDR"
+  ],
+  "GO:0035189": [
+    "RB1"
+  ],
+  "GO:0070557": [
+    "PCNA"
+  ],
+  "GO:0033065": [
+    "RAD51C"
+  ],
+  "GO:0000109": [
+    "ERCC5",
+    "XPC"
+  ],
+  "GO:0000111": [
+    "XPC"
+  ],
+  "GO:0043233": [
+    "ABAT",
+    "APAF1",
+    "CTSD",
+    "FDXR",
+    "FUCA1",
+    "GLS2",
+    "ISCU",
+    "PDGFA",
+    "RHBDF2",
+    "SDC1",
+    "TCN2",
+    "TGFB1",
+    "TRIAP1",
+    "HEBP2",
+    "PRELID3B",
+    "KRT1",
+    "A2M",
+    "ALDH5A1",
+    "PRDX5",
+    "MICU1",
+    "ALAS2",
+    "SRP14",
+    "PSMA5",
+    "LRPAP1",
+    "TOR4A"
+  ],
+  "GO:0070013": [
+    "ABAT",
+    "APAF1",
+    "CTSD",
+    "FDXR",
+    "FUCA1",
+    "GLS2",
+    "ISCU",
+    "PDGFA",
+    "RHBDF2",
+    "SDC1",
+    "TCN2",
+    "TGFB1",
+    "TRIAP1",
+    "PRELID3B",
+    "KRT1",
+    "ALDH5A1",
+    "PRDX5",
+    "MICU1",
+    "ALAS2",
+    "SRP14",
+    "PSMA5",
+    "LRPAP1",
+    "TOR4A"
+  ],
+  "GO:0005759": [
+    "ABAT",
+    "FDXR",
+    "GLS2",
+    "ISCU",
+    "ALDH5A1",
+    "PRDX5",
+    "ALAS2"
+  ],
+  "GO:1904813": [
+    "KRT1"
+  ],
+  "GO:0031970": [
+    "TRIAP1",
+    "PRELID3B",
+    "MICU1"
+  ],
+  "GO:0005758": [
+    "TRIAP1",
+    "PRELID3B",
+    "MICU1"
+  ],
+  "GO:0005775": [
+    "FUCA1",
+    "SDC1",
+    "TCN2"
+  ],
+  "GO:0043202": [
+    "FUCA1",
+    "SDC1",
+    "TCN2"
+  ],
+  "GO:0005796": [
+    "RHBDF2",
+    "LRPAP1"
+  ],
+  "GO:0060205": [
+    "HEBP2",
+    "A2M"
+  ],
+  "GO:0034774": [
+    "HEBP2",
+    "A2M"
+  ],
+  "GO:0035580": [
+    "CTSD"
+  ],
+  "GO:0031093": [
+    "A2M"
+  ],
+  "GO:0031983": [
+    "HEBP2",
+    "A2M"
+  ],
+  "GO:0035578": [
+    "HEBP2"
+  ],
+  "GO:0042995": [
+    "CDK5R1",
+    "FGF13",
+    "KIF13B",
+    "ADCY5",
+    "TACR1",
+    "SH2B2",
+    "ABI3",
+    "IL1RAPL1",
+    "GRK3",
+    "FAT3",
+    "GRIPAP1"
+  ],
+  "GO:0120025": [
+    "CDK5R1",
+    "FGF13",
+    "KIF13B",
+    "ADCY5",
+    "TACR1",
+    "SH2B2",
+    "ABI3",
+    "IL1RAPL1",
+    "FAT3",
+    "GRIPAP1"
+  ],
+  "GO:0001726": [
+    "SH2B2"
+  ],
+  "GO:0043005": [
+    "CDK5R1",
+    "FGF13",
+    "KIF13B",
+    "TACR1",
+    "IL1RAPL1",
+    "FAT3",
+    "GRIPAP1"
+  ],
+  "GO:0030425": [
+    "CDK5R1",
+    "FGF13",
+    "TACR1",
+    "IL1RAPL1",
+    "FAT3",
+    "GRIPAP1"
+  ],
+  "GO:0030424": [
+    "KIF13B"
+  ],
+  "GO:0005929": [
+    "ADCY5"
+  ],
+  "GO:0098858": [
+    "ABI3"
+  ],
+  "GO:0099080": [
+    "AK1",
+    "ZFP36L1"
+  ],
+  "GO:0035770": [
+    "ZFP36L1"
+  ],
+  "GO:0036464": [
+    "ZFP36L1"
+  ],
+  "GO:0000932": [
+    "ZFP36L1"
+  ],
+  "GO:0099081": [
+    "AK1"
+  ],
+  "GO:0099512": [
+    "AK1"
+  ],
+  "GO:0099513": [
+    "AK1"
+  ],
+  "GO:0001520": [
+    "AK1"
+  ],
+  "GO:0000785": [
+    "CCND2",
+    "CDKN2A",
+    "CSRNP2",
+    "MXD4",
+    "PLK2",
+    "RRP8",
+    "TP63",
+    "TSPYL2",
+    "EBF4",
+    "IRF5",
+    "HNRNPD",
+    "FOXA3",
+    "CHD7",
+    "ZBTB34",
+    "ALX1",
+    "ZBTB8B",
+    "TSPY3",
+    "MEF2D",
+    "KDM3B",
+    "TOX4",
+    "TBX19"
+  ],
+  "GO:0000792": [
+    "CDKN2A",
+    "RRP8"
+  ],
+  "GO:0033553": [
+    "RRP8"
+  ],
+  "GO:0035985": [
+    "CDKN2A"
+  ],
+  "GO:0005856": [
+    "ANKRA2",
+    "HINT1",
+    "KRT17",
+    "PTPN14",
+    "TAX1BP3",
+    "TCHH",
+    "ACTL9",
+    "NPFFR2"
+  ],
+  "GO:0015629": [
+    "TAX1BP3",
+    "ACTL9",
+    "NPFFR2"
+  ],
+  "GO:0045111": [
+    "KRT17"
+  ],
+  "GO:0098552": [
+    "ALG12",
+    "SPAM1",
+    "MYZAP",
+    "LITAF",
+    "JAK1"
+  ],
+  "GO:0098562": [
+    "MYZAP",
+    "LITAF",
+    "JAK1"
+  ],
+  "GO:0009898": [
+    "MYZAP",
+    "JAK1"
+  ],
+  "GO:0010009": [
+    "LITAF"
+  ],
+  "GO:0098560": [
+    "LITAF"
+  ],
+  "GO:0098576": [
+    "ALG12"
+  ],
+  "GO:0098553": [
+    "ALG12"
+  ],
+  "GO:0005783": [
+    "CGRRF1",
+    "CNPY2",
+    "CIDEC",
+    "MMP27",
+    "ADPGK",
+    "ANKLE2"
+  ],
+  "GO:0005654": [
+    "AEN",
+    "BTG1",
+    "CDKN2AIP",
+    "HEXIM1",
+    "MAPKAPK3",
+    "PITPNC1",
+    "POLH",
+    "PPM1D",
+    "PRMT2",
+    "RAD9A",
+    "SESN1",
+    "SOCS1",
+    "SPHK1",
+    "TRIB3",
+    "UPP1",
+    "VWA5A",
+    "ZMAT3",
+    "CCKAR",
+    "KHDC4",
+    "EDF1",
+    "RSL24D1",
+    "BAG6",
+    "SNRNP27",
+    "DTX2",
+    "RPS6KB2",
+    "SNRNP48"
+  ],
+  "GO:0005815": [
+    "CCP110",
+    "WRAP73",
+    "ZNF365",
+    "TTBK2",
+    "CEP78",
+    "BICDL1"
+  ],
+  "GO:0005813": [
+    "CCP110",
+    "WRAP73",
+    "ZNF365",
+    "CEP78",
+    "BICDL1"
+  ],
+  "GO:0036064": [
+    "TTBK2"
+  ],
+  "GO:0005667": [
+    "ATF3",
+    "CEBPA",
+    "DDIT3",
+    "FOS",
+    "FOXO3",
+    "HDAC3",
+    "JUN",
+    "KLF4",
+    "MDM2",
+    "MXD1",
+    "NHLH2",
+    "RXRA",
+    "SP1",
+    "TP53",
+    "VDR",
+    "NFATC4",
+    "SSBP3"
+  ],
+  "GO:0035976": [
+    "FOS",
+    "JUN"
+  ],
+  "GO:0036488": [
+    "CEBPA",
+    "DDIT3"
+  ],
+  "GO:0017053": [
+    "FOXO3",
+    "HDAC3",
+    "MDM2",
+    "MXD1",
+    "SP1",
+    "TP53"
+  ],
+  "GO:0090571": [
+    "FOXO3",
+    "MXD1"
+  ],
+  "GO:0070443": [
+    "MXD1"
+  ],
+  "GO:0032993": [
+    "H1-2",
+    "H2AC25",
+    "H2AJ",
+    "TINF2",
+    "H2BC5"
+  ],
+  "GO:0000782": [
+    "TINF2"
+  ],
+  "GO:0000783": [
+    "TINF2"
+  ],
+  "GO:0070187": [
+    "TINF2"
+  ],
+  "GO:0000786": [
+    "H1-2",
+    "H2AC25",
+    "H2AJ",
+    "H2BC5"
+  ],
+  "GO:0005739": [
+    "ABHD4",
+    "BAK1",
+    "COQ8A",
+    "DCXR",
+    "DDIT4",
+    "FAM162A",
+    "IER3",
+    "TRAFD1",
+    "TSC22D1",
+    "ASB9",
+    "HIGD1A",
+    "PET117",
+    "DCPS",
+    "ARAF",
+    "SECISBP2L",
+    "MPC2",
+    "FAM210B"
+  ],
+  "GO:0005576": [
+    "KLK8",
+    "LIF",
+    "CFB",
+    "IGSF10",
+    "TPSAB1",
+    "OOSP2",
+    "HABP2",
+    "CSN1S1",
+    "IL21",
+    "VWCE",
+    "IFNAR2",
+    "TMPRSS11A",
+    "PAMR1"
+  ],
+  "GO:0016604": [
+    "GADD45A",
+    "MKNK2",
+    "ZBTB16",
+    "ZNF202",
+    "SRSF12"
+  ],
+  "GO:0140168": [
+    "GADD45A",
+    "ZBTB16",
+    "SRSF12"
+  ],
+  "GO:0016607": [
+    "GADD45A",
+    "ZBTB16",
+    "SRSF12"
+  ],
+  "GO:0016605": [
+    "MKNK2"
+  ],
+  "GO:0009986": [
+    "ACVR1B",
+    "ADA",
+    "BMP2",
+    "FAS",
+    "HBEGF",
+    "IL1A",
+    "IRAK1",
+    "PLXNB2",
+    "PROCR",
+    "S100A10",
+    "ROBO2",
+    "MPZL1",
+    "UMODL1",
+    "FGF10"
+  ],
+  "GO:0048471": [
+    "CCNG1",
+    "CDKN1A",
+    "CYFIP2",
+    "DEF6",
+    "INHBB",
+    "NDRG1",
+    "NUPR1",
+    "RACK1",
+    "S100A4",
+    "TPD52L1",
+    "TRAF4",
+    "PSMF1",
+    "FOXR1",
+    "XKR8",
+    "PRR7"
+  ],
+  "GO:0044297": [
+    "PLK3",
+    "PMM1",
+    "TUBB4A"
+  ],
+  "GO:0043025": [
+    "PLK3",
+    "PMM1",
+    "TUBB4A"
+  ],
+  "GO:0005615": [
+    "SERPINB5",
+    "SFN",
+    "TNFSF9",
+    "RARRES1",
+    "IRF2BPL"
+  ],
+  "GO:0005764": [
+    "CTSF",
+    "DRAM1",
+    "IFI30",
+    "RNF19B",
+    "STS",
+    "OCIAD2"
+  ],
+  "GO:0044194": [
+    "RNF19B"
+  ],
+  "GO:0043235": [
+    "ITGB1"
+  ],
+  "GO:0098802": [
+    "ITGB1"
+  ],
+  "GO:0008305": [
+    "ITGB1"
+  ],
+  "GO:0034666": [
+    "ITGB1"
+  ],
+  "GO:0005794": [
+    "PERP",
+    "PIDD1",
+    "RPS12",
+    "SLC35D1",
+    "SDE2",
+    "C11orf24",
+    "CRELD2",
+    "GALNT18"
+  ],
+  "GO:0005694": [
+    "DNTTIP2",
+    "NOL8",
+    "TEX11",
+    "CDCA2",
+    "CNTD1"
+  ],
+  "GO:0045121": [
+    "LDHB"
+  ],
+  "GO:0044391": [
+    "RPS27L"
+  ],
+  "GO:0015935": [
+    "RPS27L"
+  ],
+  "GO:0022627": [
+    "RPS27L"
+  ],
+  "GO:0140535": [
+    "TOB1"
+  ],
+  "GO:0030014": [
+    "TOB1"
+  ],
+  "GO:0005819": [
+    "GPX2",
+    "PYCR3"
+  ],
+  "GO:0072686": [
+    "GPX2",
+    "PYCR3"
+  ],
+  "GO:0098862": [
+    "RALGDS"
+  ],
+  "GO:0005903": [
+    "RALGDS"
+  ],
+  "GO:0022626": [
+    "PELO"
+  ],
+  "GO:0005814": [
+    "TSSK2"
+  ],
+  "GO:0061827": [
+    "PMFBP1",
+    "CST11"
+  ],
+  "GO:0061702": [
+    "CASP1"
+  ],
+  "GO:0072559": [
+    "CASP1"
+  ],
+  "GO:0099086": [
+    "CCNB1IP1"
+  ],
+  "GO:0000795": [
+    "CCNB1IP1"
+  ],
+  "GO:0005777": [
+    "CCDC33"
+  ],
+  "GO:0005861": [
+    "TNNI1"
+  ]
+}

@@ -8,6 +8,8 @@ from tqdm import tqdm
 import numpy as np
 import os
 import sys
+import os
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 sys.stdout = open(os.devnull, "w")
 sys.stderr = open(os.devnull, "w")
@@ -664,6 +666,11 @@ def main():
         default=["bp", "mf", "cc"],
         help="Ontologies to process",
     )
+    parser.add_argument(
+        "--state_file",
+        default=None,
+        help="Pfad zur gemeinsamen Pipeline-Status-Datei (Resume)",
+    )
 
     args = parser.parse_args()
 
@@ -685,6 +692,8 @@ def main():
 
     if not obo_file.exists():
         sys.exit(1)
+
+    state = PipelineState(args.state_file or os.path.join(str(results_dir), ".pipeline_state.json"))
 
     signature_dirs = [
         directory
@@ -708,20 +717,36 @@ def main():
         signature_name = signature_dir.name
 
         for ontology in args.ontologies:
-            output_file = process_signature_ontology(
-                signature_name=signature_name,
-                ontology=ontology,
-                results_dir=results_dir,
-                signatures_dir=signatures_dir,
-                ic_data_dir=ic_data_dir,
-                obo_file=obo_file,
-            )
+            work_key = f"{signature_name}::{ontology}"
 
-            if output_file:
+            if state.is_done("path_rankings", work_key):
                 total_processed += 1
-                all_output_files.append(output_file)
-            else:
+                continue
+
+            try:
+                output_file = process_signature_ontology(
+                    signature_name=signature_name,
+                    ontology=ontology,
+                    results_dir=results_dir,
+                    signatures_dir=signatures_dir,
+                    ic_data_dir=ic_data_dir,
+                    obo_file=obo_file,
+                )
+
+                if output_file:
+                    total_processed += 1
+                    all_output_files.append(output_file)
+                    state.mark_done("path_rankings", work_key)
+                else:
+                    total_failed += 1
+                    state.mark_failed(
+                        "path_rankings", work_key,
+                        "process_signature_ontology returned None (fehlende Eingabedateien?)"
+                    )
+            except Exception as e:
                 total_failed += 1
+                state.mark_failed("path_rankings", work_key, str(e))
+                continue
 
 
 if __name__ == "__main__":

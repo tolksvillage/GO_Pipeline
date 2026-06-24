@@ -1,0 +1,3386 @@
+{
+  "GO:0000056": {
+    "go_annotation": "ribosomal small subunit export from nucleus",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8147036274102113,
+    "frequency": 0.00019244515313135757
+  },
+  "GO:0000079": {
+    "go_annotation": "regulation of cyclin-dependent protein serine/threonine kinase activity",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 3,
+    "genes_total_count": 9,
+    "ic_normalized": 0.610122185815828,
+    "frequency": 0.0016495298839830648
+  },
+  "GO:0000082": {
+    "go_annotation": "G1/S transition of mitotic cell cycle",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 0,
+    "genes_total_count": 8,
+    "ic_normalized": 0.5725763403876871,
+    "frequency": 0.002446802661241546
+  },
+  "GO:0000122": {
+    "go_annotation": "negative regulation of transcription by RNA polymerase II",
+    "genes_direct_count": 43,
+    "genes_inherited_count": 0,
+    "genes_total_count": 43,
+    "ic_normalized": 0.3417444428740269,
+    "frequency": 0.027629625556716334
+  },
+  "GO:0000281": {
+    "go_annotation": "mitotic cytokinesis",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5996144577351414,
+    "frequency": 0.0018419750371144225
+  },
+  "GO:0000302": {
+    "go_annotation": "response to reactive oxygen species",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 9,
+    "genes_total_count": 11,
+    "ic_normalized": 0.5167241926961267,
+    "frequency": 0.004398746357288173
+  },
+  "GO:0000466": {
+    "go_annotation": "maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8679922006769426,
+    "frequency": 0.00010996865893220432
+  },
+  "GO:0000956": {
+    "go_annotation": "nuclear-transcribed mRNA catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5481709615434747,
+    "frequency": 0.0031615989443008743
+  },
+  "GO:0001501": {
+    "go_annotation": "skeletal system development",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 0,
+    "genes_total_count": 8,
+    "ic_normalized": 0.5126467227491441,
+    "frequency": 0.00459119151041953
+  },
+  "GO:0001525": {
+    "go_annotation": "angiogenesis",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 4,
+    "genes_total_count": 11,
+    "ic_normalized": 0.454359850644698,
+    "frequency": 0.008467586737779732
+  },
+  "GO:0001574": {
+    "go_annotation": "ganglioside biosynthetic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7302115127558857,
+    "frequency": 0.0004673668004618684
+  },
+  "GO:0001666": {
+    "go_annotation": "response to hypoxia",
+    "genes_direct_count": 11,
+    "genes_inherited_count": 12,
+    "genes_total_count": 23,
+    "ic_normalized": 0.45529189885638766,
+    "frequency": 0.008385110243580579
+  },
+  "GO:0001701": {
+    "go_annotation": "in utero embryonic development",
+    "genes_direct_count": 11,
+    "genes_inherited_count": 0,
+    "genes_total_count": 11,
+    "ic_normalized": 0.4899271137247356,
+    "frequency": 0.005828338923406829
+  },
+  "GO:0001707": {
+    "go_annotation": "mesoderm formation",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 1,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6463806750557662,
+    "frequency": 0.0011271787540550944
+  },
+  "GO:0001819": {
+    "go_annotation": "positive regulation of cytokine production",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 15,
+    "genes_total_count": 16,
+    "ic_normalized": 0.40071859734991855,
+    "frequency": 0.014873261120580634
+  },
+  "GO:0001822": {
+    "go_annotation": "kidney development",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 1,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5228697764811269,
+    "frequency": 0.004123824709957662
+  },
+  "GO:0001825": {
+    "go_annotation": "blastocyst formation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7196202186332227,
+    "frequency": 0.0005223511299279705
+  },
+  "GO:0001837": {
+    "go_annotation": "epithelial to mesenchymal transition",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 3,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5769552037596558,
+    "frequency": 0.002336834002309342
+  },
+  "GO:0001843": {
+    "go_annotation": "neural tube closure",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5803767753942375,
+    "frequency": 0.0022543575081101887
+  },
+  "GO:0001867": {
+    "go_annotation": "complement activation, lectin pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7196202186332227,
+    "frequency": 0.0005223511299279705
+  },
+  "GO:0001889": {
+    "go_annotation": "liver development",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 2,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5541510830822883,
+    "frequency": 0.0029691537911695166
+  },
+  "GO:0001894": {
+    "go_annotation": "tissue homeostasis",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 5,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5013676754497661,
+    "frequency": 0.005168526969813603
+  },
+  "GO:0001895": {
+    "go_annotation": "retina homeostasis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7247686886087018,
+    "frequency": 0.0004948589651949195
+  },
+  "GO:0001932": {
+    "go_annotation": "regulation of protein phosphorylation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 36,
+    "genes_total_count": 37,
+    "ic_normalized": 0.383533477555875,
+    "frequency": 0.0178149227470171
+  },
+  "GO:0001934": {
+    "go_annotation": "positive regulation of protein phosphorylation",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 17,
+    "genes_total_count": 22,
+    "ic_normalized": 0.4250528061791096,
+    "frequency": 0.011519217023148403
+  },
+  "GO:0001938": {
+    "go_annotation": "positive regulation of endothelial cell proliferation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5515420568987293,
+    "frequency": 0.0030516302853686697
+  },
+  "GO:0001946": {
+    "go_annotation": "lymphangiogenesis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7486997277486825,
+    "frequency": 0.00038489030626271515
+  },
+  "GO:0002088": {
+    "go_annotation": "lens development in camera-type eye",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6354233708781759,
+    "frequency": 0.0012646395777203498
+  },
+  "GO:0002098": {
+    "go_annotation": "tRNA wobble uridine modification",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7196202186332227,
+    "frequency": 0.0005223511299279705
+  },
+  "GO:0002181": {
+    "go_annotation": "cytoplasmic translation",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 0,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5663639096369927,
+    "frequency": 0.0026117556496398527
+  },
+  "GO:0002376": {
+    "go_annotation": "immune system process",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 50,
+    "genes_total_count": 52,
+    "ic_normalized": 0.2610617761491229,
+    "frequency": 0.06446912629900478
+  },
+  "GO:0002682": {
+    "go_annotation": "regulation of immune system process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 51,
+    "genes_total_count": 52,
+    "ic_normalized": 0.28725875074224194,
+    "frequency": 0.048963545389563976
+  },
+  "GO:0002949": {
+    "go_annotation": "tRNA threonylcarbamoyladenosine modification",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.84674369100377,
+    "frequency": 0.00013746082366525541
+  },
+  "GO:0003014": {
+    "go_annotation": "renal system process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 4,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5457187187638033,
+    "frequency": 0.0032440754385000274
+  },
+  "GO:0003093": {
+    "go_annotation": "regulation of glomerular filtration",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 1,
+    "genes_total_count": 3,
+    "ic_normalized": 0.7907725882702304,
+    "frequency": 0.00024742948259745973
+  },
+  "GO:0003105": {
+    "go_annotation": "negative regulation of glomerular filtration",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8953862941351153,
+    "frequency": 8.247649419915324e-05
+  },
+  "GO:0003431": {
+    "go_annotation": "growth plate cartilage chondrocyte development",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9339961003384714,
+    "frequency": 5.498432946610216e-05
+  },
+  "GO:0006068": {
+    "go_annotation": "ethanol catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7557565481402799,
+    "frequency": 0.00035739814152966406
+  },
+  "GO:0006089": {
+    "go_annotation": "lactate metabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7014272705397046,
+    "frequency": 0.0006323197888601749
+  },
+  "GO:0006097": {
+    "go_annotation": "glyoxylate cycle",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9339961003384714,
+    "frequency": 5.498432946610216e-05
+  },
+  "GO:0006172": {
+    "go_annotation": "ADP biosynthetic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8293823944735866,
+    "frequency": 0.00016495298839830648
+  },
+  "GO:0006203": {
+    "go_annotation": "dGTP catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9339961003384714,
+    "frequency": 5.498432946610216e-05
+  },
+  "GO:0006259": {
+    "go_annotation": "DNA metabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 21,
+    "genes_total_count": 22,
+    "ic_normalized": 0.3610005112696806,
+    "frequency": 0.022571067245834936
+  },
+  "GO:0006281": {
+    "go_annotation": "DNA repair",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 11,
+    "genes_total_count": 17,
+    "ic_normalized": 0.39984257002407775,
+    "frequency": 0.01501072194424589
+  },
+  "GO:0006283": {
+    "go_annotation": "transcription-coupled nucleotide-excision repair",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7807397913422415,
+    "frequency": 0.00027492164733051083
+  },
+  "GO:0006289": {
+    "go_annotation": "nucleotide-excision repair",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 2,
+    "genes_total_count": 5,
+    "ic_normalized": 0.6117226184253319,
+    "frequency": 0.0016220377192500137
+  },
+  "GO:0006325": {
+    "go_annotation": "chromatin organization",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 35,
+    "genes_total_count": 37,
+    "ic_normalized": 0.28045049091652524,
+    "frequency": 0.05259251113432672
+  },
+  "GO:0006338": {
+    "go_annotation": "chromatin remodeling",
+    "genes_direct_count": 20,
+    "genes_inherited_count": 15,
+    "genes_total_count": 35,
+    "ic_normalized": 0.2887677002370107,
+    "frequency": 0.048193764777038545
+  },
+  "GO:0006355": {
+    "go_annotation": "regulation of DNA-templated transcription",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 93,
+    "genes_total_count": 97,
+    "ic_normalized": 0.20931122140455297,
+    "frequency": 0.11101336119206026
+  },
+  "GO:0006357": {
+    "go_annotation": "regulation of transcription by RNA polymerase II",
+    "genes_direct_count": 11,
+    "genes_inherited_count": 68,
+    "genes_total_count": 79,
+    "ic_normalized": 0.23650115786469522,
+    "frequency": 0.08343871996481003
+  },
+  "GO:0006364": {
+    "go_annotation": "rRNA processing",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 2,
+    "genes_total_count": 8,
+    "ic_normalized": 0.4789112405045683,
+    "frequency": 0.006543135206466157
+  },
+  "GO:0006412": {
+    "go_annotation": "translation",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 7,
+    "genes_total_count": 10,
+    "ic_normalized": 0.26972829457001307,
+    "frequency": 0.05886072469346236
+  },
+  "GO:0006417": {
+    "go_annotation": "regulation of translation",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 9,
+    "genes_total_count": 14,
+    "ic_normalized": 0.4123090760559225,
+    "frequency": 0.013168746907131467
+  },
+  "GO:0006422": {
+    "go_annotation": "aspartyl-tRNA aminoacylation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9339961003384714,
+    "frequency": 5.498432946610216e-05
+  },
+  "GO:0006468": {
+    "go_annotation": "protein phosphorylation",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 9,
+    "genes_total_count": 14,
+    "ic_normalized": 0.4294717833614256,
+    "frequency": 0.010996865893220431
+  },
+  "GO:0006470": {
+    "go_annotation": "protein dephosphorylation",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 3,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5663639096369927,
+    "frequency": 0.0026117556496398527
+  },
+  "GO:0006486": {
+    "go_annotation": "protein glycosylation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 5,
+    "genes_total_count": 6,
+    "ic_normalized": 0.48639991423825685,
+    "frequency": 0.006048276241271237
+  },
+  "GO:0006493": {
+    "go_annotation": "protein O-linked glycosylation",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 2,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5595939072294722,
+    "frequency": 0.0028042008027712104
+  },
+  "GO:0006508": {
+    "go_annotation": "proteolysis",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 22,
+    "genes_total_count": 30,
+    "ic_normalized": 0.305987868600978,
+    "frequency": 0.04022103700445373
+  },
+  "GO:0006511": {
+    "go_annotation": "ubiquitin-dependent protein catabolic process",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 10,
+    "genes_total_count": 15,
+    "ic_normalized": 0.37727774511923956,
+    "frequency": 0.01902457799527135
+  },
+  "GO:0006537": {
+    "go_annotation": "glutamate biosynthetic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8679922006769426,
+    "frequency": 0.00010996865893220432
+  },
+  "GO:0006554": {
+    "go_annotation": "lysine catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8147036274102113,
+    "frequency": 0.00019244515313135757
+  },
+  "GO:0006569": {
+    "go_annotation": "L-tryptophan catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7907725882702304,
+    "frequency": 0.00024742948259745973
+  },
+  "GO:0006605": {
+    "go_annotation": "protein targeting",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 4,
+    "genes_total_count": 5,
+    "ic_normalized": 0.489032989796542,
+    "frequency": 0.005883323252872931
+  },
+  "GO:0006606": {
+    "go_annotation": "protein import into nucleus",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 0,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5417669691908814,
+    "frequency": 0.003381536262165283
+  },
+  "GO:0006612": {
+    "go_annotation": "protein targeting to membrane",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 1,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5851389426138665,
+    "frequency": 0.002144388849177984
+  },
+  "GO:0006614": {
+    "go_annotation": "SRP-dependent cotranslational protein targeting to membrane",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.801988301015414,
+    "frequency": 0.00021993731786440864
+  },
+  "GO:0006629": {
+    "go_annotation": "lipid metabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 30,
+    "genes_total_count": 31,
+    "ic_normalized": 0.32297240204153016,
+    "frequency": 0.033650409633254524
+  },
+  "GO:0006633": {
+    "go_annotation": "fatty acid biosynthetic process",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 2,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5457187187638033,
+    "frequency": 0.0032440754385000274
+  },
+  "GO:0006641": {
+    "go_annotation": "triglyceride metabolic process",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.594092708180438,
+    "frequency": 0.0019519436960466266
+  },
+  "GO:0006644": {
+    "go_annotation": "phospholipid metabolic process",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 5,
+    "genes_total_count": 7,
+    "ic_normalized": 0.4379306023262042,
+    "frequency": 0.010062132292296695
+  },
+  "GO:0006654": {
+    "go_annotation": "phosphatidic acid biosynthetic process",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.664207613094357,
+    "frequency": 0.0009347336009237368
+  },
+  "GO:0006688": {
+    "go_annotation": "glycosphingolipid biosynthetic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6511428422753952,
+    "frequency": 0.001072194424588992
+  },
+  "GO:0006689": {
+    "go_annotation": "ganglioside catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.801988301015414,
+    "frequency": 0.00021993731786440864
+  },
+  "GO:0006739": {
+    "go_annotation": "NADP+ metabolic process",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6699805016923566,
+    "frequency": 0.0008797492714576346
+  },
+  "GO:0006744": {
+    "go_annotation": "ubiquinone biosynthetic process",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7359844013538853,
+    "frequency": 0.0004398746357288173
+  },
+  "GO:0006814": {
+    "go_annotation": "sodium ion transport",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 1,
+    "genes_total_count": 4,
+    "ic_normalized": 0.4765404085295602,
+    "frequency": 0.006708088194864464
+  },
+  "GO:0006826": {
+    "go_annotation": "iron ion transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6201549827438171,
+    "frequency": 0.0014845768955847583
+  },
+  "GO:0006869": {
+    "go_annotation": "lipid transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 4,
+    "genes_total_count": 5,
+    "ic_normalized": 0.43715326332599674,
+    "frequency": 0.010144608786495849
+  },
+  "GO:0006874": {
+    "go_annotation": "intracellular calcium ion homeostasis",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 6,
+    "genes_total_count": 8,
+    "ic_normalized": 0.4921998588099351,
+    "frequency": 0.005690878099741573
+  },
+  "GO:0006879": {
+    "go_annotation": "intracellular iron ion homeostasis",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5901518631020852,
+    "frequency": 0.00203442019024578
+  },
+  "GO:0006882": {
+    "go_annotation": "intracellular zinc ion homeostasis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6587647889471732,
+    "frequency": 0.000989717930389839
+  },
+  "GO:0006886": {
+    "go_annotation": "intracellular protein transport",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 11,
+    "genes_total_count": 14,
+    "ic_normalized": 0.390387046005372,
+    "frequency": 0.0165777753340298
+  },
+  "GO:0006887": {
+    "go_annotation": "exocytosis",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 3,
+    "genes_total_count": 7,
+    "ic_normalized": 0.4921998588099351,
+    "frequency": 0.005690878099741573
+  },
+  "GO:0006906": {
+    "go_annotation": "vesicle fusion",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 1,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5634033551588938,
+    "frequency": 0.0026942321438390058
+  },
+  "GO:0006914": {
+    "go_annotation": "autophagy",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 5,
+    "genes_total_count": 9,
+    "ic_normalized": 0.46377631209593967,
+    "frequency": 0.007670313960521252
+  },
+  "GO:0006915": {
+    "go_annotation": "apoptotic process",
+    "genes_direct_count": 25,
+    "genes_inherited_count": 18,
+    "genes_total_count": 43,
+    "ic_normalized": 0.3632301220315002,
+    "frequency": 0.022048716115906968
+  },
+  "GO:0006942": {
+    "go_annotation": "regulation of striated muscle contraction",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5643800149894463,
+    "frequency": 0.0026667399791059547
+  },
+  "GO:0006952": {
+    "go_annotation": "defense response",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 35,
+    "genes_total_count": 37,
+    "ic_normalized": 0.30729860503900913,
+    "frequency": 0.03967119370979271
+  },
+  "GO:0006954": {
+    "go_annotation": "inflammatory response",
+    "genes_direct_count": 9,
+    "genes_inherited_count": 7,
+    "genes_total_count": 16,
+    "ic_normalized": 0.40142526848720006,
+    "frequency": 0.01476329246164843
+  },
+  "GO:0006955": {
+    "go_annotation": "immune response",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 24,
+    "genes_total_count": 29,
+    "ic_normalized": 0.29505462166094876,
+    "frequency": 0.04511464232693682
+  },
+  "GO:0006959": {
+    "go_annotation": "humoral immune response",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 5,
+    "genes_total_count": 6,
+    "ic_normalized": 0.45846630942910205,
+    "frequency": 0.00811018859625007
+  },
+  "GO:0006974": {
+    "go_annotation": "DNA damage response",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 36,
+    "genes_total_count": 44,
+    "ic_normalized": 0.3606531911324543,
+    "frequency": 0.02265354374003409
+  },
+  "GO:0006979": {
+    "go_annotation": "response to oxidative stress",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 16,
+    "genes_total_count": 19,
+    "ic_normalized": 0.43715326332599674,
+    "frequency": 0.010144608786495849
+  },
+  "GO:0006986": {
+    "go_annotation": "response to unfolded protein",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 4,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5954434187524527,
+    "frequency": 0.0019244515313135756
+  },
+  "GO:0006998": {
+    "go_annotation": "nuclear envelope organization",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7247686886087018,
+    "frequency": 0.0004948589651949195
+  },
+  "GO:0007005": {
+    "go_annotation": "mitochondrion organization",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 6,
+    "genes_total_count": 7,
+    "ic_normalized": 0.45846630942910205,
+    "frequency": 0.00811018859625007
+  },
+  "GO:0007009": {
+    "go_annotation": "plasma membrane organization",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 3,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5301221277396224,
+    "frequency": 0.0038214108978941
+  },
+  "GO:0007015": {
+    "go_annotation": "actin filament organization",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 2,
+    "genes_total_count": 4,
+    "ic_normalized": 0.45846630942910205,
+    "frequency": 0.00811018859625007
+  },
+  "GO:0007052": {
+    "go_annotation": "mitotic spindle organization",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 2,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5643800149894463,
+    "frequency": 0.0026667399791059547
+  },
+  "GO:0007094": {
+    "go_annotation": "mitotic spindle assembly checkpoint signaling",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6670503166926594,
+    "frequency": 0.0009072414361906856
+  },
+  "GO:0007095": {
+    "go_annotation": "mitotic G2 DNA damage checkpoint signaling",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.656155762763614,
+    "frequency": 0.00101721009512289
+  },
+  "GO:0007096": {
+    "go_annotation": "regulation of exit from mitosis",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 1,
+    "genes_total_count": 4,
+    "ic_normalized": 0.7147358916807127,
+    "frequency": 0.0005498432946610217
+  },
+  "GO:0007141": {
+    "go_annotation": "male meiosis I",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6826958280871539,
+    "frequency": 0.0007697806125254303
+  },
+  "GO:0007144": {
+    "go_annotation": "female meiosis I",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7907725882702304,
+    "frequency": 0.00024742948259745973
+  },
+  "GO:0007155": {
+    "go_annotation": "cell adhesion",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 23,
+    "genes_total_count": 31,
+    "ic_normalized": 0.3445326092065029,
+    "frequency": 0.026832352779457856
+  },
+  "GO:0007156": {
+    "go_annotation": "homophilic cell adhesion via plasma membrane adhesion molecules",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5120782225607405,
+    "frequency": 0.004618683675152582
+  },
+  "GO:0007160": {
+    "go_annotation": "cell-matrix adhesion",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5321998137712997,
+    "frequency": 0.003738934403694947
+  },
+  "GO:0007166": {
+    "go_annotation": "cell surface receptor signaling pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 61,
+    "genes_total_count": 62,
+    "ic_normalized": 0.2629896922887603,
+    "frequency": 0.06317699455655139
+  },
+  "GO:0007186": {
+    "go_annotation": "G protein-coupled receptor signaling pathway",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 10,
+    "genes_total_count": 16,
+    "ic_normalized": 0.32036337585797103,
+    "frequency": 0.03458514323417826
+  },
+  "GO:0007200": {
+    "go_annotation": "phospholipase C-activating G protein-coupled receptor signaling pathway",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5343238460434339,
+    "frequency": 0.003656457909495794
+  },
+  "GO:0007264": {
+    "go_annotation": "small GTPase-mediated signal transduction",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 11,
+    "genes_total_count": 12,
+    "ic_normalized": 0.4704924398209927,
+    "frequency": 0.007147962830593281
+  },
+  "GO:0007265": {
+    "go_annotation": "Ras protein signal transduction",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 0,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5839258880090423,
+    "frequency": 0.002171881013911035
+  },
+  "GO:0007266": {
+    "go_annotation": "Rho protein signal transduction",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5996144577351414,
+    "frequency": 0.0018419750371144225
+  },
+  "GO:0007275": {
+    "go_annotation": "multicellular organism development",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 12,
+    "genes_total_count": 13,
+    "ic_normalized": 0.46480576535176243,
+    "frequency": 0.007587837466322098
+  },
+  "GO:0007281": {
+    "go_annotation": "germ cell development",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 3,
+    "genes_total_count": 5,
+    "ic_normalized": 0.500862509815557,
+    "frequency": 0.005196019134546654
+  },
+  "GO:0007283": {
+    "go_annotation": "spermatogenesis",
+    "genes_direct_count": 15,
+    "genes_inherited_count": 0,
+    "genes_total_count": 15,
+    "ic_normalized": 0.41657808008264513,
+    "frequency": 0.012591411447737394
+  },
+  "GO:0007286": {
+    "go_annotation": "spermatid development",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5595939072294722,
+    "frequency": 0.0028042008027712104
+  },
+  "GO:0007417": {
+    "go_annotation": "central nervous system development",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.529439519090924,
+    "frequency": 0.003848903062627151
+  },
+  "GO:0007420": {
+    "go_annotation": "brain development",
+    "genes_direct_count": 9,
+    "genes_inherited_count": 0,
+    "genes_total_count": 9,
+    "ic_normalized": 0.4931243660595363,
+    "frequency": 0.005635893770275471
+  },
+  "GO:0007423": {
+    "go_annotation": "sensory organ development",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.522237059876054,
+    "frequency": 0.0041513168746907135
+  },
+  "GO:0007611": {
+    "go_annotation": "learning or memory",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 12,
+    "genes_total_count": 13,
+    "ic_normalized": 0.4620849088573806,
+    "frequency": 0.0078077747841865065
+  },
+  "GO:0007612": {
+    "go_annotation": "learning",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 6,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5161308979499158,
+    "frequency": 0.004426238522021224
+  },
+  "GO:0007613": {
+    "go_annotation": "memory",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 4,
+    "genes_total_count": 8,
+    "ic_normalized": 0.5364963394825214,
+    "frequency": 0.0035739814152966403
+  },
+  "GO:0008104": {
+    "go_annotation": "protein localization",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 49,
+    "genes_total_count": 52,
+    "ic_normalized": 0.2770283336713785,
+    "frequency": 0.054516962665640295
+  },
+  "GO:0008202": {
+    "go_annotation": "steroid metabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 5,
+    "genes_total_count": 6,
+    "ic_normalized": 0.4715975605271366,
+    "frequency": 0.007065486336394128
+  },
+  "GO:0008203": {
+    "go_annotation": "cholesterol metabolic process",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5441182861542994,
+    "frequency": 0.0032990597679661295
+  },
+  "GO:0008277": {
+    "go_annotation": "regulation of G protein-coupled receptor signaling pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 5,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5161308979499158,
+    "frequency": 0.004426238522021224
+  },
+  "GO:0008283": {
+    "go_annotation": "cell population proliferation",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 30,
+    "genes_total_count": 37,
+    "ic_normalized": 0.3744309943654137,
+    "frequency": 0.019601913454665422
+  },
+  "GO:0008284": {
+    "go_annotation": "positive regulation of cell population proliferation",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 27,
+    "genes_total_count": 35,
+    "ic_normalized": 0.33802793219453686,
+    "frequency": 0.02872931214603838
+  },
+  "GO:0008285": {
+    "go_annotation": "negative regulation of cell population proliferation",
+    "genes_direct_count": 24,
+    "genes_inherited_count": 23,
+    "genes_total_count": 47,
+    "ic_normalized": 0.36216748051589087,
+    "frequency": 0.022296145598504426
+  },
+  "GO:0008584": {
+    "go_annotation": "male gonad development",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5541510830822883,
+    "frequency": 0.0029691537911695166
+  },
+  "GO:0008630": {
+    "go_annotation": "intrinsic apoptotic signaling pathway in response to DNA damage",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 9,
+    "genes_total_count": 15,
+    "ic_normalized": 0.5851389426138665,
+    "frequency": 0.002144388849177984
+  },
+  "GO:0009267": {
+    "go_annotation": "cellular response to starvation",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 11,
+    "genes_total_count": 13,
+    "ic_normalized": 0.49986014794195366,
+    "frequency": 0.005251003464012757
+  },
+  "GO:0009298": {
+    "go_annotation": "GDP-mannose biosynthetic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8147036274102113,
+    "frequency": 0.00019244515313135757
+  },
+  "GO:0009612": {
+    "go_annotation": "response to mechanical stimulus",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 10,
+    "genes_total_count": 14,
+    "ic_normalized": 0.48947900231555325,
+    "frequency": 0.0058558310881398805
+  },
+  "GO:0009653": {
+    "go_annotation": "anatomical structure morphogenesis",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 47,
+    "genes_total_count": 51,
+    "ic_normalized": 0.3063791985985326,
+    "frequency": 0.04005608401605543
+  },
+  "GO:0009792": {
+    "go_annotation": "embryo development ending in birth or egg hatching",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 11,
+    "genes_total_count": 12,
+    "ic_normalized": 0.4797148191022746,
+    "frequency": 0.006488150877000055
+  },
+  "GO:0009887": {
+    "go_annotation": "animal organ morphogenesis",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 16,
+    "genes_total_count": 20,
+    "ic_normalized": 0.40918030183154475,
+    "frequency": 0.013608621542860284
+  },
+  "GO:0009966": {
+    "go_annotation": "regulation of signal transduction",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 107,
+    "genes_total_count": 109,
+    "ic_normalized": 0.22878995461038362,
+    "frequency": 0.09047671413647111
+  },
+  "GO:0009967": {
+    "go_annotation": "positive regulation of signal transduction",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 71,
+    "genes_total_count": 72,
+    "ic_normalized": 0.2935577280998511,
+    "frequency": 0.04582943860999615
+  },
+  "GO:0009968": {
+    "go_annotation": "negative regulation of signal transduction",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 44,
+    "genes_total_count": 45,
+    "ic_normalized": 0.30559814023135917,
+    "frequency": 0.040385989992852034
+  },
+  "GO:0010506": {
+    "go_annotation": "regulation of autophagy",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 12,
+    "genes_total_count": 15,
+    "ic_normalized": 0.4356173671464256,
+    "frequency": 0.010309561774894156
+  },
+  "GO:0010718": {
+    "go_annotation": "positive regulation of epithelial to mesenchymal transition",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 2,
+    "genes_total_count": 7,
+    "ic_normalized": 0.6085482078526175,
+    "frequency": 0.001677022048716116
+  },
+  "GO:0010944": {
+    "go_annotation": "negative regulation of transcription by competitive promoter binding",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7557565481402799,
+    "frequency": 0.00035739814152966406
+  },
+  "GO:0014074": {
+    "go_annotation": "response to purine-containing compound",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 6,
+    "genes_total_count": 8,
+    "ic_normalized": 0.5216085196486366,
+    "frequency": 0.004178809039423764
+  },
+  "GO:0015012": {
+    "go_annotation": "heparan sulfate proteoglycan biosynthetic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7359844013538853,
+    "frequency": 0.0004398746357288173
+  },
+  "GO:0015031": {
+    "go_annotation": "protein transport",
+    "genes_direct_count": 9,
+    "genes_inherited_count": 15,
+    "genes_total_count": 24,
+    "ic_normalized": 0.3294921454384585,
+    "frequency": 0.031423544289877384
+  },
+  "GO:0015789": {
+    "go_annotation": "UDP-N-acetylgalactosamine transmembrane transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9339961003384714,
+    "frequency": 5.498432946610216e-05
+  },
+  "GO:0015884": {
+    "go_annotation": "folic acid transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7807397913422415,
+    "frequency": 0.00027492164733051083
+  },
+  "GO:0015889": {
+    "go_annotation": "cobalamin transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7807397913422415,
+    "frequency": 0.00027492164733051083
+  },
+  "GO:0015914": {
+    "go_annotation": "phospholipid transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5524038138997855,
+    "frequency": 0.0030241381206356187
+  },
+  "GO:0016055": {
+    "go_annotation": "Wnt signaling pathway",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 5,
+    "genes_total_count": 11,
+    "ic_normalized": 0.460094101182228,
+    "frequency": 0.007972727772584813
+  },
+  "GO:0016056": {
+    "go_annotation": "G protein-coupled opsin signaling pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8679922006769426,
+    "frequency": 0.00010996865893220432
+  },
+  "GO:0016241": {
+    "go_annotation": "regulation of macroautophagy",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 7,
+    "genes_total_count": 8,
+    "ic_normalized": 0.49788653327916527,
+    "frequency": 0.005360972122944961
+  },
+  "GO:0016266": {
+    "go_annotation": "core O-glycan biosynthetic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6487319920191841,
+    "frequency": 0.0010996865893220433
+  },
+  "GO:0016310": {
+    "go_annotation": "phosphorylation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 15,
+    "genes_total_count": 16,
+    "ic_normalized": 0.41932003139145724,
+    "frequency": 0.012234013306207731
+  },
+  "GO:0016477": {
+    "go_annotation": "cell migration",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 21,
+    "genes_total_count": 26,
+    "ic_normalized": 0.3525701128150997,
+    "frequency": 0.02466047176554682
+  },
+  "GO:0016567": {
+    "go_annotation": "protein ubiquitination",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 9,
+    "genes_total_count": 17,
+    "ic_normalized": 0.3911799190184558,
+    "frequency": 0.016440314510364547
+  },
+  "GO:0016925": {
+    "go_annotation": "protein sumoylation",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.6166919284256253,
+    "frequency": 0.0015395612250508606
+  },
+  "GO:0019221": {
+    "go_annotation": "cytokine-mediated signaling pathway",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 9,
+    "genes_total_count": 11,
+    "ic_normalized": 0.40285454107940916,
+    "frequency": 0.014543355143784022
+  },
+  "GO:0019369": {
+    "go_annotation": "arachidonate metabolic process",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6085482078526175,
+    "frequency": 0.001677022048716116
+  },
+  "GO:0019377": {
+    "go_annotation": "glycolipid catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 3,
+    "genes_total_count": 4,
+    "ic_normalized": 0.7100899215453265,
+    "frequency": 0.0005773354593940727
+  },
+  "GO:0019441": {
+    "go_annotation": "L-tryptophan catabolic process to kynurenine",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.84674369100377,
+    "frequency": 0.00013746082366525541
+  },
+  "GO:0019730": {
+    "go_annotation": "antimicrobial humoral response",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5137940076964295,
+    "frequency": 0.004536207180953428
+  },
+  "GO:0019886": {
+    "go_annotation": "antigen processing and presentation of exogenous peptide antigen via MHC class II",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.6730037238257092,
+    "frequency": 0.0008522571067245835
+  },
+  "GO:0019985": {
+    "go_annotation": "translesion synthesis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6897526484787512,
+    "frequency": 0.0007147962830593281
+  },
+  "GO:0022405": {
+    "go_annotation": "hair cycle process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 6,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5792225370350887,
+    "frequency": 0.0022818496728432397
+  },
+  "GO:0022407": {
+    "go_annotation": "regulation of cell-cell adhesion",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 18,
+    "genes_total_count": 20,
+    "ic_normalized": 0.40124810843847875,
+    "frequency": 0.014790784626381481
+  },
+  "GO:0030036": {
+    "go_annotation": "actin cytoskeleton organization",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 2,
+    "genes_total_count": 9,
+    "ic_normalized": 0.4408363991842081,
+    "frequency": 0.009759718480233133
+  },
+  "GO:0030099": {
+    "go_annotation": "myeloid cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 12,
+    "genes_total_count": 13,
+    "ic_normalized": 0.47422717334978165,
+    "frequency": 0.00687304118326277
+  },
+  "GO:0030100": {
+    "go_annotation": "regulation of endocytosis",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 9,
+    "genes_total_count": 11,
+    "ic_normalized": 0.4469283510338445,
+    "frequency": 0.00915489085610601
+  },
+  "GO:0030154": {
+    "go_annotation": "cell differentiation",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 52,
+    "genes_total_count": 59,
+    "ic_normalized": 0.2664067160077472,
+    "frequency": 0.06095012921317425
+  },
+  "GO:0030155": {
+    "go_annotation": "regulation of cell adhesion",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 32,
+    "genes_total_count": 33,
+    "ic_normalized": 0.3572479356013002,
+    "frequency": 0.023478308682025623
+  },
+  "GO:0030162": {
+    "go_annotation": "regulation of proteolysis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 24,
+    "genes_total_count": 25,
+    "ic_normalized": 0.4212656416136353,
+    "frequency": 0.01198658382361027
+  },
+  "GO:0030163": {
+    "go_annotation": "protein catabolic process",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 13,
+    "genes_total_count": 15,
+    "ic_normalized": 0.36974051686828185,
+    "frequency": 0.020591631385055258
+  },
+  "GO:0030178": {
+    "go_annotation": "negative regulation of Wnt signaling pathway",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 7,
+    "genes_total_count": 10,
+    "ic_normalized": 0.5034155715551185,
+    "frequency": 0.005058558310881399
+  },
+  "GO:0030195": {
+    "go_annotation": "negative regulation of blood coagulation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6313706954890006,
+    "frequency": 0.0013196239071864518
+  },
+  "GO:0030225": {
+    "go_annotation": "macrophage differentiation",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.6354233708781759,
+    "frequency": 0.0012646395777203498
+  },
+  "GO:0030262": {
+    "go_annotation": "apoptotic nuclear changes",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8293823944735866,
+    "frequency": 0.00016495298839830648
+  },
+  "GO:0030308": {
+    "go_annotation": "negative regulation of cell growth",
+    "genes_direct_count": 16,
+    "genes_inherited_count": 1,
+    "genes_total_count": 17,
+    "ic_normalized": 0.48596806089616557,
+    "frequency": 0.006075768406004289
+  },
+  "GO:0030330": {
+    "go_annotation": "DNA damage response, signal transduction by p53 class mediator",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 0,
+    "genes_total_count": 6,
+    "ic_normalized": 0.7196202186332227,
+    "frequency": 0.0005223511299279705
+  },
+  "GO:0030490": {
+    "go_annotation": "maturation of SSU-rRNA",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6354233708781759,
+    "frequency": 0.0012646395777203498
+  },
+  "GO:0030833": {
+    "go_annotation": "regulation of actin filament polymerization",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 3,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5350425173696021,
+    "frequency": 0.0036289657447627424
+  },
+  "GO:0030858": {
+    "go_annotation": "positive regulation of epithelial cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 8,
+    "genes_total_count": 9,
+    "ic_normalized": 0.5863676499677554,
+    "frequency": 0.002116896684444933
+  },
+  "GO:0030889": {
+    "go_annotation": "negative regulation of B cell proliferation",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7247686886087018,
+    "frequency": 0.0004948589651949195
+  },
+  "GO:0030968": {
+    "go_annotation": "endoplasmic reticulum unfolded protein response",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 2,
+    "genes_total_count": 4,
+    "ic_normalized": 0.603976602030828,
+    "frequency": 0.0017594985429152691
+  },
+  "GO:0031069": {
+    "go_annotation": "hair follicle morphogenesis",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.664207613094357,
+    "frequency": 0.0009347336009237368
+  },
+  "GO:0031401": {
+    "go_annotation": "positive regulation of protein modification process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 28,
+    "genes_total_count": 29,
+    "ic_normalized": 0.3942545216628056,
+    "frequency": 0.015917963380436575
+  },
+  "GO:0031507": {
+    "go_annotation": "heterochromatin formation",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 4,
+    "genes_total_count": 8,
+    "ic_normalized": 0.39966832752583353,
+    "frequency": 0.015038214108978942
+  },
+  "GO:0031669": {
+    "go_annotation": "cellular response to nutrient levels",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 15,
+    "genes_total_count": 16,
+    "ic_normalized": 0.4730912930972487,
+    "frequency": 0.006955517677461923
+  },
+  "GO:0032024": {
+    "go_annotation": "positive regulation of insulin secretion",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.573652323572958,
+    "frequency": 0.002419310496508495
+  },
+  "GO:0032263": {
+    "go_annotation": "GMP salvage",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.84674369100377,
+    "frequency": 0.00013746082366525541
+  },
+  "GO:0032436": {
+    "go_annotation": "positive regulation of proteasomal ubiquitin-dependent protein catabolic process",
+    "genes_direct_count": 9,
+    "genes_inherited_count": 0,
+    "genes_total_count": 9,
+    "ic_normalized": 0.5792225370350887,
+    "frequency": 0.0022818496728432397
+  },
+  "GO:0032496": {
+    "go_annotation": "response to lipopolysaccharide",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 3,
+    "genes_total_count": 10,
+    "ic_normalized": 0.4483689760711802,
+    "frequency": 0.009017430032440755
+  },
+  "GO:0032543": {
+    "go_annotation": "mitochondrial translation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.565366795827472,
+    "frequency": 0.0026392478143729037
+  },
+  "GO:0032570": {
+    "go_annotation": "response to progesterone",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6418453655937532,
+    "frequency": 0.0011821630835211964
+  },
+  "GO:0032722": {
+    "go_annotation": "positive regulation of chemokine production",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 1,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5901518631020852,
+    "frequency": 0.00203442019024578
+  },
+  "GO:0032755": {
+    "go_annotation": "positive regulation of interleukin-6 production",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5577448491556939,
+    "frequency": 0.0028591851322373124
+  },
+  "GO:0032831": {
+    "go_annotation": "positive regulation of CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8147036274102113,
+    "frequency": 0.00019244515313135757
+  },
+  "GO:0032869": {
+    "go_annotation": "cellular response to insulin stimulus",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5673715751112948,
+    "frequency": 0.0025842634849068016
+  },
+  "GO:0032924": {
+    "go_annotation": "activin receptor signaling pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6587647889471732,
+    "frequency": 0.000989717930389839
+  },
+  "GO:0033198": {
+    "go_annotation": "response to ATP",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.664207613094357,
+    "frequency": 0.0009347336009237368
+  },
+  "GO:0034097": {
+    "go_annotation": "response to cytokine",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 15,
+    "genes_total_count": 17,
+    "ic_normalized": 0.39641689490115334,
+    "frequency": 0.015560565238906912
+  },
+  "GO:0034198": {
+    "go_annotation": "cellular response to amino acid starvation",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 1,
+    "genes_total_count": 5,
+    "ic_normalized": 0.6184077135613142,
+    "frequency": 0.0015120690603178093
+  },
+  "GO:0034220": {
+    "go_annotation": "monoatomic ion transmembrane transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 16,
+    "genes_total_count": 17,
+    "ic_normalized": 0.3397752013770397,
+    "frequency": 0.028206961016110407
+  },
+  "GO:0034504": {
+    "go_annotation": "protein localization to nucleus",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 8,
+    "genes_total_count": 10,
+    "ic_normalized": 0.5039345019877328,
+    "frequency": 0.005031066146148348
+  },
+  "GO:0034605": {
+    "go_annotation": "cellular response to heat",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.6166919284256253,
+    "frequency": 0.0015395612250508606
+  },
+  "GO:0034612": {
+    "go_annotation": "response to tumor necrosis factor",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 4,
+    "genes_total_count": 7,
+    "ic_normalized": 0.531502202601962,
+    "frequency": 0.003766426568427998
+  },
+  "GO:0034976": {
+    "go_annotation": "response to endoplasmic reticulum stress",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 11,
+    "genes_total_count": 12,
+    "ic_normalized": 0.47851197996693634,
+    "frequency": 0.006570627371199208
+  },
+  "GO:0035022": {
+    "go_annotation": "positive regulation of Rac protein signal transduction",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7557565481402799,
+    "frequency": 0.00035739814152966406
+  },
+  "GO:0035148": {
+    "go_annotation": "tube formation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 5,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5379727023692994,
+    "frequency": 0.0035189970858305383
+  },
+  "GO:0035269": {
+    "go_annotation": "protein O-linked mannosylation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7100899215453265,
+    "frequency": 0.0005773354593940727
+  },
+  "GO:0035351": {
+    "go_annotation": "heme transmembrane transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8953862941351153,
+    "frequency": 8.247649419915324e-05
+  },
+  "GO:0035435": {
+    "go_annotation": "phosphate ion transmembrane transport",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7557565481402799,
+    "frequency": 0.00035739814152966406
+  },
+  "GO:0035556": {
+    "go_annotation": "intracellular signal transduction",
+    "genes_direct_count": 9,
+    "genes_inherited_count": 66,
+    "genes_total_count": 75,
+    "ic_normalized": 0.28667243011798194,
+    "frequency": 0.04926595920162754
+  },
+  "GO:0035589": {
+    "go_annotation": "G protein-coupled purinergic nucleotide receptor signaling pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7557565481402799,
+    "frequency": 0.00035739814152966406
+  },
+  "GO:0035590": {
+    "go_annotation": "purinergic nucleotide receptor signaling pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6793543098399866,
+    "frequency": 0.0007972727772584813
+  },
+  "GO:0035725": {
+    "go_annotation": "sodium ion transmembrane transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.49643271116624593,
+    "frequency": 0.005443448617144114
+  },
+  "GO:0035791": {
+    "go_annotation": "platelet-derived growth factor receptor-beta signaling pathway",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 1,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6166919284256253,
+    "frequency": 0.0015395612250508606
+  },
+  "GO:0036309": {
+    "go_annotation": "protein localization to M-band",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9339961003384714,
+    "frequency": 5.498432946610216e-05
+  },
+  "GO:0036500": {
+    "go_annotation": "ATF6-mediated unfolded protein response",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7557565481402799,
+    "frequency": 0.00035739814152966406
+  },
+  "GO:0038092": {
+    "go_annotation": "nodal signaling pathway",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7486997277486825,
+    "frequency": 0.00038489030626271515
+  },
+  "GO:0042127": {
+    "go_annotation": "regulation of cell population proliferation",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 74,
+    "genes_total_count": 79,
+    "ic_normalized": 0.28241185756389503,
+    "frequency": 0.051520316709737723
+  },
+  "GO:0042149": {
+    "go_annotation": "cellular response to glucose starvation",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.6274834823460115,
+    "frequency": 0.001374608236652554
+  },
+  "GO:0042159": {
+    "go_annotation": "lipoprotein catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7421299851388853,
+    "frequency": 0.0004123824709957662
+  },
+  "GO:0042267": {
+    "go_annotation": "natural killer cell mediated cytotoxicity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6587647889471732,
+    "frequency": 0.000989717930389839
+  },
+  "GO:0042475": {
+    "go_annotation": "odontogenesis of dentin-containing tooth",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 1,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5901518631020852,
+    "frequency": 0.00203442019024578
+  },
+  "GO:0042476": {
+    "go_annotation": "odontogenesis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 6,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5586648901170403,
+    "frequency": 0.0028316929675042614
+  },
+  "GO:0042542": {
+    "go_annotation": "response to hydrogen peroxide",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 3,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5643800149894463,
+    "frequency": 0.0026667399791059547
+  },
+  "GO:0042572": {
+    "go_annotation": "retinol metabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6237487488172226,
+    "frequency": 0.0014295925661186562
+  },
+  "GO:0042594": {
+    "go_annotation": "response to starvation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 14,
+    "genes_total_count": 15,
+    "ic_normalized": 0.48134261085540053,
+    "frequency": 0.006378182218067851
+  },
+  "GO:0042732": {
+    "go_annotation": "D-xylose metabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8679922006769426,
+    "frequency": 0.00010996865893220432
+  },
+  "GO:0042733": {
+    "go_annotation": "embryonic digit morphogenesis",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6219349130477929,
+    "frequency": 0.0014570847308517073
+  },
+  "GO:0042759": {
+    "go_annotation": "long-chain fatty acid biosynthetic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6861588824053457,
+    "frequency": 0.0007422884477923792
+  },
+  "GO:0042770": {
+    "go_annotation": "signal transduction in response to DNA damage",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 13,
+    "genes_total_count": 14,
+    "ic_normalized": 0.5372316597288685,
+    "frequency": 0.0035464892505635893
+  },
+  "GO:0042771": {
+    "go_annotation": "intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator",
+    "genes_direct_count": 9,
+    "genes_inherited_count": 0,
+    "genes_total_count": 9,
+    "ic_normalized": 0.6670503166926594,
+    "frequency": 0.0009072414361906856
+  },
+  "GO:0042981": {
+    "go_annotation": "regulation of apoptotic process",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 69,
+    "genes_total_count": 74,
+    "ic_normalized": 0.2971075637892328,
+    "frequency": 0.044152416561280036
+  },
+  "GO:0043065": {
+    "go_annotation": "positive regulation of apoptotic process",
+    "genes_direct_count": 16,
+    "genes_inherited_count": 26,
+    "genes_total_count": 42,
+    "ic_normalized": 0.3924624097675734,
+    "frequency": 0.01622037719250014
+  },
+  "GO:0043066": {
+    "go_annotation": "negative regulation of apoptotic process",
+    "genes_direct_count": 15,
+    "genes_inherited_count": 22,
+    "genes_total_count": 37,
+    "ic_normalized": 0.347404882565227,
+    "frequency": 0.026035080002199375
+  },
+  "GO:0043069": {
+    "go_annotation": "negative regulation of programmed cell death",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 38,
+    "genes_total_count": 39,
+    "ic_normalized": 0.3437552702062954,
+    "frequency": 0.027052290097322265
+  },
+  "GO:0043123": {
+    "go_annotation": "positive regulation of canonical NF-kappaB signal transduction",
+    "genes_direct_count": 9,
+    "genes_inherited_count": 0,
+    "genes_total_count": 9,
+    "ic_normalized": 0.4846841291025679,
+    "frequency": 0.006158244900203442
+  },
+  "GO:0043254": {
+    "go_annotation": "regulation of protein-containing complex assembly",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 15,
+    "genes_total_count": 16,
+    "ic_normalized": 0.41974896679566004,
+    "frequency": 0.012179028976741628
+  },
+  "GO:0043308": {
+    "go_annotation": "eosinophil degranulation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8293823944735866,
+    "frequency": 0.00016495298839830648
+  },
+  "GO:0043353": {
+    "go_annotation": "enucleate erythrocyte differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8147036274102113,
+    "frequency": 0.00019244515313135757
+  },
+  "GO:0043405": {
+    "go_annotation": "regulation of MAP kinase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 4,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5498415920910792,
+    "frequency": 0.0031066146148347722
+  },
+  "GO:0043409": {
+    "go_annotation": "negative regulation of MAPK cascade",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 4,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5092855444422969,
+    "frequency": 0.004756144498817837
+  },
+  "GO:0043410": {
+    "go_annotation": "positive regulation of MAPK cascade",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 16,
+    "genes_total_count": 22,
+    "ic_normalized": 0.412110486831242,
+    "frequency": 0.013196239071864518
+  },
+  "GO:0043547": {
+    "go_annotation": "positive regulation of GTPase activity",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 2,
+    "genes_total_count": 8,
+    "ic_normalized": 0.5457187187638033,
+    "frequency": 0.0032440754385000274
+  },
+  "GO:0043549": {
+    "go_annotation": "regulation of kinase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 21,
+    "genes_total_count": 22,
+    "ic_normalized": 0.4294717833614256,
+    "frequency": 0.010996865893220431
+  },
+  "GO:0043616": {
+    "go_annotation": "keratinocyte proliferation",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.6861588824053457,
+    "frequency": 0.0007422884477923792
+  },
+  "GO:0043687": {
+    "go_annotation": "post-translational protein modification",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 22,
+    "genes_total_count": 25,
+    "ic_normalized": 0.35791931440167823,
+    "frequency": 0.023313355693627316
+  },
+  "GO:0045087": {
+    "go_annotation": "innate immune response",
+    "genes_direct_count": 12,
+    "genes_inherited_count": 2,
+    "genes_total_count": 14,
+    "ic_normalized": 0.3795052969575025,
+    "frequency": 0.01858470335954253
+  },
+  "GO:0045109": {
+    "go_annotation": "intermediate filament organization",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5876124193101653,
+    "frequency": 0.002089404519711882
+  },
+  "GO:0045184": {
+    "go_annotation": "establishment of protein localization",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 29,
+    "genes_total_count": 30,
+    "ic_normalized": 0.3130797427381289,
+    "frequency": 0.03733435970748337
+  },
+  "GO:0045582": {
+    "go_annotation": "positive regulation of T cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 7,
+    "genes_total_count": 8,
+    "ic_normalized": 0.5343238460434339,
+    "frequency": 0.003656457909495794
+  },
+  "GO:0045585": {
+    "go_annotation": "positive regulation of cytotoxic T cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9339961003384714,
+    "frequency": 5.498432946610216e-05
+  },
+  "GO:0045589": {
+    "go_annotation": "regulation of regulatory T cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 4,
+    "genes_total_count": 5,
+    "ic_normalized": 0.6487319920191841,
+    "frequency": 0.0010996865893220433
+  },
+  "GO:0045591": {
+    "go_annotation": "positive regulation of regulatory T cell differentiation",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 1,
+    "genes_total_count": 4,
+    "ic_normalized": 0.6973745951505292,
+    "frequency": 0.0006598119535932259
+  },
+  "GO:0045595": {
+    "go_annotation": "regulation of cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 54,
+    "genes_total_count": 55,
+    "ic_normalized": 0.28914870359814815,
+    "frequency": 0.048001319623907183
+  },
+  "GO:0045596": {
+    "go_annotation": "negative regulation of cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 32,
+    "genes_total_count": 33,
+    "ic_normalized": 0.37063464079647546,
+    "frequency": 0.020399186231923903
+  },
+  "GO:0045603": {
+    "go_annotation": "positive regulation of endothelial cell differentiation",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.7056601228960154,
+    "frequency": 0.0006048276241271237
+  },
+  "GO:0045765": {
+    "go_annotation": "regulation of angiogenesis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 12,
+    "genes_total_count": 13,
+    "ic_normalized": 0.4348586101540283,
+    "frequency": 0.010392038269093308
+  },
+  "GO:0045766": {
+    "go_annotation": "positive regulation of angiogenesis",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 1,
+    "genes_total_count": 9,
+    "ic_normalized": 0.49547568302295425,
+    "frequency": 0.005498432946610216
+  },
+  "GO:0045786": {
+    "go_annotation": "negative regulation of cell cycle",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 19,
+    "genes_total_count": 26,
+    "ic_normalized": 0.43018865122931726,
+    "frequency": 0.01091438939902128
+  },
+  "GO:0045787": {
+    "go_annotation": "positive regulation of cell cycle",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 16,
+    "genes_total_count": 17,
+    "ic_normalized": 0.4419154305456256,
+    "frequency": 0.00964974982130093
+  },
+  "GO:0045814": {
+    "go_annotation": "negative regulation of gene expression, epigenetic",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 8,
+    "genes_total_count": 9,
+    "ic_normalized": 0.39181900530136116,
+    "frequency": 0.01633034585143234
+  },
+  "GO:0045824": {
+    "go_annotation": "negative regulation of innate immune response",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 1,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5595939072294722,
+    "frequency": 0.0028042008027712104
+  },
+  "GO:0045859": {
+    "go_annotation": "regulation of protein kinase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 20,
+    "genes_total_count": 21,
+    "ic_normalized": 0.436382218637767,
+    "frequency": 0.010227085280695002
+  },
+  "GO:0045862": {
+    "go_annotation": "positive regulation of proteolysis",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 14,
+    "genes_total_count": 17,
+    "ic_normalized": 0.48511018573603115,
+    "frequency": 0.006130752735470391
+  },
+  "GO:0045892": {
+    "go_annotation": "negative regulation of DNA-templated transcription",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 44,
+    "genes_total_count": 50,
+    "ic_normalized": 0.3064445769043765,
+    "frequency": 0.040028591851322376
+  },
+  "GO:0045893": {
+    "go_annotation": "positive regulation of DNA-templated transcription",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 48,
+    "genes_total_count": 56,
+    "ic_normalized": 0.2829213478040689,
+    "frequency": 0.05124539506240721
+  },
+  "GO:0045944": {
+    "go_annotation": "positive regulation of transcription by RNA polymerase II",
+    "genes_direct_count": 44,
+    "genes_inherited_count": 3,
+    "genes_total_count": 47,
+    "ic_normalized": 0.3139249272694377,
+    "frequency": 0.037004453730686754
+  },
+  "GO:0046079": {
+    "go_annotation": "dUMP catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8293823944735866,
+    "frequency": 0.00016495298839830648
+  },
+  "GO:0046330": {
+    "go_annotation": "positive regulation of JNK cascade",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 0,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5634033551588938,
+    "frequency": 0.0026942321438390058
+  },
+  "GO:0046339": {
+    "go_annotation": "diacylglycerol metabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6934873820075402,
+    "frequency": 0.000687304118326277
+  },
+  "GO:0046340": {
+    "go_annotation": "diacylglycerol catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8293823944735866,
+    "frequency": 0.00016495298839830648
+  },
+  "GO:0046479": {
+    "go_annotation": "glycosphingolipid catabolic process",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 1,
+    "genes_total_count": 3,
+    "ic_normalized": 0.7247686886087018,
+    "frequency": 0.0004948589651949195
+  },
+  "GO:0046514": {
+    "go_annotation": "ceramide catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7100899215453265,
+    "frequency": 0.0005773354593940727
+  },
+  "GO:0046599": {
+    "go_annotation": "regulation of centriole replication",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 1,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6973745951505292,
+    "frequency": 0.0006598119535932259
+  },
+  "GO:0046638": {
+    "go_annotation": "positive regulation of alpha-beta T cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 3,
+    "genes_total_count": 4,
+    "ic_normalized": 0.6166919284256253,
+    "frequency": 0.0015395612250508606
+  },
+  "GO:0046697": {
+    "go_annotation": "decidualization",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6934873820075402,
+    "frequency": 0.000687304118326277
+  },
+  "GO:0046839": {
+    "go_annotation": "phospholipid dephosphorylation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6418453655937532,
+    "frequency": 0.0011821630835211964
+  },
+  "GO:0046854": {
+    "go_annotation": "phosphatidylinositol phosphate biosynthetic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6133504101784579,
+    "frequency": 0.0015945455545169627
+  },
+  "GO:0046907": {
+    "go_annotation": "intracellular transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 20,
+    "genes_total_count": 21,
+    "ic_normalized": 0.3153504553697522,
+    "frequency": 0.036454610436025735
+  },
+  "GO:0048008": {
+    "go_annotation": "platelet-derived growth factor receptor signaling pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 3,
+    "genes_total_count": 4,
+    "ic_normalized": 0.573652323572958,
+    "frequency": 0.002419310496508495
+  },
+  "GO:0048167": {
+    "go_annotation": "regulation of synaptic plasticity",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 5,
+    "genes_total_count": 8,
+    "ic_normalized": 0.46796263452280235,
+    "frequency": 0.007340407983724638
+  },
+  "GO:0048208": {
+    "go_annotation": "COPII vesicle coating",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6934873820075402,
+    "frequency": 0.000687304118326277
+  },
+  "GO:0048384": {
+    "go_annotation": "retinoic acid receptor signaling pathway",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7056601228960154,
+    "frequency": 0.0006048276241271237
+  },
+  "GO:0048468": {
+    "go_annotation": "cell development",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 26,
+    "genes_total_count": 27,
+    "ic_normalized": 0.361116566736479,
+    "frequency": 0.022543575081101885
+  },
+  "GO:0048568": {
+    "go_annotation": "embryonic organ development",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 5,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5267569896241158,
+    "frequency": 0.003958871721559356
+  },
+  "GO:0048812": {
+    "go_annotation": "neuron projection morphogenesis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 5,
+    "genes_total_count": 6,
+    "ic_normalized": 0.47271565750669936,
+    "frequency": 0.0069830098421949744
+  },
+  "GO:0048813": {
+    "go_annotation": "dendrite morphogenesis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6294072548204225,
+    "frequency": 0.0013471160719195029
+  },
+  "GO:0050673": {
+    "go_annotation": "epithelial cell proliferation",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 9,
+    "genes_total_count": 13,
+    "ic_normalized": 0.5055084799509433,
+    "frequency": 0.004948589651949194
+  },
+  "GO:0050679": {
+    "go_annotation": "positive regulation of epithelial cell proliferation",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 5,
+    "genes_total_count": 10,
+    "ic_normalized": 0.48596806089616557,
+    "frequency": 0.006075768406004289
+  },
+  "GO:0050714": {
+    "go_annotation": "positive regulation of protein secretion",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 2,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5228697764811269,
+    "frequency": 0.004123824709957662
+  },
+  "GO:0050770": {
+    "go_annotation": "regulation of axonogenesis",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 2,
+    "genes_total_count": 4,
+    "ic_normalized": 0.5274205706978241,
+    "frequency": 0.003931379556826304
+  },
+  "GO:0050819": {
+    "go_annotation": "negative regulation of coagulation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 3,
+    "genes_total_count": 4,
+    "ic_normalized": 0.6237487488172226,
+    "frequency": 0.0014295925661186562
+  },
+  "GO:0050877": {
+    "go_annotation": "nervous system process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 24,
+    "genes_total_count": 25,
+    "ic_normalized": 0.3446302242829354,
+    "frequency": 0.026804860614724802
+  },
+  "GO:0050890": {
+    "go_annotation": "cognition",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 13,
+    "genes_total_count": 15,
+    "ic_normalized": 0.4475019883030748,
+    "frequency": 0.009099906526639908
+  },
+  "GO:0051016": {
+    "go_annotation": "barbed-end actin filament capping",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7100899215453265,
+    "frequency": 0.0005773354593940727
+  },
+  "GO:0051017": {
+    "go_annotation": "actin filament bundle assembly",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5954434187524527,
+    "frequency": 0.0019244515313135756
+  },
+  "GO:0051028": {
+    "go_annotation": "mRNA transport",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.5216085196486366,
+    "frequency": 0.004178809039423764
+  },
+  "GO:0051122": {
+    "go_annotation": "hepoxilin biosynthetic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.801988301015414,
+    "frequency": 0.00021993731786440864
+  },
+  "GO:0051138": {
+    "go_annotation": "positive regulation of NK T cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8679922006769426,
+    "frequency": 0.00010996865893220432
+  },
+  "GO:0051149": {
+    "go_annotation": "positive regulation of muscle cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 5,
+    "genes_total_count": 6,
+    "ic_normalized": 0.5725763403876871,
+    "frequency": 0.002446802661241546
+  },
+  "GO:0051155": {
+    "go_annotation": "positive regulation of striated muscle cell differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6237487488172226,
+    "frequency": 0.0014295925661186562
+  },
+  "GO:0051298": {
+    "go_annotation": "centrosome duplication",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7247686886087018,
+    "frequency": 0.0004948589651949195
+  },
+  "GO:0051301": {
+    "go_annotation": "cell division",
+    "genes_direct_count": 11,
+    "genes_inherited_count": 5,
+    "genes_total_count": 16,
+    "ic_normalized": 0.427586107906415,
+    "frequency": 0.011216803211084841
+  },
+  "GO:0051302": {
+    "go_annotation": "regulation of cell division",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 14,
+    "genes_total_count": 16,
+    "ic_normalized": 0.49837611532791765,
+    "frequency": 0.0053334799582119095
+  },
+  "GO:0051402": {
+    "go_annotation": "neuron apoptotic process",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 2,
+    "genes_total_count": 10,
+    "ic_normalized": 0.5498415920910792,
+    "frequency": 0.0031066146148347722
+  },
+  "GO:0051412": {
+    "go_annotation": "response to corticosterone",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 1,
+    "genes_total_count": 4,
+    "ic_normalized": 0.7421299851388853,
+    "frequency": 0.0004123824709957662
+  },
+  "GO:0051491": {
+    "go_annotation": "positive regulation of filopodium assembly",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6730037238257092,
+    "frequency": 0.0008522571067245835
+  },
+  "GO:0051496": {
+    "go_annotation": "positive regulation of stress fiber assembly",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.625597806891001,
+    "frequency": 0.0014021004013856052
+  },
+  "GO:0051561": {
+    "go_annotation": "positive regulation of mitochondrial calcium ion concentration",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7907725882702304,
+    "frequency": 0.00024742948259745973
+  },
+  "GO:0051603": {
+    "go_annotation": "proteolysis involved in protein catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 17,
+    "genes_total_count": 18,
+    "ic_normalized": 0.3608845970755486,
+    "frequency": 0.022598559410567987
+  },
+  "GO:0051668": {
+    "go_annotation": "localization within membrane",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 15,
+    "genes_total_count": 16,
+    "ic_normalized": 0.39675396958488135,
+    "frequency": 0.015505580909440809
+  },
+  "GO:0051726": {
+    "go_annotation": "regulation of cell cycle",
+    "genes_direct_count": 12,
+    "genes_inherited_count": 46,
+    "genes_total_count": 58,
+    "ic_normalized": 0.3220433849290982,
+    "frequency": 0.03398031561005114
+  },
+  "GO:0051781": {
+    "go_annotation": "positive regulation of cell division",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 2,
+    "genes_total_count": 9,
+    "ic_normalized": 0.5624366108277746,
+    "frequency": 0.002721724308572057
+  },
+  "GO:0051865": {
+    "go_annotation": "protein autoubiquitination",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 0,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5954434187524527,
+    "frequency": 0.0019244515313135756
+  },
+  "GO:0051898": {
+    "go_annotation": "negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.5901518631020852,
+    "frequency": 0.00203442019024578
+  },
+  "GO:0055080": {
+    "go_annotation": "monoatomic cation homeostasis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 13,
+    "genes_total_count": 14,
+    "ic_normalized": 0.4023160467203765,
+    "frequency": 0.014625831637983176
+  },
+  "GO:0055085": {
+    "go_annotation": "transmembrane transport",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 25,
+    "genes_total_count": 27,
+    "ic_normalized": 0.3046949295423123,
+    "frequency": 0.04077088029911475
+  },
+  "GO:0060057": {
+    "go_annotation": "apoptotic process involved in mammary gland involution",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.9339961003384714,
+    "frequency": 5.498432946610216e-05
+  },
+  "GO:0060097": {
+    "go_annotation": "cytoskeletal rearrangement involved in phagocytosis, engulfment",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 1.0,
+    "frequency": 2.749216473305108e-05
+  },
+  "GO:0060135": {
+    "go_annotation": "maternal process involved in female pregnancy",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6730037238257092,
+    "frequency": 0.0008522571067245835
+  },
+  "GO:0060252": {
+    "go_annotation": "positive regulation of glial cell proliferation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6973745951505292,
+    "frequency": 0.0006598119535932259
+  },
+  "GO:0060253": {
+    "go_annotation": "negative regulation of glial cell proliferation",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.7247686886087018,
+    "frequency": 0.0004948589651949195
+  },
+  "GO:0060326": {
+    "go_annotation": "cell chemotaxis",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 1,
+    "genes_total_count": 3,
+    "ic_normalized": 0.48858905659752333,
+    "frequency": 0.005910815417605983
+  },
+  "GO:0060512": {
+    "go_annotation": "prostate gland morphogenesis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9339961003384714,
+    "frequency": 5.498432946610216e-05
+  },
+  "GO:0061097": {
+    "go_annotation": "regulation of protein tyrosine kinase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 3,
+    "genes_total_count": 4,
+    "ic_normalized": 0.664207613094357,
+    "frequency": 0.0009347336009237368
+  },
+  "GO:0061484": {
+    "go_annotation": "hematopoietic stem cell homeostasis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7014272705397046,
+    "frequency": 0.0006323197888601749
+  },
+  "GO:0061743": {
+    "go_annotation": "motor learning",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.801988301015414,
+    "frequency": 0.00021993731786440864
+  },
+  "GO:0062043": {
+    "go_annotation": "positive regulation of cardiac epithelial to mesenchymal transition",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7907725882702304,
+    "frequency": 0.00024742948259745973
+  },
+  "GO:0070201": {
+    "go_annotation": "regulation of establishment of protein localization",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 29,
+    "genes_total_count": 30,
+    "ic_normalized": 0.39897452847320913,
+    "frequency": 0.015148182767911146
+  },
+  "GO:0070269": {
+    "go_annotation": "pyroptotic inflammatory response",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6511428422753952,
+    "frequency": 0.001072194424588992
+  },
+  "GO:0070373": {
+    "go_annotation": "negative regulation of ERK1 and ERK2 cascade",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5827280923576554,
+    "frequency": 0.0021993731786440866
+  },
+  "GO:0070374": {
+    "go_annotation": "positive regulation of ERK1 and ERK2 cascade",
+    "genes_direct_count": 10,
+    "genes_inherited_count": 0,
+    "genes_total_count": 10,
+    "ic_normalized": 0.4945281777056838,
+    "frequency": 0.005553417276076319
+  },
+  "GO:0070446": {
+    "go_annotation": "negative regulation of oligodendrocyte progenitor proliferation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 1.0,
+    "frequency": 2.749216473305108e-05
+  },
+  "GO:0070498": {
+    "go_annotation": "interleukin-1-mediated signaling pathway",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6730037238257092,
+    "frequency": 0.0008522571067245835
+  },
+  "GO:0070527": {
+    "go_annotation": "platelet aggregation",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6294072548204225,
+    "frequency": 0.0013471160719195029
+  },
+  "GO:0070649": {
+    "go_annotation": "formin-nucleated actin cable assembly",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8953862941351153,
+    "frequency": 8.247649419915324e-05
+  },
+  "GO:0070914": {
+    "go_annotation": "UV-damage excision repair",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.763378494812058,
+    "frequency": 0.00032990597679661296
+  },
+  "GO:0070987": {
+    "go_annotation": "error-free translesion synthesis",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.84674369100377,
+    "frequency": 0.00013746082366525541
+  },
+  "GO:0071276": {
+    "go_annotation": "cellular response to cadmium ion",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.6973745951505292,
+    "frequency": 0.0006598119535932259
+  },
+  "GO:0071361": {
+    "go_annotation": "cellular response to ethanol",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7421299851388853,
+    "frequency": 0.0004123824709957662
+  },
+  "GO:0071375": {
+    "go_annotation": "cellular response to peptide hormone stimulus",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 8,
+    "genes_total_count": 9,
+    "ic_normalized": 0.5120782225607405,
+    "frequency": 0.004618683675152582
+  },
+  "GO:0071386": {
+    "go_annotation": "cellular response to corticosterone stimulus",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9339961003384714,
+    "frequency": 5.498432946610216e-05
+  },
+  "GO:0071470": {
+    "go_annotation": "cellular response to osmotic stress",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 3,
+    "genes_total_count": 4,
+    "ic_normalized": 0.6237487488172226,
+    "frequency": 0.0014295925661186562
+  },
+  "GO:0071479": {
+    "go_annotation": "cellular response to ionizing radiation",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 6,
+    "genes_total_count": 9,
+    "ic_normalized": 0.5888736761426555,
+    "frequency": 0.002061912354978831
+  },
+  "GO:0071480": {
+    "go_annotation": "cellular response to gamma radiation",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.6793543098399866,
+    "frequency": 0.0007972727772584813
+  },
+  "GO:0071514": {
+    "go_annotation": "genomic imprinting",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7100899215453265,
+    "frequency": 0.0005773354593940727
+  },
+  "GO:0071548": {
+    "go_annotation": "response to dexamethasone",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 3,
+    "genes_total_count": 5,
+    "ic_normalized": 0.6333754747728235,
+    "frequency": 0.0012921317424534008
+  },
+  "GO:0071918": {
+    "go_annotation": "urea transmembrane transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7807397913422415,
+    "frequency": 0.00027492164733051083
+  },
+  "GO:0072286": {
+    "go_annotation": "metanephric connecting tubule development",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 1.0,
+    "frequency": 2.749216473305108e-05
+  },
+  "GO:0072332": {
+    "go_annotation": "intrinsic apoptotic signaling pathway by p53 class mediator",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 9,
+    "genes_total_count": 13,
+    "ic_normalized": 0.6133504101784579,
+    "frequency": 0.0015945455545169627
+  },
+  "GO:0072344": {
+    "go_annotation": "rescue of stalled ribosome",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6587647889471732,
+    "frequency": 0.000989717930389839
+  },
+  "GO:0072657": {
+    "go_annotation": "protein localization to membrane",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 12,
+    "genes_total_count": 13,
+    "ic_normalized": 0.4143180851453528,
+    "frequency": 0.012893825259800956
+  },
+  "GO:0072659": {
+    "go_annotation": "protein localization to plasma membrane",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 0,
+    "genes_total_count": 7,
+    "ic_normalized": 0.49643271116624593,
+    "frequency": 0.005443448617144114
+  },
+  "GO:0090071": {
+    "go_annotation": "negative regulation of ribosome biogenesis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8679922006769426,
+    "frequency": 0.00010996865893220432
+  },
+  "GO:0090090": {
+    "go_annotation": "negative regulation of canonical Wnt signaling pathway",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 0,
+    "genes_total_count": 7,
+    "ic_normalized": 0.5228697764811269,
+    "frequency": 0.004123824709957662
+  },
+  "GO:0090166": {
+    "go_annotation": "Golgi disassembly",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.8293823944735866,
+    "frequency": 0.00016495298839830648
+  },
+  "GO:0090307": {
+    "go_annotation": "mitotic spindle assembly",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6354233708781759,
+    "frequency": 0.0012646395777203498
+  },
+  "GO:0090314": {
+    "go_annotation": "positive regulation of protein targeting to membrane",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6861588824053457,
+    "frequency": 0.0007422884477923792
+  },
+  "GO:0090630": {
+    "go_annotation": "activation of GTPase activity",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6614473184139813,
+    "frequency": 0.0009622257656567878
+  },
+  "GO:0097009": {
+    "go_annotation": "energy homeostasis",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 0,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5982037134328283,
+    "frequency": 0.0018694672018474735
+  },
+  "GO:0097017": {
+    "go_annotation": "renal protein absorption",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.801988301015414,
+    "frequency": 0.00021993731786440864
+  },
+  "GO:0097186": {
+    "go_annotation": "amelogenesis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7716640225575441,
+    "frequency": 0.00030241381206356187
+  },
+  "GO:0097190": {
+    "go_annotation": "apoptotic signaling pathway",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 31,
+    "genes_total_count": 34,
+    "ic_normalized": 0.4477901080349008,
+    "frequency": 0.009072414361906856
+  },
+  "GO:0097191": {
+    "go_annotation": "extrinsic apoptotic signaling pathway",
+    "genes_direct_count": 3,
+    "genes_inherited_count": 7,
+    "genes_total_count": 10,
+    "ic_normalized": 0.544915140166097,
+    "frequency": 0.0032715676032330785
+  },
+  "GO:0097192": {
+    "go_annotation": "extrinsic apoptotic signaling pathway in absence of ligand",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 0,
+    "genes_total_count": 5,
+    "ic_normalized": 0.6699805016923566,
+    "frequency": 0.0008797492714576346
+  },
+  "GO:0097193": {
+    "go_annotation": "intrinsic apoptotic signaling pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 22,
+    "genes_total_count": 23,
+    "ic_normalized": 0.5039345019877328,
+    "frequency": 0.005031066146148348
+  },
+  "GO:0097250": {
+    "go_annotation": "mitochondrial respirasome assembly",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7716640225575441,
+    "frequency": 0.00030241381206356187
+  },
+  "GO:0097300": {
+    "go_annotation": "programmed necrotic cell death",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7100899215453265,
+    "frequency": 0.0005773354593940727
+  },
+  "GO:0097435": {
+    "go_annotation": "supramolecular fiber organization",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 13,
+    "genes_total_count": 14,
+    "ic_normalized": 0.40195873486127365,
+    "frequency": 0.014680815967449277
+  },
+  "GO:0098609": {
+    "go_annotation": "cell-cell adhesion",
+    "genes_direct_count": 7,
+    "genes_inherited_count": 12,
+    "genes_total_count": 19,
+    "ic_normalized": 0.39777241243441097,
+    "frequency": 0.015340627921042503
+  },
+  "GO:0098655": {
+    "go_annotation": "monoatomic cation transmembrane transport",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 13,
+    "genes_total_count": 14,
+    "ic_normalized": 0.3598476703276903,
+    "frequency": 0.02284598889316545
+  },
+  "GO:0098712": {
+    "go_annotation": "L-glutamate import across plasma membrane",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7716640225575441,
+    "frequency": 0.00030241381206356187
+  },
+  "GO:0098876": {
+    "go_annotation": "vesicle-mediated transport to the plasma membrane",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5301221277396224,
+    "frequency": 0.0038214108978941
+  },
+  "GO:0106070": {
+    "go_annotation": "regulation of adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7100899215453265,
+    "frequency": 0.0005773354593940727
+  },
+  "GO:0106072": {
+    "go_annotation": "negative regulation of adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7421299851388853,
+    "frequency": 0.0004123824709957662
+  },
+  "GO:0140013": {
+    "go_annotation": "meiotic nuclear division",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.5954434187524527,
+    "frequency": 0.0019244515313135756
+  },
+  "GO:0140059": {
+    "go_annotation": "dendrite arborization",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.763378494812058,
+    "frequency": 0.00032990597679661296
+  },
+  "GO:1900087": {
+    "go_annotation": "positive regulation of G1/S transition of mitotic cell cycle",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 1,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6133504101784579,
+    "frequency": 0.0015945455545169627
+  },
+  "GO:1900153": {
+    "go_annotation": "positive regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.763378494812058,
+    "frequency": 0.00032990597679661296
+  },
+  "GO:1900225": {
+    "go_annotation": "regulation of NLRP3 inflammasome complex assembly",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 1,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6354233708781759,
+    "frequency": 0.0012646395777203498
+  },
+  "GO:1900271": {
+    "go_annotation": "regulation of long-term synaptic potentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.6201549827438171,
+    "frequency": 0.0014845768955847583
+  },
+  "GO:1900272": {
+    "go_annotation": "negative regulation of long-term synaptic potentiation",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7147358916807127,
+    "frequency": 0.0005498432946610217
+  },
+  "GO:1901096": {
+    "go_annotation": "regulation of autophagosome maturation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7247686886087018,
+    "frequency": 0.0004948589651949195
+  },
+  "GO:1901223": {
+    "go_annotation": "negative regulation of non-canonical NF-kappaB signal transduction",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6463806750557662,
+    "frequency": 0.0011271787540550944
+  },
+  "GO:1901224": {
+    "go_annotation": "positive regulation of non-canonical NF-kappaB signal transduction",
+    "genes_direct_count": 4,
+    "genes_inherited_count": 0,
+    "genes_total_count": 4,
+    "ic_normalized": 0.6010464170311307,
+    "frequency": 0.0018144828723813712
+  },
+  "GO:1901331": {
+    "go_annotation": "positive regulation of odontoblast differentiation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8147036274102113,
+    "frequency": 0.00019244515313135757
+  },
+  "GO:1901800": {
+    "go_annotation": "positive regulation of proteasomal protein catabolic process",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 10,
+    "genes_total_count": 12,
+    "ic_normalized": 0.5473465105169292,
+    "frequency": 0.0031890911090339254
+  },
+  "GO:1901909": {
+    "go_annotation": "diadenosine hexaphosphate catabolic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.84674369100377,
+    "frequency": 0.00013746082366525541
+  },
+  "GO:1901990": {
+    "go_annotation": "regulation of mitotic cell cycle phase transition",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 24,
+    "genes_total_count": 25,
+    "ic_normalized": 0.42828886754423107,
+    "frequency": 0.011134326716885688
+  },
+  "GO:1901991": {
+    "go_annotation": "negative regulation of mitotic cell cycle phase transition",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 13,
+    "genes_total_count": 14,
+    "ic_normalized": 0.5044562758889626,
+    "frequency": 0.005003573981415297
+  },
+  "GO:1902042": {
+    "go_annotation": "negative regulation of extrinsic apoptotic signaling pathway via death domain receptors",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6699805016923566,
+    "frequency": 0.0008797492714576346
+  },
+  "GO:1902166": {
+    "go_annotation": "negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7421299851388853,
+    "frequency": 0.0004123824709957662
+  },
+  "GO:1902254": {
+    "go_annotation": "negative regulation of intrinsic apoptotic signaling pathway by p53 class mediator",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 2,
+    "genes_total_count": 3,
+    "ic_normalized": 0.7014272705397046,
+    "frequency": 0.0006323197888601749
+  },
+  "GO:1902531": {
+    "go_annotation": "regulation of intracellular signal transduction",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 76,
+    "genes_total_count": 77,
+    "ic_normalized": 0.2722521128785077,
+    "frequency": 0.057321163468411505
+  },
+  "GO:1902570": {
+    "go_annotation": "protein localization to nucleolus",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7716640225575441,
+    "frequency": 0.00030241381206356187
+  },
+  "GO:1902895": {
+    "go_annotation": "positive regulation of miRNA transcription",
+    "genes_direct_count": 8,
+    "genes_inherited_count": 0,
+    "genes_total_count": 8,
+    "ic_normalized": 0.6166919284256253,
+    "frequency": 0.0015395612250508606
+  },
+  "GO:1904018": {
+    "go_annotation": "positive regulation of vasculature development",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 9,
+    "genes_total_count": 10,
+    "ic_normalized": 0.4940579372501978,
+    "frequency": 0.005580909440809369
+  },
+  "GO:1904262": {
+    "go_annotation": "negative regulation of TORC1 signaling",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6150065127683378,
+    "frequency": 0.0015670533897839116
+  },
+  "GO:1904273": {
+    "go_annotation": "L-alanine import across plasma membrane",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8679922006769426,
+    "frequency": 0.00010996865893220432
+  },
+  "GO:1904294": {
+    "go_annotation": "positive regulation of ERAD pathway",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7196202186332227,
+    "frequency": 0.0005223511299279705
+  },
+  "GO:1904628": {
+    "go_annotation": "cellular response to phorbol 13-acetate 12-myristate",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.7907725882702304,
+    "frequency": 0.00024742948259745973
+  },
+  "GO:1904667": {
+    "go_annotation": "negative regulation of ubiquitin protein ligase activity",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7807397913422415,
+    "frequency": 0.00027492164733051083
+  },
+  "GO:1904951": {
+    "go_annotation": "positive regulation of establishment of protein localization",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 19,
+    "genes_total_count": 20,
+    "ic_normalized": 0.4472147377120314,
+    "frequency": 0.009127398691372959
+  },
+  "GO:1904985": {
+    "go_annotation": "negative regulation of quinolinate biosynthetic process",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 1.0,
+    "frequency": 2.749216473305108e-05
+  },
+  "GO:1990401": {
+    "go_annotation": "embryonic lung development",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.9339961003384714,
+    "frequency": 5.498432946610216e-05
+  },
+  "GO:1990641": {
+    "go_annotation": "response to iron ion starvation",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8953862941351153,
+    "frequency": 8.247649419915324e-05
+  },
+  "GO:2000003": {
+    "go_annotation": "positive regulation of DNA damage checkpoint",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.8293823944735866,
+    "frequency": 0.00016495298839830648
+  },
+  "GO:2000045": {
+    "go_annotation": "regulation of G1/S transition of mitotic cell cycle",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 11,
+    "genes_total_count": 13,
+    "ic_normalized": 0.4899271137247356,
+    "frequency": 0.005828338923406829
+  },
+  "GO:2000145": {
+    "go_annotation": "regulation of cell motility",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 42,
+    "genes_total_count": 43,
+    "ic_normalized": 0.32181253997065845,
+    "frequency": 0.03406279210425029
+  },
+  "GO:2000147": {
+    "go_annotation": "positive regulation of cell motility",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 23,
+    "genes_total_count": 24,
+    "ic_normalized": 0.37550545991170886,
+    "frequency": 0.01938197613680101
+  },
+  "GO:2000343": {
+    "go_annotation": "positive regulation of chemokine (C-X-C motif) ligand 2 production",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.763378494812058,
+    "frequency": 0.00032990597679661296
+  },
+  "GO:2000369": {
+    "go_annotation": "regulation of clathrin-dependent endocytosis",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7247686886087018,
+    "frequency": 0.0004948589651949195
+  },
+  "GO:2000463": {
+    "go_annotation": "positive regulation of excitatory postsynaptic potential",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 0,
+    "genes_total_count": 2,
+    "ic_normalized": 0.6440860218837978,
+    "frequency": 0.0011546709187881454
+  },
+  "GO:2000553": {
+    "go_annotation": "positive regulation of T-helper 2 cell cytokine production",
+    "genes_direct_count": 1,
+    "genes_inherited_count": 0,
+    "genes_total_count": 1,
+    "ic_normalized": 0.7907725882702304,
+    "frequency": 0.00024742948259745973
+  },
+  "GO:2001234": {
+    "go_annotation": "negative regulation of apoptotic signaling pathway",
+    "genes_direct_count": 2,
+    "genes_inherited_count": 11,
+    "genes_total_count": 13,
+    "ic_normalized": 0.4761509458241926,
+    "frequency": 0.006735580359597515
+  },
+  "GO:2001235": {
+    "go_annotation": "positive regulation of apoptotic signaling pathway",
+    "genes_direct_count": 6,
+    "genes_inherited_count": 9,
+    "genes_total_count": 15,
+    "ic_normalized": 0.5228697764811269,
+    "frequency": 0.004123824709957662
+  },
+  "GO:2001244": {
+    "go_annotation": "positive regulation of intrinsic apoptotic signaling pathway",
+    "genes_direct_count": 5,
+    "genes_inherited_count": 2,
+    "genes_total_count": 7,
+    "ic_normalized": 0.60250023914405,
+    "frequency": 0.0017869907076483202
+  }
+}

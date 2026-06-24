@@ -17,6 +17,7 @@ import pandas as pd
 import gc
 import argparse
 
+from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 # Data loading
 
@@ -328,7 +329,8 @@ def process_single_directory_optimized(base_path, directory_name, parameter_comb
 
 def process_all_directories_optimized(base_path, parameter_combinations, max_keywords=20,
                                       output_dir="results/", skip_existing=True,
-                                      signatures_dir=None, ic_data=None, pbar=None):
+                                      signatures_dir=None, ic_data=None, pbar=None,
+                                      state=None):
     """Iterates over all valid directories under base_path and calls process_single_directory_optimized for each."""
     directories = get_all_directories(base_path)
     if not directories:
@@ -338,6 +340,12 @@ def process_all_directories_optimized(base_path, parameter_combinations, max_key
     for directory_name in directories:
         if pbar:
             pbar.set_description(f"Parameter analysis: {directory_name}")
+
+        if state is not None and state.is_done("paths_keywords_phase1", directory_name):
+            if pbar:
+                pbar.update(1)
+            continue
+
         try:
             process_single_directory_optimized(
                 base_path, directory_name, parameter_combinations,
@@ -345,9 +353,13 @@ def process_all_directories_optimized(base_path, parameter_combinations, max_key
                 skip_existing=skip_existing, signatures_dir=signatures_dir,
                 ic_data=ic_data, pbar=pbar
             )
+            if state is not None:
+                state.mark_done("paths_keywords_phase1", directory_name)
         except Exception as e:
             if pbar:
                 pbar.write(f"  Error in {directory_name}: {e}")
+            if state is not None:
+                state.mark_failed("paths_keywords_phase1", directory_name, str(e))
             import traceback
             traceback.print_exc()
         if pbar:
@@ -492,7 +504,8 @@ def find_all_parameter_analysis_files(base_directory):
 
 
 def process_all_validations(input_directory="results/", output_directory="results/",
-                            top_n=10, min_appearances_ratio=0.0, final_count=10, pbar=None):
+                            top_n=10, min_appearances_ratio=0.0, final_count=10, pbar=None,
+                            state=None):
     """Processes all parameter analysis files and writes robust_terms_validation.json per directory."""
     organized_files = find_all_parameter_analysis_files(input_directory)
     if not organized_files:
@@ -507,31 +520,47 @@ def process_all_validations(input_directory="results/", output_directory="result
     for directory, ontology_metrics in directory_data.items():
         if pbar:
             pbar.set_description(f"Validation: {directory}")
-        combined_results = {}
 
-        for ontology, metrics in ontology_metrics.items():
-            combined_results[ontology] = {}
-            for metric, filepath in metrics.items():
-                try:
-                    data = load_parameter_analysis(filepath)
-                    total_combinations = len(data)
-                    min_appearances = max(1, int(total_combinations * min_appearances_ratio))
-                    path_mapping = load_path_data_for_validation(output_directory, ontology, directory)
-                    robust_terms = extract_robust_terms(
-                        data, top_n=top_n,
-                        min_appearances=min_appearances,
-                        path_mapping=path_mapping
-                    )
-                    combined_results[ontology][metric] = [{k: v for k, v in term.items()} for term in robust_terms]
-                except Exception as e:
-                    if pbar:
-                        pbar.write(f"  Error in {directory}/{ontology}: {e}")
-                    combined_results[ontology][metric] = []
+        if state is not None and state.is_done("paths_keywords_phase2", directory):
+            if pbar:
+                pbar.update(1)
+            continue
 
-        output_path = os.path.join(output_directory, directory, "robust_terms_validation.json")
-        os.makedirs(os.path.join(output_directory, directory), exist_ok=True)
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(combined_results, f, indent=2, ensure_ascii=False)
+        try:
+            combined_results = {}
+
+            for ontology, metrics in ontology_metrics.items():
+                combined_results[ontology] = {}
+                for metric, filepath in metrics.items():
+                    try:
+                        data = load_parameter_analysis(filepath)
+                        total_combinations = len(data)
+                        min_appearances = max(1, int(total_combinations * min_appearances_ratio))
+                        path_mapping = load_path_data_for_validation(output_directory, ontology, directory)
+                        robust_terms = extract_robust_terms(
+                            data, top_n=top_n,
+                            min_appearances=min_appearances,
+                            path_mapping=path_mapping
+                        )
+                        combined_results[ontology][metric] = [{k: v for k, v in term.items()} for term in robust_terms]
+                    except Exception as e:
+                        if pbar:
+                            pbar.write(f"  Error in {directory}/{ontology}: {e}")
+                        combined_results[ontology][metric] = []
+
+            output_path = os.path.join(output_directory, directory, "robust_terms_validation.json")
+            os.makedirs(os.path.join(output_directory, directory), exist_ok=True)
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(combined_results, f, indent=2, ensure_ascii=False)
+
+            if state is not None:
+                state.mark_done("paths_keywords_phase2", directory)
+
+        except Exception as e:
+            if pbar:
+                pbar.write(f"  Fataler Fehler in {directory}: {e}")
+            if state is not None:
+                state.mark_failed("paths_keywords_phase2", directory, str(e))
 
         if pbar:
             pbar.update(1)
@@ -562,8 +591,10 @@ def run_optimized_parameter_analysis_workflow(file_path, output_dir, max_keyword
 
 def run_optimized_complete_workflow(file_path, output_dir, max_keywords=20, top_n=10,
                                     min_appearances_ratio=0.1, final_count=10, skip_existing=True,
-                                    signatures_dir=None, ic_dir="data/GO_IC"):
+                                    signatures_dir=None, ic_dir="data/GO_IC", state_file=None):
     """Runs the full two-phase pipeline: parameter analysis followed by robust term validation."""
+    state = PipelineState(state_file or os.path.join(output_dir, ".pipeline_state.json"))
+
     ic_data, parameter_combinations = run_optimized_parameter_analysis_workflow(
         file_path, output_dir, max_keywords, skip_existing,
         signatures_dir=signatures_dir, ic_dir=ic_dir
@@ -579,12 +610,12 @@ def run_optimized_complete_workflow(file_path, output_dir, max_keywords=20, top_
             file_path, parameter_combinations,
             max_keywords=max_keywords, output_dir=output_dir,
             skip_existing=skip_existing, signatures_dir=signatures_dir,
-            ic_data=ic_data, pbar=pbar
+            ic_data=ic_data, pbar=pbar, state=state
         )
         process_all_validations(
             input_directory=output_dir, output_directory=output_dir,
             top_n=top_n, min_appearances_ratio=min_appearances_ratio,
-            final_count=final_count, pbar=pbar
+            final_count=final_count, pbar=pbar, state=state
         )
 
 
@@ -601,7 +632,7 @@ if __name__ == "__main__":
     parser.add_argument('--ic-dir', default='data/GO_IC', help='Directory with IC data (default: data/GO_IC)')
     parser.add_argument('--max-keywords', type=int, default=10, help='Max keywords per parameter combination (default: 10)')
     parser.add_argument('--skip-existing', action='store_true', help='Skip already processed files')
-
+    parser.add_argument('--state_file', default=None, help='Path to pipeline status data')
     args = parser.parse_args()
 
     if not os.path.exists(args.signatures):
@@ -618,5 +649,6 @@ if __name__ == "__main__":
         max_keywords=args.max_keywords,
         skip_existing=args.skip_existing,
         signatures_dir=args.signatures,
-        ic_dir=args.ic_dir
+        ic_dir=args.ic_dir,
+        state_file=args.state_file
     )
