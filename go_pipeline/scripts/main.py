@@ -5,10 +5,24 @@ import argparse
 
 from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
-def run_step(step_name: str, command: list[str], state: PipelineState, verbose: bool = True) -> None:
+def run_step(step_name: str, command: list[str], state: PipelineState,
+             state_keys: list[str] = None, verbose: bool = True) -> None:
+    """
+    state_keys: the checkpoint key(s) this invocation covers.
+
+    A step is skipped only if ALL of its state_keys are already marked done.
+    On success, ALL of its state_keys are marked done.
+
+    This is what allows a single 'both' run to satisfy two independently
+    tracked sub-modes (fixed + cumulative) in one invocation, while a later
+    run that only needs one of them (e.g. just 'cumulative') can correctly
+    see that the 'fixed' part is already covered and skip just that part,
+    regardless of which mode was used in earlier runs and in which order.
+    """
+    keys = state_keys if state_keys else [step_name]
     state.reload()
 
-    if state.is_done("steps", step_name):
+    if all(state.is_done("steps", k) for k in keys):
         print(f"\n=== Skip (already processed): {step_name} ===")
         return
 
@@ -31,10 +45,34 @@ def run_step(step_name: str, command: list[str], state: PipelineState, verbose: 
                 print(stdout_text)
             if stderr_text.strip():
                 print(stderr_text)
-        state.mark_failed("steps", step_name, f"returncode={result.returncode}")
+        for k in keys:
+            state.mark_failed("steps", k, f"returncode={result.returncode}")
         raise RuntimeError(f"Step failed: {step_name}")
 
-    state.mark_done("steps", step_name)
+    for k in keys:
+        state.mark_done("steps", k)
+
+
+def get_dilution_submodes(with_dilution_analysis: bool, dilution_mode) -> list[str]:
+    """
+    Decomposes the requested run configuration into the individual dilution
+    sub-modes it is made of, so each one can be checkpointed independently:
+
+      - no dilution at all          -> ["no_dilution"]
+      - --dilution_mode=fixed       -> ["fixed"]
+      - --dilution_mode=cumulative  -> ["cumulative"]
+      - --dilution_mode=both        -> ["fixed", "cumulative"]
+
+    This is the key to order-independence: a 'both' run is just "fixed AND
+    cumulative", each tracked under its own key. Whichever of the two was
+    already completed in an earlier run (in any order) is recognized as
+    done and skipped; only the missing one actually runs.
+    """
+    if not with_dilution_analysis:
+        return ["no_dilution"]
+    if dilution_mode == "both":
+        return ["fixed", "cumulative"]
+    return [dilution_mode]
 
 
 def ask_yes_no(question: str) -> bool:
@@ -176,6 +214,8 @@ def main() -> None:
 
     with_paths = args.with_paths
 
+    submodes = get_dilution_submodes(with_dilution_analysis, dilution_mode)
+
     state_file = os.path.join(output_path, ".pipeline_state.json")
     state = PipelineState(state_file)
 
@@ -197,10 +237,11 @@ def main() -> None:
                     f"--output={signatures_path}",
                     f"--state_file={state_file}",
                 ],
+                [f"Create diluted signatures...::{sm}" for sm in submodes],
             )
         )
 
-    steps.extend([
+    shared_step_specs = [
         (
             "Mapping genes to GO-terms...",
             [
@@ -287,7 +328,16 @@ def main() -> None:
                 f"--state_file={state_file}",
             ],
         ),
-    ])
+    ]
+
+    # These steps read/write the whole signatures directory at once (not one
+    # call per sub-mode), but which sub-modes' diluted files already exist on
+    # disk can change between runs. So their checkpoint must cover every
+    # sub-mode that is part of *this* run; if any one of them is still
+    # missing, the step has to run again (the scripts themselves then skip
+    # whatever was already processed internally, file by file).
+    for name, command in shared_step_specs:
+        steps.append((name, command, [f"{name}::{sm}" for sm in submodes]))
 
     if with_dilution_analysis:
         if dilution_mode in ("fixed", "both"):
@@ -305,6 +355,7 @@ def main() -> None:
                         "--auto_cutoff",
                         f"--state_file={state_file}",
                     ],
+                    ["Dilution Analysis for fixed mode...::fixed"],
                 )
             )
             steps.append(
@@ -320,6 +371,7 @@ def main() -> None:
                         f"--state_file={state_file}",
 
                     ],
+                    ["Saving results in Excel...::fixed"],
                 )
             )
         if dilution_mode in ("cumulative", "both"):
@@ -337,8 +389,11 @@ def main() -> None:
                         "--auto_cutoff",
                         f"--state_file={state_file}",
                     ],
+                    ["Dilution Analysis for cumulative mode...::cumulative"],
                 )
             )
+            # Note: intentionally no Excel export here, same as the original
+            # script - create_summary_data is only ever run for fixed mode.
 
     if with_paths:
         steps.extend([
@@ -351,6 +406,7 @@ def main() -> None:
                     f"--base_dir={output_path}",
                     f"--state_file={state_file}",
                 ],
+                ["Collect GO paths..."],
             ),
             (
                 "Rank GO paths...",
@@ -361,6 +417,7 @@ def main() -> None:
                     f"--input_dir={output_path}",
                     f"--state_file={state_file}",
                 ],
+                ["Rank GO paths..."],
             ),
         ])
 
@@ -380,11 +437,12 @@ def main() -> None:
             (
                 "Run LLM signature analysis...",
                 llm_command,
+                ["Run LLM signature analysis..."],
             )
         )
 
-    for step_name, command in steps:
-        run_step(step_name, command, state)
+    for step_name, command, state_keys in steps:
+        run_step(step_name, command, state, state_keys)
 
     print("\nFinished.")
 

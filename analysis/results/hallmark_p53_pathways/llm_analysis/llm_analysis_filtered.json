@@ -1,7 +1,0 @@
-{
-  "BP": {
-    "summary": "This set of Biological Process terms reveals a strong emphasis on the intrinsic apoptotic signaling pathway and its regulation in response to DNA damage. The presence of multiple terms related to apoptosis suggests that this process is a critical mechanism for cellular homeostasis, allowing cells to eliminate damaged or unwanted cells. The high robustness scores indicate that these pathways are highly conserved and essential for maintaining cellular integrity.",
-    "detailed_title": "Regulation of Intrinsic Apoptotic Signaling Pathways in Response to DNA Damage",
-    "general_title": "Apoptosis and Cellular Stress Response"
-  }
-}
