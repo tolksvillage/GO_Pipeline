@@ -296,7 +296,7 @@ def main():
                 state.mark_done("dilute_signatures", work_key)
             except Exception as e:
                 state.mark_failed("dilute_signatures", work_key, str(e))
-                print(f"  Mistake at '{info['name']}' ({current_mode}): {e} -> continue with next signature")
+                print(f"  Error processing '{info['name']}' ({current_mode}): {e} -> continue with next signature")
                 continue
 
         info['steps'] = args.steps

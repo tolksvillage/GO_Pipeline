@@ -141,7 +141,7 @@ class TermCounts:
         return ntd.tinfo if ntd else 0.0
 
     def get_top_info_content(self, go_id, godag, namespace='BP'):
-        # Bestimme den richtigen Root-Term basierend auf dem Namespace
+        # Determine the correct root term based on the namespace
         root_terms = {
             'BP': 'GO:0008150',
             'MF': 'GO:0003674',
@@ -154,7 +154,7 @@ class TermCounts:
                                (len(godag.query_term(root_term).get_all_children()) + 1))
 
     def norm(self, ic_score, namespace='BP'):
-        # Mapping zwischen kurzen und langen Namespace-Namen
+        # Mapping between short and long namespace names
         namespace_mapping = {
             'BP': 'biological_process',
             'MF': 'molecular_function',

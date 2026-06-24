@@ -757,7 +757,7 @@ def process_multiple_signatures(grouped_data, signature_names, base_path, analyz
         except Exception as e:
             if state is not None:
                 state.mark_failed("dilute_analysis", work_key, str(e))
-            print(f"  Mistake with signature '{signature_name}' ({ontology}, {mode}): {e} -> continue with next signature")
+            print(f"  Error with signature '{signature_name}' ({ontology}, {mode}): {e} -> continue with next signature")
             continue
     return results
 

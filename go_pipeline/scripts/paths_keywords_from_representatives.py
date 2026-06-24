@@ -558,7 +558,7 @@ def process_all_validations(input_directory="results/", output_directory="result
 
         except Exception as e:
             if pbar:
-                pbar.write(f"  Fataler Fehler in {directory}: {e}")
+                pbar.write(f"  Fatal error in {directory}: {e}")
             if state is not None:
                 state.mark_failed("paths_keywords_phase2", directory, str(e))
 

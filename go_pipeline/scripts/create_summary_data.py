@@ -308,11 +308,11 @@ def main():
                 else:
                     state.mark_failed(
                         "create_summary_data", work_key,
-                        "process_ontology hat keine Output-Dateien erzeugt (siehe ERROR-Ausgabe oben, z.B. fehlende Ranking/Manifold/Hierarchy-Datei)"
+                        "process_ontology produced no output files (see ERROR output above, e.g. missing ranking/manifold/hierarchy file)"
                     )
             except Exception as e:
                 state.mark_failed("create_summary_data", work_key, str(e))
-                print(f"  Fehler bei {sig_name}/{ontology}: {e} -> weiter mit naechster Kombination")
+                print(f"  Error in {sig_name}/{ontology}: {e} -> continuing with next combination")
                 continue
 
 
