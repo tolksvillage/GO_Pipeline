@@ -3,6 +3,8 @@ import subprocess
 import sys
 import argparse
 
+sys.path.insert(1,'.')
+
 from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 def run_step(step_name: str, command: list[str], state: PipelineState,

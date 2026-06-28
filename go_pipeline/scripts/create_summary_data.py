@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 from pathlib import Path
+from tqdm import tqdm
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
@@ -74,13 +75,13 @@ def build_signature_dict(terms, hierarchy_map, manifold_map, signature_name, ont
         # Hierarchy map is only available for BP; skip gene lookup for MF/CC
         if ontology == "BP" and hierarchy_map is not None:
             if go_id not in hierarchy_map:
-                print(f"  WARNING [{signature_name}]: GO term {go_id} not found in hierarchy_map_{ontology.lower()}.json")
+                tqdm.write(f"  WARNING [{signature_name}]: GO term {go_id} not found in hierarchy_map_{ontology.lower()}.json")
                 genes = {}
             else:
                 genes = {}
                 for gene in hierarchy_map[go_id]:
                     if gene not in gene_symbols_map:
-                        print(f"  WARNING [{signature_name}]: Gene '{gene}' not found in manifold gene_symbols for {go_id}")
+                        tqdm.write(f"  WARNING [{signature_name}]: Gene '{gene}' not found in manifold gene_symbols for {go_id}")
                         gene_def = ""
                     else:
                         gene_def = gene_symbols_map[gene]
@@ -229,17 +230,17 @@ def process_ontology(sig_dir, sig_name, ontology, mode):
     if ontology == "BP":
         hierarchy_path = sig_dir / "representatives_analysis" / "hierarchy_map_bp.json"
         if not hierarchy_path.exists():
-            print(f"  ERROR [{ontology}]: Hierarchy map not found: {hierarchy_path}")
+            tqdm.write(f"  ERROR [{sig_name}/{ontology}]: Hierarchy map not found: {hierarchy_path}")
             return
         hierarchy_map = load_json(hierarchy_path)
     else:
         hierarchy_map = None
 
     if not ranking_path.exists():
-        print(f"  ERROR [{ontology}]: Ranking file not found: {ranking_path}")
+        tqdm.write(f"  ERROR [{sig_name}/{ontology}]: Ranking file not found: {ranking_path}")
         return
     if not manifold_path.exists():
-        print(f"  ERROR [{ontology}]: Manifold file not found: {manifold_path}")
+        tqdm.write(f"  ERROR [{sig_name}/{ontology}]: Manifold file not found: {manifold_path}")
         return
 
     ranking_data = load_json(ranking_path)
@@ -257,8 +258,6 @@ def process_ontology(sig_dir, sig_name, ontology, mode):
     sig_dict_robustness = build_signature_dict(terms_robustness_only, hierarchy_map, manifold_map, sig_name, ontology)
     save_json(sig_dict_robustness, output_dir / f"{sig_name}_{ont_lower}_robustness_analysis.json")
     save_excel(sig_dict_robustness, output_dir / f"{sig_name}_{ont_lower}_robustness_analysis.xlsx", sig_name)
-
-    print(f"  [{ontology}] Done — {len(terms_both)} filtered terms, {len(terms_robustness_only)} robustness-only terms")
 
 
 def main():
@@ -282,12 +281,8 @@ def main():
 
     state = PipelineState(args.state_file or os.path.join(str(input_path), ".pipeline_state.json"))
 
-    print(f"Found {len(signatures)} signature(s): {[s.name for s in signatures]}")
-    print(f"Mode: {args.mode.upper()} | Ontologies: {', '.join(ontologies)}")
-
-    for sig_dir in signatures:
+    for sig_dir in tqdm(signatures, desc="Signatures", unit="sig"):
         sig_name = sig_dir.name
-        print(f"\nProcessing: {sig_name}")
 
         for ontology in ontologies:
             work_key = f"{sig_name}::{ontology}::{args.mode}"
@@ -312,7 +307,7 @@ def main():
                     )
             except Exception as e:
                 state.mark_failed("create_summary_data", work_key, str(e))
-                print(f"  Error in {sig_name}/{ontology}: {e} -> continuing with next combination")
+                tqdm.write(f"  Error in {sig_name}/{ontology}: {e} -> continuing with next combination")
                 continue
 
 

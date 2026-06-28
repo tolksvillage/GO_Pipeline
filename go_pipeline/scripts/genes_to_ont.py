@@ -182,7 +182,7 @@ def main():
                     namespace_path.mkdir(parents=True, exist_ok=True)
 
                     getgoids_cached(
-                        output_path=str(namespace_path / f'my_terms_{namespace}.txt'),
+                        output_path=str(namespace_path / f'my_terms_{namespace.lower()}.txt'),
                         data_file=str(signature_file),
                         output_mapping=str(namespace_path / f'mapping_genes_to_{namespace.lower()}'),
                         namespace=namespace,
