@@ -7,6 +7,7 @@ from contextlib import redirect_stdout
 from io import StringIO
 import argparse
 from tqdm import tqdm
+from pathlib import Path
 from go_pipeline.scripts.helper.pipeline_state import PipelineState
 
 def get_all_signature_directories(base_path):
@@ -71,20 +72,19 @@ def get_annotation_from_robust_data(robust_data, ontology, go_id):
 
 def ensure_output_directory(param_file_path, ontology):
     """Create output directory based on input file path and ontology"""
-    normalized_path = os.path.normpath(param_file_path)
-    parts = normalized_path.split(os.sep)
+    normalized_path = Path(param_file_path).resolve()
+    parts = normalized_path.parts
     try:
         ontology_index = parts.index(ontology)
-        base_dir = os.path.join(*parts[:ontology_index])
+        base_dir = Path(*parts[:ontology_index])
     except ValueError:
-        base_dir = "."
+        base_dir = Path(".")
 
-    output_dir = os.path.join(base_dir, "parameter_analysis", ontology)
-
-    os.makedirs(output_dir, exist_ok=True)
+    output_dir = base_dir / "parameter_analysis" / ontology
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"Output directory ({ontology}): {output_dir}")
-    return output_dir
+    return str(output_dir)
 
 
 def calculate_term_robustness(param_data):
